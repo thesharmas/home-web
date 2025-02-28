@@ -69,7 +69,12 @@
         
         <div class="relative overflow-hidden h-screen hidden md:block">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-400/30 to-purple-500/30 mix-blend-overlay"></div>
-            <img src="assets/IMG_2096.jpg" alt="Rohit's Profile" class="object-cover w-full h-full transform hover:scale-105 transition-transform duration-700" />
+            <!-- Curved angle cut -->
+            <div class="absolute inset-0 [clip-path:path('M_20_0C15_0_10_10_10_20L10_80C10_90_15_100_20_100L100_100L100_0L20_0Z')] hover:[clip-path:path('M_15_0C10_0_5_10_5_20L5_80C5_90_10_100_15_100L100_100L100_0L15_0Z')] transition-[clip-path] duration-700 ease-in-out">
+                <img src="assets/IMG_2096.jpg" alt="Rohit's Profile" class="object-cover w-full h-full transform hover:scale-105 transition-transform duration-700" />
+            </div>
+            <!-- Decorative curved line -->
+            <div class="absolute h-full w-[2px] bg-gradient-to-b from-blue-400 via-purple-500 to-blue-400 left-[19%] [clip-path:path('M_0_0C-5_0_-10_10_-10_20L-10_80C-10_90_-5_100_0_100L0_0Z')] opacity-70"></div>
         </div>
     </section>
 </body>
