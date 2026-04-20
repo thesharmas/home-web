@@ -12,10 +12,45 @@
             0% { opacity: 0; transform: translateY(12px); }
             100% { opacity: 1; transform: translateY(0); }
         }
+        /* Stack gear tables as cards on narrow screens (no horizontal scroll) */
+        @media (max-width: 767px) {
+            .gear-table { display: block; width: 100%; }
+            .gear-table thead { display: none; }
+            .gear-table tbody { display: block; }
+            .gear-table tbody tr {
+                display: block;
+                margin-bottom: 0.75rem;
+                border-radius: 0.75rem;
+                border: 1px solid rgba(156, 163, 175, 0.4);
+                overflow: hidden;
+            }
+            .gear-table tbody tr:last-child { margin-bottom: 0; }
+            .gear-table tbody td {
+                display: block;
+                border-bottom: 1px solid rgba(156, 163, 175, 0.22);
+            }
+            .gear-table tbody td:last-child { border-bottom: none; }
+            .gear-table tbody td::before {
+                content: attr(data-label);
+                display: block;
+                font-size: 0.65rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                margin-bottom: 0.35rem;
+            }
+            /* Same muted label color for every column (link-only cells no longer inherit black) */
+            body.music-page-light .gear-table tbody td::before {
+                color: #6b7280;
+            }
+            body.music-page-dark .gear-table tbody td::before {
+                color: #d1d5db;
+            }
+        }
     </style>
 </head>
 <body class="transition-colors duration-200 min-h-screen" x-data="{ darkMode: true }"
-      :class="{ 'bg-gray-900': darkMode, 'bg-gray-50': !darkMode }">
+      :class="{ 'bg-gray-900': darkMode, 'bg-gray-50': !darkMode, 'music-page-dark': darkMode, 'music-page-light': !darkMode }">
     <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
         <a href="index.html"
            class="inline-flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
@@ -75,9 +110,9 @@
                      class="block w-full h-auto" draggable="false" decoding="async">
             </div>
 
-            <div class="mt-6 overflow-x-auto rounded-xl border shadow-sm transition-colors"
+            <div class="mt-6 rounded-xl border shadow-sm transition-colors"
                  :class="{ 'border-gray-600 bg-gray-800/40': darkMode, 'border-gray-200 bg-white': !darkMode }">
-                <table class="w-full min-w-[36rem] text-left text-sm md:text-base">
+                <table class="gear-table w-full text-left text-sm md:text-base">
                     <caption class="sr-only">DJ booth equipment</caption>
                     <thead>
                         <tr class="border-b transition-colors"
@@ -87,60 +122,60 @@
                             <th scope="col" class="px-4 py-3 font-semibold w-[22%] transition-colors" :class="{ 'text-white': darkMode, 'text-gray-900': !darkMode }">Product page</th>
                         </tr>
                     </thead>
-                    <tbody class="divide-y transition-colors" :class="{ 'divide-gray-700': darkMode, 'divide-gray-200': !darkMode }">
+                    <tbody class="md:divide-y transition-colors" :class="{ 'md:divide-gray-700': darkMode, 'md:divide-gray-200': !darkMode }">
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Mackie SRM 350 (pair)</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Powered loudspeakers on poles for the booth.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Mackie SRM 350 (pair)</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Powered loudspeakers on poles for the booth.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://mackie.com/en/products/accessories/SRM350.html" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Mackie — SRM 350</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Denon DJ SC6000 Prime (×2)</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Standalone media players with touchscreen and platters.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Denon DJ SC6000 Prime (×2)</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Standalone media players with touchscreen and platters.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.denondj.com/sc6000-prime.html" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Denon DJ — SC6000 Prime</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland TR-8</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">AIRA rhythm performer — TR-808 / TR-909 sounds and sequencing.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland TR-8</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">AIRA rhythm performer — TR-808 / TR-909 sounds and sequencing.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.roland.com/us/products/tr-8/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Roland — TR-8</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland TB-3</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">AIRA Touch Bassline — TB-303–style bass and sequencing.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland TB-3</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">AIRA Touch Bassline — TB-303–style bass and sequencing.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.roland.com/global/products/tb-3/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Roland — TB-3</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Technics SL-1200MK2 (×2)</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Classic direct-drive turntables for vinyl.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Technics SL-1200MK2 (×2)</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Classic direct-drive turntables for vinyl.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://en.wikipedia.org/wiki/Technics_SL-1200" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Wikipedia — Technics SL-1200</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Allen &amp; Heath Xone:92</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Four-channel analog DJ mixer — the heart of the blend.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Allen &amp; Heath Xone:92</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Four-channel analog DJ mixer — the heart of the blend.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.allen-heath.com/hardware/xone-series/xone92/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Allen &amp; Heath — Xone:92</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Focusrite Scarlett Solo</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">USB audio interface for recording and routing.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Focusrite Scarlett Solo</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">USB audio interface for recording and routing.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://focusrite.com/products/scarlett-solo" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Focusrite — Scarlett Solo</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">AIAIAI TMA-2 DJ Wireless</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Modular DJ headphones — cueing and monitoring in the booth.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">AIAIAI TMA-2 DJ Wireless</td>
+                            <td data-label="In the rig" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Modular DJ headphones — cueing and monitoring in the booth.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://aiaiai.audio/headphones/tma-2-dj-wireless" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">AIAIAI — TMA-2 DJ Wireless</a>
                             </td>
                         </tr>
@@ -159,9 +194,9 @@
                      class="block w-full h-auto" draggable="false" decoding="async">
             </div>
 
-            <div class="mt-6 overflow-x-auto rounded-xl border shadow-sm transition-colors"
+            <div class="mt-6 rounded-xl border shadow-sm transition-colors"
                  :class="{ 'border-gray-600 bg-gray-800/40': darkMode, 'border-gray-200 bg-white': !darkMode }">
-                <table class="w-full min-w-[36rem] text-left text-sm md:text-base">
+                <table class="gear-table w-full text-left text-sm md:text-base">
                     <caption class="sr-only">Production studio equipment</caption>
                     <thead>
                         <tr class="border-b transition-colors"
@@ -171,32 +206,32 @@
                             <th scope="col" class="px-4 py-3 font-semibold w-[22%] transition-colors" :class="{ 'text-white': darkMode, 'text-gray-900': !darkMode }">Product page</th>
                         </tr>
                     </thead>
-                    <tbody class="divide-y transition-colors" :class="{ 'divide-gray-700': darkMode, 'divide-gray-200': !darkMode }">
+                    <tbody class="md:divide-y transition-colors" :class="{ 'md:divide-gray-700': darkMode, 'md:divide-gray-200': !darkMode }">
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Arturia MiniLab 3</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">USB MIDI keyboard with pads and DAW control.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Arturia MiniLab 3</td>
+                            <td data-label="In the setup" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">USB MIDI keyboard with pads and DAW control.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.arturia.com/products/hybrid-synths/minilab-3/overview" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Arturia — MiniLab 3</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland SH-4d</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Desktop synthesizer — SH-101 modeling, vocoder, sequencing, and Zen-Core sounds.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland SH-4d</td>
+                            <td data-label="In the setup" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Desktop synthesizer — SH-101 modeling, vocoder, sequencing, and Zen-Core sounds.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.roland.com/global/products/sh-4d/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Roland — SH-4d</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Ableton Live</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Digital audio workstation for producing and performing.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Ableton Live</td>
+                            <td data-label="In the setup" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Digital audio workstation for producing and performing.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.ableton.com/en/live/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Ableton — Live</a>
                             </td>
                         </tr>
                         <tr class="transition-colors hover:bg-white/5" :class="{ 'hover:bg-gray-800/60': darkMode, 'hover:bg-gray-50': !darkMode }">
-                            <td class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland SP-404SX</td>
-                            <td class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Linear wave sampler / performance pad machine.</td>
-                            <td class="px-4 py-3">
+                            <td data-label="Gear" class="px-4 py-3 font-medium transition-colors" :class="{ 'text-gray-100': darkMode, 'text-gray-900': !darkMode }">Roland SP-404SX</td>
+                            <td data-label="In the setup" class="px-4 py-3 transition-colors" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">Linear wave sampler / performance pad machine.</td>
+                            <td data-label="Product page" class="px-4 py-3">
                                 <a href="https://www.roland.com/us/products/sp-404sx/" target="_blank" rel="noopener noreferrer" class="font-medium text-cyan-500 hover:text-cyan-400 underline decoration-cyan-500/50 hover:decoration-cyan-400">Roland — SP-404SX</a>
                             </td>
                         </tr>
