@@ -4,166 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit's Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+                    },
+                },
+            },
+        };
+    </script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
-        .fade-in { animation: fadeIn 0.8s ease-in; }
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+        .term-dark {
+            background: #050806;
+            color: #c8f5c8;
+        }
+        .term-light {
+            background: #ecece4;
+            color: #1a1a12;
+        }
+        .term-scanlines {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.06;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.45) 2px,
+                rgba(0, 0, 0, 0.45) 3px
+            );
+        }
+        .term-light .term-scanlines {
+            opacity: 0.04;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.12) 2px,
+                rgba(0, 0, 0, 0.12) 3px
+            );
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .term-cursor { animation: none !important; }
+        }
+        .term-cursor::after {
+            content: "▌";
+            animation: termBlink 1.1s steps(2, end) infinite;
+            color: currentColor;
+            opacity: 0.85;
+        }
+        @keyframes termBlink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .fade-in { animation: fadeIn 0.6s ease-out; }
         @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(20px); }
-            100% { opacity: 1; transform: translateY(0); }
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .home-photo-hover { transition: none !important; }
         }
     </style>
 </head>
-<body class="transition-colors duration-200" x-data="{ darkMode: true }" :class="{ 'bg-gray-900': darkMode }">
-    <!-- Dark mode toggle -->
-    <div class="absolute top-4 left-4">
-        <button @click="darkMode = !darkMode" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
-            <svg x-show="!darkMode" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-            </svg>
-            <svg x-show="darkMode" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path>
-            </svg>
+<body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
+      x-data="{ darkMode: true }"
+      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+    <div class="term-scanlines" aria-hidden="true"></div>
+
+    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+        <button type="button" @click="darkMode = !darkMode"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
+                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                aria-label="Toggle color mode">
+            <span x-text="darkMode ? 'lite' : 'drk'"></span>
         </button>
     </div>
 
-    <section class="min-h-screen flex flex-col md:grid md:grid-cols-2 items-center" :class="{ 'bg-gray-900': darkMode }">
-        <div class="px-8 py-12 mx-auto fade-in relative z-10">
-            <!-- Profile image for mobile -->
-            <div class="md:hidden w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-purple-500">
-                <img src="assets/IMG_2096.jpg" alt="Rohit's Profile" 
-                     class="w-full h-full object-cover" />
+    <section class="relative z-10 min-h-screen flex flex-col md:grid md:grid-cols-2 md:items-stretch">
+        <div class="px-4 py-16 sm:px-8 md:py-20 md:flex md:flex-col md:justify-center fade-in">
+            <!-- Profile image — mobile -->
+            <div class="md:hidden mb-10 flex justify-center">
+                <div class="border overflow-hidden w-44 h-44 sm:w-52 sm:h-52"
+                     :class="darkMode ? 'border-emerald-500/35 bg-black/40' : 'border-gray-800 bg-white'">
+                    <img src="assets/IMG_2096.jpg" alt="Rohit's profile photo"
+                         class="w-full h-full object-cover" width="400" height="400" decoding="async">
+                </div>
             </div>
-            <div class="max-w-xl">
-                <h1 class="mb-6 text-5xl font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl transition-colors" :class="{ 'text-gray-900': !darkMode, 'text-white': darkMode }">
+
+            <div class="max-w-xl mx-auto md:mx-0 w-full">
+                <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
+                   :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
+                    ~/home
+                </p>
+                <h1 class="mb-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight uppercase leading-tight term-cursor"
+                    :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
                     Hi, I'm Rohit
                 </h1>
-                <p class="mb-8 text-lg md:text-xl font-light transition-colors" :class="{ 'text-gray-600': !darkMode, 'text-gray-300': darkMode }">
+                <p class="mb-10 max-w-lg leading-relaxed"
+                   :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
                     I'm a founder based in the SF Bay area
                 </p>
-                
-                <div class="flex flex-col gap-4">
-                    <!-- First Row -->
-                    <div class="flex flex-wrap gap-4">
-                        <a href="https://monetarymusings.substack.com/" 
-                           class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg"
-                           :class="{ 'bg-white text-gray-900 hover:bg-gray-100': !darkMode, 'bg-gray-800 text-white hover:bg-gray-700': darkMode }">
-                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24h21.08V10.812H1.46zM1.46 0v2.836h21.08V0H1.46z"/>
-                            </svg>
-                            Substack
+
+                <div class="flex flex-col gap-3">
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://monetarymusings.substack.com/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                           :class="darkMode ? 'border-orange-400/45 text-orange-200 hover:bg-orange-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                            <span class="text-[10px] opacity-70">[ss]</span> Substack
                         </a>
-                        <a href="https://www.linkedin.com/in/rohitnsharma/" 
-                           class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg"
-                           :class="{ 'bg-white text-gray-900 hover:bg-gray-100': !darkMode, 'bg-gray-800 text-white hover:bg-gray-700': darkMode }">
-                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
-                            LinkedIn
+                        <a href="https://www.linkedin.com/in/rohitnsharma/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                           :class="darkMode ? 'border-sky-400/45 text-sky-200 hover:bg-sky-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                            <span class="text-[10px] opacity-70">[in]</span> LinkedIn
                         </a>
-                        <a href="https://x.com/rnsharma" 
-                           class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg"
-                           :class="{ 'bg-white text-gray-900 hover:bg-gray-100': !darkMode, 'bg-gray-800 text-white hover:bg-gray-700': darkMode }">
-                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                            </svg>
-                            Twitter
+                        <a href="https://x.com/rnsharma"
+                           target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                           :class="darkMode ? 'border-gray-400/50 text-gray-200 hover:bg-white/5' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                            <span class="text-[10px] opacity-70">[x]</span> Twitter
                         </a>
                     </div>
-                    
-                    <!-- Second Row -->
-                    <div class="flex flex-wrap gap-4">
-                        <a href="https://github.com/thesharmas/Credit-Underwriter-Agent" 
-                           class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg"
-                           :class="{ 'bg-white text-gray-900 hover:bg-gray-100': !darkMode, 'bg-gray-800 text-white hover:bg-gray-700': darkMode }">
-                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                            GitHub
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://github.com/thesharmas/Credit-Underwriter-Agent"
+                           target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                           :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                            <span class="text-[10px] opacity-70">[gh]</span> GitHub
                         </a>
-                        <a href="music.html" 
-                           class="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg"
-                           :class="{ 'bg-white text-gray-900 hover:bg-gray-100': !darkMode, 'bg-gray-800 text-white hover:bg-gray-700': darkMode }">
-                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M7 17.939h-1v-8.068c.308-.231.639-.429 1-.566v8.634zm3 0h1v-9.224c-.229.265-.443.548-.621.857l-.379-.184v8.551zm-2 0h1v-8.848c-.508-.079-.623-.05-1-.01v8.858zm-4 0h1v-7.02c-.312.458-.555.971-.692 1.535l-.308-.182v5.667zm-3-5.25c-.606.547-1 1.354-1 2.268 0 .914.394 1.721 1 2.268v-4.536zm18.879-.671c-.204-2.837-2.404-5.079-5.117-5.079-1.022 0-1.964.328-2.762.877v10.123h9.089c1.607 0 2.911-1.393 2.911-3.106 0-2.233-2.168-3.772-4.121-2.815zm-16.879-.027c-.302-.024-.526-.03-1 .122v5.689c.446.143.636.138 1 .138v-5.949z"/>
-                            </svg>
-                            Music
+                        <a href="music.html"
+                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                           :class="darkMode ? 'border-cyan-400/45 text-cyan-200 hover:bg-cyan-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                            <span class="text-[10px] opacity-70">[♪]</span> Music
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Add this after your existing content div but before closing the left column -->
-            <div class="mt-12 fade-in">
-                <!-- Work (formerly Current Company) -->
-                <div class="mb-8 p-6 rounded-xl transition-all duration-200" 
-                     :class="{ 'bg-white/5 backdrop-blur-sm': darkMode, 'bg-gray-50': !darkMode }">
-                    <h2 class="text-2xl font-bold mb-4" :class="{ 'text-white': darkMode, 'text-gray-900': !darkMode }">
-                        Work
-                    </h2>
+            <div class="mt-12 max-w-xl mx-auto md:mx-0 w-full space-y-6">
+                <div class="border p-5"
+                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                    <h2 class="text-[10px] font-bold uppercase tracking-[0.3em] mb-4"
+                        :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">work</h2>
                     <div class="flex items-center gap-4">
-                        <!-- Add your company logo here -->
-                        <img src="assets/kanmon_logoicon_bw_white.svg" 
-                             alt="Kanmon Logo" 
-                             class="w-16 h-16 object-contain"/>
+                        <img src="assets/kanmon_logoicon_bw_white.svg"
+                             alt=""
+                             class="w-14 h-14 object-contain shrink-0"
+                             :class="darkMode ? '' : 'invert'">
                         <div>
-                            <a href="https://www.kanmon.com" 
-                               class="group transition-colors" 
-                               target="_blank" 
-                               rel="noopener noreferrer">
-                                <h3 class="text-xl font-semibold group-hover:text-blue-500 transition-colors" 
-                                    :class="{ 'text-white': darkMode, 'text-gray-900': !darkMode }">
+                            <a href="https://www.kanmon.com"
+                               target="_blank" rel="noopener noreferrer"
+                               class="group">
+                                <h3 class="text-lg font-bold uppercase tracking-wide transition-colors"
+                                    :class="darkMode ? 'text-emerald-100 group-hover:text-cyan-400' : 'text-gray-900 group-hover:text-cyan-800'">
                                     Kanmon
                                 </h3>
                             </a>
-                            <p class="text-sm" :class="{ 'text-gray-400': darkMode, 'text-gray-600': !darkMode }">
-                                Co-founder
-                            </p>
+                            <p class="text-xs mt-1"
+                               :class="darkMode ? 'text-emerald-200/55' : 'text-gray-600'">Co-founder</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Interests Section (formerly Technology, and now full width) -->
-                <div class="p-6 rounded-xl transition-all duration-200" 
-                     :class="{ 'bg-white/5 backdrop-blur-sm': darkMode, 'bg-gray-50': !darkMode }">
-                    <h2 class="text-2xl font-bold mb-4" :class="{ 'text-white': darkMode, 'text-gray-900': !darkMode }">
-                        Interests
-                    </h2>
-                    <ul class="space-y-2" :class="{ 'text-gray-300': darkMode, 'text-gray-600': !darkMode }">
-                        <li class="flex items-center">
-                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
+                <div class="border p-5"
+                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                    <h2 class="text-[10px] font-bold uppercase tracking-[0.3em] mb-4"
+                        :class="darkMode ? 'text-violet-400/85' : 'text-violet-900'">interests</h2>
+                    <ul class="space-y-2 text-xs sm:text-sm"
+                        :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
                             Fintech
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
                             AI/ML
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
                             Dev Tools
                         </li>
                     </ul>
                 </div>
             </div>
+
+            <footer class="mt-12 max-w-xl mx-auto md:mx-0 w-full border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
+                    :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
+                eof
+            </footer>
         </div>
-        
-        <!-- Desktop image (hidden on mobile) -->
-        <div class="relative hidden md:block h-screen">
-            <div class="absolute inset-0 bg-gradient-to-br from-blue-400/30 to-purple-500/30 mix-blend-overlay"></div>
-            <div class="absolute inset-0 p-4">
-                <div class="relative h-full w-full overflow-hidden rounded-2xl border-4 border-gradient-to-r from-blue-400 to-purple-500">
-                    <img src="assets/IMG_2096.jpg" alt="Rohit's Profile" 
-                         class="object-cover w-full h-full transform hover:scale-105 transition-all duration-700" />
+
+        <!-- Desktop photo: wide portrait, soft edge (no frame box) -->
+        <div class="relative hidden md:flex h-full min-h-0 flex-col items-center justify-center border-l px-8 py-12 lg:px-16 lg:py-16"
+             :class="darkMode ? 'border-emerald-500/20' : 'border-gray-800/40'">
+            <figure class="w-full max-w-[min(100%,30rem)] lg:max-w-[36rem]">
+                <div class="home-photo-hover w-full transition-transform duration-500 motion-safe:hover:scale-[1.008]"
+                     :class="darkMode
+                         ? 'shadow-[0_28px_90px_-28px_rgba(0,0,0,0.75)]'
+                         : 'shadow-[0_24px_70px_-24px_rgba(0,0,0,0.22)]'">
+                    <div class="relative aspect-[3/4] w-full overflow-hidden rounded-[2px]">
+                        <img src="assets/IMG_2096.jpg"
+                             alt="Portrait with the Golden Gate Bridge in San Francisco"
+                             class="home-photo-hover h-full w-full object-cover object-[50%_22%] motion-safe:transition motion-safe:duration-700 motion-safe:ease-out motion-safe:hover:object-[50%_20%]"
+                             width="1200" height="1600" decoding="async">
+                        <div class="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-t via-transparent"
+                             :class="darkMode
+                                 ? 'from-black/35 to-black/15 mix-blend-multiply'
+                                 : 'from-gray-900/12 to-gray-800/5'"
+                             aria-hidden="true"></div>
+                    </div>
                 </div>
-            </div>
+                <figcaption class="mt-4 text-center text-[10px] font-bold uppercase tracking-[0.22em] leading-relaxed"
+                              :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">
+                    San Francisco · Golden Gate Bridge
+                </figcaption>
+            </figure>
         </div>
     </section>
 </body>
 </html>
-
