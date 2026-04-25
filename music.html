@@ -107,7 +107,7 @@
     </style>
 </head>
 <body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
-      x-data="{ darkMode: true }"
+      x-data="musicPage()"
       :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
     <div class="term-scanlines" aria-hidden="true"></div>
 
@@ -246,6 +246,56 @@
             </div>
         </section>
 
+        <section id="discogs-recent" class="mb-16 scroll-mt-24" aria-labelledby="discogs-recent-heading">
+            <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                       :class="darkMode ? 'text-amber-400/80' : 'text-amber-800'">discogs</p>
+                    <h2 id="discogs-recent-heading" class="text-xl font-bold uppercase tracking-wide mt-1"
+                        :class="darkMode ? 'text-white' : 'text-gray-900'">Recent adds</h2>
+                </div>
+                <a href="https://www.discogs.com/user/rnsharmadiscogs/collection" target="_blank" rel="noopener noreferrer"
+                   class="text-[10px] font-mono uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'text-amber-400/50 hover:text-amber-300' : 'text-amber-800/80 hover:text-amber-950'">full collection →</a>
+            </div>
+
+            <div class="border overflow-hidden"
+                 :class="darkMode ? 'border-amber-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                <p x-show="discogs.loading" class="px-3 py-6 text-sm"
+                   :class="darkMode ? 'text-emerald-200/50' : 'text-gray-500'">Fetching collection…</p>
+                <p x-show="!discogs.loading && discogs.error" class="px-3 py-6 text-sm" x-text="discogs.error"
+                   :class="darkMode ? 'text-red-400/90' : 'text-red-700'"></p>
+
+                <ul x-show="!discogs.loading && !discogs.error && discogs.releases.length" class="divide-y" role="list"
+                    :class="darkMode ? 'divide-amber-500/15' : 'divide-gray-200'">
+                    <template x-for="(r, i) in discogs.releases" :key="i">
+                        <li>
+                            <a :href="r.href" target="_blank" rel="noopener noreferrer"
+                               class="flex gap-3 px-3 py-3 sm:px-4 sm:py-3.5 transition-colors"
+                               :class="darkMode ? 'hover:bg-amber-500/[0.06]' : 'hover:bg-amber-50'">
+                                <div class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 border overflow-hidden"
+                                     :class="darkMode ? 'border-amber-500/20 bg-black/50' : 'border-gray-200 bg-gray-100'">
+                                    <img :src="r.thumb" :alt="'Cover: ' + r.title" class="w-full h-full object-cover" width="150" height="150" loading="lazy" decoding="async">
+                                </div>
+                                <div class="min-w-0 flex-1">
+                                    <p class="font-semibold leading-snug line-clamp-2"
+                                       :class="darkMode ? 'text-amber-50' : 'text-gray-900'" x-text="r.title"></p>
+                                    <p class="mt-0.5 text-xs leading-relaxed"
+                                       :class="darkMode ? 'text-emerald-200/70' : 'text-gray-600'" x-text="r.artist"></p>
+                                    <p class="mt-1 text-[10px] font-mono tabular-nums uppercase tracking-wider"
+                                       :class="darkMode ? 'text-amber-400/40' : 'text-amber-900/50'">
+                                        <span x-text="r.label"></span><span x-show="r.label && (r.year || r.dateAdded)"> · </span>
+                                        <span x-text="r.year"></span>
+                                        <span x-show="r.dateAdded" x-text="` · added ${r.dateAdded}`"></span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+
         <section id="production" class="scroll-mt-24">
             <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
                 <div>
@@ -314,5 +364,64 @@
             eof — inventory snapshot
         </footer>
     </main>
+    <script>
+        function musicPage() {
+            return {
+                darkMode: true,
+                discogs: {
+                    releases: [],
+                    loading: true,
+                    error: null
+                },
+                formatArtists(artists) {
+                    if (!artists || !artists.length) {
+                        return 'Unknown';
+                    }
+                    var s = artists[0].name;
+                    for (var i = 1; i < artists.length; i++) {
+                        s += (artists[i - 1].join || ' ') + artists[i].name;
+                    }
+                    return s;
+                },
+                formatDate(iso) {
+                    if (!iso) {
+                        return '';
+                    }
+                    return new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+                },
+                init() {
+                    var self = this;
+                    var url = 'https://api.discogs.com/users/rnsharmadiscogs/collection/folders/0/releases?sort=added&sort_order=desc&per_page=5&page=1';
+                    fetch(url)
+                        .then(function (res) {
+                            if (!res.ok) {
+                                throw new Error('Could not load Discogs collection.');
+                            }
+                            return res.json();
+                        })
+                        .then(function (data) {
+                            self.discogs.releases = (data.releases || []).map(function (rel) {
+                                var b = rel.basic_information;
+                                return {
+                                    title: b.title,
+                                    artist: self.formatArtists(b.artists),
+                                    year: b.year,
+                                    label: b.labels && b.labels[0] ? b.labels[0].name : '',
+                                    thumb: b.thumb,
+                                    href: 'https://www.discogs.com/release/' + b.id,
+                                    dateAdded: self.formatDate(rel.date_added)
+                                };
+                            });
+                        })
+                        .catch(function (e) {
+                            self.discogs.error = e.message || 'Failed to load collection.';
+                        })
+                        .finally(function () {
+                            self.discogs.loading = false;
+                        });
+                }
+            };
+        }
+    </script>
 </body>
 </html>
