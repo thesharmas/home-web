@@ -7,8 +7,34 @@ posthog.init("phc_qk3Ja3MuPuWTua2wjxgfeBxvRTxP3DRdrimTueAFQcgs", {
     capture_pageview: true,
     capture_pageleave: true,
     autocapture: true,
+    capture_exceptions: true,
     session_recording: {
         maskAllInputs: true,
         maskTextSelector: "input, textarea, [contenteditable=true]"
     }
 });
+
+posthog.register({ site: "thesharmas.org" });
+
+// Outbound link tracking: the whole point of this site is sending people to
+// LinkedIn / Substack / GitHub / SoundCloud / Discogs, so make those clicks
+// first-class events instead of digging them out of autocapture chains.
+// Capture phase so the event is queued before target=_blank navigation.
+document.addEventListener("click", function (ev) {
+    try {
+        var a = ev.target && ev.target.closest ? ev.target.closest("a[href]") : null;
+        if (!a) return;
+        var href = a.getAttribute("href") || "";
+        if (!/^https?:\/\//i.test(href)) return;
+        var url = new URL(href);
+        if (url.hostname === location.hostname) return;
+        if (window.posthog && typeof window.posthog.capture === "function") {
+            window.posthog.capture("outbound_click", {
+                destination: url.hostname.replace(/^www\./, ""),
+                url: href,
+                link_text: (a.textContent || "").trim().slice(0, 80),
+                page: location.pathname
+            });
+        }
+    } catch (e) { /* analytics never throws into the page */ }
+}, true);
