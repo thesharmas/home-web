@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How It Was Made — The United States, 1970–2026</title>
+<meta name="description" content="Methodology behind the 1970–2026 U.S. annual historical review: the multi-agent research pipeline, the scoring rubric, the sources and epistemics, and the honest limitations.">
+<link rel="canonical" href="https://thesharmas.org/us-1970-2026-methodology.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://thesharmas.org/us-1970-2026-methodology.html">
+<meta property="og:site_name" content="Rohit's Web">
+<meta property="og:title" content="How It Was Made — The United States, 1970–2026">
+<meta property="og:description" content="The multi-agent pipeline, scoring rubric, sources, and epistemics behind the 57-year annual review.">
+<meta property="og:image" content="https://thesharmas.org/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How It Was Made — The United States, 1970–2026">
+<meta name="twitter:description" content="The multi-agent pipeline, scoring rubric, sources, and epistemics behind the 57-year annual review.">
+<meta name="twitter:image" content="https://thesharmas.org/assets/og-image.png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf8f4; --panel:#ffffff; --ink:#1e1c18; --muted:#63615b; --line:#e5e1d7;
+  --accent:#7a5c3e; --accent2:#33566e;
+  --shadow:0 1px 3px rgba(0,0,0,.08);
+  --d-n3:#8f2334; --d-n2:#c05348; --d-n1:#e3a48e; --d-mid:#ece9e1;
+  --d-p1:#8fc5b7; --d-p2:#3f9484; --d-p3:#186a5d;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --display:"Fraunces",Georgia,serif;
+  --body:Georgia,"Times New Roman",serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#161510; --panel:#201e18; --ink:#eae7e0; --muted:#a3a096; --line:#35332b;
+    --accent:#d0a878; --accent2:#8fb4cf; --shadow:0 1px 3px rgba(0,0,0,.5);
+    --d-mid:#3a3a36;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);
+  line-height:1.66;font-size:16.5px}
+.wrap{max-width:780px;margin:0 auto;padding:0 22px}
+a{color:var(--accent2)}
+:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
+a.backbtn{position:fixed;top:14px;left:16px;z-index:80;display:inline-block;
+  padding:7px 12px;border:1px solid #10b981;border-radius:8px;background:rgba(20,20,16,.55);
+  backdrop-filter:blur(6px);color:#eef;text-decoration:none;font-size:.72rem;font-weight:700;
+  font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase}
+a.backbtn:hover{color:#10b981}
+header.mhero{padding:96px 0 34px;border-bottom:1px solid var(--line);text-align:center}
+.eyebrow{font-family:var(--mono);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+header.mhero h1{font-family:var(--display);font-weight:640;font-size:clamp(2rem,5.4vw,3.1rem);
+  letter-spacing:-.01em;line-height:1.08;margin:.35em 0 .2em}
+header.mhero .sub{color:var(--muted);font-family:var(--ui);font-size:1rem;max-width:600px;margin:0 auto}
+main{padding-bottom:40px}
+section{padding:34px 0 6px}
+h2{font-family:var(--display);font-weight:600;font-size:1.55rem;letter-spacing:-.01em;margin:0 0 .4em}
+h3{font-family:var(--ui);font-size:1.02rem;margin:1.4em 0 .3em}
+p{margin:.55em 0}
+li{margin:.35em 0}
+.secnum{font-family:var(--mono);font-size:.72rem;color:var(--accent);letter-spacing:.14em;display:block;margin-bottom:6px}
+.note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:10px;padding:16px 20px;box-shadow:var(--shadow);margin:14px 0}
+.note p:first-child{margin-top:0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.8em 0;font-family:var(--ui)}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+thead th{background:color-mix(in srgb,var(--accent) 10%,transparent);font-weight:600}
+td.score{font-family:var(--mono);font-weight:700;text-align:center;width:64px;white-space:nowrap}
+pre.diagram{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:18px;overflow-x:auto;font-family:var(--mono);font-size:.72rem;line-height:1.5;
+  box-shadow:var(--shadow)}
+blockquote{margin:1em 0;padding:14px 20px;background:color-mix(in srgb,var(--accent) 7%,transparent);
+  border-radius:10px;font-style:italic}
+.ramp{display:flex;gap:3px;align-items:center;margin:10px 0;font-family:var(--mono);font-size:.72rem;color:var(--muted);flex-wrap:wrap}
+.ramp .sw{width:34px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+hr{border:none;border-top:1px solid var(--line);margin:26px 0 0}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:38px 20px;font-family:var(--ui)}
+.cta{display:inline-block;margin-top:14px;font-family:var(--mono);font-size:.8rem;font-weight:600;
+  border:1px solid var(--line);border-radius:9px;padding:9px 15px;text-decoration:none;color:var(--ink);background:var(--panel)}
+.cta:hover{border-color:var(--accent);color:var(--accent)}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+<script defer src="assets/analytics.js"></script>
+</head>
+<body>
+<a href="/us-1970-2026.html" class="backbtn">&larr; the databoard</a>
+
+<header class="mhero"><div class="wrap">
+  <div class="eyebrow">The United States &middot; 1970&ndash;2026 &middot; Methodology</div>
+  <h1>How this review was made</h1>
+  <p class="sub">The multi-agent research pipeline, the scoring rubric, the sources, and the honest limitations behind 57 annual reports and one cross-year synthesis.</p>
+  <a class="cta" href="/us-1970-2026.html">Open the time machine &rarr;</a>
+</div></header>
+
+<main>
+
+<section><div class="wrap">
+  <span class="secnum">00 · READ THIS FIRST</span>
+  <h2>The honesty note</h2>
+  <div class="note">
+    <p>The single most important thing to understand about this project: <strong>the historical content was produced primarily from the trained knowledge of large language models, not from a live scrape of primary sources.</strong> Web search was used selectively — mainly for the most recent and least-settled years — but the great majority of the 57 years were written from the models&rsquo; internalized understanding of standard economic series, reference works, and historiography.</p>
+  </div>
+  <p>That has two consequences to hold onto while reading the databoard:</p>
+  <ol>
+    <li><strong>The prose is reliable at the level of &ldquo;what a well-read historian would tell you,&rdquo; but individual numbers in the data appendices are best-available estimates and can be off.</strong> For anything you intend to cite, verify against a primary source (BEA for GDP, BLS for CPI and unemployment, the Federal Reserve / FRED for rates, S&amp;P and Dow Jones for index returns, Treasury for debt).</li>
+    <li><strong>The scores are editorial judgments, not measurements.</strong> They were generated by models following a fixed rubric, then checked for internal consistency. They are designed to be <em>comparable across years</em> — that was the whole point — but they are opinions with justifications, not facts.</li>
+  </ol>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">01</span>
+  <h2>The objective</h2>
+  <p>The brief was to act as the <strong>lead editor of an annual historical review of the United States</strong> — not to summarize events, but to reconstruct <em>what it felt like to live through each year</em> while also <em>evaluating that year in the light of history</em>. The governing instructions specified:</p>
+  <ul>
+    <li>For <strong>every</strong> year, coordinate <strong>four independent research streams</strong> before writing anything.</li>
+    <li>Only write the final report after all four streams are complete and reconciled.</li>
+    <li>Score five dimensions (Economy, Markets, Politics, Culture, Overall National Mood) on a <strong>&minus;3 to +3</strong> scale, each with a justification.</li>
+    <li>Judge each year <strong>relative to the standards and context of its own time</strong>, not by today&rsquo;s standards.</li>
+    <li>Don&rsquo;t let one extraordinary event dominate the whole assessment if other domains moved differently.</li>
+    <li>Maintain a <strong>consistent scoring methodology across all years</strong> so 1970 and 2026 can be meaningfully compared.</li>
+    <li>Produce a large fixed set of sections per year: executive summary, scorecard, top headlines, four domain deep-dives, historical perspective, signal-vs-noise, representative headlines, month-by-month timeline, data appendix, and a narrative final verdict.</li>
+  </ul>
+  <p>The scope was set at <strong>every year from 1970 to 2026 inclusive — 57 years</strong> — delivered as an interactive page with a full cross-year comparison and synthesis on top. 2026 is a partial year, covered through July.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">02</span>
+  <h2>The architecture</h2>
+  <p>Fifty-seven years &times; four research streams &times; one reconciliation each is a fan-out problem. Doing it in one long linear pass would be slow, would blur the years together, and would violate the &ldquo;four <em>independent</em> streams&rdquo; requirement — independence is what lets the historical-perspective agent disagree with the economics agent about what mattered. So the design is a <strong>two-stage-per-year pipeline, fanned out across all 57 years in parallel</strong>:</p>
+<pre class="diagram">
+            For each year Y in 1970..2026  (run concurrently, capped)
+
+┌──────────────── STAGE 1: RESEARCH (4 agents in parallel) ────────────────┐
+│                                                                          │
+│   Agent 1  Economy &amp; Markets  ─┐                                         │
+│   Agent 2  Politics &amp; Govt     ├─►  four independent research streams    │
+│   Agent 3  Culture &amp; Society   │    for year Y                           │
+│   Agent 4  Historical Perspec. ─┘                                        │
+│                                                                          │
+└───────────────────────────────────┬──────────────────────────────────────┘
+                                    │
+┌──────────────────── STAGE 2: SYNTHESIS (1 agent) ────────────────────────┐
+│   Lead-editor agent reads all four streams                               │
+│     ─►  one structured YearReport (validated JSON)                       │
+│   Applies the rubric, reconciles disagreements, enforces the schema      │
+└───────────────────────────────────┬──────────────────────────────────────┘
+                                    │
+                            reports/synth/Y.json
+
+──────────────────────  AFTER ALL 57 YEARS  ──────────────────────
+  • Compute cross-year statistics (decade averages, superlatives,
+    composites) — programmatically, not by a model
+  • One capstone agent writes the "Across the Decades" synthesis
+  • A generator assembles everything into the final page
+  • The result is rendered and screenshotted to verify it
+</pre>
+  <p>The key property: <strong>each year flows through its two stages independently</strong> — 1985&rsquo;s synthesis can run while 2003&rsquo;s research is still going. There is no global barrier between &ldquo;all research&rdquo; and &ldquo;all synthesis,&rdquo; which keeps wall-clock time down.</p>
+  <p>Why a per-year editor at stage 2 rather than stitching prose together mechanically? Because reconciliation is a judgment task. The four streams routinely disagree about emphasis — the economics agent might call 2008 a &minus;3 catastrophe while the culture agent notes a genuinely strong creative year (Mad Men, Breaking Bad, the App Store). The synthesis agent&rsquo;s job is exactly to hold those apart and score each domain on its own axis: the &ldquo;don&rsquo;t let one event dominate&rdquo; requirement made concrete.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">03</span>
+  <h2>The four research agents</h2>
+  <p>Each research agent received a role-specific prompt, an <strong>era-calibration note</strong> (so it would judge, e.g., 1975 against 1970s norms rather than 2020s norms), and — for the current and most recent years — a <strong>recency note</strong> telling it to use web search. Each was asked to return <em>thorough prose</em>, not bullet points, and to (a)&nbsp;name specific events, works, figures, and numbers, (b)&nbsp;draw on multiple independent sources, (c)&nbsp;separate contemporary opinion from hindsight, and (d)&nbsp;propose the scores in its lane with one-sentence justifications.</p>
+  <table>
+    <thead><tr><th>#</th><th>Agent</th><th>Researches</th><th>Delivers</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Economy &amp; Markets</strong></td><td>GDP, inflation, unemployment, Fed actions &amp; rates, housing, equity indices, major companies, crises, oil/gold/commodities, consumer confidence, national debt</td><td>Top economic events, top market events, key figures, <strong>Economy score</strong> + <strong>Markets score</strong> with justifications</td></tr>
+      <tr><td>2</td><td><strong>Politics &amp; Government</strong></td><td>President, Congress, Supreme Court, elections, legislation, wars &amp; foreign policy, scandals, civil rights, immigration, crime policy, government stability</td><td>Top political events, domestic-policy narrative, foreign-policy narrative, elections, <strong>Politics score</strong></td></tr>
+      <tr><td>3</td><td><strong>Culture &amp; Society</strong></td><td>Music, film, TV, consumer technology, social movements, notable crime, religion, education, demographics, sports, public mood</td><td>Top cultural events; movies/music/TV/tech sections; social trends, crime, sports, mood; <strong>Culture score</strong></td></tr>
+      <tr><td>4</td><td><strong>Historical Perspective</strong></td><td>Biggest headlines of the year, most-covered stories, forgotten stories, underestimated events, long-term significance, what historians now say mattered</td><td><strong>Signal-vs-Noise</strong> analysis, hindsight summary, most-forgotten / most-underrated / biggest-surprise items, 10 representative headlines</td></tr>
+    </tbody>
+  </table>
+  <p>The fourth agent gives the project its distinctive angle. It is explicitly a <em>hindsight</em> agent — its whole assignment is to contrast what dominated the front pages at the time with what actually turned out to matter. That is where entries like &ldquo;1999: Gramm-Leach-Bliley repeal quietly assembles the architecture of the 2008 crisis&rdquo; or &ldquo;2008: Satoshi Nakamoto publishes the Bitcoin whitepaper, essentially unnoticed&rdquo; come from. It is fed the same year as the other three but reasons on a different time axis.</p>
+  <p><strong>Output volume:</strong> the four streams across all years total roughly <strong>467,000 words</strong> of raw research prose (~229 files) before any of it was compressed into the final reports.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">04</span>
+  <h2>The synthesis layer</h2>
+  <p>Stage 2 is a single &ldquo;lead editor&rdquo; agent per year. It reads all four streams for its year and emits <strong>one JSON object conforming to a strict schema</strong>. Forcing structured output here is what makes the 57 years mechanically comparable and lets the page render them uniformly.</p>
+  <p>The schema (every field required) captures:</p>
+  <ul>
+    <li><code>year</code>, a three-paragraph <code>executiveSummary</code>, and a <code>finalVerdict</code> (~300&ndash;500 words answering &ldquo;what did it feel like to be an American this year?&rdquo;).</li>
+    <li><code>scores</code>: five objects, each <code>{score: -3..+3, justification}</code>.</li>
+    <li><code>topHeadlines</code> (exactly 10) and <code>representativeHeadlines</code> (exactly 10).</li>
+    <li>Domain blocks: economy (summary / stats / major events / why-the-score), markets (performance / bull-bear / companies / themes), politics (major events / domestic / foreign / elections), culture (movies / music / TV / tech / social / crime / sports / mood).</li>
+    <li>Historical perspective (what people thought mattered / what actually mattered / most-forgotten / most-underrated / biggest-surprise).</li>
+    <li>Signal-vs-noise: two lists — &ldquo;dominated the news but faded&rdquo; and &ldquo;little attention but changed history.&rdquo;</li>
+    <li>A timeline of exactly 12 month entries.</li>
+    <li>A data appendix: GDP, inflation, unemployment, S&amp;P return, Dow return, Fed funds rate, oil, gold, population, median home price, national debt.</li>
+  </ul>
+  <p>The editor prompt encoded the editorial rules directly: three-paragraph executive summaries; prose fields must be prose (no smuggled bullet lists); score each domain <strong>independently</strong>; the Overall Mood score is a <em>synthesis</em> judgment across the other four plus subjective cultural factors, not an average; judge relative to the era; fill every appendix field or mark it <code>N/A — reason</code>. Structured output was enforced at the tool layer — the agent had to emit schema-valid JSON, and retried on mismatch — so there is no fragile text-parsing step downstream.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">05</span>
+  <h2>The scoring methodology</h2>
+  <h3>The scale</h3>
+  <p>Every dimension uses the same seven-point integer scale:</p>
+  <table>
+    <thead><tr><th style="width:80px">Score</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td class="score" style="background:var(--d-p3);color:#fdfcf9">+3</td><td>Exceptional</td></tr>
+      <tr><td class="score" style="background:var(--d-p2);color:#fdfcf9">+2</td><td>Strong</td></tr>
+      <tr><td class="score" style="background:var(--d-p1);color:#221f1b">+1</td><td>Good</td></tr>
+      <tr><td class="score" style="background:var(--d-mid)">0</td><td>Neutral</td></tr>
+      <tr><td class="score" style="background:var(--d-n1);color:#221f1b">&minus;1</td><td>Below average</td></tr>
+      <tr><td class="score" style="background:var(--d-n2);color:#fdfcf9">&minus;2</td><td>Weak</td></tr>
+      <tr><td class="score" style="background:var(--d-n3);color:#fdfcf9">&minus;3</td><td>Severe decline / crisis</td></tr>
+    </tbody>
+  </table>
+  <h3>The three principles that make scores comparable</h3>
+  <ol>
+    <li><strong>Zero is anchored to long-run U.S. norms, but calibrated within the era.</strong> A &ldquo;0&rdquo; economy is an unremarkable year by the standards of American history — but agents judged relative to the era&rsquo;s baseline, so 1970s inflation of 6% is read against a decade where that was ordinary, not against the 2% world of the 2010s. This reconciles two instructions that pull in opposite directions (&ldquo;consistent methodology across all years&rdquo; vs. &ldquo;judge each year by its own time&rdquo;): the <em>scale</em> is fixed and universal; the <em>reference class</em> for what counts as normal is era-local.</li>
+    <li><strong>Domains are scored independently.</strong> The single most important anti-bias rule, and the data shows it working:
+      <ul>
+        <li><strong>2008</strong>: Economy &minus;3 and Markets &minus;3, but Culture <strong>+2</strong> and Politics <strong>0</strong> (a high-legitimacy election and orderly transition). One catastrophe did not drag the whole year down.</li>
+        <li><strong>2009</strong>: Economy &minus;3 (worst contraction since 1946) but Markets <strong>+3</strong> (the S&amp;P returned ~+26% off the March low). The real economy and the stock market are explicitly allowed to diverge — and across the dataset they frequently do, which turns out to be one of the project&rsquo;s central findings.</li>
+        <li><strong>2020</strong>: Economy &minus;2, Markets <strong>+2</strong>, Culture &minus;2, Mood <strong>&minus;3</strong>. The V-shaped market recovery, the human toll, and the collective mood are scored on separate axes.</li>
+      </ul>
+    </li>
+    <li><strong>Overall Mood is a judgment, not an average.</strong> It is the synthesis of how the year <em>felt</em>, pulling on the culture and historical-perspective streams as much as the hard numbers. That is why 2009 has strong markets but a negative mood: the lived experience of 10% unemployment outweighed the index rally.</li>
+  </ol>
+  <h3>How each number was produced</h3>
+  <p>For each domain, the relevant research agent proposed a score with a one-sentence justification. The synthesis agent then either ratified or adjusted it in light of the other streams and the era-calibration, and wrote the final justification. Each score passed through <strong>two independent reasoning steps</strong> — the specialist, then the editor — before landing.</p>
+  <h3>Consistency safeguards</h3>
+  <ul>
+    <li>The rubric text was <strong>identical</strong> in every agent prompt, so no year got a different definition of &ldquo;+2.&rdquo;</li>
+    <li>After all 57 reports were built, a validation script confirmed every score was an integer in &minus;3..+3 with a non-empty justification — <strong>zero violations</strong>.</li>
+    <li>The full score matrix was reviewed for face validity against known history — 1974 economy &minus;3 (stagflation + recession), 1973 politics &minus;3 (Watergate), 2020 mood &minus;3 (COVID), the late 1990s strong across the board. Nothing was numerically surprising given the events.</li>
+  </ul>
+  <h3>Aggregates for the cross-year layer</h3>
+  <p>Three derived measures were computed <strong>programmatically</strong> — not by a model — from the 57 score rows: <strong>decade averages</strong> per dimension (politics slides from +1.2 in the 1980s to &minus;1.6 in the 2020s), <strong>superlatives</strong> (best economy: 1984/1997/1998/1999 at +3; worst: 1974/2008/2009 at &minus;3), and the <strong>composite</strong> — the sum of all five scores per year (best: 1999 at +12; worst: 1974 at &minus;9, then 1973 and 2020 at &minus;7). These numbers were handed to the capstone agent as <em>verified facts to build on</em>, so the narrative arcs rest on arithmetic rather than the model&rsquo;s impression of the arithmetic.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">06</span>
+  <h2>Sources and epistemics</h2>
+  <h3>Where the facts came from</h3>
+  <ul>
+    <li><strong>Primary mechanism: model parametric knowledge.</strong> The research agents are LLMs. Their &ldquo;sources&rdquo; are the standard corpus of economic data series, encyclopedic references, retrospective journalism, and academic history absorbed in training. When a stream says &ldquo;GDP grew 4.7% in 1999,&rdquo; it is recalling a well-established figure from that corpus, not reading a database row live.</li>
+    <li><strong>Selective web search</strong>, used where recall is weakest or the record is unsettled:
+      <ul>
+        <li><strong>2026</strong> (the current, partial year): searched to verify year-to-date events through July 2026 — Fed leadership, the Supreme Court tariff ruling, mid-year jobs and GDP prints, sports results, approval numbers.</li>
+        <li><strong>2025</strong>: searched to cover the second half of the year, which falls after the models&rsquo; knowledge cutoff — the government shutdown, full-year index returns, gold&rsquo;s run, the debt crossing $38T.</li>
+        <li><strong>2022</strong>: the politics stream was researched with web search to firmly anchor a dense year — the midterms, the IRA/CHIPS/Respect for Marriage/Electoral Count Reform Acts, Dobbs, the January 6 hearings, Ukraine.</li>
+      </ul>
+    </li>
+    <li><strong>The rule of thumb:</strong> the further back the year, the more it rests on well-settled trained knowledge (generally reliable for the <em>shape</em> of history); the closer to now, the more web search was leaned on to compensate for the training cutoff.</li>
+  </ul>
+  <h3>What this means for trust, dimension by dimension</h3>
+  <ul>
+    <li><strong>Narrative and event-level claims</strong> (who was president, what films came out, what the major crises were, what historians now emphasize) are <strong>high-confidence</strong>. This is exactly what LLMs are good at, and it is the bulk of the databoard&rsquo;s value.</li>
+    <li><strong>Precise numeric figures</strong> in the data appendices are <strong>medium-confidence</strong>. Rounding, revised-vs-initial estimates (GDP and payrolls get revised for years), full-year vs. year-end conventions, and price vs. total return for indices are all places where a specific number can be off by a meaningful margin. Treat them as ballpark, not authoritative.</li>
+    <li><strong>The scores</strong> are, again, <strong>judgments</strong> — reproducible from the rubric but not &ldquo;true&rdquo; the way a GDP figure is.</li>
+  </ul>
+  <h3>Sources the agents were instructed to emulate</h3>
+  <p>The prompts asked for &ldquo;multiple independent historical sources&rdquo; and to distinguish fact from interpretation. In practice the reference frame corresponds to: federal statistical agencies (BEA, BLS, Census, Treasury) and FRED for the economic series; standard newspaper-of-record retrospective coverage for events and headlines; index providers for market returns; and mainstream academic and long-form historiography for the hindsight judgments. These are the <em>kinds</em> of sources behind the content — but this project did <strong>not</strong> produce a per-claim citation trail, and it would be wrong to present it as if it had.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">07</span>
+  <h2>Orchestration and models</h2>
+  <p>The fan-out ran as a <strong>deterministic workflow script</strong> — a small program that dispatches agents, with two primitives: a per-year pipeline (research &rarr; synthesis, no barrier between years) and a parallel fan-out (the four research agents for a year, awaited together). Concurrency was capped at roughly a dozen simultaneous agents, with excess work queued. In total the run dispatched <strong>228 research agents</strong> (4 &times; 57), <strong>57 synthesis agents</strong>, and <strong>1 capstone agent</strong>, plus assembly and validation steps.</p>
+  <p>Model effort was tiered to the task: deep-reasoning models for the research streams, an efficient mid-tier model for a portion of the synthesis work — synthesis is a reconciliation-and-formatting task over research that was already done at high quality — and the <strong>top-tier model for the capstone cross-year synthesis</strong>, a single high-stakes reasoning step over the whole dataset. Every agent&rsquo;s output was journaled as it completed, making the whole run resumable and auditable.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">08</span>
+  <h2>Validation</h2>
+  <p>Between synthesis and the page sat a small, boring, important layer:</p>
+  <ul>
+    <li><strong>A single combined dataset</strong> — the 57 reports concatenated and sorted, the single source of truth for the build.</li>
+    <li><strong>A validation pass</strong> over all 57 that checked: presence of all 14 top-level fields; five scores present, integer, in range, each with a justification; exactly 10 top headlines, 10 representative headlines, 12 timeline months; signal-vs-noise lists within bounds; all required data-appendix keys present. <strong>Result: 0 problems across 57 files.</strong></li>
+    <li><strong>A compact projection</strong> (scores + a snippet of each executive summary + the computed superlatives and decade averages) fed to the capstone agent, so it reasoned over verified facts rather than over the full 467k-word corpus.</li>
+    <li><strong>Render verification</strong>: the finished page was loaded in a real browser engine in both light and dark modes, screenshotted section by section, and checked for console errors and layout defects before delivery.</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">09</span>
+  <h2>The capstone synthesis</h2>
+  <p>After the 57 years existed and the aggregate statistics were computed, one final agent wrote the comparative layer, constrained to build on the <em>verified</em> numbers: a whole-period overview; five domain arcs; per-decade character summaries; best/worst-year rationales; a recurring-patterns analysis; and a long final verdict.</p>
+  <p>The through-line it identified — and which the numbers support — is <strong>divergence</strong>: across 57 years, America&rsquo;s economic and market scores rose while its politics score and national mood fell. The country at mid-2026 is materially richer, more technologically capable, and financially more buoyant than in 1970, yet scores lower on governance and feels worse about itself. The 1980s&ndash;90s were the high-confidence peak (1999 is the single best composite year at +12); the 2000s were the mood trough between two booms; and the politics score is in something close to a secular decline from the 1980s onward, spanning administrations of both parties.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">10</span>
+  <h2>Presentation notes</h2>
+  <p>The reports are presented as a single self-contained page — all data and 57 full reports embedded, with only fonts loaded from a CDN. Scores are encoded with a <strong>diverging crimson&rarr;teal ramp</strong> chosen to be colorblind-safe (it avoids the classic red-green confusion axis, and avoids red-vs-blue, which on a U.S. politics page would read as partisan):</p>
+  <div class="ramp">
+    <span>Worse</span>
+    <span class="sw" style="background:#8f2334"></span>
+    <span class="sw" style="background:#c05348"></span>
+    <span class="sw" style="background:#e3a48e"></span>
+    <span class="sw" style="background:var(--d-mid)"></span>
+    <span class="sw" style="background:#8fc5b7"></span>
+    <span class="sw" style="background:#3f9484"></span>
+    <span class="sw" style="background:#186a5d"></span>
+    <span>Better</span>
+  </div>
+  <p>Color is never the only signal — the numeric score is printed in every badge, meter, and scorecard cell, so the encoding stays legible to colorblind readers and in grayscale. The five trend-chart series use a separately validated categorical palette with direct line labels. The ramp is held fixed across light and dark modes so the colors mean the same thing everywhere, while the surrounding interface adapts.</p>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">11</span>
+  <h2>Known limitations</h2>
+  <p>In the spirit of not overselling:</p>
+  <ul>
+    <li><strong>Numeric precision.</strong> Appendix figures are estimates. GDP and payroll revisions, year-end vs. average vs. Q4/Q4 conventions, and price vs. total return for indices are all real sources of small error.</li>
+    <li><strong>No per-claim citations.</strong> The databoard reads like a sourced reference work, but it does not carry a footnote trail. It is a synthesis, not a citation database.</li>
+    <li><strong>Recency softness.</strong> 2025&rsquo;s second half and all of 2026 are the least certain, being at or past the training cutoff and dependent on web search that may itself be incomplete. 2026 is explicitly a partial year (through July); its scores are year-to-date judgments.</li>
+    <li><strong>Single-methodology risk.</strong> Consistency across years was prioritized, which is a strength for comparison but means any systematic bias in the rubric (e.g., a tendency to score culture generously — every decade&rsquo;s culture average is positive) is baked in uniformly.</li>
+    <li><strong>Model-authored judgments.</strong> Both the scores and the &ldquo;what mattered&rdquo; hindsight calls are the reasoned output of language models. They are defensible and justified, but a panel of human historians would disagree at the margins on specific scores.</li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <span class="secnum">12 · APPENDIX</span>
+  <h2>The scoring rubric, verbatim</h2>
+  <p>The identical rubric embedded in every agent prompt:</p>
+  <blockquote>Each category receives an integer score. <strong>&minus;3</strong> severe decline &middot; <strong>&minus;2</strong> weak &middot; <strong>&minus;1</strong> below average &middot; <strong>0</strong> neutral &middot; <strong>+1</strong> good &middot; <strong>+2</strong> strong &middot; <strong>+3</strong> exceptional. Every score must include a short justification. Judge each year relative to the standards and context of its own time. Score each domain independently — do not let one extraordinary event dominate the assessment if other domains moved in the opposite direction. Overall National Mood is a synthesis judgment across the other four dimensions plus subjective cultural factors, not an arithmetic average.</blockquote>
+  <p style="text-align:center;margin-top:26px"><a class="cta" href="/us-1970-2026.html">Back to the time machine &rarr;</a></p>
+  <hr>
+</div></section>
+
+</main>
+
+<footer>
+  Prepared as documentation of the build. The databoard is a work of synthesis and editorial judgment intended for comparison and reflection, not a substitute for primary-source research on any specific figure or claim.
+</footer>
+</body>
+</html>
