@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side Projects — Rohit's Web</title>
-    <meta name="description" content="Side projects by Rohit Sharma — Los Altos List, a neighbor-recommended local services directory, and DebtStack, a debt facility simulator for fintech founders.">
+    <meta name="description" content="Side projects by Rohit Sharma — Los Altos List, a neighbor-recommended local services directory, DebtStack, a debt facility simulator for fintech founders, and an interactive US 1970–2026 historical databoard.">
     <link rel="canonical" href="https://thesharmas.org/side-projects.html">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thesharmas.org/side-projects.html">
@@ -230,6 +230,54 @@
                    class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
                    :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
                     <span class="text-[10px] opacity-70">[↗]</span> debtstack.tools
+                </a>
+            </div>
+        </section>
+
+        <!-- Project 03: The United States, 1970-2026 -->
+        <section id="us-review" class="mt-16 scroll-mt-24">
+            <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                       :class="darkMode ? 'text-amber-400/85' : 'text-amber-900'">project_03</p>
+                    <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
+                        :class="darkMode ? 'text-white' : 'text-gray-900'">The United States, 1970&ndash;2026</h2>
+                </div>
+                <span class="text-[10px] font-mono tabular-nums"
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">03 / databoard</span>
+            </div>
+
+            <div class="border p-5 sm:p-6"
+                 :class="darkMode ? 'border-amber-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] mb-3"
+                   :class="darkMode ? 'text-amber-300/70' : 'text-amber-900'">
+                    An annual historical review
+                </p>
+                <p class="leading-relaxed mb-5 max-w-2xl"
+                   :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                    An interactive databoard reconstructing what each year in America felt
+                    like to live through, and judging it in the long light of hindsight.
+                    Fifty-seven years, five scored dimensions, one consistent lens.
+                </p>
+                <ul class="space-y-2 text-xs sm:text-sm mb-6"
+                    :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        57 annual reports scored on economy, markets, politics, culture, and national mood
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Interactive heatmap and trend charts across the full 1970&ndash;2026 run
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Decade-by-decade essays on the arcs that coupled &mdash; and came apart
+                    </li>
+                </ul>
+                <a href="us-1970-2026.html"
+                   class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'border-amber-400/45 text-amber-200 hover:bg-amber-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                    <span class="text-[10px] opacity-70">[&raquo;]</span> open the databoard
                 </a>
             </div>
         </section>
