@@ -81,9 +81,22 @@ a.backbtn:hover{color:#10b981}
   opacity:1;transition:opacity 600ms ease}
 .m-eyebrow{font-family:var(--mono);font-size:.66rem;letter-spacing:.26em;
   text-transform:uppercase;color:var(--m-muted);text-align:center;margin-bottom:6px}
+.m-question{font-family:var(--display);font-style:italic;font-weight:480;
+  font-size:clamp(1.02rem,1.9vw,1.3rem);color:var(--m-ink);text-align:center;
+  max-width:680px;margin:10px auto 8px;line-height:1.45}
+.m-question em{color:var(--m-accentink,var(--m-accent));font-style:italic}
+.m-spoiler{font-family:var(--mono);font-size:.74rem;color:var(--m-muted);text-align:center;margin:2px 0 6px;letter-spacing:.02em}
+.m-spoiler b{color:var(--m-accentink,var(--m-accent))}
+.m-spoiler a{color:var(--m-ink);text-decoration:none;border-bottom:1px dotted currentColor;margin-left:4px}
+.m-spoiler a:hover{border-bottom-style:solid}
 .m-title{font-family:var(--mono);font-size:.8rem;color:var(--m-muted);text-align:center;margin:0 0 20px}
 .m-title a.methlink{color:var(--m-accentink,var(--m-accent));text-decoration:none;border-bottom:1px dotted currentColor}
 .m-title a.methlink:hover{border-bottom-style:solid}
+.m-actions a.mbtn{text-decoration:none;display:inline-flex;align-items:center}
+.scrollcue{display:block;width:44px;margin:2px auto 0;text-align:center;font-size:1.7rem;
+  line-height:1;color:var(--m-muted);text-decoration:none;animation:cuebounce 2.2s ease-in-out infinite}
+.scrollcue:hover{color:var(--m-accentink,var(--m-accent))}
+@keyframes cuebounce{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(7px);opacity:1}}
 
 .m-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:36px;align-items:center}
 .m-id{text-align:left}
@@ -256,6 +269,26 @@ body[data-era="e20"] .numeral{background:linear-gradient(100deg,#a78bfa 0%,#67e0
 #chart.dim .dline.hot{stroke-opacity:1;stroke-width:2.6}
 .clegend i{width:16px;height:3px;border-radius:2px;display:inline-block}
 
+/* ============ mood vs reality ============ */
+.stattiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0 8px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+.tile .tnum{font-family:var(--mono);font-size:1.7rem;font-weight:700;letter-spacing:-.01em;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile .tlab{font-family:var(--ui);font-size:.78rem;color:var(--muted);margin-top:4px;line-height:1.4}
+.ptitle{font-family:var(--display);font-size:1.2rem;font-weight:600;margin:2.2em 0 .2em}
+#gapchart .grid,#realchart .grid,#scatchart .grid{stroke:var(--line);stroke-width:1}
+#gapchart .axis,#realchart .axis,#scatchart .axis{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+.gline{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.gline.ref{stroke:var(--muted);stroke-dasharray:5 4;stroke-width:1.8}
+.gapfill{stroke:none}
+.endlab2{font-family:var(--mono);font-size:11.5px;font-weight:600;fill:var(--ink)}
+.scatwrap{max-width:560px;margin:0 auto}
+#scatchart{width:100%;height:auto;display:block}
+#scatchart .diag{stroke:var(--muted);stroke-dasharray:5 4;stroke-width:1.4}
+#scatchart .regionlab{font-family:var(--ui);font-size:12px;font-style:italic;fill:var(--muted)}
+#scatchart circle{stroke-width:1.5;cursor:default}
+#scatchart circle:hover{stroke-width:3}
+.mrfoot{font-family:var(--ui);font-size:.78rem;color:var(--muted);margin-top:16px;line-height:1.55}
+
 /* ============ heatmap ============ */
 .hmscroll{overflow-x:auto;padding-bottom:6px}
 .hm{display:grid;grid-auto-rows:20px;gap:2px;min-width:900px;
@@ -381,7 +414,9 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:34px 20px;fo
   <div class="backdrop" aria-hidden="true"></div>
   <div class="stage">
     <div class="m-eyebrow">The United States &middot; 1970&ndash;2026</div>
-    <p class="m-title">An annual historical review &mdash; 57 years, five scored dimensions, one year at a time &middot; <a class="methlink" href="/us-1970-2026-methodology.html">how it was made</a></p>
+    <p class="m-question">Does the country ever <em>feel</em> as good as its data says it is &mdash; or does every year feel worse than it was, and every past look better than it felt?</p>
+    <p class="m-spoiler">Spoiler: almost never &mdash; <b id="spoilern">44 of 57</b> years felt worse than the data said <a href="#moodgap">&darr; see why</a></p>
+    <p class="m-title">57 years, five scored dimensions, one year at a time &middot; <a class="methlink" href="/us-1970-2026-methodology.html">how it was made</a></p>
     <div class="m-grid">
       <div class="m-id">
         <div class="yearrow">
@@ -394,6 +429,7 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:34px 20px;fo
         <div class="m-actions">
           <button class="mbtn" id="playbtn">&#9654; Play through time</button>
           <button class="mbtn primary" id="openreport">Open the full report</button>
+          <a class="mbtn" href="#moodgap">The answer &darr;</a>
         </div>
       </div>
       <div class="m-readout">
@@ -413,10 +449,44 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:34px 20px;fo
     </div>
     <div class="scrubticks" id="scrubticks"></div>
     <div class="scrubhint">Drag the timeline &middot; arrow keys to travel &middot; space to play &middot; colors show the year&rsquo;s mood</div>
+    <a class="scrollcue" href="#moodgap" aria-label="Scroll down to the answer">&#x2304;</a>
   </div>
 </header>
 
 <main>
+<!-- ==================== MOOD VS REALITY ==================== -->
+<section class="block" id="moodgap"><div class="wrap">
+  <h2>Mood vs. reality</h2>
+  <p class="secnote">The answer to the question at the top: <strong>almost never</strong> &mdash; and the gap between how America is doing and how America feels is widening.</p>
+
+  <div class="stattiles" id="stattiles"></div>
+
+  <h3 class="ptitle">The gap &mdash; what the data said vs. how it felt</h3>
+  <p class="secnote">&ldquo;The data&rdquo; is the average of each year&rsquo;s Economy and Markets scores; &ldquo;the mood&rdquo; is the Overall Mood score. Crimson shading marks years that felt worse than the data; teal marks the rare opposite.</p>
+  <div class="chartbox">
+    <svg id="gapchart" viewBox="0 0 1040 300" role="img" aria-label="Fundamentals versus mood, 1970 to 2026"></svg>
+    <div class="ctip" id="gaptip"></div>
+  </div>
+  <div class="clegend" id="gaplegend"></div>
+
+  <h3 class="ptitle">The decoupling &mdash; every year, feelings vs. facts</h3>
+  <p class="secnote">Each dot is a year. On the diagonal, feelings match facts. Below it, the year felt worse than its data. Watch the decades drift right (richer) and down (gloomier).</p>
+  <div class="scatwrap">
+    <svg id="scatchart" viewBox="0 0 520 480" role="img" aria-label="Scatter of fundamentals versus mood by year"></svg>
+  </div>
+  <div class="clegend" id="scatlegend"></div>
+
+  <h3 class="ptitle">The reality check &mdash; real survey data, same story</h3>
+  <p class="secnote">No model judgments here: the magenta line is the University of Michigan&rsquo;s Index of Consumer Sentiment (annual average of actual survey responses). The dashed line is what the economy alone &mdash; inflation, unemployment, and real GDP-per-capita growth &mdash; predicts sentiment should be, from a regression fit on 1970&ndash;2025. The shaded gap is pure vibes.</p>
+  <div class="chartbox">
+    <svg id="realchart" viewBox="0 0 1040 330" role="img" aria-label="Actual versus economy-predicted consumer sentiment, 1970 to 2026"></svg>
+    <div class="ctip" id="realtip"></div>
+  </div>
+  <div class="clegend" id="reallegend"></div>
+  <p class="mrfoot" id="mrfoot"></p>
+</div></section>
+
+
 <!-- ==================== TRENDS ==================== -->
 <section class="block" id="trends"><div class="wrap">
   <h2>Five dimensions, fifty-seven years</h2>
@@ -488,6 +558,7 @@ footer{text-align:center;color:var(--muted);font-size:.8rem;padding:34px 20px;fo
 
 <script>
 const CHART = {"years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "series": {"economy": [-1, 1, 2, -1, -3, 0, 1, 1, 1, -1, -2, -1, -2, 2, 3, 2, 1, 1, 2, 1, -2, -1, 1, 1, 2, 2, 2, 3, 3, 3, 1, -1, 0, 1, 2, 1, 1, 0, -3, -3, 1, -1, 1, 1, 2, 1, 1, 2, 2, 1, -2, 2, -1, 2, 1, 1, 0], "markets": [1, 2, 2, -2, -3, 3, 2, -2, 0, 1, 2, -1, 3, 2, 0, 3, 2, 0, 2, 3, -2, 3, 1, 1, -1, 3, 2, 3, 2, 3, -2, -2, -3, 3, 2, 0, 2, 1, -3, 3, 2, 0, 2, 3, 2, 0, 2, 3, -2, 3, 2, 2, -3, 2, 2, 2, 2], "politics": [-1, 1, 1, -3, -2, 0, 2, 1, 1, -1, -1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, -1, 1, 0, 1, 1, 1, 1, -1, -1, 0, 0, 1, -1, -2, 1, -2, -1, 1, -1, -2, -2, -2, -2, -1, -1, -2, -1, -2, -2], "culture": [1, 2, 2, 1, 1, 1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 3, 1, -1, -1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0, 2, 1, 0, 0, 1, -2, 0, 0, 2, 1, 1, 1], "overallMood": [-1, 0, 2, -2, -2, -1, 1, 0, 0, -2, -1, 1, -1, 1, 2, 2, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 2, 2, 2, 2, 0, -2, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, 1, 0, -1, 1, 0, -1, -1, -1, -3, 0, -1, 0, 0, -1, 0]}};
+const MOODREAL = {"years":[1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026],"sent":[75.9,80.6,91.8,76.9,64.4,70.4,86.1,87.7,79.4,66,64.4,70.7,68,87.4,97.5,93.2,94.8,90.6,93.7,92.8,81.6,77.6,77.3,82.8,92.3,92.2,93.6,103.2,104.6,105.8,107.6,89.2,89.6,87.6,95.2,88.6,87.3,85.6,63.8,66.3,71.8,67.4,76.5,79.2,84.1,92.9,91.8,96.8,98.4,96,81.5,77.6,59,65.4,72.5,57.6,52.2],"pred":[75.2,83.7,91.3,88.7,64,63,83.9,81.9,83.6,71.9,57.2,69,62.2,83.3,91.4,85.9,87.2,85.8,87.8,85.7,79.2,73.7,83.5,82.8,88.2,85.5,88.3,91.7,94,94.2,91,83.2,85.5,86.6,89.4,88,87.3,86,77.8,72.4,81.5,77.4,82.6,84.5,87.2,92.4,88.3,89.5,91.3,92,74.1,93.7,81.1,88.2,89,88.3,87.3],"misery":[10.9,10.2,8.9,11.1,16.7,17.6,13.5,13.5,13.7,17.1,20.7,18,15.9,12.8,11.9,10.7,8.9,9.8,9.6,10,11,11.1,10.5,9.9,8.7,8.4,8.3,7.3,6,6.4,7.3,7.6,7.4,8.3,8.2,8.4,7.8,7.5,9.6,9,11.2,12.1,10.1,8.8,7.8,5.4,6.1,6.5,6.3,5.5,9.4,10,11.6,7.8,7,6.9,7],"gdppc":[-1,2,4.1,4.6,-1.4,-1.2,4.4,3.6,4.4,2,-1.4,1.5,-2.7,3.6,6.3,3.2,2.5,2.5,3.2,2.7,0.8,-1.4,2.2,1.4,2.8,1.5,2.6,3.2,3.3,3.6,2.9,0,0.7,1.8,2.9,2.5,1.8,1,-0.8,-3.4,1.8,0.8,1.5,1.4,1.7,2.1,1,1.8,2.4,2,-2.5,5.9,2,2.1,1.9,1.6,1.2],"fit":{"b0":96.41,"b1":-1.73,"b2":2.47,"r2":0.45,"n":56}};
 /* ---------- data & constants ---------- */
 const DIMS = [
   {key:'economy',  label:'Economy',  short:'Econ'},
@@ -908,6 +979,178 @@ function wireKeys(){
   });
 }
 
+/* ---------- mood vs reality ---------- */
+const MR_NEG = '#c05348', MR_POS = '#3f9484';           // gap fills (ramp arms)
+const MOOD_COLOR = () => seriesColor('overallMood');
+const ERA_DOT = {e70:'#e8862c',e80:'#ff3ec8',e90:'#d33a2f',e00:'#22b8d6',e10:'#2962ff',e20:'#8b7cf6'};
+
+function fund(i){ return (S.economy[i]+S.markets[i])/2; }
+
+/* polygons between two series, colored by sign of (a-b) */
+function gapPolys(svg, xs, aY, bY){
+  for(let i=0;i<xs.length-1;i++){
+    if(aY[i]==null||aY[i+1]==null||bY[i]==null||bY[i+1]==null) continue;
+    const d0=bY[i]-aY[i], d1=bY[i+1]-aY[i+1]; // svg y grows down: a below b means a-val < b-val
+    const seg=(x0,ya0,yb0,x1,ya1,yb1,neg)=>{
+      const p=el('polygon',{class:'gapfill',
+        points:`${x0},${ya0} ${x1},${ya1} ${x1},${yb1} ${x0},${yb0}`,
+        fill:neg?MR_NEG:MR_POS,'fill-opacity':.26});
+      svg.appendChild(p);
+    };
+    if(d0===0&&d1===0) continue;
+    if(d0*d1>=0){ seg(xs[i],aY[i],bY[i],xs[i+1],aY[i+1],bY[i+1],(d0+d1)<0); }
+    else{
+      const t=d0/(d0-d1), xi=xs[i]+t*(xs[i+1]-xs[i]), yi=aY[i]+t*(aY[i+1]-aY[i]);
+      seg(xs[i],aY[i],bY[i],xi,yi,yi,d0<0);
+      seg(xi,yi,yi,xs[i+1],aY[i+1],bY[i+1],d1<0);
+    }
+  }
+}
+
+function lineChart(svgId, tipId, legendId, cfg){
+  const svg=$(svgId); svg.innerHTML='';
+  const {W,H,L,R,T,B,ymin,ymax,yticks,series,tipRows}=cfg;
+  const x=i=>L+(W-L-R)*(i/(N-1));
+  const y=v=>T+(H-T-B)*((ymax-v)/(ymax-ymin));
+  yticks.forEach(v=>{
+    svg.appendChild(el('line',{class:'grid',x1:L,x2:W-R,y1:y(v),y2:y(v),
+      'stroke-opacity':v===0?0.9:0.45}));
+    const t=el('text',{class:'axis',x:L-8,y:y(v)+4,'text-anchor':'end'});
+    t.textContent=cfg.fmtY?cfg.fmtY(v):v; svg.appendChild(t);
+  });
+  for(let yr=1970;yr<=2026;yr+=10){
+    const t=el('text',{class:'axis',x:x(yr-1970),y:H-8,'text-anchor':'middle'});
+    t.textContent=yr; svg.appendChild(t);
+  }
+  const xs=YEARS.map((_,i)=>x(i));
+  const [a,b]=series; // a = main, b = reference
+  gapPolys(svg, xs, a.vals.map(v=>v==null?null:y(v)), b.vals.map(v=>v==null?null:y(v)));
+  [b,a].forEach(s=>{
+    const pts=s.vals.map((v,i)=>v==null?null:`${xs[i].toFixed(1)},${y(v).toFixed(1)}`).filter(Boolean).join(' ');
+    svg.appendChild(el('polyline',{class:'gline'+(s.ref?' ref':''),points:pts,
+      ...(s.ref?{}:{stroke:s.color})}));
+  });
+  // end labels
+  series.forEach((s,si)=>{
+    const lastIdx=s.vals.map((v,i)=>v==null?-1:i).filter(i=>i>=0).pop();
+    const t=el('text',{class:'endlab2',x:W-R+6,y:y(s.vals[lastIdx])+(si===0?-4:12)});
+    t.textContent=s.label; svg.appendChild(t);
+  });
+  // hover
+  svg.appendChild(el('line',{class:'hoverline',id:svgId.slice(1)+'-hl',x1:0,x2:0,y1:T,y2:H-B,visibility:'hidden',stroke:'currentColor','stroke-dasharray':'3 3','stroke-width':1,'stroke-opacity':.6}));
+  const tip=$(tipId), box=svg.parentElement;
+  svg.addEventListener('pointermove',e=>{
+    const r=svg.getBoundingClientRect();
+    const px=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0,Math.min(N-1,Math.round((px-L)/(W-L-R)*(N-1))));
+    const hl=$('#'+svgId.slice(1)+'-hl');
+    hl.setAttribute('visibility','visible');
+    hl.setAttribute('x1',x(i)); hl.setAttribute('x2',x(i));
+    tip.style.display='block';
+    tip.innerHTML=tipRows(i);
+    const br=box.getBoundingClientRect();
+    let tx=(x(i)/W)*r.width+16;
+    if(tx>br.width-180) tx-=210;
+    tip.style.left=tx+'px';
+    tip.style.top=Math.min(e.clientY-br.top+10,br.height-130)+'px';
+  });
+  svg.addEventListener('pointerleave',()=>{
+    $('#'+svgId.slice(1)+'-hl').setAttribute('visibility','hidden');
+    tip.style.display='none';
+  });
+  $(legendId).innerHTML=series.map(s=>
+    `<span><i style="background:${s.ref?'var(--muted)':s.color}"></i>${s.legend||s.label}</span>`).join('')
+    + `<span><i style="background:${MR_NEG};opacity:.5"></i>felt worse than the data</span>`
+    + `<span><i style="background:${MR_POS};opacity:.5"></i>felt better</span>`;
+}
+
+function buildMoodReal(){
+  // --- stat tiles (computed live from the data) ---
+  const gapsF=YEARS.map((_,i)=>S.overallMood[i]-fund(i));
+  const below=gapsF.filter(g=>g<0).length;
+  const meanAll=gapsF.reduce((a,b)=>a+b,0)/N;
+  const meanEra=(y0,y1)=>{const g=YEARS.map((y,i)=>y>=y0&&y<=y1?gapsF[i]:null).filter(v=>v!=null);return g.reduce((a,b)=>a+b,0)/g.length;};
+  const early=meanEra(1980,1999), late=meanEra(2010,2026);
+  const lastResid=(()=>{for(let i=N-1;i>=0;i--){if(MOODREAL.sent[i]!=null&&MOODREAL.pred[i]!=null)return {y:YEARS[i],r:MOODREAL.sent[i]-MOODREAL.pred[i]};}})();
+  const sp=$('#spoilern'); if(sp) sp.textContent=`${below} of ${N}`;
+  $('#stattiles').innerHTML=[
+    {n:`${below} of ${N}`,l:'years felt worse than the data said (mood below the Economy+Markets average)'},
+    {n:meanAll.toFixed(1),l:'average mood gap across all 57 years, on the −3…+3 scale',c:MR_NEG},
+    {n:`${early.toFixed(1)} → ${late.toFixed(1)}`,l:'the gap, ’80s–’90s vs. 2010s–today — feelings are decoupling from facts',c:MR_NEG},
+    {n:Math.round(lastResid.r),l:`points below what the economy predicts consumer sentiment should be in ${lastResid.y} (Michigan survey)`,c:MR_NEG}
+  ].map(t=>`<div class="tile"><div class="tnum"${t.c?` style="color:${t.c}"`:''}>${t.n}</div><div class="tlab">${t.l}</div></div>`).join('');
+
+  // --- panel 1: the gap ---
+  lineChart('#gapchart','#gaptip','#gaplegend',{
+    W:1040,H:300,L:42,R:96,T:14,B:28,ymin:-3,ymax:3,yticks:[-3,-2,-1,0,1,2,3],
+    fmtY:fmt,
+    series:[
+      {vals:YEARS.map((_,i)=>S.overallMood[i]),color:MOOD_COLOR(),label:'The mood',legend:'Overall Mood score'},
+      {vals:YEARS.map((_,i)=>fund(i)),ref:true,label:'The data',legend:'Economy+Markets average'}
+    ],
+    tipRows:i=>{
+      const f=fund(i),m=S.overallMood[i],g=m-f;
+      return `<b>${YEARS[i]}</b> · ${EPITHETS[YEARS[i]]||''}`+
+        `<div class="row"><span class="nm">The data</span><span class="vl">${f>0?'+':''}${f.toFixed(1)}</span></div>`+
+        `<div class="row"><span class="nm">The mood</span><span class="vl">${fmt(m)}</span></div>`+
+        `<div class="row"><span class="nm">Gap</span><span class="vl" style="color:${g<0?MR_NEG:MR_POS}">${g>0?'+':''}${g.toFixed(1)}</span></div>`;
+    }
+  });
+
+  // --- panel 2: the decoupling scatter ---
+  const svg=$('#scatchart'); svg.innerHTML='';
+  const W=520,H=480,L=46,R=16,T=16,B=40;
+  const sx=v=>L+(W-L-R)*((v+3)/6), sy=v=>T+(H-T-B)*((3-v)/6);
+  for(let v=-3;v<=3;v++){
+    svg.appendChild(el('line',{class:'grid',x1:L,x2:W-R,y1:sy(v),y2:sy(v),'stroke-opacity':.4}));
+    svg.appendChild(el('line',{class:'grid',y1:T,y2:H-B,x1:sx(v),x2:sx(v),'stroke-opacity':.4}));
+    const ty=el('text',{class:'axis',x:L-8,y:sy(v)+4,'text-anchor':'end'}); ty.textContent=fmt(v); svg.appendChild(ty);
+    const tx=el('text',{class:'axis',x:sx(v),y:H-B+16,'text-anchor':'middle'}); tx.textContent=fmt(v); svg.appendChild(tx);
+  }
+  svg.appendChild(el('line',{class:'diag',x1:sx(-3),y1:sy(-3),x2:sx(3),y2:sy(3)}));
+  const r1=el('text',{class:'regionlab',x:sx(1.15),y:sy(-2.55)}); r1.textContent='felt worse than the data'; svg.appendChild(r1);
+  const r2=el('text',{class:'regionlab',x:sx(-2.9),y:sy(2.7)}); r2.textContent='felt better'; svg.appendChild(r2);
+  const xt=el('text',{class:'axis',x:(L+W-R)/2,y:H-6,'text-anchor':'middle'}); xt.textContent='the data (Economy+Markets avg)'; svg.appendChild(xt);
+  const yt=el('text',{class:'axis',x:12,y:(T+H-B)/2,transform:`rotate(-90 12 ${(T+H-B)/2})`,'text-anchor':'middle'}); yt.textContent='the mood'; svg.appendChild(yt);
+  const seen={};
+  YEARS.forEach((yr,i)=>{
+    const fx=fund(i),my=S.overallMood[i];
+    const k=fx+'|'+my, n=(seen[k]=(seen[k]||0)+1)-1;
+    const ang=n*2.4, rad=n?7+2.2*Math.sqrt(n):0;   // deterministic sunflower offset for ties
+    const cxp=sx(fx)+rad*Math.cos(ang), cyp=sy(my)+rad*Math.sin(ang);
+    const era=eraOf(yr);
+    const c=el('circle',{cx:cxp,cy:cyp,r:5.5,fill:ERA_DOT[era.era],'fill-opacity':.85,
+      stroke:isDark()?'#161510':'#faf8f4'});
+    const ti=el('title',{}); ti.textContent=`${yr} · ${EPITHETS[yr]||''}\ndata ${fx>0?'+':''}${fx.toFixed(1)} · mood ${fmt(my)}`;
+    c.appendChild(ti); svg.appendChild(c);
+  });
+  $('#scatlegend').innerHTML=DECADES.map(d=>
+    `<span><i style="background:${ERA_DOT[d.era]};height:9px;width:9px;border-radius:50%"></i>${d.name}</span>`).join('');
+
+  // --- panel 3: reality check ---
+  const vals=[...MOODREAL.sent,...MOODREAL.pred].filter(v=>v!=null);
+  const lo=Math.floor(Math.min(...vals)/10)*10, hi=Math.ceil(Math.max(...vals)/10)*10;
+  const ticks=[]; for(let v=lo;v<=hi;v+=10) ticks.push(v);
+  lineChart('#realchart','#realtip','#reallegend',{
+    W:1040,H:330,L:46,R:96,T:14,B:28,ymin:lo,ymax:hi,yticks:ticks,
+    series:[
+      {vals:MOODREAL.sent,color:MOOD_COLOR(),label:'Actual',legend:'Michigan Consumer Sentiment (actual)'},
+      {vals:MOODREAL.pred,ref:true,label:'Predicted',legend:'What the economy predicts'}
+    ],
+    tipRows:i=>{
+      const s=MOODREAL.sent[i],p=MOODREAL.pred[i];
+      if(s==null||p==null) return `<b>${YEARS[i]}</b> · no data`;
+      const g=s-p;
+      return `<b>${YEARS[i]}</b> · ${EPITHETS[YEARS[i]]||''}`+
+        `<div class="row"><span class="nm">Actual sentiment</span><span class="vl">${s.toFixed(1)}</span></div>`+
+        `<div class="row"><span class="nm">Economy predicts</span><span class="vl">${p.toFixed(1)}</span></div>`+
+        `<div class="row"><span class="nm">Vibes gap</span><span class="vl" style="color:${g<0?MR_NEG:MR_POS}">${g>0?'+':''}${g.toFixed(1)}</span></div>`;
+    }
+  });
+  const f=MOODREAL.fit;
+  $('#mrfoot').innerHTML=`Sources: University of Michigan Index of Consumer Sentiment (annual average of monthly values; 2026 is a partial-year average), and FRED series for unemployment (UNRATE), CPI inflation (CPIAUCSL, year-over-year of annual averages), and real GDP per capita (A939RX0Q048SBEA, annual growth). The prediction is an ordinary-least-squares fit over 1970&ndash;2025 (n=${f.n}): sentiment = ${f.b0} &minus; ${Math.abs(f.b1)}&times;(unemployment+inflation) + ${f.b2}&times;(real GDP/capita growth), R&sup2;=${f.r2}. The model scores in the first two panels carry the caveats described in <a href="/us-1970-2026-methodology.html">the methodology</a>; this panel exists precisely because it doesn&rsquo;t rely on them.`;
+}
+
 /* ---------- restyle legacy badge/scorecard colors to the new ramp ---------- */
 function recolorArchive(){
   const restyle = el=>{
@@ -931,6 +1174,7 @@ function init(){
   buildChart();
   buildHeatmap();
   buildDecades();
+  buildMoodReal();
   wireArchive();
   wireKeys();
   $('#prevbtn').addEventListener('click',()=>setYear(cur-1));
@@ -939,7 +1183,7 @@ function init(){
   $('#openreport').addEventListener('click',()=>openDrawer(YEARS[cur]));
   $('#drawer .scrim').addEventListener('click',closeDrawer);
   $('#drawer .closex').addEventListener('click',closeDrawer);
-  mqDark.addEventListener('change',()=>{RAMP[3]=rampColor(0);buildChart();buildHeatmap();buildDecades();buildScrubber();renderYear();});
+  mqDark.addEventListener('change',()=>{RAMP[3]=rampColor(0);buildChart();buildHeatmap();buildDecades();buildScrubber();buildMoodReal();renderYear();});
 
   const m = location.hash.match(/^#y(19[7-9]\d|20[0-2]\d)$/);
   if(m) cur = (+m[1])-1970;
