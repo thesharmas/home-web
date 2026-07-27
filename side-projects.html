@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side Projects — Rohit's Web</title>
-    <meta name="description" content="Side projects by Rohit Sharma — Los Altos List, a neighbor-recommended local services directory, DebtStack, a debt facility simulator for fintech founders, and an interactive US 1970–2026 historical databoard.">
+    <meta name="description" content="Side projects by Rohit Sharma — Los Altos List, a neighbor-recommended local services directory, DebtStack, a debt facility simulator and founder's guide to debt capital, and an interactive US 1970–2026 historical databoard.">
     <link rel="canonical" href="https://thesharmas.org/side-projects.html">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thesharmas.org/side-projects.html">
     <meta property="og:site_name" content="Rohit's Web">
     <meta property="og:title" content="Side Projects — Rohit's Web">
-    <meta property="og:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator for fintech founders.">
+    <meta property="og:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
     <meta property="og:image" content="https://thesharmas.org/assets/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Side Projects — Rohit's Web">
-    <meta name="twitter:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator for fintech founders.">
+    <meta name="twitter:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
     <meta name="twitter:image" content="https://thesharmas.org/assets/og-image.png">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -191,7 +191,7 @@
                         :class="darkMode ? 'text-white' : 'text-gray-900'">DebtStack</h2>
                 </div>
                 <span class="text-[10px] font-mono tabular-nums"
-                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">02 / simulator</span>
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">02 / simulator + guide</span>
             </div>
 
             <div class="border p-5 sm:p-6"
@@ -202,10 +202,12 @@
                 </p>
                 <p class="leading-relaxed mb-5 max-w-2xl"
                    :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
-                    A debt facility simulator for fintech founders. DebtStack models the debt
-                    facility around your plan — warehouse draws, sweeps, losses, opex — month by
-                    month, and tells you how much equity you actually need to raise. The peak of
-                    the curve is your raise. Free for founders.
+                    A debt facility simulator and guide for fintech founders. DebtStack models
+                    the debt facility around your plan — warehouse draws, sweeps, losses, opex —
+                    month by month, and tells you how much equity you actually need to raise.
+                    It now ships with A Founder's Guide to Debt Capital: the full facility
+                    lifecycle, from term sheet to facility live, written from the borrower's
+                    chair. Free for founders.
                 </p>
                 <ul class="space-y-2 text-xs sm:text-sm mb-6"
                     :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
@@ -225,12 +227,23 @@
                         <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
                         Excel export for your data room
                     </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Founder's guide to debt capital — term sheets, true cost, sizing, and lender management
+                    </li>
                 </ul>
-                <a href="https://debtstack.tools?ref=thesharmas" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                   :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                    <span class="text-[10px] opacity-70">[↗]</span> debtstack.tools
-                </a>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://debtstack.tools?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                       :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                        <span class="text-[10px] opacity-70">[↗]</span> debtstack.tools
+                    </a>
+                    <a href="https://debtstack.tools/guide/?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                       :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                        <span class="text-[10px] opacity-70">[↗]</span> read the guide
+                    </a>
+                </div>
             </div>
         </section>
 
