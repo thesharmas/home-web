@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading — Rohit's Web</title>
+    <meta name="description" content="Rohit Sharma's reading log — a daily-updated stream of articles, essays, and threads with summaries, tags, and reading activity.">
+    <link rel="canonical" href="https://thesharmas.org/reading.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thesharmas.org/reading.html">
+    <meta property="og:site_name" content="Rohit's Web">
+    <meta property="og:title" content="Reading — Rohit's Web">
+    <meta property="og:description" content="A daily-updated reading log with summaries, tags, and activity.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Reading — Rohit's Web">
+    <meta name="twitter:description" content="A daily-updated reading log with summaries, tags, and activity.">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+                    },
+                },
+            },
+        };
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="assets/analytics.js"></script>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+        [x-cloak] { display: none !important; }
+        .term-dark {
+            background: #050806;
+            color: #c8f5c8;
+        }
+        .term-light {
+            background: #ecece4;
+            color: #1a1a12;
+        }
+        .term-scanlines {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.06;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.45) 2px,
+                rgba(0, 0, 0, 0.45) 3px
+            );
+        }
+        .term-light .term-scanlines {
+            opacity: 0.04;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.12) 2px,
+                rgba(0, 0, 0, 0.12) 3px
+            );
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .term-cursor { animation: none !important; }
+        }
+        .term-cursor::after {
+            content: "▌";
+            animation: termBlink 1.1s steps(2, end) infinite;
+            color: currentColor;
+            opacity: 0.85;
+        }
+        @keyframes termBlink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .fade-in { animation: fadeIn 0.6s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Activity heatmap — sequential emerald ramp, one per color mode */
+        .hm-cell {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            flex: none;
+        }
+        body.term-page-dark .hm-0 { background: rgba(16, 185, 129, 0.09); }
+        body.term-page-dark .hm-1 { background: #0b4a33; }
+        body.term-page-dark .hm-2 { background: #0f7a51; }
+        body.term-page-dark .hm-3 { background: #10b981; }
+        body.term-page-dark .hm-4 { background: #6ee7b7; }
+        body.term-page-light .hm-0 { background: rgba(26, 26, 18, 0.07); }
+        body.term-page-light .hm-1 { background: #a9dfc3; }
+        body.term-page-light .hm-2 { background: #4cc493; }
+        body.term-page-light .hm-3 { background: #0d9367; }
+        body.term-page-light .hm-4 { background: #065f46; }
+        .hm-cell.hm-active { cursor: pointer; }
+        body.term-page-dark .hm-cell.hm-selected { outline: 2px solid #c8f5c8; outline-offset: 1px; }
+        body.term-page-light .hm-cell.hm-selected { outline: 2px solid #1a1a12; outline-offset: 1px; }
+        .hm-scroll::-webkit-scrollbar { height: 6px; }
+        .hm-scroll::-webkit-scrollbar-thumb { background: rgba(16, 185, 129, 0.35); }
+    </style>
+</head>
+<body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
+      x-data="readingPage()"
+      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+    <div class="term-scanlines" aria-hidden="true"></div>
+
+    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+        <a href="index.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> home
+        </a>
+        <button type="button" @click="darkMode = !darkMode"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
+                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                aria-label="Toggle color mode">
+            <span x-text="darkMode ? 'lite' : 'drk'"></span>
+        </button>
+    </div>
+
+    <main class="relative z-10 mx-auto max-w-5xl px-4 pb-20 pt-20 sm:px-6 fade-in">
+        <header class="mb-10 border-b pb-8"
+                :class="darkMode ? 'border-emerald-500/25' : 'border-gray-800/30'">
+            <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
+               :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
+                ~/HOME/READING
+            </p>
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight uppercase term-cursor"
+                :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                Reading Log
+            </h1>
+            <p class="mt-4 max-w-2xl text-xs sm:text-sm leading-relaxed"
+               :class="darkMode ? 'text-zinc-200/90' : 'text-gray-700'">
+                What I've been reading — captured automatically, updated daily.
+            </p>
+        </header>
+
+        <!-- Loading / error -->
+        <template x-if="loading">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">loading reading.json …</p>
+        </template>
+        <template x-if="error">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-red-400/80' : 'text-red-700'">error: could not load data/reading.json</p>
+        </template>
+
+        <template x-if="!loading && !error">
+            <div>
+                <!-- Stats strip -->
+                <section class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4" aria-label="Reading stats">
+                    <template x-for="stat in statTiles" :key="stat.label">
+                        <div class="border p-4"
+                             :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                            <p class="text-[10px] font-bold uppercase tracking-[0.25em] mb-2"
+                               :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'"
+                               x-text="stat.label"></p>
+                            <p class="text-lg sm:text-xl font-bold leading-tight break-words"
+                               :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                               x-text="stat.value"></p>
+                        </div>
+                    </template>
+                </section>
+
+                <!-- Activity heatmap -->
+                <section class="mb-8 border p-4 sm:p-5 relative"
+                         :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'"
+                         aria-label="Reading activity by day">
+                    <div class="flex items-baseline justify-between gap-4 mb-4">
+                        <h2 class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                            :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">activity</h2>
+                        <p class="text-[10px] uppercase tracking-[0.15em]"
+                           :class="darkMode ? 'text-emerald-500/50' : 'text-gray-500'">last 26 weeks · click a day to filter</p>
+                    </div>
+                    <div class="hm-scroll overflow-x-auto pb-2">
+                        <div class="inline-block min-w-max">
+                            <!-- Month labels -->
+                            <div class="flex gap-[3px] mb-1 ml-8">
+                                <template x-for="(week, wi) in weeks" :key="'m' + wi">
+                                    <div class="w-[12px] text-[9px] uppercase overflow-visible whitespace-nowrap"
+                                         :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'"
+                                         x-text="week.monthLabel"></div>
+                                </template>
+                            </div>
+                            <div class="flex gap-[3px]">
+                                <!-- Day labels -->
+                                <div class="flex flex-col gap-[3px] w-8 pr-2 text-right text-[9px] uppercase"
+                                     :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">
+                                    <template x-for="d in ['', 'mon', '', 'wed', '', 'fri', '']">
+                                        <div class="h-[12px] leading-[12px]" x-text="d"></div>
+                                    </template>
+                                </div>
+                                <template x-for="(week, wi) in weeks" :key="wi">
+                                    <div class="flex flex-col gap-[3px]">
+                                        <template x-for="day in week.days" :key="day.key">
+                                            <div class="hm-cell"
+                                                 :class="['hm-' + day.level,
+                                                          day.count > 0 ? 'hm-active' : '',
+                                                          dayFilter === day.key ? 'hm-selected' : '']"
+                                                 role="img"
+                                                 :aria-label="day.key + ': ' + day.count + ' reads'"
+                                                 @mouseenter="hoverDay = day; hoverX = $event.clientX; hoverY = $event.clientY"
+                                                 @mousemove="hoverX = $event.clientX; hoverY = $event.clientY"
+                                                 @mouseleave="hoverDay = null"
+                                                 @click="toggleDayFilter(day)"></div>
+                                        </template>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 flex items-center justify-end gap-1 text-[9px] uppercase tracking-[0.15em]"
+                         :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">
+                        <span class="mr-1">less</span>
+                        <div class="hm-cell hm-0"></div>
+                        <div class="hm-cell hm-1"></div>
+                        <div class="hm-cell hm-2"></div>
+                        <div class="hm-cell hm-3"></div>
+                        <div class="hm-cell hm-4"></div>
+                        <span class="ml-1">more</span>
+                    </div>
+                    <!-- Hover tooltip -->
+                    <div x-show="hoverDay" x-cloak
+                         class="pointer-events-none fixed z-50 border px-2 py-1 text-[10px] uppercase tracking-wider"
+                         :class="darkMode ? 'border-emerald-500/50 bg-black text-gray-100' : 'border-gray-800 bg-white text-gray-900'"
+                         :style="'left:' + (hoverX + 12) + 'px; top:' + (hoverY - 30) + 'px'">
+                        <span x-text="hoverDay ? hoverDay.key + ' · ' + hoverDay.count + (hoverDay.count === 1 ? ' read' : ' reads') : ''"></span>
+                    </div>
+                </section>
+
+                <!-- Tag filters -->
+                <section class="mb-10" aria-label="Filter by tag">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="text-[10px] font-bold uppercase tracking-[0.25em] mr-1"
+                              :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">filter:</span>
+                        <button type="button" @click="setTagFilter(null)"
+                                class="border px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest transition-colors"
+                                :class="tagFilter === null
+                                    ? (darkMode ? 'border-emerald-400 bg-emerald-500/15 text-emerald-100' : 'border-gray-900 bg-gray-900 text-white')
+                                    : (darkMode ? 'border-emerald-500/30 text-emerald-300/80 hover:bg-emerald-500/10' : 'border-gray-500 text-gray-700 hover:bg-black/5')">
+                            all
+                        </button>
+                        <template x-for="t in tagCounts" :key="t.tag">
+                            <button type="button" @click="setTagFilter(tagFilter === t.tag ? null : t.tag)"
+                                    class="border px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest transition-colors"
+                                    :class="tagFilter === t.tag
+                                        ? (darkMode ? 'border-emerald-400 bg-emerald-500/15 text-emerald-100' : 'border-gray-900 bg-gray-900 text-white')
+                                        : (darkMode ? 'border-emerald-500/30 text-emerald-300/80 hover:bg-emerald-500/10' : 'border-gray-500 text-gray-700 hover:bg-black/5')">
+                                <span x-text="t.tag"></span>
+                                <span class="opacity-60" x-text="' ' + t.count"></span>
+                            </button>
+                        </template>
+                        <button type="button" x-show="dayFilter" x-cloak @click="setDayFilter(null)"
+                                class="border px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest transition-colors"
+                                :class="darkMode ? 'border-amber-400/60 text-amber-200 hover:bg-amber-500/10' : 'border-amber-700 text-amber-900 hover:bg-amber-500/10'">
+                            <span x-text="'day: ' + dayFilter"></span> ×
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Log stream -->
+                <section aria-label="Reading log">
+                    <template x-if="groups.length === 0">
+                        <p class="text-xs uppercase tracking-[0.25em]"
+                           :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">no entries match — clear filters</p>
+                    </template>
+
+                    <template x-for="group in groups" :key="group.day">
+                        <div class="mb-10">
+                            <div class="mb-4 flex items-baseline gap-3 border-b pb-2"
+                                 :class="darkMode ? 'border-emerald-500/25' : 'border-gray-800/30'">
+                                <h2 class="text-xs font-bold uppercase tracking-[0.25em]"
+                                    :class="darkMode ? 'text-gray-100' : 'text-gray-900'"
+                                    x-text="group.label"></h2>
+                                <span class="text-[10px] uppercase tracking-[0.2em]"
+                                      :class="darkMode ? 'text-emerald-500/50' : 'text-gray-500'"
+                                      x-text="group.items.length + (group.items.length === 1 ? ' entry' : ' entries')"></span>
+                            </div>
+
+                            <div class="space-y-4">
+                                <template x-for="entry in group.items" :key="entry.id">
+                                    <article class="border p-4 sm:p-5 transition-colors"
+                                             :class="darkMode ? 'border-emerald-500/25 bg-black/30 hover:border-emerald-500/45' : 'border-gray-800 bg-white hover:border-gray-900'">
+                                        <div class="flex items-start gap-3 sm:gap-4">
+                                            <span class="shrink-0 text-xs pt-1 tabular-nums"
+                                                  :class="darkMode ? 'text-emerald-500/80' : 'text-gray-500'"
+                                                  x-text="entry.time"></span>
+                                            <div class="min-w-0 flex-1">
+                                                <h3 class="text-base sm:text-lg font-bold leading-snug">
+                                                    <template x-if="entry.url">
+                                                        <a :href="entry.url" target="_blank" rel="noopener noreferrer"
+                                                           @click="track('reading_entry_click', { title: entry.title, publication: entry.publication, url: entry.url, tags: entry.tags })"
+                                                           class="transition-colors hover:underline underline-offset-4"
+                                                           :class="darkMode ? 'text-gray-50 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'"
+                                                           x-text="entry.title"></a>
+                                                    </template>
+                                                    <template x-if="!entry.url">
+                                                        <span :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                                              x-text="entry.title"></span>
+                                                    </template>
+                                                </h3>
+                                                <p class="mt-1.5 text-xs sm:text-sm"
+                                                   :class="darkMode ? 'text-gray-400' : 'text-gray-600'">
+                                                    <span x-text="entry.publication || 'Unknown'"></span><template x-if="entry.author"><span> · <span x-text="entry.author"></span></span></template>
+                                                </p>
+                                                <template x-if="entry.summary">
+                                                    <div class="mt-3">
+                                                        <p class="text-sm leading-relaxed"
+                                                           :class="[darkMode ? 'text-zinc-300' : 'text-gray-700',
+                                                                    expanded[entry.id] ? '' : 'line-clamp-2']"
+                                                           x-text="entry.summary"></p>
+                                                        <button type="button" @click="toggleSummary(entry)"
+                                                                class="mt-1.5 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                                                :class="darkMode ? 'text-emerald-400 hover:text-emerald-200' : 'text-emerald-800 hover:text-emerald-950'">
+                                                            <span x-text="expanded[entry.id] ? '▾ less' : '▸ more'"></span>
+                                                        </button>
+                                                    </div>
+                                                </template>
+                                                <div class="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5">
+                                                    <template x-for="tag in entry.tags" :key="tag">
+                                                        <button type="button"
+                                                                @click="setTagFilter(tagFilter === tag ? null : tag)"
+                                                                class="text-xs transition-colors"
+                                                                :class="darkMode ? 'text-cyan-300/90 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'"
+                                                                x-text="'#' + tag.replace(/\s+/g, '-')"></button>
+                                                    </template>
+                                                    <span class="text-[10px] uppercase tracking-wider border px-1.5 py-0.5"
+                                                          :class="darkMode ? 'border-emerald-500/25 text-emerald-500/70' : 'border-gray-400 text-gray-500'"
+                                                          x-text="entry.source"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </section>
+
+                <footer class="mt-12 border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
+                        :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
+                    <span x-text="'eof · ' + entries.length + ' entries · updated ' + generatedAt"></span>
+                </footer>
+            </div>
+        </template>
+    </main>
+
+    <script>
+        function readingPage() {
+            return {
+                darkMode: true,
+                loading: true,
+                error: false,
+                entries: [],
+                generatedAt: '',
+                tagFilter: null,
+                dayFilter: null,
+                expanded: {},
+                hoverDay: null,
+                hoverX: 0,
+                hoverY: 0,
+
+                async init() {
+                    try {
+                        const res = await fetch('data/reading.json');
+                        if (!res.ok) throw new Error(res.status);
+                        const data = await res.json();
+                        this.entries = (data.entries || [])
+                            .map(e => ({
+                                ...e,
+                                day: this.localDay(e.date),
+                                time: this.localTime(e.date),
+                            }))
+                            .sort((a, b) => new Date(b.date) - new Date(a.date));
+                        this.generatedAt = data.generated_at ? this.localDay(data.generated_at) : '';
+                    } catch (err) {
+                        this.error = true;
+                    }
+                    this.loading = false;
+                },
+
+                localDay(iso) {
+                    const d = new Date(iso);
+                    return d.getFullYear() + '-'
+                        + String(d.getMonth() + 1).padStart(2, '0') + '-'
+                        + String(d.getDate()).padStart(2, '0');
+                },
+                localTime(iso) {
+                    const d = new Date(iso);
+                    return String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+                },
+                dayLabel(key) {
+                    const d = new Date(key + 'T12:00:00');
+                    const wd = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][d.getDay()];
+                    return key + ' · ' + wd;
+                },
+
+                get filtered() {
+                    return this.entries.filter(e =>
+                        (!this.tagFilter || (e.tags || []).includes(this.tagFilter)) &&
+                        (!this.dayFilter || e.day === this.dayFilter));
+                },
+
+                get groups() {
+                    const map = new Map();
+                    for (const e of this.filtered) {
+                        if (!map.has(e.day)) map.set(e.day, []);
+                        map.get(e.day).push(e);
+                    }
+                    return [...map.entries()].map(([day, items]) => ({
+                        day,
+                        label: this.dayLabel(day),
+                        items,
+                    }));
+                },
+
+                get tagCounts() {
+                    const counts = new Map();
+                    for (const e of this.entries) {
+                        for (const t of (e.tags || [])) counts.set(t, (counts.get(t) || 0) + 1);
+                    }
+                    return [...counts.entries()]
+                        .map(([tag, count]) => ({ tag, count }))
+                        .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
+                },
+
+                get statTiles() {
+                    const now = new Date();
+                    const thisMonth = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0');
+                    const monthCount = this.entries.filter(e => e.day.startsWith(thisMonth)).length;
+                    const pubs = new Set(this.entries.map(e => e.publication || 'unknown'));
+                    const topTag = this.tagCounts[0];
+                    return [
+                        { label: 'total reads', value: String(this.entries.length) },
+                        { label: 'this month', value: String(monthCount) },
+                        { label: 'top tag', value: topTag ? topTag.tag : '—' },
+                        { label: 'sources', value: String(pubs.size) },
+                    ];
+                },
+
+                get weeks() {
+                    const counts = new Map();
+                    for (const e of this.entries) counts.set(e.day, (counts.get(e.day) || 0) + 1);
+
+                    const today = new Date();
+                    today.setHours(12, 0, 0, 0);
+                    // Start 26 weeks back, aligned to Sunday
+                    const start = new Date(today);
+                    start.setDate(start.getDate() - start.getDay() - 25 * 7);
+
+                    const weeks = [];
+                    let prevMonth = -1;
+                    const cursor = new Date(start);
+                    while (cursor <= today) {
+                        const days = [];
+                        let monthLabel = '';
+                        for (let i = 0; i < 7; i++) {
+                            const key = this.localDay(cursor.toISOString());
+                            const future = cursor > today;
+                            const count = counts.get(key) || 0;
+                            days.push({ key, count, level: future ? 0 : this.level(count) });
+                            if (i === 0 && cursor.getMonth() !== prevMonth) {
+                                monthLabel = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'][cursor.getMonth()];
+                                prevMonth = cursor.getMonth();
+                            }
+                            cursor.setDate(cursor.getDate() + 1);
+                        }
+                        weeks.push({ days, monthLabel });
+                    }
+                    return weeks;
+                },
+
+                level(count) {
+                    if (count <= 0) return 0;
+                    if (count === 1) return 1;
+                    if (count === 2) return 2;
+                    if (count <= 4) return 3;
+                    return 4;
+                },
+
+                track(event, props) {
+                    try {
+                        if (window.posthog && typeof window.posthog.capture === 'function') {
+                            window.posthog.capture(event, props);
+                        }
+                    } catch (e) { /* analytics never throws into the page */ }
+                },
+                setTagFilter(tag) {
+                    this.tagFilter = tag;
+                    this.track('reading_tag_filter', { tag: tag, cleared: tag === null });
+                },
+                setDayFilter(day) {
+                    this.dayFilter = day;
+                    this.track('reading_day_filter', { day: day, cleared: day === null });
+                },
+                toggleDayFilter(day) {
+                    if (day.count <= 0) return;
+                    this.setDayFilter(this.dayFilter === day.key ? null : day.key);
+                },
+                toggleSummary(entry) {
+                    this.expanded[entry.id] = !this.expanded[entry.id];
+                    this.track('reading_summary_toggle', {
+                        action: this.expanded[entry.id] ? 'expand' : 'collapse',
+                        title: entry.title,
+                        publication: entry.publication,
+                    });
+                },
+            };
+        }
+    </script>
+</body>
+</html>
