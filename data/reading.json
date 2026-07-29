@@ -1,7 +1,86 @@
 {
-  "generated_at": "2026-07-29T21:14:32.483Z",
-  "count": 6,
+  "generated_at": "2026-07-29T22:49:56.461Z",
+  "count": 11,
   "entries": [
+    {
+      "id": "rl-20260729224025-a1c955",
+      "date": "2026-07-29T22:40:25.334Z",
+      "publication": "The Information",
+      "title": "Demand Heats Up For Spend Now, Lease Later AI Financing",
+      "author": "Dakin Campbell (dakin@theinformation.com)",
+      "url": "https://www.theinformation.com/newsletters/the-information-finance/demand-heats-spend-now-lease-later-ai-financing?shared=8d826c489f359a0f&rc=olgw0g",
+      "summary": "AI data center developers are increasingly turning to pre-lease bridge financing and cost reimbursement agreements (CRAs) to fund early-stage work—land, power studies, equipment—before tenants sign leases. Hyperscalers and AI labs are backstopping these arrangements to reduce lender risk, with Goldman Sachs noting a sharp rise in client inquiries for this type of capital. The approach carries real risk, as illustrated by Fermi America, whose $150 million advance from a prospective tenant (later revealed to be Amazon) was withdrawn after lease negotiations failed.",
+      "tags": [
+        "capital expenditure",
+        "cloud",
+        "technology",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260729220924-8acc76",
+      "date": "2026-07-29T22:09:24.203Z",
+      "publication": "Substack / Ahead of AI (Sebastian Raschka)",
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "author": "Sebastian Raschka, PhD",
+      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1?r=1dhwj",
+      "summary": "Sebastian Raschka shares a curated list of LLM research papers from January through May 2026, organized into categories such as architecture design, efficient training, inference efficiency, reasoning, reinforcement learning, and agent systems. The list reflects his current focus areas including hybrid architectures, reasoning models, and practical serving infrastructure. The post is paywalled after the first two sections, so only the Architecture and Model Design and the beginning of Efficient Training sections are visible.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "hook",
+      "partial": true
+    },
+    {
+      "id": "rl-20260729220636-09de36",
+      "date": "2026-07-29T22:06:36.498Z",
+      "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "author": "Sebastian Raschka, PhD",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms?r=1dhwj&triedRedirect=true",
+      "summary": "The article explains how modern LLMs implement multiple reasoning effort modes (e.g., low, medium, high) by examining training techniques such as effort-conditioned RLVR with variable token-length penalties and supervised fine-tuning with mixed thinking/non-thinking examples. It surveys six open-weight flagship models—DeepSeek V4, Nemotron 3 Ultra, Kimi K2.5/K3, GLM-5, Qwen3, and Inkling—detailing how each trains and exposes reasoning effort controls. The piece also distinguishes inference-time scaling (adjusting reasoning effort within a fixed model) from training-time scaling (using a larger model), showing how the two axes interact on benchmarks.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "hook",
+      "partial": false
+    },
+    {
+      "id": "rl-20260729214601-0c5323",
+      "date": "2026-07-29T21:46:01.953Z",
+      "publication": "The Information",
+      "title": "Thinking Machines Cofounder to Return to OpenAI",
+      "author": "Stephanie Palazzolo and Amir Efrati",
+      "url": "https://www.theinformation.com/briefings/thinking-machines-cofounder-return-openai?rc=olgw0g",
+      "summary": "Lilian Weng, a cofounder of Thinking Machines Lab, is rejoining OpenAI to work on recursive self-improvement research after departing the startup citing health concerns from stress and workload. Her exit makes her the fourth Thinking Machines cofounder to leave in the past year, leaving Mira Murati and John Schulman as the two remaining cofounders. Thinking Machines, which recently launched its first open-source AI model Inkling, has raised $2 billion at a $10 billion valuation with investors including Nvidia and Andreessen Horowitz.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260729212756-770248",
+      "date": "2026-07-29T21:27:56.748Z",
+      "publication": null,
+      "title": "Reading Log",
+      "author": null,
+      "url": "localhost:8787/reading.html",
+      "summary": "This is a personal reading log dashboard hosted locally, showing 6 total reads for the month of July 29, 2026. It displays an activity heatmap and tag-based filters, with entries including an AI agent security incident writeup from Hugging Face, a Substack piece on AI and sustainability, and a LinkedIn post on debt capital for founders. The log is described as automatically captured and updated daily.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "security",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260729205009-1985a9",
       "date": "2026-07-29T20:50:09.120Z",
@@ -104,31 +183,31 @@
     "by_tag": [
       {
         "tag": "technology",
+        "count": 11
+      },
+      {
+        "tag": "ai agents",
         "count": 6
       },
       {
         "tag": "cloud",
-        "count": 3
-      },
-      {
-        "tag": "ai agents",
-        "count": 2
-      },
-      {
-        "tag": "capital expenditure",
-        "count": 2
+        "count": 4
       },
       {
         "tag": "investing",
+        "count": 4
+      },
+      {
+        "tag": "capital expenditure",
+        "count": 3
+      },
+      {
+        "tag": "security",
         "count": 2
       },
       {
         "tag": "tweet",
         "count": 2
-      },
-      {
-        "tag": "security",
-        "count": 1
       },
       {
         "tag": "sustainability",
@@ -137,8 +216,20 @@
     ],
     "by_publication": [
       {
+        "publication": "The Information",
+        "count": 2
+      },
+      {
         "publication": "Twitter/X",
         "count": 2
+      },
+      {
+        "publication": "Unknown",
+        "count": 2
+      },
+      {
+        "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
       },
       {
         "publication": "Hugging Face",
@@ -153,14 +244,14 @@
         "count": 1
       },
       {
-        "publication": "Unknown",
+        "publication": "Substack / Ahead of AI (Sebastian Raschka)",
         "count": 1
       }
     ],
     "by_month": [
       {
         "month": "2026-07",
-        "count": 6
+        "count": 11
       }
     ]
   }
