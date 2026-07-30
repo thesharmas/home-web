@@ -295,6 +295,65 @@
             </div>
         </section>
 
+        <!-- Project 04: Reading Log -->
+        <section id="reading-log" class="mt-16 scroll-mt-24">
+            <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                       :class="darkMode ? 'text-rose-400/85' : 'text-rose-900'">project_04</p>
+                    <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
+                        :class="darkMode ? 'text-white' : 'text-gray-900'">Reading Log</h2>
+                </div>
+                <span class="text-[10px] font-mono tabular-nums"
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">04 / agent pipeline</span>
+            </div>
+
+            <div class="border p-5 sm:p-6"
+                 :class="darkMode ? 'border-rose-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] mb-3"
+                   :class="darkMode ? 'text-rose-300/70' : 'text-rose-900'">
+                    Everything I read, captured by an AI agent
+                </p>
+                <p class="leading-relaxed mb-5 max-w-2xl"
+                   :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                    A personal reading log that captures everything I read &mdash; articles,
+                    tweets, paywalled subscriptions, native apps, even physical books. There's
+                    no parser and no app: a screenshot or a link goes to an AI agent that
+                    extracts, summarizes, tags, and dedupes every capture, then publishes this
+                    page nightly. The agent even logs into my subscriptions to fetch full
+                    articles.
+                </p>
+                <ul class="space-y-2 text-xs sm:text-sm mb-6"
+                    :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Capture from anywhere &mdash; iPhone Action Button, Mac hotkey, share sheet, or a WhatsApp message
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Content-agnostic &mdash; a vision model parses screenshots of anything, no format-specific code
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Handles paywalls &mdash; the agent manages logins to my subscriptions on its own
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Auto-summarized and tagged &mdash; every entry arrives pre-distilled and searchable
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Activity heatmap and tag filters, rebuilt nightly from a public JSON feed
+                    </li>
+                </ul>
+                <a href="reading.html"
+                   class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'border-rose-400/45 text-rose-200 hover:bg-rose-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                    <span class="text-[10px] opacity-70">[&raquo;]</span> open the reading log
+                </a>
+            </div>
+        </section>
+
         <footer class="mt-16 border-t pt-6 text-[10px] uppercase tracking-[0.25em]"
                 :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
             eof — more shipping soon
