@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-07-29T22:49:56.461Z",
-  "count": 11,
+  "generated_at": "2026-07-30T03:00:16.729Z",
+  "count": 14,
   "entries": [
+    {
+      "id": "rl-20260730010149-70a04e",
+      "date": "2026-07-30T01:01:49.016Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Evergreen (@evrgn11112231) on X",
+      "author": "https://x.com/evrgn11112231",
+      "url": "https://x.com/evrgn11112231/status/2082623673073013159",
+      "summary": "Came back just to say the vast majority of you are emotional idiots and I can’t believe anyone is actually debating the fundamentals of $META lol check your brains most of you panic bought this thing for the first time at $670 10 days ago just quit your jobs already",
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
+    {
+      "id": "rl-20260730010053-a506e9",
+      "date": "2026-07-30T01:00:53.357Z",
+      "publication": "X (formerly Twitter)",
+      "title": "space cadet 🇪🇺🌐🇩🇪 (@actsmaniac) on X",
+      "author": "https://x.com/actsmaniac",
+      "url": "https://x.com/actsmaniac/status/2082505467046056388",
+      "summary": "Truth nuke in the FT comment section on Berlin rent control",
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
+    {
+      "id": "rl-20260730002124-812d8d",
+      "date": "2026-07-30T00:21:24.061Z",
+      "publication": "Twitter/X",
+      "title": "Yellowbrick Investing (@joinyellowbrick): The Thinking Machine co-founder posted a long diatribe...",
+      "author": "Yellowbrick Investing (@joinyellowbrick)",
+      "url": "https://x.com/joinyellowbrick/status/2082550680191983652",
+      "summary": "Yellowbrick Investing mocks the co-founder of The Thinking Machine (Lilian Weng) for posting about stepping back from work due to health reasons, which turned out to be cover for her departure to join OpenAI. Lilian Weng's quoted tweet confirms she left 'Thinky' with a message about the future being worth building for humans.",
+      "tags": [
+        "tweet",
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260729224025-a1c955",
       "date": "2026-07-29T22:40:25.334Z",
@@ -183,11 +223,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "ai agents",
-        "count": 6
+        "count": 7
       },
       {
         "tag": "cloud",
@@ -202,11 +242,11 @@
         "count": 3
       },
       {
-        "tag": "security",
-        "count": 2
+        "tag": "tweet",
+        "count": 3
       },
       {
-        "tag": "tweet",
+        "tag": "security",
         "count": 2
       },
       {
@@ -216,15 +256,19 @@
     ],
     "by_publication": [
       {
+        "publication": "Twitter/X",
+        "count": 3
+      },
+      {
         "publication": "The Information",
         "count": 2
       },
       {
-        "publication": "Twitter/X",
+        "publication": "Unknown",
         "count": 2
       },
       {
-        "publication": "Unknown",
+        "publication": "X (formerly Twitter)",
         "count": 2
       },
       {
@@ -251,7 +295,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 11
+        "count": 14
       }
     ]
   }
