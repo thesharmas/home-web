@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Projects — Rohit's Web</title>
+    <meta name="description" content="Everything one self-hosted OpenClaw AI agent shipped — 29 projects across websites, home automation, family logistics, content pipelines, music tooling, and infrastructure. Compiled from the agent's own memory archives.">
+    <link rel="canonical" href="https://thesharmas.org/openclaw.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thesharmas.org/openclaw.html">
+    <meta property="og:site_name" content="Rohit's Web">
+    <meta property="og:title" content="OpenClaw Projects — Rohit's Web">
+    <meta property="og:description" content="One self-hosted AI agent. Nine workspaces. 29 shipped projects — from public websites to a sprinkler watchdog.">
+    <meta property="og:image" content="https://thesharmas.org/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OpenClaw Projects — Rohit's Web">
+    <meta name="twitter:description" content="One self-hosted AI agent. Nine workspaces. 29 shipped projects.">
+    <meta name="twitter:image" content="https://thesharmas.org/assets/og-image.png">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+                    },
+                },
+            },
+        };
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="assets/analytics.js"></script>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+        .term-dark { background: #050806; color: #c8f5c8; }
+        .term-light { background: #ecece4; color: #1a1a12; }
+        .term-scanlines {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.06;
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.45) 2px, rgba(0,0,0,0.45) 3px);
+        }
+        .term-light .term-scanlines {
+            opacity: 0.04;
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.12) 2px, rgba(0,0,0,0.12) 3px);
+        }
+        @media (prefers-reduced-motion: reduce) { .term-cursor { animation: none !important; } }
+        .term-cursor::after {
+            content: "▌";
+            animation: termBlink 1.1s steps(2, end) infinite;
+            color: currentColor;
+            opacity: 0.85;
+        }
+        @keyframes termBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+        .fade-in { animation: fadeIn 0.6s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* ---- Section accent system (theme-aware via body class) ---- */
+        .term-dark .sec-cyan   { --acc: #67e8f9; --acc-dim: rgba(34,211,238,0.75);  --acc-border: rgba(34,211,238,0.25); }
+        .term-dark .sec-lime   { --acc: #bef264; --acc-dim: rgba(163,230,53,0.75);  --acc-border: rgba(163,230,53,0.25); }
+        .term-dark .sec-amber  { --acc: #fcd34d; --acc-dim: rgba(251,191,36,0.75);  --acc-border: rgba(251,191,36,0.25); }
+        .term-dark .sec-violet { --acc: #c4b5fd; --acc-dim: rgba(167,139,250,0.8);  --acc-border: rgba(167,139,250,0.25); }
+        .term-dark .sec-rose   { --acc: #fda4af; --acc-dim: rgba(251,113,133,0.8);  --acc-border: rgba(251,113,133,0.25); }
+        .term-dark .sec-orange { --acc: #fdba74; --acc-dim: rgba(251,146,60,0.8);   --acc-border: rgba(251,146,60,0.25); }
+        .term-light .sec-cyan, .term-light .sec-lime, .term-light .sec-amber,
+        .term-light .sec-violet, .term-light .sec-rose, .term-light .sec-orange {
+            --acc-border: rgba(26,26,18,0.85);
+        }
+        .term-light .sec-cyan   { --acc: #155e75; --acc-dim: #155e75; }
+        .term-light .sec-lime   { --acc: #3f6212; --acc-dim: #3f6212; }
+        .term-light .sec-amber  { --acc: #92400e; --acc-dim: #92400e; }
+        .term-light .sec-violet { --acc: #5b21b6; --acc-dim: #5b21b6; }
+        .term-light .sec-rose   { --acc: #9f1239; --acc-dim: #9f1239; }
+        .term-light .sec-orange { --acc: #9a3412; --acc-dim: #9a3412; }
+
+        .oc-sec-label { color: var(--acc-dim); }
+        .oc-sec-rule { border-color: var(--acc-border); }
+        .oc-card {
+            border: 1px solid var(--acc-border);
+            padding: 1.25rem;
+        }
+        @media (min-width: 640px) { .oc-card { padding: 1.5rem; } }
+        .term-dark .oc-card { background: rgba(0,0,0,0.3); }
+        .term-light .oc-card { background: #ffffff; }
+        .oc-card h3 { color: #fff; }
+        .term-light .oc-card h3 { color: #111827; }
+        .oc-tag { color: var(--acc); }
+        .oc-body { color: rgba(200,245,200,0.75); }
+        .term-light .oc-body { color: #374151; }
+        .oc-list { color: rgba(200,245,200,0.7); }
+        .term-light .oc-list { color: #374151; }
+        .oc-bullet { color: rgba(16,185,129,0.8); }
+        .term-light .oc-bullet { color: #047857; }
+        .oc-idx { color: rgba(16,185,129,0.6); }
+        .term-light .oc-idx { color: #6b7280; }
+
+        .oc-navlink {
+            border: 1px solid rgba(16,185,129,0.3);
+            color: rgba(200,245,200,0.85);
+            transition: background-color 0.15s ease;
+        }
+        .oc-navlink:hover { background: rgba(16,185,129,0.1); }
+        .term-light .oc-navlink { border-color: rgba(26,26,18,0.7); color: #1a1a12; }
+        .term-light .oc-navlink:hover { background: rgba(0,0,0,0.05); }
+
+        .oc-stat { border: 1px solid rgba(16,185,129,0.25); }
+        .term-light .oc-stat { border-color: rgba(26,26,18,0.7); background: #ffffff; }
+        .oc-stat-num { color: #fff; }
+        .term-light .oc-stat-num { color: #111827; }
+        .oc-stat-label { color: rgba(16,185,129,0.7); }
+        .term-light .oc-stat-label { color: #4b5563; }
+    </style>
+</head>
+<body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
+      x-data="{ darkMode: true }"
+      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+    <div class="term-scanlines" aria-hidden="true"></div>
+
+    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+        <a href="side-projects.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> side projects
+        </a>
+        <button type="button" @click="darkMode = !darkMode"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
+                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                aria-label="Toggle color mode">
+            <span x-text="darkMode ? 'lite' : 'drk'"></span>
+        </button>
+    </div>
+
+    <main class="relative z-10 mx-auto max-w-5xl px-4 pb-20 pt-24 sm:px-6 fade-in">
+        <header class="mb-10 border-b pb-8"
+                :class="darkMode ? 'border-emerald-500/25' : 'border-gray-800/30'">
+            <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
+               :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
+                ~/HOME/SIDE-PROJECTS/OPENCLAW
+            </p>
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight uppercase term-cursor"
+                :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                openclaw projects
+            </h1>
+            <p class="mt-4 max-w-2xl leading-relaxed"
+               :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                One self-hosted OpenClaw agent &mdash; split across nine specialized
+                workspaces &mdash; shipped everything below.
+                Public websites, a house that reports its own status, school logistics
+                with approval gates, meal logging from photos, pool chemistry math,
+                and the infrastructure that keeps all of it honest. Compiled from the
+                agent's own memory archives.
+            </p>
+
+            <dl class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4 max-w-2xl">
+                <div class="oc-stat flex flex-col px-4 py-3">
+                    <dt class="oc-stat-label text-[10px] font-bold uppercase tracking-[0.2em] order-2">projects</dt>
+                    <dd class="oc-stat-num text-2xl font-bold tabular-nums">29</dd>
+                </div>
+                <div class="oc-stat flex flex-col px-4 py-3">
+                    <dt class="oc-stat-label text-[10px] font-bold uppercase tracking-[0.2em] order-2">workspaces</dt>
+                    <dd class="oc-stat-num text-2xl font-bold tabular-nums">9</dd>
+                </div>
+                <div class="oc-stat flex flex-col px-4 py-3">
+                    <dt class="oc-stat-label text-[10px] font-bold uppercase tracking-[0.2em] order-2">categories</dt>
+                    <dd class="oc-stat-num text-2xl font-bold tabular-nums">6</dd>
+                </div>
+                <div class="oc-stat flex flex-col px-4 py-3">
+                    <dt class="oc-stat-label text-[10px] font-bold uppercase tracking-[0.2em] order-2">chat interface</dt>
+                    <dd class="oc-stat-num text-2xl font-bold tabular-nums">1</dd>
+                </div>
+            </dl>
+        </header>
+
+        <nav class="mb-14 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-[0.2em]" aria-label="Sections">
+            <a href="#web" class="oc-navlink px-3 py-2">01 web</a>
+            <a href="#home" class="oc-navlink px-3 py-2">02 home</a>
+            <a href="#family" class="oc-navlink px-3 py-2">03 family</a>
+            <a href="#content" class="oc-navlink px-3 py-2">04 content</a>
+            <a href="#media" class="oc-navlink px-3 py-2">05 media</a>
+            <a href="#infra" class="oc-navlink px-3 py-2">06 infra</a>
+            <a href="#featured" class="oc-navlink px-3 py-2">07 featured</a>
+        </nav>
+
+        <!-- ============ 01 WEB ============ -->
+        <section id="web" class="sec-cyan mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">01 / websites &amp; public builds</h2>
+                <span class="oc-idx text-[10px] tabular-nums">1 project</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="helicon">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Helicon Works</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">01</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">A consulting site, built end to end</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Systematic domain hunt with live availability checks &mdash; every Foundation-canon name was squatted; helicon.works cost $4.18</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> DNS set through the Namecheap API; GitHub Pages cert stall root-caused to a DNS propagation window</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Full SEO plumbing: JSON-LD graph, a programmatically generated og-image the agent vision-verified, sitemap, robots</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Daily PostHog stats cron plus a weekly Search Console learner that proposes title/description improvements &mdash; report-only until it has real data</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ============ 02 HOME ============ -->
+        <section id="home" class="sec-lime mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">02 / household &amp; home automation</h2>
+                <span class="oc-idx text-[10px] tabular-nums">5 projects</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="ha-command">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Home Assistant Command Center</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">02</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">The whole house, one WhatsApp message</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> &ldquo;house status&rdquo; polls every entity and flags what matters: unlocked doors, lights left on, car unlocked, thermostat anomalies, pool, presence</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Lights, locks, garage, thermostat, scenes, and the Flo water valve &mdash; with hard-won entity-mapping rules encoded in agent memory</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Alerts flow the other way too: HA posts events over Tailscale to the agent, which routes them to the family group</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Standing rule after one wrong garage-door entity: verify state after every command</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="wallboards">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Wallboard Dashboards</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">03</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Lovelace boards edited by API, verified by read-back</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Network health, water status, doors, temperatures, Tesla, stocks &mdash; all in one consistent wallboard design system</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Custom leak-summary sensor pushed from the Shelly Cloud API because native HA only saw two of four detectors</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Kids' carpool and next-day school schedule cards fed by their own pipeline</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A &ldquo;Token Overlord&rdquo; card: Claude / OpenAI / Gemini API health scraped from status pages</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="trmnl">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">TRMNL E-Ink Dashboard</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">04</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">An 800&times;480 e-ink panel the agent designs and feeds</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A daytime-windowed cron pushes weather, markets, and today's + tomorrow's calendar &mdash; markets from CNBC because Yahoo and Stooq block datacenter IPs</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Restyled from color to pure black/white for the monochrome panel &mdash; then read the live config back and asserted the old color literals were gone</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="tesla">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Tesla Helpers</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">05</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Where's the car &mdash; in words, not coordinates</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Live reverse-geocoded address (&ldquo;Bordeaux Drive, Sunnyvale&rdquo;) as an HA helper, built after stock sensors proved unreliable</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Send a destination to the car's nav from chat</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> One config-include collision made every automation vanish &mdash; root-caused and turned into a standing rule</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="rachio">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Rachio Sprinkler Watchdog</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">06</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Built after catching Home Assistant in a false negative</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> The Rachio API's own last-watered data is the source of truth, not switch-transition guesses</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Daily summary sensor (&ldquo;💦 all scheduled sprinklers ran by 9:00 AM&rdquo;) plus a 9 PM did-not-run WhatsApp alert</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 03 FAMILY ============ -->
+        <section id="family" class="sec-amber mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">03 / family &amp; school</h2>
+                <span class="oc-idx text-[10px] tabular-nums">4 projects</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="harker">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">School Email Pipeline</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">07</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">School email in, approved calendar events out</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Sunday cron parses the week's school email into schema-validated events and sends a numbered digest to the family group</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> &ldquo;approve 3,4&rdquo; resumes a paused pipeline that creates the events, invites the right co-parent, and sets 7-day signup reminders</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Daily next-day schedule + carpool messages from five public ICS feeds and a shared sheet &mdash; live lookups only, because assignments change</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="costco">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Costco List</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">08</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">&ldquo;addc arugula, eggs&rdquo;</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Conversational list management in the family group; one canonical script owns the state</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Post-write readback is contractual &mdash; a rule added after &ldquo;costco done&rdquo; once reported success without clearing the file</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Saturday cron sends the list and renders a PDF to the reMarkable for the store</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="food">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Food Agents (His &amp; Hers)</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">09</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Send a photo of dinner, get calories and macros</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Isolated vision-capable agent per person, with per-day JSON logs, photo archives, and &ldquo;fix breakfast&rdquo;-style corrections</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> The nightly summary's cold-start hangs became a reliability case study &mdash; the fix was <em>lowering</em> the timeout so the retry lands 90 seconds late instead of six minutes</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="pool">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Pool Chemistry Agent</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">10</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Taylor drop-test readings in, exact doses out</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Canonical pool spec in memory &mdash; 15,518 gallons combined &mdash; anchors both dosing and dilution math</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Tracked stabilizer creep to 93 ppm, computed the partial-drain math, and verified the resulting 56 ppm with an independent lab test</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> After dosing, sets the variable-speed pump to 140 GPM to mix, then back down &mdash; encoded as a skill</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 04 CONTENT ============ -->
+        <section id="content" class="sec-violet mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">04 / content &amp; finance pipelines</h2>
+                <span class="oc-idx text-[10px] tabular-nums">5 projects</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="twitter">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Twitter Agentic-Commerce System</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">11</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">A full niche-content machine for the agentic-payments beat</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Eleven pipeline stages: discovery &rarr; sensing &rarr; scoring &rarr; clustering &rarr; drafts in a tuned voice &rarr; approval digest &rarr; posting &rarr; weekly review</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> One WhatsApp digest a day with numbered commands: &ldquo;approve post 2 as thread,&rdquo; &ldquo;skip all replies,&rdquo; &ldquo;publish all&rdquo;</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Reply automation was built, then deliberately deleted &mdash; drafted replies weren't worth the review overhead. Post-only by design.</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="papers">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Paper Digest</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">12</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Ten papers a day, maximum, ranked to taste</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Daily research-paper digest ranked against a hand-tuned interest taxonomy (agent harnesses, reliability, tool use, memory; skeptical of swarms)</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Fetch, rank, and notify as separate stages, with an eval log for ranking quality</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="spam">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Gmail Spam Defense</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">13</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">&ldquo;spam &lt;sender&gt;&rdquo; and it's handled</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> One chat command archives everything from a sender or domain and creates the Gmail filter, replying with counts</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A daily scan previews its kill list in WhatsApp ten minutes before executing &mdash; touch a &ldquo;spam-stop&rdquo; flag to veto, &ldquo;spam-allow&rdquo; for a persistent whitelist</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Jobs staggered off the 8:00 mark after cron contention was diagnosed from run-phase telemetry</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="guild">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Fintech Guild Weekly Recap</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">14</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">The group chat, summarized weekly</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A weekly cron summarizes a professional WhatsApp group's discussion from synced history and delivers the recap through my personal account</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="ballotpedia">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Ballotpedia 2026 Election Research</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">15</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">All 55 California propositions, structured</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Scraped every 2026 CA proposition page plus county measures into clean JSON/CSV &mdash; 44 fully extracted, 11 CloudFront-challenged pages honestly preserved as index-only</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Campaign-finance report with parsed donor data for 14 measures, the rest classified by why the data was absent</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 05 MEDIA ============ -->
+        <section id="media" class="sec-rose mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">05 / media &amp; music</h2>
+                <span class="oc-idx text-[10px] tabular-nums">5 projects</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="plex-sonos">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Plex &rarr; Sonos Playback Stack</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">16</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Anything on the NAS, in any of eight rooms</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Reverse-engineered the URI form Sonos uses to play Plex tracks natively</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Speakers addressed by direct IP because discovery is flaky and IPs are not &mdash; all eight rooms mapped</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> SoundCloud-on-Sonos chased all the way to the SMAPI auth wall &mdash; documented as a platform limitation, not solved</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="beatport">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Beatport Set Importer</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">17</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">A DJ set name in chat becomes a Beatport playlist</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Aggregates tracklists across MixesDB, 1001Tracklists, and SoundCloud timestamped comments, deduping across sources</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Prepare/approve flow reports matched, ambiguous, and unmatched tracks before touching the playlist</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Idempotent: reuses same-name playlists and adds only missing tracks</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="soundcloud">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">SoundCloud Integration</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">18</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">OAuth with PKCE, no browser required</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Authorization Code + PKCE implemented as a manual copy/paste flow; tokens vaulted with an &ldquo;ensure&rdquo; command that refreshes only near expiry</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="todoist-remarkable">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Todoist &hArr; reMarkable Task Loop</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">19</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Paper in, digital out</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Down: a daily cron renders today's tasks to PDF and uploads to the tablet, with a post-upload invariant check that killed duplicate-document hell</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Up: a vision model reads handwritten checkmarks off the annotated pages and completes the matching Todoist tasks</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Uncertain marks are skipped, never guessed</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="synology">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Synology NAS &amp; Music Library</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">20</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">261 GB of legacy iTunes, staged for rescue</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Full NAS admin over a Python SSH helper &mdash; no system ssh existed in the agent's container</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Audited ~19k MP3s and 286 DRM files; staged plan: snapshot &rarr; quarantine &rarr; beets + MusicBrainz retag &rarr; Plex rescan</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 06 INFRA ============ -->
+        <section id="infra" class="sec-orange mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">06 / infrastructure &amp; meta</h2>
+                <span class="oc-idx text-[10px] tabular-nums">6 projects</span>
+            </div>
+            <div class="space-y-6">
+
+                <article class="oc-card" id="voice">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Voice Call Plugin</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">21</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">The agent can pick up the phone</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Outbound calls via Twilio with a realtime voice model doing the talking</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Barge-in and voice-activity tuning was the hard part &mdash; the config landmines are documented so they never have to be re-learned</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="kai">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Kai &mdash; Second Instance for Work</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">22</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Work Slack gets its own agent, fully isolated</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A separate deployment with zero overlap with the personal instance</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Pattern worth stealing: a dedicated Tailscale sidecar container gives the second instance its own tailnet node and clean root URL</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="lobster">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Lobster Workflow Engine</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">23</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Determinism for the automations that matter</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Critical automations moved from free-form agent turns to pipelines: deterministic steps, schema-validated LLM calls, resumable approval gates</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Built from source when no package existed; shimmed and patched, with every patch documented to survive upgrades</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="ops">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Ops Hardening &amp; Health</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">24</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">The agent watches itself</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Daily VPS snapshots; a post-upgrade integration check dry-runs every cron, secrets provider, channel, and model, then diffs against pre-upgrade</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Root-caused silent WhatsApp message loss to zombie sockets, and a runaway-spend incident to heartbeat prompts retriggering LLM turns</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Secret hygiene: credentials read at call time, never written to files &mdash; the tooling's token-scrubbing is worked around, never bypassed</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="wacli">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Personal WhatsApp Tooling</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">25</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Sends and history sync through my own account</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> A whatsmeow-based CLI separate from the agent's channel: persistent store, allowlisted alias map, JID-resolution helpers</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Operational gotchas (version-aligned binaries, store locks) documented, not re-discovered</li>
+                    </ul>
+                </article>
+
+                <article class="oc-card" id="skills">
+                    <div class="flex items-start justify-between gap-3 mb-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Skills Library</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">26</span>
+                    </div>
+                    <p class="oc-tag text-xs font-bold uppercase tracking-[0.2em] mb-3">Dozens of capabilities, each learned once</p>
+                    <ul class="oc-list space-y-2 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Self-contained, documented skills accreted along the way: GitHub, Todoist, Discogs, Namecheap DNS, TRMNL, Twitter/X, UniFi, Google Flights, weather, browser automation</li>
+                        <li class="flex items-start gap-2"><span class="oc-bullet shrink-0" aria-hidden="true">»</span> Including a &ldquo;grill me&rdquo; interviewing skill for stress-testing plans before building</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 07 FEATURED ============ -->
+        <section id="featured" class="sec-cyan mb-16 scroll-mt-24">
+            <div class="oc-sec-rule mb-6 border-b pb-3 flex items-end justify-between">
+                <h2 class="oc-sec-label text-xs font-bold uppercase tracking-[0.3em]">07 / featured on side projects</h2>
+                <span class="oc-idx text-[10px] tabular-nums">3 projects</span>
+            </div>
+            <div class="space-y-4">
+
+                <article class="oc-card" id="los-altos-list">
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Los Altos List</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">27</span>
+                    </div>
+                    <p class="oc-body text-xs sm:text-sm mt-2">
+                        A neighborhood WhatsApp group turned into a self-tuning services directory.
+                        <a href="side-projects.html#losaltos" class="oc-tag font-bold uppercase tracking-widest text-[10px] whitespace-nowrap">full writeup &rarr;</a>
+                    </p>
+                </article>
+
+                <article class="oc-card" id="debtstack-oc">
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">DebtStack</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">28</span>
+                    </div>
+                    <p class="oc-body text-xs sm:text-sm mt-2">
+                        A debt facility simulator and founder's guide to debt capital for fintech founders.
+                        <a href="side-projects.html#debtstack" class="oc-tag font-bold uppercase tracking-widest text-[10px] whitespace-nowrap">full writeup &rarr;</a>
+                    </p>
+                </article>
+
+                <article class="oc-card" id="readlog">
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                        <h3 class="text-base font-bold uppercase tracking-wide">Readlog</h3>
+                        <span class="oc-idx text-[10px] tabular-nums shrink-0">29</span>
+                    </div>
+                    <p class="oc-body text-xs sm:text-sm mt-2">
+                        A reading log where the ingestion API is a screenshot &mdash; an agent extracts, dedupes, and publishes nightly.
+                        <a href="side-projects.html#reading-log" class="oc-tag font-bold uppercase tracking-widest text-[10px] whitespace-nowrap">full writeup &rarr;</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="mt-16 border-t pt-6 text-[10px] uppercase tracking-[0.25em]"
+                :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
+            compiled from agent memory archives — sanitized for publication
+        </footer>
+    </main>
+
+    <script>
+        // Semantic PostHog events for internal navigation autocapture can't name well.
+        (function () {
+            function track(event, props) {
+                try {
+                    if (window.posthog && typeof window.posthog.capture === "function") {
+                        window.posthog.capture(event, props);
+                    }
+                } catch (e) { /* analytics never throws into the page */ }
+            }
+            document.addEventListener("click", function (ev) {
+                var a = ev.target && ev.target.closest ? ev.target.closest("a[href]") : null;
+                if (!a) return;
+                var href = a.getAttribute("href") || "";
+                if (href.charAt(0) === "#") {
+                    track("openclaw_section_nav_clicked", { section: href.slice(1) });
+                } else if (href.indexOf("side-projects.html#") === 0) {
+                    var article = a.closest("article");
+                    track("openclaw_writeup_clicked", {
+                        project: article ? article.id : href.split("#")[1]
+                    });
+                }
+            }, true);
+        })();
+    </script>
+</body>
+</html>

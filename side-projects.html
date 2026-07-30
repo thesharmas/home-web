@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side Projects — Rohit's Web</title>
-    <meta name="description" content="Side projects by Rohit Sharma — Los Altos List, a neighbor-recommended local services directory, DebtStack, a debt facility simulator and founder's guide to debt capital, and an interactive US 1970–2026 historical databoard.">
+    <meta name="description" content="Side projects by Rohit Sharma — OpenClaw, a self-hosted AI agent behind 29 shipped projects, Los Altos List, a neighbor-recommended local services directory, DebtStack, a debt facility simulator, and an interactive US 1970–2026 historical databoard.">
     <link rel="canonical" href="https://thesharmas.org/side-projects.html">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thesharmas.org/side-projects.html">
     <meta property="og:site_name" content="Rohit's Web">
     <meta property="og:title" content="Side Projects — Rohit's Web">
-    <meta property="og:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
+    <meta property="og:description" content="OpenClaw — one self-hosted AI agent, 29 shipped projects. Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
     <meta property="og:image" content="https://thesharmas.org/assets/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Side Projects — Rohit's Web">
-    <meta name="twitter:description" content="Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
+    <meta name="twitter:description" content="OpenClaw — one self-hosted AI agent, 29 shipped projects. Los Altos List — neighbor-recommended local services. DebtStack — a debt facility simulator and founder's guide to debt capital.">
     <meta name="twitter:image" content="https://thesharmas.org/assets/og-image.png">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -128,17 +128,77 @@
             </p>
         </header>
 
-        <!-- Project 01: Los Altos List -->
+        <!-- Project 01: OpenClaw -->
+        <section id="openclaw" class="mb-16 scroll-mt-24">
+            <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                       :class="darkMode ? 'text-orange-400/85' : 'text-orange-900'">project_01</p>
+                    <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
+                        :class="darkMode ? 'text-white' : 'text-gray-900'">OpenClaw</h2>
+                </div>
+                <span class="text-[10px] font-mono tabular-nums"
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">01 / agent platform</span>
+            </div>
+
+            <div class="border p-5 sm:p-6"
+                 :class="darkMode ? 'border-orange-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] mb-3"
+                   :class="darkMode ? 'text-orange-300/70' : 'text-orange-900'">
+                    One agent. Twenty-nine shipped projects.
+                </p>
+                <p class="leading-relaxed mb-5 max-w-2xl"
+                   :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                    A self-hosted AI agent that lives on a VPS and talks to me over WhatsApp.
+                    What started as a chatbot became an operating system for my life: it built
+                    and maintains the websites on this page, runs the house, manages school
+                    logistics, logs meals from photos, doses the pool, and monitors its own
+                    reliability. One deployment split across nine specialized workspaces
+                    has shipped 29 real projects &mdash; and most of them run themselves.
+                </p>
+                <ul class="space-y-2 text-xs sm:text-sm mb-6"
+                    :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        29 shipped projects &mdash; from public websites to a sprinkler watchdog
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        WhatsApp as the universal interface &mdash; status, approvals, alerts, and control from one chat
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Nine isolated agent workspaces, each with its own memory, tools, and cron jobs
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Deterministic where it matters &mdash; critical automations run as schema-validated pipelines with human approval gates
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
+                        Self-healing ops &mdash; nightly health checks, daily snapshots, post-upgrade integration dry-runs
+                    </li>
+                </ul>
+                <a href="openclaw.html"
+                   @click="window.posthog && posthog.capture('openclaw_browse_clicked', { source: 'side-projects' })"
+                   class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'border-orange-400/45 text-orange-200 hover:bg-orange-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                    <span class="text-[10px] opacity-70">[&raquo;]</span> browse all 29 projects
+                </a>
+            </div>
+        </section>
+
+        <!-- Project 02: Los Altos List -->
         <section id="losaltos" class="mb-16 scroll-mt-24">
             <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
                 <div>
                     <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
-                       :class="darkMode ? 'text-cyan-400/80' : 'text-cyan-800'">project_01</p>
+                       :class="darkMode ? 'text-cyan-400/80' : 'text-cyan-800'">project_02</p>
                     <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
                         :class="darkMode ? 'text-white' : 'text-gray-900'">Los Altos List</h2>
                 </div>
                 <span class="text-[10px] font-mono tabular-nums"
-                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">01 / directory</span>
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">02 / directory</span>
             </div>
 
             <div class="border p-5 sm:p-6"
@@ -181,17 +241,17 @@
             </div>
         </section>
 
-        <!-- Project 02: DebtStack -->
+        <!-- Project 03: DebtStack -->
         <section id="debtstack" class="scroll-mt-24">
             <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
                 <div>
                     <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
-                       :class="darkMode ? 'text-violet-400/85' : 'text-violet-900'">project_02</p>
+                       :class="darkMode ? 'text-violet-400/85' : 'text-violet-900'">project_03</p>
                     <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
                         :class="darkMode ? 'text-white' : 'text-gray-900'">DebtStack</h2>
                 </div>
                 <span class="text-[10px] font-mono tabular-nums"
-                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">02 / simulator + guide</span>
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">03 / simulator + guide</span>
             </div>
 
             <div class="border p-5 sm:p-6"
@@ -247,17 +307,17 @@
             </div>
         </section>
 
-        <!-- Project 03: The United States, 1970-2026 -->
+        <!-- Project 04: The United States, 1970-2026 -->
         <section id="us-review" class="mt-16 scroll-mt-24">
             <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
                 <div>
                     <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
-                       :class="darkMode ? 'text-amber-400/85' : 'text-amber-900'">project_03</p>
+                       :class="darkMode ? 'text-amber-400/85' : 'text-amber-900'">project_04</p>
                     <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
                         :class="darkMode ? 'text-white' : 'text-gray-900'">The United States, 1970&ndash;2026</h2>
                 </div>
                 <span class="text-[10px] font-mono tabular-nums"
-                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">03 / databoard</span>
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">04 / databoard</span>
             </div>
 
             <div class="border p-5 sm:p-6"
@@ -295,17 +355,17 @@
             </div>
         </section>
 
-        <!-- Project 04: Reading Log -->
+        <!-- Project 05: Reading Log -->
         <section id="reading-log" class="mt-16 scroll-mt-24">
             <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
                 <div>
                     <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
-                       :class="darkMode ? 'text-rose-400/85' : 'text-rose-900'">project_04</p>
+                       :class="darkMode ? 'text-rose-400/85' : 'text-rose-900'">project_05</p>
                     <h2 class="text-xl font-bold uppercase tracking-wide mt-1"
                         :class="darkMode ? 'text-white' : 'text-gray-900'">Reading Log</h2>
                 </div>
                 <span class="text-[10px] font-mono tabular-nums"
-                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">04 / agent pipeline</span>
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">05 / agent pipeline</span>
             </div>
 
             <div class="border p-5 sm:p-6"
