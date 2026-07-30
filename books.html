@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books — Rohit's Web</title>
+    <meta name="description" content="Rohit Sharma's bookshelf — books in progress with highlighted excerpts and notes.">
+    <link rel="canonical" href="https://thesharmas.org/books.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thesharmas.org/books.html">
+    <meta property="og:site_name" content="Rohit's Web">
+    <meta property="og:title" content="Books — Rohit's Web">
+    <meta property="og:description" content="Books in progress with highlighted excerpts and notes.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Books — Rohit's Web">
+    <meta name="twitter:description" content="Books in progress with highlighted excerpts and notes.">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+                    },
+                },
+            },
+        };
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="assets/analytics.js"></script>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+        [x-cloak] { display: none !important; }
+        .term-dark {
+            background: #050806;
+            color: #c8f5c8;
+        }
+        .term-light {
+            background: #ecece4;
+            color: #1a1a12;
+        }
+        .term-scanlines {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.06;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.45) 2px,
+                rgba(0, 0, 0, 0.45) 3px
+            );
+        }
+        .term-light .term-scanlines {
+            opacity: 0.04;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.12) 2px,
+                rgba(0, 0, 0, 0.12) 3px
+            );
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .term-cursor { animation: none !important; }
+        }
+        .term-cursor::after {
+            content: "▌";
+            animation: termBlink 1.1s steps(2, end) infinite;
+            color: currentColor;
+            opacity: 0.85;
+        }
+        @keyframes termBlink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .fade-in { animation: fadeIn 0.6s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
+      x-data="booksPage()"
+      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+    <div class="term-scanlines" aria-hidden="true"></div>
+
+    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+        <a href="index.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> home
+        </a>
+        <a href="reading.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> reading
+        </a>
+        <button type="button" @click="darkMode = !darkMode"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
+                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                aria-label="Toggle color mode">
+            <span x-text="darkMode ? 'lite' : 'drk'"></span>
+        </button>
+    </div>
+
+    <main class="relative z-10 mx-auto max-w-4xl px-4 pb-20 pt-20 sm:px-6 fade-in">
+        <header class="mb-10 border-b pb-8"
+                :class="darkMode ? 'border-emerald-500/25' : 'border-gray-800/30'">
+            <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
+               :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
+                ~/HOME/READING/BOOKS
+            </p>
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight uppercase term-cursor"
+                :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                Bookshelf
+            </h1>
+            <p class="mt-4 max-w-2xl text-xs sm:text-sm leading-relaxed"
+               :class="darkMode ? 'text-zinc-200/90' : 'text-gray-700'">
+                Books I'm reading, with the passages I highlighted and why.
+            </p>
+        </header>
+
+        <!-- Loading / error -->
+        <template x-if="loading">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">loading reading.json …</p>
+        </template>
+        <template x-if="error">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-red-400/80' : 'text-red-700'">error: could not load data/reading.json</p>
+        </template>
+
+        <template x-if="!loading && !error">
+            <div>
+                <template x-if="books.length === 0">
+                    <p class="text-xs uppercase tracking-[0.25em]"
+                       :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">no books on the shelf yet</p>
+                </template>
+
+                <div class="space-y-8">
+                    <template x-for="book in books" :key="book.id">
+                        <article :id="'book-' + book.id"
+                                 class="border p-5 sm:p-6 transition-colors scroll-mt-24"
+                                 :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                            <div class="flex items-start justify-between gap-3">
+                                <div class="min-w-0">
+                                    <h2 class="text-lg sm:text-xl font-bold leading-snug">
+                                        <template x-if="book.link">
+                                            <a :href="book.link" target="_blank" rel="noopener noreferrer"
+                                               @click="track('books_title_click', { title: book.title, link: book.link })"
+                                               class="transition-colors hover:underline underline-offset-4"
+                                               :class="darkMode ? 'text-gray-50 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'"
+                                               x-text="book.title"></a>
+                                        </template>
+                                        <template x-if="!book.link">
+                                            <span :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                                  x-text="book.title"></span>
+                                        </template>
+                                    </h2>
+                                    <p class="mt-1.5 text-xs sm:text-sm"
+                                       :class="darkMode ? 'text-gray-400' : 'text-gray-600'">
+                                        <span x-text="book.author || 'Unknown'"></span><template x-if="book.publication_year"><span> · <span x-text="book.publication_year"></span></span></template>
+                                    </p>
+                                    <p class="mt-2 text-[10px] uppercase tracking-[0.2em]"
+                                       :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'"
+                                       x-text="book.highlights.length + (book.highlights.length === 1 ? ' highlight' : ' highlights')
+                                           + (book.startedDay ? ' · started ' + book.startedDay : '')"></p>
+                                </div>
+                                <template x-if="book.active">
+                                    <span class="shrink-0 text-[10px] uppercase tracking-wider border px-1.5 py-0.5"
+                                          :class="darkMode ? 'border-cyan-400/40 text-cyan-300/90' : 'border-cyan-800 text-cyan-900'">reading</span>
+                                </template>
+                            </div>
+
+                            <template x-if="book.summary">
+                                <div class="mt-4">
+                                    <p class="text-sm leading-relaxed"
+                                       :class="[darkMode ? 'text-zinc-300' : 'text-gray-700',
+                                                summaryExpanded[book.id] ? '' : 'line-clamp-4']"
+                                       x-text="book.summary"></p>
+                                    <button type="button" @click="summaryExpanded[book.id] = !summaryExpanded[book.id]"
+                                            class="mt-1.5 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                            :class="darkMode ? 'text-emerald-400 hover:text-emerald-200' : 'text-emerald-800 hover:text-emerald-950'">
+                                        <span x-text="summaryExpanded[book.id] ? '▾ less' : '▸ more'"></span>
+                                    </button>
+                                </div>
+                            </template>
+
+                            <template x-if="book.highlights.length > 0">
+                                <div class="mt-4">
+                                    <button type="button" @click="toggleBook(book)"
+                                            class="text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                            :class="darkMode ? 'text-cyan-400 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'">
+                                        <span x-text="(expanded[book.id] ? '▾ hide ' : '▸ show ')
+                                            + book.highlights.length
+                                            + (book.highlights.length === 1 ? ' highlight' : ' highlights')"></span>
+                                    </button>
+                                    <div x-show="expanded[book.id]" x-cloak
+                                         class="mt-4 space-y-5 border-t pt-5"
+                                         :class="darkMode ? 'border-emerald-500/20' : 'border-gray-300'">
+                                        <template x-for="h in book.highlights" :key="h.id">
+                                            <blockquote class="border-l-2 pl-3 sm:pl-4"
+                                                        :class="darkMode ? 'border-cyan-400/40' : 'border-cyan-800/50'">
+                                                <p class="text-[10px] uppercase tracking-[0.2em] mb-1.5"
+                                                   :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'"
+                                                   x-text="localDay(h.captured_at) + (h.page_number ? ' · p. ' + h.page_number : '')"></p>
+                                                <p class="text-sm leading-relaxed"
+                                                   :class="darkMode ? 'text-zinc-200' : 'text-gray-800'"
+                                                   x-text="'“' + h.excerpt + '”'"></p>
+                                                <template x-if="h.note">
+                                                    <p class="mt-1.5 text-xs leading-relaxed italic"
+                                                       :class="darkMode ? 'text-cyan-300/60' : 'text-cyan-900/70'"
+                                                       x-text="'// ' + h.note"></p>
+                                                </template>
+                                            </blockquote>
+                                        </template>
+                                    </div>
+                                </div>
+                            </template>
+                        </article>
+                    </template>
+                </div>
+
+                <footer class="mt-12 border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
+                        :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
+                    <span x-text="'eof · ' + books.length + (books.length === 1 ? ' book' : ' books') + ' · ' + totalHighlights + ' highlights · updated ' + generatedAt"></span>
+                </footer>
+            </div>
+        </template>
+    </main>
+
+    <script>
+        function booksPage() {
+            return {
+                darkMode: true,
+                loading: true,
+                error: false,
+                books: [],
+                expanded: {},
+                summaryExpanded: {},
+                generatedAt: '',
+
+                async init() {
+                    try {
+                        const res = await fetch('data/reading.json');
+                        if (!res.ok) throw new Error(res.status);
+                        const data = await res.json();
+                        this.books = (data.books || [])
+                            .map(b => {
+                                const highlights = (b.highlights || [])
+                                    .slice()
+                                    .sort((a, z) => new Date(a.captured_at) - new Date(z.captured_at));
+                                return {
+                                    ...b,
+                                    highlights,
+                                    startedDay: highlights.length ? this.localDay(highlights[0].captured_at)
+                                        : (b.created_at ? this.localDay(b.created_at) : ''),
+                                };
+                            })
+                            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+                        this.generatedAt = data.generated_at ? this.localDay(data.generated_at) : '';
+                    } catch (err) {
+                        this.error = true;
+                    }
+                    this.loading = false;
+                    // Honor #book-N deep links from the reading feed: expand that book and scroll to it
+                    if (location.hash) {
+                        const id = Number((location.hash.match(/^#book-(\d+)$/) || [])[1]);
+                        if (id) this.expanded[id] = true;
+                        this.$nextTick(() => {
+                            const el = document.querySelector(location.hash);
+                            if (el) el.scrollIntoView();
+                        });
+                    }
+                },
+
+                track(event, props) {
+                    try {
+                        if (window.posthog && typeof window.posthog.capture === 'function') {
+                            window.posthog.capture(event, props);
+                        }
+                    } catch (e) { /* analytics never throws into the page */ }
+                },
+
+                toggleBook(book) {
+                    this.expanded[book.id] = !this.expanded[book.id];
+                    this.track('books_highlights_toggle', {
+                        action: this.expanded[book.id] ? 'expand' : 'collapse',
+                        title: book.title,
+                        highlights: book.highlights.length,
+                    });
+                },
+
+                localDay(iso) {
+                    const d = new Date(iso);
+                    return d.getFullYear() + '-'
+                        + String(d.getMonth() + 1).padStart(2, '0') + '-'
+                        + String(d.getDate()).padStart(2, '0');
+                },
+
+                get totalHighlights() {
+                    return this.books.reduce((n, b) => n + b.highlights.length, 0);
+                },
+            };
+        }
+    </script>
+</body>
+</html>

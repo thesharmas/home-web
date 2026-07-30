@@ -94,7 +94,20 @@
             height: 12px;
             border-radius: 2px;
             flex: none;
+            position: relative;
         }
+        /* cyan corner dot on days with book highlights */
+        .hm-cell.hm-book::after {
+            content: "";
+            position: absolute;
+            top: 1.5px;
+            right: 1.5px;
+            width: 4px;
+            height: 4px;
+            border-radius: 9999px;
+        }
+        body.term-page-dark .hm-cell.hm-book::after { background: #22d3ee; }
+        body.term-page-light .hm-cell.hm-book::after { background: #0e7490; }
         body.term-page-dark .hm-0 { background: rgba(16, 185, 129, 0.09); }
         body.term-page-dark .hm-1 { background: #0b4a33; }
         body.term-page-dark .hm-2 { background: #0f7a51; }
@@ -122,6 +135,11 @@
            class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
            :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
             <span aria-hidden="true">&lt;-</span> home
+        </a>
+        <a href="books.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/10' : 'border-cyan-900 text-cyan-950 hover:bg-cyan-500/10'">
+            books <span aria-hidden="true">-&gt;</span>
         </a>
         <button type="button" @click="darkMode = !darkMode"
                 class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
@@ -161,7 +179,7 @@
         <template x-if="!loading && !error">
             <div>
                 <!-- Stats strip -->
-                <section class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4" aria-label="Reading stats">
+                <section class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5" aria-label="Reading stats">
                     <template x-for="stat in statTiles" :key="stat.label">
                         <div class="border p-4"
                              :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
@@ -209,9 +227,10 @@
                                             <div class="hm-cell"
                                                  :class="['hm-' + day.level,
                                                           day.count > 0 ? 'hm-active' : '',
+                                                          day.hl > 0 ? 'hm-book' : '',
                                                           dayFilter === day.key ? 'hm-selected' : '']"
                                                  role="img"
-                                                 :aria-label="day.key + ': ' + day.count + ' reads'"
+                                                 :aria-label="day.key + ': ' + day.reads + ' reads, ' + day.hl + ' highlights'"
                                                  @mouseenter="hoverDay = day; hoverX = $event.clientX; hoverY = $event.clientY"
                                                  @mousemove="hoverX = $event.clientX; hoverY = $event.clientY"
                                                  @mouseleave="hoverDay = null"
@@ -231,13 +250,17 @@
                         <div class="hm-cell hm-3"></div>
                         <div class="hm-cell hm-4"></div>
                         <span class="ml-1">more</span>
+                        <span class="ml-4 mr-1 inline-flex items-center gap-1.5">
+                            <span class="hm-cell hm-0 hm-book"></span> book day
+                        </span>
                     </div>
                     <!-- Hover tooltip -->
                     <div x-show="hoverDay" x-cloak
                          class="pointer-events-none fixed z-50 border px-2 py-1 text-[10px] uppercase tracking-wider"
                          :class="darkMode ? 'border-emerald-500/50 bg-black text-gray-100' : 'border-gray-800 bg-white text-gray-900'"
                          :style="'left:' + (hoverX + 12) + 'px; top:' + (hoverY - 30) + 'px'">
-                        <span x-text="hoverDay ? hoverDay.key + ' · ' + hoverDay.count + (hoverDay.count === 1 ? ' read' : ' reads') : ''"></span>
+                        <span x-text="hoverDay ? hoverDay.key + ' · ' + hoverDay.reads + (hoverDay.reads === 1 ? ' read' : ' reads')
+                            + (hoverDay.hl > 0 ? ' · ' + hoverDay.hl + (hoverDay.hl === 1 ? ' highlight' : ' highlights') : '') : ''"></span>
                     </div>
                 </section>
 
@@ -292,6 +315,91 @@
 
                             <div class="space-y-4">
                                 <template x-for="entry in group.items" :key="entry.id">
+                                    <div>
+                                    <template x-if="entry.kind === 'book'">
+                                        <article class="border border-l-4 p-4 sm:p-5 transition-colors"
+                                                 :class="darkMode ? 'border-cyan-400/30 border-l-cyan-400/60 bg-cyan-950/20 hover:border-cyan-400/50' : 'border-cyan-900/60 border-l-cyan-800 bg-cyan-50/70 hover:border-cyan-900'">
+                                            <div class="flex items-start gap-3 sm:gap-4">
+                                                <span class="shrink-0 text-xs pt-1 tabular-nums"
+                                                      :class="darkMode ? 'text-cyan-400/80' : 'text-cyan-800'"
+                                                      x-text="entry.time"></span>
+                                                <div class="min-w-0 flex-1">
+                                                    <div class="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+                                                        <span class="text-[10px] font-bold uppercase tracking-wider border px-1.5 py-0.5"
+                                                              :class="darkMode ? 'border-cyan-400/40 text-cyan-300' : 'border-cyan-800 text-cyan-900'">book</span>
+                                                        <h3 class="text-base sm:text-lg font-bold leading-snug">
+                                                            <a :href="'books.html#book-' + entry.bookId"
+                                                               @click="track('reading_book_click', { title: entry.title, author: entry.author })"
+                                                               class="transition-colors hover:underline underline-offset-4"
+                                                               :class="darkMode ? 'text-gray-50 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'"
+                                                               x-text="entry.title"></a>
+                                                        </h3>
+                                                    </div>
+                                                    <p class="mt-1.5 text-xs sm:text-sm"
+                                                       :class="darkMode ? 'text-gray-400' : 'text-gray-600'">
+                                                        <span x-text="entry.author || 'Unknown'"></span>
+                                                        <template x-if="entry.started">
+                                                            <span> · <span :class="darkMode ? 'text-cyan-300/90' : 'text-cyan-800'">started reading</span></span>
+                                                        </template>
+                                                        <template x-if="entry.highlights.length > 0">
+                                                            <span> · <span x-text="entry.highlights.length + (entry.highlights.length === 1 ? ' highlight captured' : ' highlights captured')"></span></span>
+                                                        </template>
+                                                    </p>
+                                                    <template x-if="entry.summary">
+                                                        <div class="mt-3">
+                                                            <p class="text-sm leading-relaxed"
+                                                               :class="[darkMode ? 'text-zinc-300' : 'text-gray-700',
+                                                                        summaryExpanded[entry.id] ? '' : 'line-clamp-2']"
+                                                               x-text="entry.summary"></p>
+                                                            <button type="button" @click="summaryExpanded[entry.id] = !summaryExpanded[entry.id]"
+                                                                    class="mt-1.5 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                                                    :class="darkMode ? 'text-emerald-400 hover:text-emerald-200' : 'text-emerald-800 hover:text-emerald-950'">
+                                                                <span x-text="summaryExpanded[entry.id] ? '▾ less' : '▸ more'"></span>
+                                                            </button>
+                                                        </div>
+                                                    </template>
+                                                    <template x-if="entry.highlights.length > 0">
+                                                    <div class="mt-3 space-y-4">
+                                                        <template x-for="h in (expanded[entry.id] ? entry.highlights : entry.highlights.slice(0, 1))" :key="h.id">
+                                                            <blockquote class="border-l-2 pl-3 sm:pl-4"
+                                                                        :class="darkMode ? 'border-cyan-400/40' : 'border-cyan-800/50'">
+                                                                <p class="text-sm leading-relaxed"
+                                                                   :class="[darkMode ? 'text-zinc-200' : 'text-gray-800',
+                                                                            expanded[entry.id] ? '' : 'line-clamp-2']">
+                                                                    <span x-text="'“' + h.excerpt + '”'"></span>
+                                                                    <template x-if="h.page_number">
+                                                                        <span class="text-xs"
+                                                                              :class="darkMode ? 'text-cyan-400/70' : 'text-gray-500'"
+                                                                              x-text="' — p. ' + h.page_number"></span>
+                                                                    </template>
+                                                                </p>
+                                                                <template x-if="expanded[entry.id] && h.note">
+                                                                    <p class="mt-1.5 text-xs leading-relaxed italic"
+                                                                       :class="darkMode ? 'text-cyan-300/60' : 'text-cyan-900/70'"
+                                                                       x-text="'// ' + h.note"></p>
+                                                                </template>
+                                                            </blockquote>
+                                                        </template>
+                                                        <button type="button" @click="toggleBook(entry)"
+                                                                class="text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                                                :class="darkMode ? 'text-cyan-400 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'">
+                                                            <span x-text="expanded[entry.id]
+                                                                ? '▾ less'
+                                                                : '▸ all ' + entry.highlights.length + (entry.highlights.length === 1 ? ' highlight' : ' highlights')"></span>
+                                                        </button>
+                                                    </div>
+                                                    </template>
+                                                    <div class="mt-3 flex flex-wrap items-center gap-x-2.5 gap-y-1.5">
+                                                        <button type="button"
+                                                                @click="setTagFilter(tagFilter === 'book' ? null : 'book')"
+                                                                class="text-xs transition-colors"
+                                                                :class="darkMode ? 'text-cyan-300/90 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'">#book</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </template>
+                                    <template x-if="entry.kind !== 'book'">
                                     <article class="border p-4 sm:p-5 transition-colors"
                                              :class="darkMode ? 'border-emerald-500/25 bg-black/30 hover:border-emerald-500/45' : 'border-gray-800 bg-white hover:border-gray-900'">
                                         <div class="flex items-start gap-3 sm:gap-4">
@@ -344,6 +452,8 @@
                                             </div>
                                         </div>
                                     </article>
+                                    </template>
+                                    </div>
                                 </template>
                             </div>
                         </div>
@@ -352,7 +462,7 @@
 
                 <footer class="mt-12 border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
                         :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
-                    <span x-text="'eof · ' + entries.length + ' entries · updated ' + generatedAt"></span>
+                    <span x-text="'eof · ' + entries.length + ' entries · ' + totalHighlights + ' highlights · updated ' + generatedAt"></span>
                 </footer>
             </div>
         </template>
@@ -365,6 +475,9 @@
                 loading: true,
                 error: false,
                 entries: [],
+                books: [],
+                feed: [],
+                summaryExpanded: {},
                 generatedAt: '',
                 tagFilter: null,
                 dayFilter: null,
@@ -381,9 +494,51 @@
                         this.entries = (data.entries || [])
                             .map(e => ({
                                 ...e,
+                                kind: this.isTweet(e) ? 'tweet' : 'article',
                                 day: this.localDay(e.date),
                                 time: this.localTime(e.date),
                             }))
+                            .sort((a, b) => new Date(b.date) - new Date(a.date));
+                        this.books = (data.books || [])
+                            .map(b => ({
+                                ...b,
+                                highlights: (b.highlights || [])
+                                    .slice()
+                                    .sort((a, z) => new Date(a.captured_at) - new Date(z.captured_at)),
+                            }))
+                            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+                        // One feed item per book per day of captured highlights; the day a book
+                        // is added is marked "started" and carries the book summary
+                        const bookItems = [];
+                        for (const b of this.books) {
+                            const createdDay = b.created_at ? this.localDay(b.created_at) : null;
+                            const byDay = new Map();
+                            for (const h of b.highlights) {
+                                const day = this.localDay(h.captured_at);
+                                if (!byDay.has(day)) byDay.set(day, []);
+                                byDay.get(day).push(h);
+                            }
+                            if (createdDay && !byDay.has(createdDay)) byDay.set(createdDay, []);
+                            for (const [day, hs] of byDay) {
+                                const last = hs[hs.length - 1];
+                                const started = day === createdDay;
+                                bookItems.push({
+                                    id: 'bh-' + b.id + '-' + day,
+                                    kind: 'book',
+                                    bookId: b.id,
+                                    title: b.title,
+                                    author: b.author,
+                                    highlights: hs,
+                                    started,
+                                    summary: started ? b.summary : null,
+                                    tags: ['book'],
+                                    date: last ? last.captured_at : b.created_at,
+                                    day,
+                                    time: this.localTime(last ? last.captured_at : b.created_at),
+                                });
+                            }
+                        }
+                        this.feed = [...this.entries, ...bookItems]
                             .sort((a, b) => new Date(b.date) - new Date(a.date));
                         this.generatedAt = data.generated_at ? this.localDay(data.generated_at) : '';
                     } catch (err) {
@@ -408,8 +563,13 @@
                     return key + ' · ' + wd;
                 },
 
+                isTweet(e) {
+                    return (e.tags || []).includes('tweet')
+                        || /twitter|^x\s*\(/i.test(e.publication || '');
+                },
+
                 get filtered() {
-                    return this.entries.filter(e =>
+                    return this.feed.filter(e =>
                         (!this.tagFilter || (e.tags || []).includes(this.tagFilter)) &&
                         (!this.dayFilter || e.day === this.dayFilter));
                 },
@@ -429,7 +589,7 @@
 
                 get tagCounts() {
                     const counts = new Map();
-                    for (const e of this.entries) {
+                    for (const e of this.feed) {
                         for (const t of (e.tags || [])) counts.set(t, (counts.get(t) || 0) + 1);
                     }
                     return [...counts.entries()]
@@ -437,23 +597,35 @@
                         .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
                 },
 
+                get totalHighlights() {
+                    return this.books.reduce((n, b) => n + b.highlights.length, 0);
+                },
+
                 get statTiles() {
                     const now = new Date();
                     const thisMonth = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0');
-                    const monthCount = this.entries.filter(e => e.day.startsWith(thisMonth)).length;
-                    const pubs = new Set(this.entries.map(e => e.publication || 'unknown'));
-                    const topTag = this.tagCounts[0];
+                    const monthCount = this.feed.filter(e => e.day.startsWith(thisMonth)).length;
+                    const articles = this.entries.filter(e => e.kind === 'article').length;
+                    const tweets = this.entries.filter(e => e.kind === 'tweet').length;
                     return [
-                        { label: 'total reads', value: String(this.entries.length) },
+                        { label: 'articles', value: String(articles) },
+                        { label: 'tweets', value: String(tweets) },
+                        { label: 'books', value: String(this.books.length) },
+                        { label: 'highlights', value: String(this.totalHighlights) },
                         { label: 'this month', value: String(monthCount) },
-                        { label: 'top tag', value: topTag ? topTag.tag : '—' },
-                        { label: 'sources', value: String(pubs.size) },
                     ];
                 },
 
                 get weeks() {
                     const counts = new Map();
-                    for (const e of this.entries) counts.set(e.day, (counts.get(e.day) || 0) + 1);
+                    const hlCounts = new Map();
+                    for (const e of this.feed) {
+                        if (e.kind === 'book') {
+                            hlCounts.set(e.day, (hlCounts.get(e.day) || 0) + e.highlights.length);
+                        } else {
+                            counts.set(e.day, (counts.get(e.day) || 0) + 1);
+                        }
+                    }
 
                     const today = new Date();
                     today.setHours(12, 0, 0, 0);
@@ -470,8 +642,10 @@
                         for (let i = 0; i < 7; i++) {
                             const key = this.localDay(cursor.toISOString());
                             const future = cursor > today;
-                            const count = counts.get(key) || 0;
-                            days.push({ key, count, level: future ? 0 : this.level(count) });
+                            const reads = counts.get(key) || 0;
+                            const hl = hlCounts.get(key) || 0;
+                            const count = reads + hl;
+                            days.push({ key, count, reads, hl: future ? 0 : hl, level: future ? 0 : this.level(count) });
                             if (i === 0 && cursor.getMonth() !== prevMonth) {
                                 monthLabel = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'][cursor.getMonth()];
                                 prevMonth = cursor.getMonth();
@@ -509,6 +683,15 @@
                 toggleDayFilter(day) {
                     if (day.count <= 0) return;
                     this.setDayFilter(this.dayFilter === day.key ? null : day.key);
+                },
+                toggleBook(entry) {
+                    this.expanded[entry.id] = !this.expanded[entry.id];
+                    this.track('reading_book_toggle', {
+                        action: this.expanded[entry.id] ? 'expand' : 'collapse',
+                        title: entry.title,
+                        author: entry.author,
+                        highlights: entry.highlights.length,
+                    });
                 },
                 toggleSummary(entry) {
                     this.expanded[entry.id] = !this.expanded[entry.id];
