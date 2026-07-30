@@ -41,40 +41,19 @@
     <script defer src="assets/analytics.js"></script>
     <style>
         body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
-        .term-dark {
-            background: #050806;
-            color: #c8f5c8;
-        }
-        .term-light {
-            background: #ecece4;
-            color: #1a1a12;
-        }
+        .term-dark { background: #050806; color: #c8f5c8; }
+        .term-light { background: #ecece4; color: #1a1a12; }
         .term-scanlines {
             pointer-events: none;
             position: fixed;
             inset: 0;
             z-index: 2;
             opacity: 0.06;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(0, 0, 0, 0.45) 2px,
-                rgba(0, 0, 0, 0.45) 3px
-            );
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.45) 2px, rgba(0,0,0,0.45) 3px);
         }
         .term-light .term-scanlines {
             opacity: 0.04;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(0, 0, 0, 0.12) 2px,
-                rgba(0, 0, 0, 0.12) 3px
-            );
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .term-cursor { animation: none !important; }
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.12) 2px, rgba(0,0,0,0.12) 3px);
         }
         .term-cursor::after {
             content: "▌";
@@ -86,181 +65,214 @@
             0%, 49% { opacity: 1; }
             50%, 100% { opacity: 0; }
         }
-        .fade-in { animation: fadeIn 0.6s ease-out; }
+        .fade-in { animation: fadeIn 0.6s ease-out both; }
+        .fade-in-1 { animation-delay: 0.15s; }
+        .fade-in-2 { animation-delay: 0.3s; }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(8px); }
             to { opacity: 1; transform: translateY(0); }
         }
         @media (prefers-reduced-motion: reduce) {
-            .home-photo-hover { transition: none !important; }
+            .term-cursor { animation: none !important; }
+            .fade-in { animation: none !important; }
+        }
+        .truncate-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
     </style>
 </head>
 <body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
-      x-data="{ darkMode: true }"
-      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+      x-data="homePage()" x-init="load()"
+      :class="{ 'term-dark': darkMode, 'term-light': !darkMode }">
     <div class="term-scanlines" aria-hidden="true"></div>
 
-    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+    <div class="absolute top-4 left-4 z-50">
         <button type="button" @click="darkMode = !darkMode"
-                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
-                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors backdrop-blur-sm"
+                :class="darkMode ? 'border-emerald-400/50 text-emerald-100 bg-black/30 hover:bg-emerald-500/20' : 'border-white/70 text-white bg-black/25 hover:bg-black/40'"
                 aria-label="Toggle color mode">
             <span x-text="darkMode ? 'lite' : 'drk'"></span>
         </button>
     </div>
 
-    <section class="relative z-10 min-h-screen flex flex-col md:grid md:grid-cols-2 md:items-stretch">
-        <div class="px-4 py-16 sm:px-8 md:py-20 md:flex md:flex-col md:justify-center fade-in">
-            <!-- Profile image — mobile -->
-            <div class="md:hidden mb-10 flex justify-center">
-                <div class="border overflow-hidden w-44 h-44 sm:w-52 sm:h-52"
-                     :class="darkMode ? 'border-emerald-500/35 bg-black/40' : 'border-gray-800 bg-white'">
-                    <img src="assets/IMG_2096.jpg" alt="Rohit's profile photo"
-                         class="w-full h-full object-cover" width="400" height="400" decoding="async">
-                </div>
-            </div>
-
-            <div class="max-w-xl mx-auto md:mx-0 w-full">
-                <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
-                   :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
-                    ~/home
+    <!-- Cinematic header -->
+    <header class="relative z-10 h-[46vh] min-h-[320px] max-h-[560px] overflow-hidden">
+        <img src="assets/IMG_2096.jpg"
+             alt="Portrait with the Golden Gate Bridge in San Francisco"
+             class="absolute inset-0 h-full w-full object-cover object-[50%_30%]"
+             width="1200" height="1600" decoding="async">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-black/20" aria-hidden="true"></div>
+        <div class="absolute inset-x-0 bottom-0 px-4 pb-6 sm:px-8 sm:pb-8">
+            <div class="mx-auto max-w-5xl">
+                <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-2 text-emerald-200/90">
+                    ~/home · sf · golden gate bridge
                 </p>
-                <h1 class="mb-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight uppercase leading-tight term-cursor"
-                    :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                <h1 class="text-3xl sm:text-5xl font-bold tracking-tight uppercase leading-tight text-white term-cursor drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
                     Hi, I'm Rohit
                 </h1>
-                <p class="mb-10 max-w-lg leading-relaxed"
-                   :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
-                    I'm a founder based in the SF Bay area
-                </p>
-
-                <div class="flex flex-col gap-3">
-                    <div class="flex flex-wrap gap-3">
-                        <a href="https://monetarymusings.substack.com/?ref=thesharmas"
-                           target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-orange-400/45 text-orange-200 hover:bg-orange-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[ss]</span> Substack
-                        </a>
-                        <a href="https://www.linkedin.com/in/rohitnsharma/?ref=thesharmas"
-                           target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-sky-400/45 text-sky-200 hover:bg-sky-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[in]</span> LinkedIn
-                        </a>
-                        <a href="https://x.com/rnsharma?ref=thesharmas"
-                           target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-gray-400/50 text-gray-200 hover:bg-white/5' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[x]</span> Twitter
-                        </a>
-                    </div>
-                    <div class="flex flex-wrap gap-3">
-                        <a href="https://github.com/thesharmas/Credit-Underwriter-Agent?ref=thesharmas"
-                           target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[gh]</span> GitHub
-                        </a>
-                        <a href="music.html"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-cyan-400/45 text-cyan-200 hover:bg-cyan-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[♪]</span> Music
-                        </a>
-                        <a href="side-projects.html"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-amber-400/45 text-amber-100 hover:bg-amber-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[sp]</span> Side Projects
-                        </a>
-                        <a href="reading.html"
-                           class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
-                           :class="darkMode ? 'border-rose-400/45 text-rose-200 hover:bg-rose-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
-                            <span class="text-[10px] opacity-70">[rd]</span> Reading
-                        </a>
-                    </div>
-                </div>
             </div>
+        </div>
+    </header>
 
-            <div class="mt-12 max-w-xl mx-auto md:mx-0 w-full space-y-6">
-                <div class="border p-5"
+    <main class="relative z-10 px-4 py-8 sm:px-8 sm:py-10">
+        <div class="mx-auto max-w-5xl">
+
+            <p class="mb-8 max-w-2xl leading-relaxed fade-in"
+               :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                Founder based in the SF Bay Area. Co-founder of
+                <a href="https://www.kanmon.com?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                   class="font-bold underline decoration-dotted underline-offset-4 transition-colors"
+                   :class="darkMode ? 'text-emerald-100 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'">Kanmon</a>,
+                embedded lending infrastructure.
+                <span class="block mt-2 text-[11px] uppercase tracking-[0.2em]"
+                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">fintech · ai/ml · dev tools</span>
+            </p>
+
+            <div class="grid gap-6 md:grid-cols-5 items-start">
+                <!-- ls -->
+                <div class="md:col-span-3 border fade-in fade-in-1"
                      :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
-                    <h2 class="text-[10px] font-bold uppercase tracking-[0.3em] mb-4"
-                        :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">work</h2>
-                    <div class="flex items-center gap-4">
-                        <img src="assets/kanmon_logoicon_bw_white.svg"
-                             alt=""
-                             class="w-14 h-14 object-contain shrink-0"
-                             :class="darkMode ? '' : 'invert'">
-                        <div>
-                            <a href="https://www.kanmon.com?ref=thesharmas"
-                               target="_blank" rel="noopener noreferrer"
-                               class="group">
-                                <h3 class="text-lg font-bold uppercase tracking-wide transition-colors"
-                                    :class="darkMode ? 'text-emerald-100 group-hover:text-cyan-400' : 'text-gray-900 group-hover:text-cyan-800'">
-                                    Kanmon
-                                </h3>
+                    <p class="px-5 pt-4 pb-2 text-xs" :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'">
+                        <span :class="darkMode ? 'text-emerald-400' : 'text-gray-800'">$</span>
+                        <span class="font-bold" :class="darkMode ? 'text-emerald-200' : 'text-gray-900'">ls ~/home</span>
+                    </p>
+                    <nav class="pb-2" aria-label="Site sections">
+                        <a href="reading.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                           :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                                  :class="darkMode ? 'text-rose-300' : 'text-rose-900'">reading/</span>
+                            <span class="text-xs min-w-0 truncate-1"
+                                  :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">daily log of articles &amp; essays</span>
+                            <span class="ml-auto shrink-0 text-[10px] uppercase tracking-[0.15em] hidden sm:inline"
+                                  :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'"
+                                  x-text="counts.entries ? counts.entries + ' · daily' : 'daily'"></span>
+                        </a>
+                        <a href="books.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                           :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                                  :class="darkMode ? 'text-amber-200' : 'text-amber-800'">books/</span>
+                            <span class="text-xs min-w-0 truncate-1"
+                                  :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">shelf with highlighted passages</span>
+                            <span class="ml-auto shrink-0 text-[10px] uppercase tracking-[0.15em] hidden sm:inline"
+                                  :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'"
+                                  x-text="counts.books ? counts.books + ' in progress' : ''"></span>
+                        </a>
+                        <a href="side-projects.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                           :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                                  :class="darkMode ? 'text-orange-300' : 'text-orange-900'">side-projects/</span>
+                            <span class="text-xs min-w-0 truncate-1"
+                                  :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">incl. DebtStack — a debt facility simulator</span>
+                            <span class="ml-auto shrink-0 text-[10px] uppercase tracking-[0.15em] hidden sm:inline"
+                                  :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'">4 shipped</span>
+                        </a>
+                        <a href="music.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                           :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                                  :class="darkMode ? 'text-cyan-300' : 'text-cyan-900'">music/</span>
+                            <span class="text-xs min-w-0 truncate-1"
+                                  :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">DJ booth, gear, vinyl adds, mixes</span>
+                            <span class="ml-auto shrink-0 text-[10px] uppercase tracking-[0.15em] hidden sm:inline"
+                                  :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'">studio</span>
+                        </a>
+                    </nav>
+                </div>
+
+                <!-- tail reading.log -->
+                <div class="md:col-span-2 border fade-in fade-in-2"
+                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                    <p class="px-5 pt-4 pb-2 text-xs" :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'">
+                        <span :class="darkMode ? 'text-emerald-400' : 'text-gray-800'">$</span>
+                        <span class="font-bold" :class="darkMode ? 'text-emerald-200' : 'text-gray-900'">tail -3 reading.log</span>
+                    </p>
+                    <div class="pb-2">
+                        <template x-for="entry in latest" :key="entry.id">
+                            <a :href="entry.url" target="_blank" rel="noopener noreferrer"
+                               class="group block px-5 py-2.5 transition-colors"
+                               :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
+                                <span class="block text-[10px] font-bold uppercase tracking-[0.15em] mb-0.5"
+                                      :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'"
+                                      x-text="entry.publication"></span>
+                                <span class="block text-xs leading-snug transition-colors truncate-1"
+                                      :class="darkMode ? 'text-emerald-200/80 group-hover:text-emerald-100' : 'text-gray-700 group-hover:text-gray-900'"
+                                      x-text="entry.title"></span>
                             </a>
-                            <p class="text-xs mt-1"
-                               :class="darkMode ? 'text-emerald-200/55' : 'text-gray-600'">Co-founder</p>
-                        </div>
+                        </template>
+                        <p x-show="latest.length === 0" class="px-5 py-2.5 text-xs"
+                           :class="darkMode ? 'text-emerald-200/50' : 'text-gray-500'">
+                            reading.log is empty — check back tomorrow
+                        </p>
+                        <p class="px-5 pt-1 pb-2 text-[10px] uppercase tracking-[0.15em]"
+                           x-show="updatedAt"
+                           :class="darkMode ? 'text-emerald-500/50' : 'text-gray-400'"
+                           x-text="'last write ' + updatedAt"></p>
                     </div>
-                </div>
-
-                <div class="border p-5"
-                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
-                    <h2 class="text-[10px] font-bold uppercase tracking-[0.3em] mb-4"
-                        :class="darkMode ? 'text-violet-400/85' : 'text-violet-900'">interests</h2>
-                    <ul class="space-y-2 text-xs sm:text-sm"
-                        :class="darkMode ? 'text-emerald-200/70' : 'text-gray-700'">
-                        <li class="flex items-start gap-2">
-                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
-                            Fintech
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
-                            AI/ML
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-emerald-500/80 shrink-0" aria-hidden="true">»</span>
-                            Dev Tools
-                        </li>
-                    </ul>
                 </div>
             </div>
 
-            <footer class="mt-12 max-w-xl mx-auto md:mx-0 w-full border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
-                    :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
-                eof
+            <footer class="mt-10 border-t pt-5"
+                    :class="darkMode ? 'border-emerald-500/20' : 'border-gray-400/60'">
+                <p class="text-xs mb-3" :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'">
+                    <span :class="darkMode ? 'text-emerald-400' : 'text-gray-800'">$</span>
+                    <span class="font-bold" :class="darkMode ? 'text-emerald-200' : 'text-gray-900'">links --social</span>
+                </p>
+                <div class="flex flex-wrap items-center gap-3 pl-0 sm:pl-4">
+                    <a href="https://monetarymusings.substack.com/?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-3 py-2 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                       :class="darkMode ? 'border-orange-400/45 text-orange-200 hover:bg-orange-500/10' : 'border-orange-900/60 text-orange-950 hover:bg-orange-500/10'">
+                        <span class="opacity-70">[ss]</span> substack
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohitnsharma/?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-3 py-2 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                       :class="darkMode ? 'border-sky-400/45 text-sky-200 hover:bg-sky-500/10' : 'border-sky-900/60 text-sky-950 hover:bg-sky-500/10'">
+                        <span class="opacity-70">[in]</span> linkedin
+                    </a>
+                    <a href="https://x.com/rnsharma?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-3 py-2 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                       :class="darkMode ? 'border-gray-400/50 text-gray-200 hover:bg-white/5' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                        <span class="opacity-70">[x]</span> twitter
+                    </a>
+                    <a href="https://github.com/thesharmas?ref=thesharmas" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 border px-3 py-2 text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                       :class="darkMode ? 'border-violet-400/45 text-violet-200 hover:bg-violet-500/10' : 'border-violet-900/60 text-violet-950 hover:bg-violet-500/10'">
+                        <span class="opacity-70">[gh]</span> github
+                    </a>
+                    <span class="ml-auto text-[11px] uppercase tracking-[0.2em]" :class="darkMode ? 'text-emerald-500/40' : 'text-gray-400'">eof</span>
+                </div>
             </footer>
         </div>
+    </main>
 
-        <!-- Desktop photo: wide portrait, soft edge (no frame box) -->
-        <div class="relative hidden md:flex h-full min-h-0 flex-col items-center justify-center border-l px-8 py-12 lg:px-16 lg:py-16"
-             :class="darkMode ? 'border-emerald-500/20' : 'border-gray-800/40'">
-            <figure class="w-full max-w-[min(100%,30rem)] lg:max-w-[36rem]">
-                <div class="home-photo-hover w-full transition-transform duration-500 motion-safe:hover:scale-[1.008]"
-                     :class="darkMode
-                         ? 'shadow-[0_28px_90px_-28px_rgba(0,0,0,0.75)]'
-                         : 'shadow-[0_24px_70px_-24px_rgba(0,0,0,0.22)]'">
-                    <div class="relative aspect-[3/4] w-full overflow-hidden rounded-[2px]">
-                        <img src="assets/IMG_2096.jpg"
-                             alt="Portrait with the Golden Gate Bridge in San Francisco"
-                             class="home-photo-hover h-full w-full object-cover object-[50%_22%] motion-safe:transition motion-safe:duration-700 motion-safe:ease-out motion-safe:hover:object-[50%_20%]"
-                             width="1200" height="1600" decoding="async">
-                        <div class="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-t via-transparent"
-                             :class="darkMode
-                                 ? 'from-black/35 to-black/15 mix-blend-multiply'
-                                 : 'from-gray-900/12 to-gray-800/5'"
-                             aria-hidden="true"></div>
-                    </div>
-                </div>
-                <figcaption class="mt-4 text-center text-[10px] font-bold uppercase tracking-[0.22em] leading-relaxed"
-                              :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">
-                    San Francisco · Golden Gate Bridge
-                </figcaption>
-            </figure>
-        </div>
-    </section>
+    <script>
+        function homePage() {
+            return {
+                darkMode: false,
+                latest: [],
+                counts: { entries: null, books: null },
+                updatedAt: '',
+                async load() {
+                    try {
+                        const res = await fetch('data/reading.json');
+                        if (!res.ok) return;
+                        const data = await res.json();
+                        const entries = (data.entries || [])
+                            .slice()
+                            .sort((a, b) => new Date(b.date) - new Date(a.date));
+                        this.latest = entries.slice(0, 3);
+                        this.counts.entries = data.count || entries.length;
+                        this.counts.books = (data.books || []).length;
+                        if (data.generated_at) {
+                            this.updatedAt = data.generated_at.slice(0, 10);
+                        }
+                    } catch (e) {
+                        /* offline or file missing — page still works without the live strip */
+                    }
+                }
+            };
+        }
+    </script>
 </body>
 </html>
