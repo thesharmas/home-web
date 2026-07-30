@@ -1,7 +1,81 @@
 {
-  "generated_at": "2026-07-30T03:00:16.729Z",
-  "count": 14,
+  "generated_at": "2026-07-30T16:32:39.125Z",
+  "count": 18,
   "entries": [
+    {
+      "id": "rl-20260730161428-3a8267",
+      "date": "2026-07-30T16:14:28.323Z",
+      "publication": "Financial Times",
+      "title": "Leopold Aschenbrenner's Situational Awareness seeks to raise capital after AI rout",
+      "author": "James Fontanella-Khan, Kate Duguid, Amelia Pollard, Antoine Gara, Jill Shah, Ortenca Aliaj, George Hammond, Rafe Rosner-Uddin",
+      "url": "https://www.ft.com/content/280336bf-dbed-405f-b38e-5af644a21549?syn-25a6b1a6=1",
+      "summary": "Situational Awareness, the $20bn AI-focused hedge fund founded by former OpenAI employee Leopold Aschenbrenner, has sought fresh capital from investors after suffering heavy losses during a recent rout in AI stocks. The fund had posted extraordinary returns of 439% net in the first half of the year, but its use of leverage to amplify bets on AI-linked companies has magnified losses as tech stocks, particularly in Asia and the Nasdaq, sold off sharply. Aschenbrenner, in a letter to investors, acknowledged the turbulence but argued the sell-off represented attractive buying opportunities, pointing to an anticipated Anthropic IPO as a potential catalyst for recovery.",
+      "tags": [
+        "ai agents",
+        "investing",
+        "technology"
+      ],
+      "source": "final_clean_verify",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730045125-d8f462",
+      "date": "2026-07-30T04:51:25.421Z",
+      "publication": "christianselig.com",
+      "title": "The coolest use for the Vision Pro",
+      "author": "Christian Selig",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "summary": "Christian Selig describes using the Apple Vision Pro to explore 3D models of a house he is building, converting floor plans into immersive walkthroughs using Fusion 360, IKEA 3D models, and 3D Warehouse assets. He vibe-coded a custom Vision Pro app called Prospector with controller support, terrain following, and other features to make navigating the virtual space practical. He argues this workflow makes spatial decision-making during home design far more intuitive than reviewing 2D floor plan PDFs.",
+      "tags": [
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730044822-225536",
+      "date": "2026-07-30T04:48:22.961Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Flo Crivello (@Altimor) on X",
+      "author": "Flo Crivello (@Altimor)",
+      "url": "https://x.com/Altimor/status/2082640637762187747",
+      "summary": "Ok I purchased and tried 4 different mics for wispr flow (including the $259 DJI Mic 3 which is much too big, both mic and receiver) and finally found this one — $40, super small https://t.co/eEuVe20ZaZ https://t.co/4mEJmWhajQ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730044658-edb2bf",
+      "date": "2026-07-30T04:46:58.246Z",
+      "publication": "Twitter/X",
+      "title": "christian (@curious_vii): Email is basically dead...",
+      "author": "christian (@curious_vii)",
+      "url": "https://x.com/curious_vii/status/2082620397602713724",
+      "summary": "The author argues that email is obsolete, claiming call transcripts are far richer as inputs for AI-driven tasks and that voice-based async communication ('smart voicemail') will displace email. A reply pushes back, noting that email primarily serves as an audit trail for tasks, especially in cross-organizational coordination.",
+      "tags": [
+        "tweet",
+        "ai agents",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730035130-307602",
+      "date": "2026-07-30T03:51:30.501Z",
+      "publication": "X (formerly Twitter)",
+      "title": "space cadet 🇪🇺🌐🇩🇪 (@actsmaniac) on X",
+      "author": "space cadet 🇪🇺🌐🇩🇪 (@actsmaniac)",
+      "url": "https://x.com/actsmaniac/status/2082505467046056388",
+      "summary": "Truth nuke in the FT comment section on Berlin rent control https://t.co/NPI7pacQXu",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260730010149-70a04e",
       "date": "2026-07-30T01:01:49.016Z",
@@ -10,18 +84,6 @@
       "author": "https://x.com/evrgn11112231",
       "url": "https://x.com/evrgn11112231/status/2082623673073013159",
       "summary": "Came back just to say the vast majority of you are emotional idiots and I can’t believe anyone is actually debating the fundamentals of $META lol check your brains most of you panic bought this thing for the first time at $670 10 days ago just quit your jobs already",
-      "tags": [],
-      "source": "shared",
-      "partial": true
-    },
-    {
-      "id": "rl-20260730010053-a506e9",
-      "date": "2026-07-30T01:00:53.357Z",
-      "publication": "X (formerly Twitter)",
-      "title": "space cadet 🇪🇺🌐🇩🇪 (@actsmaniac) on X",
-      "author": "https://x.com/actsmaniac",
-      "url": "https://x.com/actsmaniac/status/2082505467046056388",
-      "summary": "Truth nuke in the FT comment section on Berlin rent control",
       "tags": [],
       "source": "shared",
       "partial": true
@@ -223,26 +285,26 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 12
+        "count": 15
       },
       {
         "tag": "ai agents",
-        "count": 7
+        "count": 9
+      },
+      {
+        "tag": "tweet",
+        "count": 6
+      },
+      {
+        "tag": "investing",
+        "count": 5
       },
       {
         "tag": "cloud",
         "count": 4
       },
       {
-        "tag": "investing",
-        "count": 4
-      },
-      {
         "tag": "capital expenditure",
-        "count": 3
-      },
-      {
-        "tag": "tweet",
         "count": 3
       },
       {
@@ -257,6 +319,10 @@
     "by_publication": [
       {
         "publication": "Twitter/X",
+        "count": 4
+      },
+      {
+        "publication": "X (formerly Twitter)",
         "count": 3
       },
       {
@@ -268,11 +334,11 @@
         "count": 2
       },
       {
-        "publication": "X (formerly Twitter)",
-        "count": 2
+        "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
       },
       {
-        "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "publication": "Financial Times",
         "count": 1
       },
       {
@@ -290,12 +356,16 @@
       {
         "publication": "Substack / Ahead of AI (Sebastian Raschka)",
         "count": 1
+      },
+      {
+        "publication": "christianselig.com",
+        "count": 1
       }
     ],
     "by_month": [
       {
         "month": "2026-07",
-        "count": 14
+        "count": 18
       }
     ]
   }
