@@ -1,7 +1,198 @@
 {
-  "generated_at": "2026-07-30T17:14:15.700Z",
-  "count": 18,
+  "generated_at": "2026-07-30T22:08:42.418Z",
+  "count": 31,
   "entries": [
+    {
+      "id": "rl-20260730215903-d0c6dc",
+      "date": "2026-07-30T21:59:03.781Z",
+      "publication": "X (formerly Twitter)",
+      "title": "LTR (@0xLTR) on X",
+      "author": "LTR (@0xLTR)",
+      "url": "https://x.com/0xLTR/status/2082872693892997398",
+      "summary": "leopold blew up before saylor\n\nwhat timeline is this",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730200639-ec75db",
+      "date": "2026-07-30T20:06:39.865Z",
+      "publication": "X (formerly Twitter)",
+      "title": "0xSero (@0xSero) on X",
+      "author": "0xSero (@0xSero)",
+      "url": "https://x.com/0xSero/status/2082863372853559652",
+      "summary": "Most slept on repo of all time, anyone can autoresearch & deeply recursively optimise anything. \n\nDo yourself a favor, get a cheap llm sub, or run something locally on some hardware, give it autoresearch and target it at something in your life. \n\n- Budgeting\n- Performance optimis",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730195156-e0cfc3",
+      "date": "2026-07-30T19:51:56.398Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Joe Weisenthal (@TheStalwart) on X",
+      "author": "Joe Weisenthal (@TheStalwart)",
+      "url": "https://x.com/TheStalwart/status/2082903296021262537",
+      "summary": "If you ever hear someone say \"The market is doing the Fed's job for it\" then you are, I'm afraid, in earshot of a moron.",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730191433-600962",
+      "date": "2026-07-30T19:14:33.986Z",
+      "publication": "Bloomberg",
+      "title": "How the Iranian Economy Actually Works",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/how-the-iranian-economy-actually-works/id1056200096?i=1000779064354",
+      "summary": "This episode of Bloomberg's Odd Lots podcast features Yeganeh Torbati and Bozorgmehr Sharafedin discussing their book 'Stolen Revolution: Betrayal and Hope in Modern Iran,' which examines how Iran's economy transformed after the 1979 revolution. They describe Iran as a 'mafia state' where political factionalism and cronyism are embedded in the country's political economy. The conversation covers how average Iranians navigate this system, the treatment of Iran's tech sector, and why recent peace talks may not significantly alter the economy's structure.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730183645-de5c5a",
+      "date": "2026-07-30T18:36:45.141Z",
+      "publication": "Material World (Substack)",
+      "title": "What Andy Burnham's £80 T-shirt really tells us",
+      "author": "Ed Conway",
+      "url": "https://edconway.substack.com/p/what-andy-burnhams-80-t-shirt-really",
+      "summary": "Using Andy Burnham's expensive Manchester-made casual wear as a jumping-off point, Ed Conway explores the opacity of garment supply chains and how 'Made in X' labels reveal little about where a product truly originates. He traces the rise and fall of Manchester's textile industry to illustrate how decades of prioritising cheap global sourcing hollowed out domestic manufacturing capacity. The piece argues that in a world where geography is mattering again—due to geopolitical tension and supply-chain fragility—producing things locally is genuinely more expensive, posing a fundamental challenge for any government that wants to 'buy British'.",
+      "tags": [
+        "sustainability",
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730183346-d279c3",
+      "date": "2026-07-30T18:33:46.040Z",
+      "publication": "Financial Times",
+      "title": "Trying to make sense of Warsh",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/17bcdc30-a59f-4a1f-afa7-f2c759fe588b",
+      "summary": "The piece analyzes Fed Chair Kevin Warsh's press conference, which triggered a surge in US borrowing costs to a 19-year high despite no change in policy. The author explores Warsh's suggestion that rising market interest rates could substitute for a Fed rate hike, using Goldman Sachs's Financial Conditions Index framework to quantify the tightening effect of recent market moves (~33bps). The piece concludes with skepticism about whether deliberately injecting uncertainty premia into markets is a coherent or sustainable monetary policy strategy.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730182728-59b40c",
+      "date": "2026-07-30T18:27:28.258Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Andrew Ho (@andrewho03) on X",
+      "author": "Andrew Ho (@andrewho03)",
+      "url": "https://x.com/andrewho03/status/2082786931419812338",
+      "summary": "I'm actually fairly bearish on frontier lab valuations. I've never seen the reasons articulated to my satisfaction, so before I go to sleep, I wanted to quickly jot down my thinking here.\n\nThe basic issue is that the labs are highly unprofitable. This may seem like a simple point",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730182559-1499b1",
+      "date": "2026-07-30T18:25:59.136Z",
+      "publication": "X (formerly Twitter)",
+      "title": "schmosby (@schmosby_xbt) on X",
+      "author": "schmosby (@schmosby_xbt)",
+      "url": "https://x.com/schmosby_xbt/status/2082470092755906890",
+      "summary": "theyr called memory stocks because you'll never forget the liquidations",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730181803-f7cae8",
+      "date": "2026-07-30T18:18:03.609Z",
+      "publication": "Financial Times",
+      "title": "The corgi-inspired ETF provider that wants to disrupt BlackRock",
+      "author": "Steve Johnson",
+      "url": "https://www.ft.com/content/e3ed0f3d-52c0-45f5-b1f2-9b0e406026c7",
+      "summary": "Corgi Funds, a San Francisco-based ETF provider founded in 2024 and backed by $266mn in VC funding, has rapidly filed for 550 ETFs with the SEC, aiming to surpass BlackRocks 488 US ETFs. The company, which is an offshoot of an AI-native insurance startup, is pursuing a spaghetti cannon strategy of launching hundreds of thematic, leveraged, and broad-market funds at fees that significantly undercut incumbents. Industry observers are intrigued but skeptical, noting that the economics of low-fee ETFs remain unproven without substantial distribution and assets under management.",
+      "tags": [
+        "etfs",
+        "asset management",
+        "fintech",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730180444-2a948e",
+      "date": "2026-07-30T18:04:44.663Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Sam Altman (@sama) on X",
+      "author": "Sam Altman (@sama)",
+      "url": "https://x.com/sama/status/2082880720989532597",
+      "summary": "major price cuts today:\n\n*80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output\n*20% drop for GPT-5.6 Terra, to $2/$12\n*GPT-5.6 Sol gets Fast mode in the API, up to 2.5x the speed for 2x the price, same intelligence https://t.co/erC6u4VoDR",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730175801-283913",
+      "date": "2026-07-30T17:58:01.435Z",
+      "publication": null,
+      "title": "Mac log link - Shortcuts Workflow",
+      "author": null,
+      "url": "https://srv1402064-1.tail2e573a.ts.net/hooks/readlog",
+      "summary": "This is a macOS Shortcuts workflow named 'Mac log link' that retrieves the current URL from Google Chrome's active tab using AppleScript, then sends it to a self-hosted Tailscale endpoint at /hooks/readlog. The workflow is configured as a Quick Action available in the Services Menu and Share Sheet, enabling the user to log the current browser URL to their personal reading log server with a single action.",
+      "tags": [
+        "technology",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730175735-c94fa5",
+      "date": "2026-07-30T17:57:35.244Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Inverse Cramer (@CramerTracker) on X",
+      "author": "Inverse Cramer (@CramerTracker)",
+      "url": "https://x.com/CramerTracker/status/2082854223478132827",
+      "summary": "Never stood a chance https://t.co/SbXrzgDkn1",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260730175537-a22364",
+      "date": "2026-07-30T17:55:37.337Z",
+      "publication": "Twitter/X",
+      "title": "Corey Hoffstein (@choffstein) - Scooby-Doo meme about Bill Hwang / Situational Awareness book",
+      "author": "Corey Hoffstein 🏴‍☠️ (@choffstein)",
+      "url": "https://x.com/choffstein/status/2082834974722404784",
+      "summary": "Corey Hoffstein posts a meme implying Bill Hwang was behind the 'Situational Awareness' public investment book that sold out after news broke on CNBC. In replies, Hoffstein shows little sympathy, noting that running a concentrated, leveraged book and getting 'carried out' is a self-inflicted consequence. Commenter Saang Lee contextualizes Hwang's notoriety by referencing his role in the collapse of a major bank and massive personal capital losses.",
+      "tags": [
+        "investing",
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260730161428-3a8267",
       "date": "2026-07-30T16:14:28.323Z",
@@ -329,19 +520,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 15
+        "count": 17
+      },
+      {
+        "tag": "tweet",
+        "count": 14
+      },
+      {
+        "tag": "investing",
+        "count": 10
       },
       {
         "tag": "ai agents",
         "count": 9
-      },
-      {
-        "tag": "tweet",
-        "count": 6
-      },
-      {
-        "tag": "investing",
-        "count": 5
       },
       {
         "tag": "cloud",
@@ -352,21 +543,41 @@
         "count": 3
       },
       {
+        "tag": "fintech",
+        "count": 3
+      },
+      {
         "tag": "security",
-        "count": 2
+        "count": 3
       },
       {
         "tag": "sustainability",
+        "count": 2
+      },
+      {
+        "tag": "asset management",
+        "count": 1
+      },
+      {
+        "tag": "etfs",
         "count": 1
       }
     ],
     "by_publication": [
       {
-        "publication": "Twitter/X",
-        "count": 4
+        "publication": "X (formerly Twitter)",
+        "count": 10
       },
       {
-        "publication": "X (formerly Twitter)",
+        "publication": "Twitter/X",
+        "count": 5
+      },
+      {
+        "publication": "Financial Times",
+        "count": 3
+      },
+      {
+        "publication": "Unknown",
         "count": 3
       },
       {
@@ -374,15 +585,11 @@
         "count": 2
       },
       {
-        "publication": "Unknown",
-        "count": 2
-      },
-      {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
         "count": 1
       },
       {
-        "publication": "Financial Times",
+        "publication": "Bloomberg",
         "count": 1
       },
       {
@@ -398,6 +605,10 @@
         "count": 1
       },
       {
+        "publication": "Material World (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Substack / Ahead of AI (Sebastian Raschka)",
         "count": 1
       },
@@ -409,7 +620,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 18
+        "count": 31
       }
     ]
   }
