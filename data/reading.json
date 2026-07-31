@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-31T01:00:13.629Z",
-  "count": 36,
+  "generated_at": "2026-07-31T04:00:13.937Z",
+  "count": 38,
   "entries": [
+    {
+      "id": "rl-20260731035900-4e15e5",
+      "date": "2026-07-31T03:59:00.882Z",
+      "publication": null,
+      "title": "The Crimes of 1873",
+      "author": null,
+      "url": null,
+      "summary": "This passage describes the devastating impact of the Panic of 1873 on U.S. railroad companies, with railroad stocks falling nearly 50% and a third of railway bonds going into receivership between 1874 and 1876—the worst corporate default period in American history, surpassing even the Great Depression. By 1879, more than half of U.S. railway bonds had stopped paying interest, halting new railroad construction and shuttering half of iron furnaces. Despite losses totaling $600 million (over 7% of U.S. GDP), the damage was largely confined to the wealthy investor class, leading some to call it a \"rich man's panic.\"",
+      "tags": [
+        "investing",
+        "asset management",
+        "capital expenditure"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260731035642-03d0bd",
+      "date": "2026-07-31T03:56:42.375Z",
+      "publication": "Apple Shortcuts",
+      "title": "All Shortcuts - iOS Shortcuts Library",
+      "author": null,
+      "url": null,
+      "summary": "This is a screenshot of a user's iOS Shortcuts library showing all their saved shortcuts. The shortcuts include reading log utilities (Log Link, Mac log link, Readlog, Readlog 1, Mac Readlog), URL content fetchers, media tools (Convert video to GIF, Take a picture), and utility shortcuts (Meet Halfway, Scan QR Code). This appears to be the user's personal automation setup rather than a piece of content being read.",
+      "tags": [
+        "technology"
+      ],
+      "source": "ios",
+      "partial": false
+    },
     {
       "id": "rl-20260731002354-cb345f",
       "date": "2026-07-31T00:23:54.022Z",
@@ -583,6 +613,20 @@
           "page_number": 133,
           "excerpt": "Unable to find European buyers for his Northern Pacific bonds, Cooke redirected his efforts at home. During the Civil War, he had managed to raise $1.5 billion from small investors on behalf of the Union government at a time when economic circumstances were much tougher, and he was confident he could repeat this success now that the economy was booming. Employing the same high-pressure sales tactics that had worked so well before, he recruited an army of agents to crisscross the country armed with maps and pamphlets about the Pacific Northwest, delivering lectures on the region's glories—for example, promising balmy weather that was billed as a cross between the climates of Paris and Venice.",
           "note": "Jay Cooke's domestic retail bond campaign for Northern Pacific mirrors the Civil War fundraising playbook — a key setup for the coming crash."
+        },
+        {
+          "id": 5,
+          "captured_at": "2026-07-31T03:37:54.064Z",
+          "page_number": null,
+          "excerpt": "We see no reason to suppose that any general panic or financial crisis is now immediately impending over the country at large. . . . But unless we are greatly deceived, within the next few years a great many very handsomely engraved railroad bonds will go to protest and certificates of stocks by the millions will find their way into the hands of the trunk makers.",
+          "note": "A prescient warning dismissed at the time — the railroad bond bubble bursting is precisely what triggered the 1873 crash."
+        },
+        {
+          "id": 6,
+          "captured_at": "2026-07-31T03:54:11.497Z",
+          "page_number": 153,
+          "excerpt": "Between 1874 and 1876, a third of U.S. railway bonds, which amounted to $2.2 billion in all, went into receivership. It was to be the worst three-year period of corporate defaults in American history, even worse than the Great Depression.",
+          "note": "Striking comparative claim: the 1874–1876 railroad collapse produced worse corporate default rates than the Great Depression."
         }
       ]
     }
@@ -590,20 +634,24 @@
   "aggregates": {
     "by_tag": [
       {
+        "tag": "technology",
+        "count": 18
+      },
+      {
         "tag": "tweet",
         "count": 18
       },
       {
-        "tag": "technology",
-        "count": 17
-      },
-      {
         "tag": "investing",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "ai agents",
         "count": 9
+      },
+      {
+        "tag": "capital expenditure",
+        "count": 4
       },
       {
         "tag": "cloud",
@@ -614,20 +662,16 @@
         "count": 4
       },
       {
-        "tag": "capital expenditure",
-        "count": 3
-      },
-      {
         "tag": "security",
         "count": 3
       },
       {
-        "tag": "sustainability",
+        "tag": "asset management",
         "count": 2
       },
       {
-        "tag": "asset management",
-        "count": 1
+        "tag": "sustainability",
+        "count": 2
       },
       {
         "tag": "etfs",
@@ -644,11 +688,11 @@
         "count": 5
       },
       {
-        "publication": "Financial Times",
-        "count": 3
+        "publication": "Unknown",
+        "count": 4
       },
       {
-        "publication": "Unknown",
+        "publication": "Financial Times",
         "count": 3
       },
       {
@@ -661,6 +705,10 @@
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
+      },
+      {
+        "publication": "Apple Shortcuts",
         "count": 1
       },
       {
@@ -695,7 +743,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 36
+        "count": 38
       }
     ]
   }
