@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-07-31T04:00:13.937Z",
-  "count": 38,
+  "generated_at": "2026-07-31T05:00:16.317Z",
+  "count": 41,
   "entries": [
+    {
+      "id": "rl-20260731045220-902c42",
+      "date": "2026-07-31T04:52:20.695Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Paras Chopra (@paraschopra) on X",
+      "author": "Paras Chopra (@paraschopra)",
+      "url": "https://x.com/paraschopra/status/2083032421461844197",
+      "summary": "Claude Shannon, a juggler, a tinkerer, the Einstein of communications - the man is an inspiration on how to live a life full of curiosity.\n\nReading this #book, it’s clear that Claude never boxed himself into a category. He will build things with his hands, prove theorems, and dre",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731045106-125332",
+      "date": "2026-07-31T04:51:06.601Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Lisa Abramowicz (@lisaabramowicz1) on X",
+      "author": "Lisa Abramowicz (@lisaabramowicz1)",
+      "url": "https://x.com/lisaabramowicz1/status/2082784361221390730",
+      "summary": "Real yields on 30-year Treasuries are the highest since 2008. The rise in yields isn't just being driven by inflation expectations. https://t.co/78jMdvkhLn",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731044941-b24033",
+      "date": "2026-07-31T04:49:41.327Z",
+      "publication": "X (formerly Twitter)",
+      "title": "goodalexander (@goodalexander) on X",
+      "author": "goodalexander (@goodalexander)",
+      "url": "https://x.com/goodalexander/status/2083020286320857367",
+      "summary": "coinbase sums it all up. since June of 2024 2.5x as many pull requests per engineer. \n\nmeanwhile revenue is lower than June 2024, eng headcount is up and net income down double digits. so clearly the tokenmaxxing didn't actually move the needle on a business outcome https://t.co/",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260731035900-4e15e5",
       "date": "2026-07-31T03:59:00.882Z",
@@ -634,11 +676,11 @@
   "aggregates": {
     "by_tag": [
       {
-        "tag": "technology",
-        "count": 18
+        "tag": "tweet",
+        "count": 21
       },
       {
-        "tag": "tweet",
+        "tag": "technology",
         "count": 18
       },
       {
@@ -681,7 +723,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 13
+        "count": 16
       },
       {
         "publication": "Twitter/X",
@@ -743,7 +785,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 38
+        "count": 41
       }
     ]
   }
