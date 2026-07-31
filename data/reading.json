@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-07-31T05:00:16.317Z",
-  "count": 41,
+  "generated_at": "2026-07-31T16:00:15.856Z",
+  "count": 43,
   "entries": [
+    {
+      "id": "rl-20260731153146-cbde3e",
+      "date": "2026-07-31T15:31:46.361Z",
+      "publication": "Apple Podcasts",
+      "title": "AI Can Do It All, Chat. Is That Bad?",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/ai-can-do-it-all-chat-is-that-bad/id1896825645?i=1000779087613",
+      "summary": "Columbia computer science professor Jae Woo Lee, who teaches advanced programming to hundreds of students annually, shares his perspective on AI's impact on coding education. He argues that coding by hand remains a valuable art form worth preserving, and warns about what is lost when students rely on AI instead of learning the hard way. The episode explores the tension between AI capabilities and the educational value of manual programming.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731152815-1d8c94",
+      "date": "2026-07-31T15:28:15.201Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Jamin Ball (@jaminball) on X",
+      "author": "Jamin Ball (@jaminball)",
+      "url": "https://x.com/jaminball/status/2082936325897167261",
+      "summary": "[1/4] Cloud Giants Update:\n\nAWS (Amazon): $169B run rate growing 37% YoY (last Q grew 28%)\n\nAzure (Microsoft): ~$124B run rate (estimate) growing 43% YoY (last Q grew 39%)\n\nGoogle Cloud (includes GSuite): $99B run rate growing 82% YoY (last Q grew 63%, neither are cc) https://t.c",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260731045220-902c42",
       "date": "2026-07-31T04:52:20.695Z",
@@ -677,11 +706,11 @@
     "by_tag": [
       {
         "tag": "tweet",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "technology",
-        "count": 18
+        "count": 19
       },
       {
         "tag": "investing",
@@ -689,7 +718,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 9
+        "count": 10
       },
       {
         "tag": "capital expenditure",
@@ -723,7 +752,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 16
+        "count": 17
       },
       {
         "publication": "Twitter/X",
@@ -747,6 +776,10 @@
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
+      },
+      {
+        "publication": "Apple Podcasts",
         "count": 1
       },
       {
@@ -785,7 +818,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 41
+        "count": 43
       }
     ]
   }
