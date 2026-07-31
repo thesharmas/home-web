@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-07-31T16:00:15.856Z",
-  "count": 43,
+  "generated_at": "2026-07-31T17:00:15.343Z",
+  "count": 44,
   "entries": [
+    {
+      "id": "rl-20260731160106-c07580",
+      "date": "2026-07-31T16:01:06.217Z",
+      "publication": "Bloomberg (Odd Lots)",
+      "title": "Why Private Credit Got Entangled With Insurance",
+      "author": "Andrew Granato, Pranjal Drall (guests); Joe Weisenthal & Tracy Alloway (hosts)",
+      "url": "https://podcasts.apple.com/us/podcast/why-private-credit-got-entangled-with-insurance/id1056200096?i=1000779237528",
+      "summary": "This Odd Lots episode explores how insurers have become a major driver of the private credit boom, with private equity firms striking deals with or acquiring insurance companies. Guests Andrew Granato and Pranjal Drall, authors of \"Private Credit's State Backstop: How Private Equity Socializes Risk Through Insurers,\" explain the mutual benefits of the PE-insurance relationship and how it is reshaping the insurance industry. They also raise concerns about systemic risk, regulatory gaps, and the potential for taxpayers to ultimately bear the costs.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260731153146-cbde3e",
       "date": "2026-07-31T15:31:46.361Z",
@@ -714,11 +730,15 @@
       },
       {
         "tag": "investing",
-        "count": 12
+        "count": 13
       },
       {
         "tag": "ai agents",
         "count": 10
+      },
+      {
+        "tag": "fintech",
+        "count": 5
       },
       {
         "tag": "capital expenditure",
@@ -729,16 +749,12 @@
         "count": 4
       },
       {
-        "tag": "fintech",
-        "count": 4
+        "tag": "asset management",
+        "count": 3
       },
       {
         "tag": "security",
         "count": 3
-      },
-      {
-        "tag": "asset management",
-        "count": 2
       },
       {
         "tag": "sustainability",
@@ -791,6 +807,10 @@
         "count": 1
       },
       {
+        "publication": "Bloomberg (Odd Lots)",
+        "count": 1
+      },
+      {
         "publication": "Hugging Face",
         "count": 1
       },
@@ -818,7 +838,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 43
+        "count": 44
       }
     ]
   }
