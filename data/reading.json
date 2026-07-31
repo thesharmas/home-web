@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-30T23:00:12.272Z",
-  "count": 32,
+  "generated_at": "2026-07-31T00:00:22.444Z",
+  "count": 33,
   "entries": [
+    {
+      "id": "rl-20260730235215-9d3f5d",
+      "date": "2026-07-30T23:52:15.061Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Scott Goodwin (@skgoodwin23) on X",
+      "author": "Scott Goodwin (@skgoodwin23)",
+      "url": "https://x.com/skgoodwin23/status/2082546402140315993",
+      "summary": "Spending a week with my family and working most of it! Being a few hours ahead of US markets has given me some time to digest a lot of incredible markets discourse on X - there is too much to try and consume about AI but not enough about leverage.   We are seeing a classic head h",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260730225158-775b2d",
       "date": "2026-07-30T22:51:58.688Z",
@@ -538,7 +552,7 @@
       },
       {
         "tag": "tweet",
-        "count": 15
+        "count": 16
       },
       {
         "tag": "investing",
@@ -580,7 +594,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 11
+        "count": 12
       },
       {
         "publication": "Twitter/X",
@@ -634,7 +648,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 32
+        "count": 33
       }
     ]
   }
