@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-07-31T17:00:15.343Z",
-  "count": 44,
+  "generated_at": "2026-07-31T18:00:13.477Z",
+  "count": 47,
   "entries": [
+    {
+      "id": "rl-20260731172349-2d044a",
+      "date": "2026-07-31T17:23:49.062Z",
+      "publication": "blog.jim-nielsen.com",
+      "title": "AI Aesthetic",
+      "author": "Jim Nielsen",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "summary": "Jim Nielsen reflects on the design idioms emerging from the AI era, such as sparkle icons signifying AI, shimmering text for async tasks, and tiny thin icons in desktop AI apps. He contrasts these with established patterns like the hamburger menu and questions which AI-born aesthetics will persist and spread into broader software design. He also notes aesthetic trends like beige/cream colors, orange accents, serif typefaces, and unpredictable UI controls as hallmarks of the current AI moment.",
+      "tags": [
+        "technology",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731172123-f8bda8",
+      "date": "2026-07-31T17:21:23.567Z",
+      "publication": "Quanta Magazine",
+      "title": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don't Add Up.",
+      "author": "Matt von Hippel",
+      "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+      "summary": "For 25 years, physicists debated why the muon's measured magnetic wobble (g-2) differed from theoretical predictions, hinting at unknown particles. New lattice QCD calculations resolved that discrepancy by matching experimental results, but they now conflict with older data-driven predictions based on electron-positron collision experiments. A new pion production measurement from the VEPP-2000 collider in Siberia dramatically diverges from past results, leaving physicists uncertain whether experimental errors or genuinely new physics are responsible.",
+      "tags": [
+        "technology",
+        "science",
+        "particle physics"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731170440-52eb68",
+      "date": "2026-07-31T17:04:40.389Z",
+      "publication": "Financial Times",
+      "title": "The dark arts of securitisation",
+      "author": "Satyajit Das",
+      "url": "https://www.ft.com/content/5f3930b9-e7ce-4b87-878f-74cf7f16f642",
+      "summary": "Satyajit Das argues that asset-backed securities and securitisation, while useful, carry poorly understood risks including embedded leverage, correlation risk, and credit rating migration risk. Using a worked example, he shows how equity tranche investors can suffer losses 33 times greater than pro-rata investors from the same default events. He warns that ABS \"performs until it does not\" and that investors will pay a steep price in the next financial crisis for underestimating these structural dangers.",
+      "tags": [],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260731160106-c07580",
       "date": "2026-07-31T16:01:06.217Z",
@@ -726,7 +769,7 @@
       },
       {
         "tag": "technology",
-        "count": 19
+        "count": 21
       },
       {
         "tag": "investing",
@@ -734,7 +777,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 10
+        "count": 11
       },
       {
         "tag": "fintech",
@@ -763,6 +806,14 @@
       {
         "tag": "etfs",
         "count": 1
+      },
+      {
+        "tag": "particle physics",
+        "count": 1
+      },
+      {
+        "tag": "science",
+        "count": 1
       }
     ],
     "by_publication": [
@@ -775,12 +826,12 @@
         "count": 5
       },
       {
-        "publication": "Unknown",
+        "publication": "Financial Times",
         "count": 4
       },
       {
-        "publication": "Financial Times",
-        "count": 3
+        "publication": "Unknown",
+        "count": 4
       },
       {
         "publication": "The Economist",
@@ -827,7 +878,15 @@
         "count": 1
       },
       {
+        "publication": "Quanta Magazine",
+        "count": 1
+      },
+      {
         "publication": "Substack / Ahead of AI (Sebastian Raschka)",
+        "count": 1
+      },
+      {
+        "publication": "blog.jim-nielsen.com",
         "count": 1
       },
       {
@@ -838,7 +897,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 44
+        "count": 47
       }
     ]
   }
