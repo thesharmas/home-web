@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-31T18:00:13.477Z",
-  "count": 47,
+  "generated_at": "2026-07-31T19:00:11.517Z",
+  "count": 49,
   "entries": [
+    {
+      "id": "rl-20260731185903-d9652e",
+      "date": "2026-07-31T18:59:03.111Z",
+      "publication": "The Finance Quotient",
+      "title": "The hidden financial costs of chasing AI supremacy and who is unwillingly footing the bill",
+      "author": "Leap Finance Academy",
+      "url": "https://thefinancequotient.substack.com/p/the-hidden-financial-costs-of-chasing",
+      "summary": "The article argues that Meta and Microsoft are materially over-reporting profitability by using share buybacks to fulfill RSU obligations to AI talent hires, keeping a significant recurring compensation cost off the income statement. Using Meta's financial notes, the author estimates this hidden cost has eroded roughly 10 percentage points of EBIT margin annually for Meta and 2 points for Microsoft, with Meta's true free cash flow nearly wiped out in FY25. The author concludes that shareholders ultimately bear both this hidden talent cost and the massive AI capex commitments with uncertain returns.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "investing",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731181207-af1fec",
+      "date": "2026-07-31T18:12:07.796Z",
+      "publication": "RecoveringResolutionRegulator",
+      "title": "BNP Paribas: running from Sudan",
+      "author": "RecoveringResolutionRegulator",
+      "url": "https://recoveringresolutionregulator.substack.com/p/bnp-paribas-running-from-sudan",
+      "summary": "BNP Paribas lost a first-instance civil lawsuit brought by Darfur genocide victims over its role in financing Sudan in violation of sanctions, for which it previously pleaded guilty and paid an $8.9 billion fine. On appeal, BNPP has marshalled an unusually large array of amicus briefs including from the US government (filed by SDNY US Attorney Jay Clayton, formerly a partner at Sullivan & Cromwell which represented BNPP in its 2014 DOJ settlement) and the Swiss government (147 pages). The author notes the apparent conflict of interest in Clayton's involvement and argues the US brief's substantive focus on whether a judge gave 'respectful consideration' to a Swiss ambassador's letter is underwhelming given the gravity of the underlying claims.",
+      "tags": [
+        "fintech",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260731172349-2d044a",
       "date": "2026-07-31T17:23:49.062Z",
@@ -764,39 +796,39 @@
   "aggregates": {
     "by_tag": [
       {
+        "tag": "technology",
+        "count": 22
+      },
+      {
         "tag": "tweet",
         "count": 22
       },
       {
-        "tag": "technology",
-        "count": 21
-      },
-      {
         "tag": "investing",
-        "count": 13
+        "count": 14
       },
       {
         "tag": "ai agents",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "fintech",
-        "count": 5
+        "count": 6
       },
       {
         "tag": "capital expenditure",
-        "count": 4
+        "count": 5
       },
       {
         "tag": "cloud",
         "count": 4
       },
       {
-        "tag": "asset management",
-        "count": 3
+        "tag": "security",
+        "count": 4
       },
       {
-        "tag": "security",
+        "tag": "asset management",
         "count": 3
       },
       {
@@ -882,7 +914,15 @@
         "count": 1
       },
       {
+        "publication": "RecoveringResolutionRegulator",
+        "count": 1
+      },
+      {
         "publication": "Substack / Ahead of AI (Sebastian Raschka)",
+        "count": 1
+      },
+      {
+        "publication": "The Finance Quotient",
         "count": 1
       },
       {
@@ -897,7 +937,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 47
+        "count": 49
       }
     ]
   }
