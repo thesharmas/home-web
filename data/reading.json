@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-07-31T00:00:22.444Z",
-  "count": 33,
+  "generated_at": "2026-07-31T01:00:13.629Z",
+  "count": 36,
   "entries": [
+    {
+      "id": "rl-20260731002354-cb345f",
+      "date": "2026-07-31T00:23:54.022Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Directionally Correct (@directioncorrec) on X",
+      "author": "Directionally Correct (@directioncorrec)",
+      "url": "https://x.com/directioncorrec/status/2082917650733363276",
+      "summary": "[1/2] It's very likely that citadel buying SA ended the cross market memory correlation trade. \n\nI first detected Korean/Japanese being a leading indicator for next day SNDK price action in June after the correlation was negative all year. \n\nThe effect exacerbated in July. The si",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260731001701-58e429",
+      "date": "2026-07-31T00:17:01.553Z",
+      "publication": "The Economist",
+      "title": "The Michigan Senate primary is a fight for control of the Democrats",
+      "author": "Lexington",
+      "url": "https://www.economist.com/united-states/2026/07/30/the-michigan-senate-primary-is-a-fight-for-control-of-the-democrats",
+      "summary": "The Economist's Lexington column examines the Michigan Senate Democratic primary as a proxy battle for the soul of the Democratic Party. Progressive candidate Abdul El-Sayed, despite rejecting the 'progressive' label, has gained momentum fueled by anger over Donald Trump and US policy toward Israel. The race is seen as a bellwether for whether the party's left wing can seize greater control.",
+      "tags": [
+        "tweet"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260731000253-300fbe",
+      "date": "2026-07-31T00:02:53.503Z",
+      "publication": "The Economist",
+      "title": "What the Big Mac index reveals about a global currency beef",
+      "author": null,
+      "url": "https://www.economist.com/leaders/2026/01/06/what-the-big-mac-index-reveals-about-a-global-currency-beef",
+      "summary": "This Economist Leaders article marks 40 years of the Big Mac index, the publication's informal measure of purchasing power parity based on McDonald's burger prices. The piece examines what the index reveals about global currency misalignments and economic imbalances. It also explores how insights from 'burgernomics' can inform solutions to currency and economic problems worldwide.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "ios",
+      "partial": true
+    },
     {
       "id": "rl-20260730235215-9d3f5d",
       "date": "2026-07-30T23:52:15.061Z",
@@ -547,16 +590,16 @@
   "aggregates": {
     "by_tag": [
       {
+        "tag": "tweet",
+        "count": 18
+      },
+      {
         "tag": "technology",
         "count": 17
       },
       {
-        "tag": "tweet",
-        "count": 16
-      },
-      {
         "tag": "investing",
-        "count": 10
+        "count": 11
       },
       {
         "tag": "ai agents",
@@ -567,11 +610,11 @@
         "count": 4
       },
       {
-        "tag": "capital expenditure",
-        "count": 3
+        "tag": "fintech",
+        "count": 4
       },
       {
-        "tag": "fintech",
+        "tag": "capital expenditure",
         "count": 3
       },
       {
@@ -594,7 +637,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 12
+        "count": 13
       },
       {
         "publication": "Twitter/X",
@@ -607,6 +650,10 @@
       {
         "publication": "Unknown",
         "count": 3
+      },
+      {
+        "publication": "The Economist",
+        "count": 2
       },
       {
         "publication": "The Information",
@@ -648,7 +695,7 @@
     "by_month": [
       {
         "month": "2026-07",
-        "count": 33
+        "count": 36
       }
     ]
   }
