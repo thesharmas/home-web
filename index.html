@@ -126,7 +126,7 @@
             </p>
 
             <div class="grid gap-6 md:grid-cols-5">
-                <div class="md:col-span-3 flex flex-col gap-6 fade-in fade-in-1">
+                <div class="md:col-span-3 min-w-0 flex flex-col gap-6 fade-in fade-in-1">
                 <!-- ls -->
                 <div class="border"
                      :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
@@ -135,9 +135,9 @@
                         <span class="font-bold" :class="darkMode ? 'text-emerald-200' : 'text-gray-900'">ls ~/home</span>
                     </p>
                     <nav class="pb-2" aria-label="Site sections">
-                        <a href="reading.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                        <a href="reading.html" class="group flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-3 px-5 py-2.5 transition-colors"
                            :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
-                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide sm:w-36"
                                   :class="darkMode ? 'text-rose-300' : 'text-rose-900'">reading/</span>
                             <span class="text-xs min-w-0 truncate"
                                   :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">daily log of articles &amp; essays</span>
@@ -145,9 +145,9 @@
                                   :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'"
                                   x-text="counts.entries ? counts.entries + ' · daily' : 'daily'"></span>
                         </a>
-                        <a href="books.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                        <a href="books.html" class="group flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-3 px-5 py-2.5 transition-colors"
                            :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
-                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide sm:w-36"
                                   :class="darkMode ? 'text-amber-200' : 'text-amber-800'">books/</span>
                             <span class="text-xs min-w-0 truncate"
                                   :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">shelf with highlighted passages</span>
@@ -155,18 +155,18 @@
                                   :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'"
                                   x-text="counts.books ? counts.books + ' in progress' : ''"></span>
                         </a>
-                        <a href="side-projects.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                        <a href="side-projects.html" class="group flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-3 px-5 py-2.5 transition-colors"
                            :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
-                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide sm:w-36"
                                   :class="darkMode ? 'text-orange-300' : 'text-orange-900'">side-projects/</span>
                             <span class="text-xs min-w-0 truncate"
                                   :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">incl. DebtStack — a debt facility simulator</span>
                             <span class="ml-auto shrink-0 text-[10px] uppercase tracking-[0.15em] hidden sm:inline"
                                   :class="darkMode ? 'text-emerald-500/55' : 'text-gray-500'">4 shipped</span>
                         </a>
-                        <a href="music.html" class="group flex items-baseline gap-3 px-5 py-2.5 transition-colors"
+                        <a href="music.html" class="group flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-3 px-5 py-2.5 transition-colors"
                            :class="darkMode ? 'hover:bg-emerald-500/10' : 'hover:bg-black/5'">
-                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide w-32 sm:w-36"
+                            <span class="shrink-0 font-bold text-xs uppercase tracking-wide sm:w-36"
                                   :class="darkMode ? 'text-cyan-300' : 'text-cyan-900'">music/</span>
                             <span class="text-xs min-w-0 truncate"
                                   :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">DJ booth, gear, vinyl adds, mixes</span>
@@ -210,7 +210,7 @@
                 </div>
 
                 <!-- tail reading.log -->
-                <div class="md:col-span-2 border flex flex-col fade-in fade-in-2"
+                <div class="md:col-span-2 min-w-0 border flex flex-col fade-in fade-in-2"
                      :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
                     <p class="px-5 pt-4 pb-2 text-xs" :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'">
                         <span :class="darkMode ? 'text-emerald-400' : 'text-gray-800'">$</span>
