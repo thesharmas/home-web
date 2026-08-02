@@ -141,6 +141,11 @@
            :class="darkMode ? 'border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/10' : 'border-cyan-900 text-cyan-950 hover:bg-cyan-500/10'">
             books <span aria-hidden="true">-&gt;</span>
         </a>
+        <a href="reading-weekly.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-amber-400/40 text-amber-200 hover:bg-amber-500/10' : 'border-amber-800 text-amber-950 hover:bg-amber-500/10'">
+            weekly <span aria-hidden="true">-&gt;</span>
+        </a>
         <button type="button" @click="darkMode = !darkMode"
                 class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
                 :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
@@ -164,6 +169,28 @@
                :class="darkMode ? 'text-zinc-200/90' : 'text-gray-700'">
                 What I've been reading — captured automatically, updated daily.
             </p>
+            <div class="mt-4 space-y-1.5 text-xs" aria-label="Weekly digest and bookshelf">
+                <a x-show="latestWeek" x-cloak href="reading-weekly.html"
+                   @click="track('reading_digest_link_click', { week: latestWeek && latestWeek.week_end })"
+                   class="group flex flex-wrap items-baseline gap-x-2">
+                    <span aria-hidden="true" :class="darkMode ? 'text-emerald-500/70' : 'text-emerald-800/70'">-&gt;</span>
+                    <span class="w-[17ch] whitespace-nowrap font-bold uppercase tracking-wider"
+                          :class="darkMode ? 'text-amber-300/90' : 'text-amber-800'">weekly digest</span>
+                    <span class="group-hover:underline underline-offset-4"
+                          :class="darkMode ? 'text-zinc-300' : 'text-gray-700'"
+                          x-text="': ' + (latestWeek ? latestWeek.title.toLowerCase() + ' · ' + digestMeta : '')"></span>
+                </a>
+                <a x-show="books.length > 0" x-cloak href="books.html"
+                   @click="track('reading_books_link_click', {})"
+                   class="group flex flex-wrap items-baseline gap-x-2">
+                    <span aria-hidden="true" :class="darkMode ? 'text-emerald-500/70' : 'text-emerald-800/70'">-&gt;</span>
+                    <span class="w-[17ch] whitespace-nowrap font-bold uppercase tracking-wider"
+                          :class="darkMode ? 'text-cyan-300/90' : 'text-cyan-900'">bookshelf</span>
+                    <span class="group-hover:underline underline-offset-4"
+                          :class="darkMode ? 'text-zinc-300' : 'text-gray-700'"
+                          x-text="books.length > 0 ? ': ' + books[0].title.toLowerCase() + ' · ' + totalHighlights + ' highlights' : ''"></span>
+                </a>
+            </div>
         </header>
 
         <!-- Loading / error -->
@@ -478,6 +505,7 @@
                 books: [],
                 feed: [],
                 summaryExpanded: {},
+                summaryWeeks: [],
                 generatedAt: '',
                 tagFilter: null,
                 dayFilter: null,
@@ -544,7 +572,27 @@
                     } catch (err) {
                         this.error = true;
                     }
+                    // Weekly digest teaser is optional — the log renders without it
+                    try {
+                        const sres = await fetch('data/reading_summary.json');
+                        if (sres.ok) {
+                            const sdata = await sres.json();
+                            this.summaryWeeks = (sdata.weeks || [])
+                                .slice()
+                                .sort((a, b) => new Date(b.week_end) - new Date(a.week_end));
+                        }
+                    } catch (err) { /* no digest card */ }
                     this.loading = false;
+                },
+
+                get latestWeek() {
+                    return this.summaryWeeks[0] || null;
+                },
+                get digestMeta() {
+                    const w = this.latestWeek;
+                    if (!w) return '';
+                    const items = (w.stats && w.stats.item_count) || (w.sources || []).length;
+                    return items + ' items · ' + (w.themes || []).length + ' threads';
                 },
 
                 localDay(iso) {

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Digest — Rohit's Web</title>
+    <meta name="description" content="Rohit Sharma's weekly reading digest — themes, lessons learned, and contrarian insights distilled from each week of reading.">
+    <link rel="canonical" href="https://thesharmas.org/reading-weekly.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thesharmas.org/reading-weekly.html">
+    <meta property="og:site_name" content="Rohit's Web">
+    <meta property="og:title" content="Weekly Digest — Rohit's Web">
+    <meta property="og:description" content="Weekly reading digest — themes, lessons learned, and contrarian insights.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Weekly Digest — Rohit's Web">
+    <meta name="twitter:description" content="Weekly reading digest — themes, lessons learned, and contrarian insights.">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
+                    },
+                },
+            },
+        };
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="assets/analytics.js"></script>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+        [x-cloak] { display: none !important; }
+        .term-dark {
+            background: #050806;
+            color: #c8f5c8;
+        }
+        .term-light {
+            background: #ecece4;
+            color: #1a1a12;
+        }
+        .term-scanlines {
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.06;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.45) 2px,
+                rgba(0, 0, 0, 0.45) 3px
+            );
+        }
+        .term-light .term-scanlines {
+            opacity: 0.04;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.12) 2px,
+                rgba(0, 0, 0, 0.12) 3px
+            );
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .term-cursor { animation: none !important; }
+        }
+        .term-cursor::after {
+            content: "▌";
+            animation: termBlink 1.1s steps(2, end) infinite;
+            color: currentColor;
+            opacity: 0.85;
+        }
+        @keyframes termBlink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .fade-in { animation: fadeIn 0.6s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Single-hue magnitude bars for stats */
+        .bar-track { height: 12px; border-radius: 2px; }
+        body.term-page-dark .bar-fill { background: #10b981; }
+        body.term-page-light .bar-fill { background: #0d9367; }
+        .bar-fill { height: 12px; border-radius: 2px; min-width: 2px; }
+    </style>
+</head>
+<body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
+      x-data="weeklyPage()"
+      :class="{ 'term-dark term-page-dark': darkMode, 'term-light term-page-light': !darkMode }">
+    <div class="term-scanlines" aria-hidden="true"></div>
+
+    <div class="absolute top-4 left-4 z-50 flex items-center gap-2">
+        <a href="index.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> home
+        </a>
+        <a href="reading.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+            <span aria-hidden="true">&lt;-</span> log
+        </a>
+        <a href="books.html"
+           class="inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-widest border transition-colors"
+           :class="darkMode ? 'border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/10' : 'border-cyan-900 text-cyan-950 hover:bg-cyan-500/10'">
+            books <span aria-hidden="true">-&gt;</span>
+        </a>
+        <button type="button" @click="darkMode = !darkMode"
+                class="border px-3 py-2 text-[10px] font-bold uppercase tracking-[0.2em] transition-colors"
+                :class="darkMode ? 'border-emerald-500/40 text-emerald-200 hover:bg-emerald-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'"
+                aria-label="Toggle color mode">
+            <span x-text="darkMode ? 'lite' : 'drk'"></span>
+        </button>
+    </div>
+
+    <main class="relative z-10 mx-auto max-w-4xl px-4 pb-20 pt-20 sm:px-6 fade-in">
+        <header class="mb-10 border-b pb-8"
+                :class="darkMode ? 'border-emerald-500/25' : 'border-gray-800/30'">
+            <p class="text-[10px] font-bold uppercase tracking-[0.35em] mb-3"
+               :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">
+                ~/HOME/READING/WEEKLY
+            </p>
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight uppercase term-cursor"
+                :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                Weekly Digest
+            </h1>
+            <p class="mt-4 max-w-2xl text-xs sm:text-sm leading-relaxed"
+               :class="darkMode ? 'text-zinc-200/90' : 'text-gray-700'">
+                One entry per week of reading, distilled — themes, lessons, and contrarian takes.
+                Latest week open, older weeks collapsed below. Generated weekly from the
+                <a href="reading.html" class="underline underline-offset-4 transition-colors"
+                   :class="darkMode ? 'text-cyan-300 hover:text-cyan-100' : 'text-cyan-800 hover:text-cyan-950'">reading log</a>.
+            </p>
+        </header>
+
+        <template x-if="loading">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'">loading reading_summary.json …</p>
+        </template>
+        <template x-if="error">
+            <p class="text-xs uppercase tracking-[0.25em]"
+               :class="darkMode ? 'text-red-400/80' : 'text-red-700'">error: could not load data/reading_summary.json</p>
+        </template>
+
+        <!-- Week feed: newest first, latest expanded, older weeks collapsed -->
+        <template x-if="!loading && !error">
+            <div class="space-y-6">
+                <template x-for="(w, wi) in weeks" :key="w.week_end">
+                    <article class="border"
+                             :id="'week-' + w.week_end"
+                             :class="darkMode ? 'border-emerald-500/25 bg-black/20' : 'border-gray-800 bg-white/60'">
+
+                        <!-- Week header (always visible; toggles the block) -->
+                        <button type="button" @click="toggleWeek(w)"
+                                class="flex w-full flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-4 py-3.5 text-left transition-colors sm:px-5"
+                                :class="darkMode ? 'hover:bg-emerald-500/5' : 'hover:bg-black/5'"
+                                :aria-expanded="isOpen(w) ? 'true' : 'false'"
+                                :aria-controls="'week-body-' + w.week_end">
+                            <span class="flex items-baseline gap-3">
+                                <span class="text-xs font-bold"
+                                      :class="darkMode ? 'text-emerald-400' : 'text-emerald-800'"
+                                      x-text="isOpen(w) ? '▾' : '▸'"></span>
+                                <span class="text-sm sm:text-base font-bold uppercase tracking-[0.15em]"
+                                      :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                      x-text="w.title"></span>
+                                <span x-show="wi === 0"
+                                      class="text-[10px] font-bold uppercase tracking-wider border px-1.5 py-0.5"
+                                      :class="darkMode ? 'border-emerald-400/50 text-emerald-300' : 'border-emerald-800 text-emerald-900'">latest</span>
+                            </span>
+                            <span class="text-[10px] uppercase tracking-[0.15em] tabular-nums"
+                                  :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'"
+                                  x-text="metaLine(w)"></span>
+                        </button>
+
+                        <!-- Collapsed teaser: first sentences of the overview -->
+                        <div x-show="!isOpen(w)" class="px-4 pb-4 sm:px-5">
+                            <p class="text-xs sm:text-sm leading-relaxed line-clamp-2 pl-6"
+                               :class="darkMode ? 'text-zinc-400' : 'text-gray-600'"
+                               x-text="teaser(w)"></p>
+                        </div>
+
+                        <!-- Expanded body -->
+                        <div x-show="isOpen(w)" x-cloak
+                             :id="'week-body-' + w.week_end"
+                             class="border-t px-4 pb-6 pt-6 sm:px-5"
+                             :class="darkMode ? 'border-emerald-500/20' : 'border-gray-800/20'">
+
+                            <!-- Stats strip -->
+                            <section class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4" aria-label="Week stats">
+                                <template x-for="stat in statTiles(w)" :key="stat.label">
+                                    <div class="border p-3.5"
+                                         :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                                        <p class="text-[10px] font-bold uppercase tracking-[0.25em] mb-1.5"
+                                           :class="darkMode ? 'text-emerald-500/70' : 'text-gray-500'"
+                                           x-text="stat.label"></p>
+                                        <p class="text-lg font-bold leading-tight"
+                                           :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                           x-text="stat.value"></p>
+                                    </div>
+                                </template>
+                            </section>
+
+                            <!-- Overview -->
+                            <section class="mb-10" aria-label="Week overview">
+                                <h2 class="mb-3 text-[10px] font-bold uppercase tracking-[0.3em]"
+                                    :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">overview</h2>
+                                <div class="space-y-4">
+                                    <template x-for="(para, pi) in overviewParas(w)" :key="pi">
+                                        <p class="text-sm leading-relaxed"
+                                           :class="darkMode ? 'text-zinc-200' : 'text-gray-800'"
+                                           x-text="para"></p>
+                                    </template>
+                                </div>
+                            </section>
+
+                            <!-- Themes -->
+                            <section class="mb-10" aria-label="Themes">
+                                <h2 class="mb-4 text-xs font-bold uppercase tracking-[0.25em] border-b pb-2"
+                                    :class="darkMode ? 'text-gray-100 border-emerald-500/25' : 'text-gray-900 border-gray-800/30'">
+                                    threads of the week
+                                    <span class="text-[10px] font-normal tracking-[0.2em]"
+                                          :class="darkMode ? 'text-emerald-500/50' : 'text-gray-500'"
+                                          x-text="'· ' + (w.themes || []).length"></span>
+                                </h2>
+                                <div class="space-y-4">
+                                    <template x-for="(theme, ti) in w.themes" :key="ti">
+                                        <div class="border p-4 transition-colors sm:p-5"
+                                             :class="darkMode ? 'border-emerald-500/25 bg-black/30 hover:border-emerald-500/45' : 'border-gray-800 bg-white hover:border-gray-900'">
+                                            <div class="flex items-start gap-3">
+                                                <span class="shrink-0 pt-0.5 text-xs font-bold tabular-nums"
+                                                      :class="darkMode ? 'text-emerald-500/80' : 'text-gray-500'"
+                                                      x-text="String(ti + 1).padStart(2, '0')"></span>
+                                                <div class="min-w-0 flex-1">
+                                                    <h3 class="text-base font-bold leading-snug"
+                                                        :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                                        x-text="theme.name"></h3>
+                                                    <p class="mt-2 text-sm leading-relaxed"
+                                                       :class="darkMode ? 'text-zinc-300' : 'text-gray-700'"
+                                                       x-text="theme.description"></p>
+                                                    <ul class="mt-3 space-y-1.5">
+                                                        <template x-for="(item, ii) in theme.items" :key="ii">
+                                                            <li class="flex items-start gap-2 text-xs sm:text-sm leading-relaxed">
+                                                                <span aria-hidden="true"
+                                                                      :class="darkMode ? 'text-emerald-500/60' : 'text-emerald-800/70'">·</span>
+                                                                <template x-if="item.url">
+                                                                    <a :href="item.url" target="_blank" rel="noopener noreferrer"
+                                                                       @click="track('weekly_item_click', { week: w.week_end, theme: theme.name, title: item.title, url: item.url })"
+                                                                       class="transition-colors hover:underline underline-offset-4"
+                                                                       :class="darkMode ? 'text-cyan-300/90 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'"
+                                                                       x-text="item.title"></a>
+                                                                </template>
+                                                                <template x-if="!item.url">
+                                                                    <span :class="darkMode ? 'text-zinc-300' : 'text-gray-700'"
+                                                                          x-text="item.title"></span>
+                                                                </template>
+                                                            </li>
+                                                        </template>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </section>
+
+                            <!-- Lessons learned -->
+                            <section class="mb-10" aria-label="Lessons learned">
+                                <h2 class="mb-4 text-xs font-bold uppercase tracking-[0.25em] border-b pb-2"
+                                    :class="darkMode ? 'text-gray-100 border-emerald-500/25' : 'text-gray-900 border-gray-800/30'">
+                                    lessons learned
+                                    <span class="text-[10px] font-normal tracking-[0.2em]"
+                                          :class="darkMode ? 'text-emerald-500/50' : 'text-gray-500'"
+                                          x-text="'· ' + (w.lessons_learned || []).length"></span>
+                                </h2>
+                                <ol class="space-y-4">
+                                    <template x-for="(l, li) in w.lessons_learned" :key="li">
+                                        <li class="border border-l-4 p-4 sm:p-5"
+                                            :class="darkMode ? 'border-emerald-500/25 border-l-emerald-500/60 bg-black/30' : 'border-gray-800 border-l-emerald-800 bg-white'">
+                                            <p class="text-sm leading-relaxed"
+                                               :class="darkMode ? 'text-zinc-200' : 'text-gray-800'"
+                                               x-text="l.lesson"></p>
+                                            <p class="mt-2.5 text-xs leading-relaxed"
+                                               :class="darkMode ? 'text-gray-400' : 'text-gray-600'">
+                                                <span class="uppercase tracking-wider text-[10px]">from:</span>
+                                                <template x-for="(s, si) in l.sources" :key="si">
+                                                    <span>
+                                                        <template x-if="s.url">
+                                                            <a :href="s.url" target="_blank" rel="noopener noreferrer"
+                                                               class="transition-colors hover:underline underline-offset-4"
+                                                               :class="darkMode ? 'text-cyan-300/90 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'"
+                                                               x-text="s.title"></a>
+                                                        </template>
+                                                        <template x-if="!s.url">
+                                                            <span x-text="s.title"></span>
+                                                        </template><span x-show="si < l.sources.length - 1"> · </span>
+                                                    </span>
+                                                </template>
+                                            </p>
+                                        </li>
+                                    </template>
+                                </ol>
+                            </section>
+
+                            <!-- Contrarian insights -->
+                            <section class="mb-10" aria-label="Contrarian insights">
+                                <h2 class="mb-4 text-xs font-bold uppercase tracking-[0.25em] border-b pb-2"
+                                    :class="darkMode ? 'text-gray-100 border-emerald-500/25' : 'text-gray-900 border-gray-800/30'">
+                                    contrarian file
+                                    <span class="text-[10px] font-normal tracking-[0.2em]"
+                                          :class="darkMode ? 'text-emerald-500/50' : 'text-gray-500'"
+                                          x-text="'· ' + (w.contrarian_insights || []).length"></span>
+                                </h2>
+                                <div class="space-y-4">
+                                    <template x-for="(c, ci) in w.contrarian_insights" :key="ci">
+                                        <div class="border border-l-4 p-4 sm:p-5"
+                                             :class="darkMode ? 'border-amber-400/30 border-l-amber-400/60 bg-amber-950/10' : 'border-amber-800/60 border-l-amber-700 bg-amber-50/70'">
+                                            <p class="text-sm leading-relaxed"
+                                               :class="darkMode ? 'text-zinc-200' : 'text-gray-800'"
+                                               x-text="c.insight"></p>
+                                            <p class="mt-2.5 text-xs"
+                                               :class="darkMode ? 'text-gray-400' : 'text-gray-600'">
+                                                <span class="uppercase tracking-wider text-[10px]">from:</span>
+                                                <template x-if="c.source && c.source.url">
+                                                    <a :href="c.source.url" target="_blank" rel="noopener noreferrer"
+                                                       class="transition-colors hover:underline underline-offset-4"
+                                                       :class="darkMode ? 'text-amber-300/90 hover:text-amber-200' : 'text-amber-800 hover:text-amber-950'"
+                                                       x-text="c.source.title"></a>
+                                                </template>
+                                                <template x-if="c.source && !c.source.url">
+                                                    <span x-text="c.source.title"></span>
+                                                </template>
+                                            </p>
+                                        </div>
+                                    </template>
+                                </div>
+                            </section>
+
+                            <!-- Book progress -->
+                            <template x-if="w.book_progress">
+                                <section class="mb-10" aria-label="Book progress">
+                                    <h2 class="mb-4 text-xs font-bold uppercase tracking-[0.25em] border-b pb-2"
+                                        :class="darkMode ? 'text-gray-100 border-emerald-500/25' : 'text-gray-900 border-gray-800/30'">
+                                        on the nightstand
+                                    </h2>
+                                    <div class="border border-l-4 p-4 sm:p-5"
+                                         :class="darkMode ? 'border-cyan-400/30 border-l-cyan-400/60 bg-cyan-950/20' : 'border-cyan-900/60 border-l-cyan-800 bg-cyan-50/70'">
+                                        <div class="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+                                            <span class="text-[10px] font-bold uppercase tracking-wider border px-1.5 py-0.5"
+                                                  :class="darkMode ? 'border-cyan-400/40 text-cyan-300' : 'border-cyan-800 text-cyan-900'">book</span>
+                                            <h3 class="text-base font-bold leading-snug">
+                                                <template x-if="w.book_progress.link">
+                                                    <a :href="w.book_progress.link" target="_blank" rel="noopener noreferrer"
+                                                       class="transition-colors hover:underline underline-offset-4"
+                                                       :class="darkMode ? 'text-gray-50 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'"
+                                                       x-text="w.book_progress.book"></a>
+                                                </template>
+                                                <template x-if="!w.book_progress.link">
+                                                    <span :class="darkMode ? 'text-gray-50' : 'text-gray-900'"
+                                                          x-text="w.book_progress.book"></span>
+                                                </template>
+                                            </h3>
+                                        </div>
+                                        <p class="mt-1.5 text-xs sm:text-sm"
+                                           :class="darkMode ? 'text-gray-400' : 'text-gray-600'"
+                                           x-text="w.book_progress.author"></p>
+                                        <p class="mt-3 text-sm leading-relaxed"
+                                           :class="darkMode ? 'text-zinc-300' : 'text-gray-700'"
+                                           x-text="w.book_progress.note"></p>
+                                    </div>
+                                </section>
+                            </template>
+
+                            <!-- Where it came from: bars -->
+                            <section class="mb-8 grid gap-4 sm:grid-cols-2" aria-label="Sources breakdown">
+                                <div class="border p-4 sm:p-5"
+                                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                                    <h2 class="mb-4 text-[10px] font-bold uppercase tracking-[0.3em]"
+                                        :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">top publications</h2>
+                                    <div class="space-y-2.5">
+                                        <template x-for="row in pubBars(w)" :key="row.name">
+                                            <div>
+                                                <div class="mb-1 flex items-baseline justify-between gap-3 text-xs">
+                                                    <span class="truncate" :class="darkMode ? 'text-zinc-200' : 'text-gray-800'" x-text="row.name"></span>
+                                                    <span class="tabular-nums" :class="darkMode ? 'text-gray-400' : 'text-gray-600'" x-text="row.count"></span>
+                                                </div>
+                                                <div class="bar-track" :class="darkMode ? 'bg-emerald-500/10' : 'bg-black/5'">
+                                                    <div class="bar-fill" :style="'width:' + row.pct + '%'"></div>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                                <div class="border p-4 sm:p-5"
+                                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                                    <h2 class="mb-4 text-[10px] font-bold uppercase tracking-[0.3em]"
+                                        :class="darkMode ? 'text-cyan-400/85' : 'text-cyan-900'">top tags</h2>
+                                    <div class="space-y-2.5">
+                                        <template x-for="row in tagBars(w)" :key="row.name">
+                                            <div>
+                                                <div class="mb-1 flex items-baseline justify-between gap-3 text-xs">
+                                                    <span class="truncate" :class="darkMode ? 'text-zinc-200' : 'text-gray-800'" x-text="'#' + row.name.replace(/\s+/g, '-')"></span>
+                                                    <span class="tabular-nums" :class="darkMode ? 'text-gray-400' : 'text-gray-600'" x-text="row.count"></span>
+                                                </div>
+                                                <div class="bar-track" :class="darkMode ? 'bg-emerald-500/10' : 'bg-black/5'">
+                                                    <div class="bar-fill" :style="'width:' + row.pct + '%'"></div>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Full source list -->
+                            <section aria-label="All sources">
+                                <button type="button" @click="toggleSources(w)"
+                                        class="text-[11px] font-bold uppercase tracking-[0.15em] transition-colors"
+                                        :class="darkMode ? 'text-emerald-400 hover:text-emerald-200' : 'text-emerald-800 hover:text-emerald-950'">
+                                    <span x-text="(sourcesOpen[w.week_end] ? '▾ hide' : '▸ all') + ' ' + (w.sources || []).length + ' sources'"></span>
+                                </button>
+                                <div x-show="sourcesOpen[w.week_end]" x-cloak class="mt-4 border p-4 sm:p-5"
+                                     :class="darkMode ? 'border-emerald-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                                    <ul class="space-y-2">
+                                        <template x-for="(s, si) in w.sources" :key="si">
+                                            <li class="flex items-start gap-3 text-xs sm:text-sm leading-relaxed">
+                                                <span class="shrink-0 pt-0.5 tabular-nums text-[10px]"
+                                                      :class="darkMode ? 'text-emerald-500/60' : 'text-gray-500'"
+                                                      x-text="s.date"></span>
+                                                <div class="min-w-0">
+                                                    <template x-if="s.url">
+                                                        <a :href="s.url" target="_blank" rel="noopener noreferrer"
+                                                           class="transition-colors hover:underline underline-offset-4"
+                                                           :class="darkMode ? 'text-gray-100 hover:text-cyan-300' : 'text-gray-900 hover:text-cyan-800'"
+                                                           x-text="s.title"></a>
+                                                    </template>
+                                                    <template x-if="!s.url">
+                                                        <span :class="darkMode ? 'text-gray-100' : 'text-gray-900'" x-text="s.title"></span>
+                                                    </template>
+                                                    <span x-show="s.publication" :class="darkMode ? 'text-gray-500' : 'text-gray-500'"
+                                                          x-text="' — ' + s.publication"></span>
+                                                </div>
+                                            </li>
+                                        </template>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </article>
+                </template>
+
+                <footer class="mt-12 border-t pt-5 text-[10px] uppercase tracking-[0.25em]"
+                        :class="darkMode ? 'border-emerald-500/20 text-emerald-500/50' : 'border-gray-300 text-gray-500'">
+                    <span x-text="'eof · ' + weeks.length + (weeks.length === 1 ? ' week' : ' weeks') + ' · updated ' + updatedAt"></span>
+                </footer>
+            </div>
+        </template>
+    </main>
+
+    <script>
+        function weeklyPage() {
+            return {
+                darkMode: false,
+                loading: true,
+                error: false,
+                weeks: [],
+                updatedAt: '',
+                open: {},
+                sourcesOpen: {},
+
+                async init() {
+                    try {
+                        const res = await fetch('data/reading_summary.json');
+                        if (!res.ok) throw new Error(res.status);
+                        const data = await res.json();
+                        // newest week first; the latest starts expanded
+                        this.weeks = (data.weeks || [])
+                            .slice()
+                            .sort((a, b) => new Date(b.week_end) - new Date(a.week_end));
+                        if (this.weeks.length > 0) this.open[this.weeks[0].week_end] = true;
+                        this.updatedAt = data.updated_at ? data.updated_at.slice(0, 10) : '';
+                        // deep link: #week-YYYY-MM-DD opens and scrolls to that week
+                        const m = location.hash.match(/^#week-(\d{4}-\d{2}-\d{2})$/);
+                        if (m && this.weeks.some(w => w.week_end === m[1])) {
+                            this.open[m[1]] = true;
+                            this.$nextTick(() => {
+                                const el = document.getElementById('week-' + m[1]);
+                                if (el) el.scrollIntoView();
+                            });
+                        }
+                    } catch (err) {
+                        this.error = true;
+                    }
+                    this.loading = false;
+                },
+
+                isOpen(w) {
+                    return !!this.open[w.week_end];
+                },
+                toggleWeek(w) {
+                    this.open[w.week_end] = !this.open[w.week_end];
+                    this.track('weekly_week_toggle', {
+                        week: w.week_end,
+                        action: this.open[w.week_end] ? 'expand' : 'collapse',
+                    });
+                },
+                toggleSources(w) {
+                    this.sourcesOpen[w.week_end] = !this.sourcesOpen[w.week_end];
+                    this.track('weekly_sources_toggle', {
+                        week: w.week_end,
+                        action: this.sourcesOpen[w.week_end] ? 'expand' : 'collapse',
+                    });
+                },
+
+                metaLine(w) {
+                    const items = (w.stats && w.stats.item_count) || (w.sources || []).length;
+                    return items + ' items · ' + (w.themes || []).length + ' threads · '
+                        + (w.lessons_learned || []).length + ' lessons';
+                },
+
+                teaser(w) {
+                    return (w.overview || '').split(/\n\n+/)[0] || '';
+                },
+
+                overviewParas(w) {
+                    return (w.overview || '')
+                        .split(/\n\n+/)
+                        .map(p => p.trim())
+                        .filter(Boolean);
+                },
+
+                statTiles(w) {
+                    return [
+                        { label: 'items read', value: String((w.stats && w.stats.item_count) || (w.sources || []).length) },
+                        { label: 'threads', value: String((w.themes || []).length) },
+                        { label: 'lessons', value: String((w.lessons_learned || []).length) },
+                        { label: 'contrarian', value: String((w.contrarian_insights || []).length) },
+                    ];
+                },
+
+                bars(rows) {
+                    const max = Math.max(1, ...rows.map(r => r.count));
+                    return rows.map(r => ({ ...r, pct: Math.round((r.count / max) * 100) }));
+                },
+                pubBars(w) {
+                    return this.bars((w.stats && w.stats.top_publications) || []);
+                },
+                tagBars(w) {
+                    return this.bars((w.stats && w.stats.top_tags) || []);
+                },
+
+                track(event, props) {
+                    try {
+                        if (window.posthog && typeof window.posthog.capture === 'function') {
+                            window.posthog.capture(event, props);
+                        }
+                    } catch (e) { /* analytics never throws into the page */ }
+                },
+            };
+        }
+    </script>
+</body>
+</html>
