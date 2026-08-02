@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-02T18:00:15.663Z",
-  "count": 56,
+  "generated_at": "2026-08-02T20:00:19.533Z",
+  "count": 57,
   "entries": [
+    {
+      "id": "rl-20260802193007-e50e09",
+      "date": "2026-08-02T19:30:07.487Z",
+      "publication": "Slate Podcasts",
+      "title": "Too Situationally Aware to Fail",
+      "author": "Felix Salmon, Elizabeth Spiers, Emily Peck",
+      "url": "https://podcasts.apple.com/us/podcast/too-situationally-aware-to-fail/id876523888?i=1000779352778",
+      "summary": "This Slate Money episode covers the collapse and acquisition of Situational Awareness, an AI-focused hedge fund led by 25-year-old Leopold Aschenbrenner and former OpenAI employee, which was rescued by Citadel buying the bulk of its assets. The hosts also explain the \"crack spread\" and why gas prices remain high despite stabilizing oil prices. Finally, they discuss backlash to the SEC's proposal to eliminate quarterly reporting requirements.",
+      "tags": [
+        "ai agents",
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260802163809-2ce099",
       "date": "2026-08-02T16:38:09.518Z",
@@ -918,15 +934,15 @@
       },
       {
         "tag": "investing",
-        "count": 16
+        "count": 17
       },
       {
         "tag": "ai agents",
-        "count": 13
+        "count": 14
       },
       {
         "tag": "fintech",
-        "count": 7
+        "count": 8
       },
       {
         "tag": "capital expenditure",
@@ -1035,6 +1051,10 @@
         "count": 1
       },
       {
+        "publication": "Slate Podcasts",
+        "count": 1
+      },
+      {
         "publication": "Substack (Magnetic North)",
         "count": 1
       },
@@ -1066,7 +1086,7 @@
       },
       {
         "month": "2026-08",
-        "count": 5
+        "count": 6
       }
     ]
   }
