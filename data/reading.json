@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-01T23:00:14.504Z",
-  "count": 54,
+  "generated_at": "2026-08-02T02:00:15.114Z",
+  "count": 55,
   "entries": [
+    {
+      "id": "rl-20260802010048-c2a7b5",
+      "date": "2026-08-02T01:00:48.228Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Rui Wang (@RRicefan) on X",
+      "author": "Rui Wang (@RRicefan)",
+      "url": "https://x.com/RRicefan/status/2082513323489202664",
+      "summary": "[1/22] LLMs can't trade &amp; higher reasoning doesn't help.\n\nwe ran SOTA models for a 2y period. TL;DR: they suck &amp; reasoning doesn't help.\n- no model comes close to simple static baseline\n- more reasoning ≠ better trading\n- when losing money Sol trades less instead of bette",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260801222546-e87d9b",
       "date": "2026-08-01T22:25:46.256Z",
@@ -864,11 +878,11 @@
   "aggregates": {
     "by_tag": [
       {
-        "tag": "technology",
-        "count": 23
+        "tag": "tweet",
+        "count": 24
       },
       {
-        "tag": "tweet",
+        "tag": "technology",
         "count": 23
       },
       {
@@ -919,7 +933,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 18
+        "count": 19
       },
       {
         "publication": "Twitter/X",
@@ -1017,7 +1031,7 @@
       },
       {
         "month": "2026-08",
-        "count": 3
+        "count": 4
       }
     ]
   }
