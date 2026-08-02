@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T02:00:15.114Z",
+  "generated_at": "2026-08-02T05:00:12.601Z",
   "count": 55,
   "entries": [
     {
@@ -871,6 +871,13 @@
           "page_number": 153,
           "excerpt": "Between 1874 and 1876, a third of U.S. railway bonds, which amounted to $2.2 billion in all, went into receivership. It was to be the worst three-year period of corporate defaults in American history, even worse than the Great Depression.",
           "note": "Striking comparative claim: the 1874–1876 railroad collapse produced worse corporate default rates than the Great Depression."
+        },
+        {
+          "id": 7,
+          "captured_at": "2026-08-02T04:48:49.126Z",
+          "page_number": null,
+          "excerpt": "As Ludwig Bamberger, the German Liberal politician most responsible for the decision to abandon silver and move to the gold standard, confessed: \"We chose gold, not because gold is gold, but because Britain is Britain.\"",
+          "note": "Bamberger's candid admission that Germany's adoption of the gold standard was an act of geopolitical mimicry rather than economic logic — a quotable encapsulation of the book's thesis about currency decisions driven by power and prestige."
         }
       ]
     }
