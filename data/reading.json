@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:00:13.550Z",
+  "generated_at": "2026-08-03T21:00:11.979Z",
   "count": 73,
   "entries": [
     {
@@ -98,14 +98,14 @@
     {
       "id": "rl-20260803135516-fa2252",
       "date": "2026-08-03T13:55:16.497Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Struggling to make sense of AstraZeneca-BMS",
+      "author": "Bryce Elder",
       "url": "https://www.ft.com/content/eddbdc29-5206-4c79-9ea7-f1a06ff040f1",
-      "summary": null,
+      "summary": "AstraZeneca is in talks to combine with Bristol Myers Squibb in a potential deal valued at nearly $400bn, which would create one of the world's largest pharmaceutical companies. The article explores the strategic rationale—including oncology scale, US market expansion, cost synergies, and cardiovascular portfolio bundling—while noting analyst skepticism about diluting AZ's growth profile and the significant antitrust and regulatory hurdles involved. BMS faces major patent cliffs on key drugs like Eliquis and Opdivo, putting $22bn of revenue at risk, while AZ needs US scale to hit its $80bn 2030 revenue target.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260803045052-a2a980",
@@ -1261,12 +1261,12 @@
         "count": 10
       },
       {
-        "publication": "Unknown",
-        "count": 7
+        "publication": "Financial Times",
+        "count": 6
       },
       {
-        "publication": "Financial Times",
-        "count": 5
+        "publication": "Unknown",
+        "count": 6
       },
       {
         "publication": "Twitter/X",
