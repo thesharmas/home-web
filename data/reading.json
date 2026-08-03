@@ -1,7 +1,78 @@
 {
-  "generated_at": "2026-08-03T05:00:15.712Z",
-  "count": 66,
+  "generated_at": "2026-08-03T15:00:14.630Z",
+  "count": 71,
   "entries": [
+    {
+      "id": "rl-20260803145100-310a75",
+      "date": "2026-08-03T14:51:00.247Z",
+      "publication": "Apple Podcasts",
+      "title": "Ep 179: Ethiopia's Value Recovery Instruments",
+      "author": "Leanna Doty",
+      "url": "https://podcasts.apple.com/us/podcast/ep-179-ethiopias-value-recovery-instruments/id1528208049?i=1000779713663",
+      "summary": "This podcast episode examines value recovery instruments (VRIs) as used in sovereign debt restructuring, using Ethiopia as a case study. It outlines the recurring problems with VRIs—governments resist paying out, instruments end up with opportunistic investors, and poor drafting creates exploitable loopholes. The episode asks whether Ethiopia's latest attempt has finally found a workable structure for these instruments.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260803141410-5b67cb",
+      "date": "2026-08-03T14:14:10.914Z",
+      "publication": "The Public Domain Review",
+      "title": "Ars Notoria and the Promise of Instant Knowledge",
+      "author": "Anne Lawrence-Mathers",
+      "url": "https://publicdomainreview.org/essay/ars-notoria/",
+      "summary": "The essay examines the Ars notoria, a medieval magical manuscript promising scholars rapid mastery of university subjects through diagrams, prayers, and arcane rituals. Despite condemnation by theologians including Thomas Aquinas, who called it both unlawful and a gateway to demonic contact, the text survived in 56 manuscripts and was used in religious institutions throughout the medieval period. The story of Brother John of Morigny illustrates how the text could seem beautiful and holy yet prove dangerously seductive, ultimately inspiring him to create his own rival prayer collection.",
+      "tags": [
+        "science",
+        "technology",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260803140647-70dd4e",
+      "date": "2026-08-03T14:06:47.910Z",
+      "publication": null,
+      "title": "archive.is",
+      "author": null,
+      "url": "https://archive.is/TcjqK",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803135813-6a03ea",
+      "date": "2026-08-03T13:58:13.104Z",
+      "publication": "Financial Times",
+      "title": "SpaceX's staggered lock-up release prolongs the pain",
+      "author": "Craig Coben",
+      "url": "https://www.ft.com/content/6a8c1d6c-63c7-4d3d-8882-eb5c67b2f9e1",
+      "summary": "SpaceX adopted a staggered lock-up release schedule after its record $86.25bn IPO, spreading insider share sales across multiple tranches tied to earnings releases and price targets rather than a single 180-day cliff-edge expiry. The author argues this approach, modelled partly on Cerebras's IPO structure, has not reassured investors — short interest has soared to 34% of the float and the stock has fallen to roughly half its all-time high. Rather than smoothing the market, the staggered schedule may have created a persistent overhang that prolongs price weakness and harms the very shareholders it was meant to protect.",
+      "tags": [
+        "investing",
+        "fintech",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260803135516-fa2252",
+      "date": "2026-08-03T13:55:16.497Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/eddbdc29-5206-4c79-9ea7-f1a06ff040f1",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260803045052-a2a980",
       "date": "2026-08-03T04:50:53.087Z",
@@ -986,79 +1057,30 @@
   ],
   "books": [
     {
-      "id": 1,
-      "title": "1873: The Rothschilds, the First Great Depression, and the Making of the Modern World",
-      "author": "Liaquat Ahamed",
-      "isbn": "9781594204173",
-      "publication_year": null,
-      "total_pages": null,
-      "summary": "The book examines the financial crash of 1873, tracing how the first era of globalization and a speculative railroad-bond boom—largely financed through the Rothschild banking family—collapsed into a worldwide crisis of defaults, currency chaos, and prolonged deflation. Liaquat Ahamed shows how the crash rippled into major historical events, including the end of Reconstruction in the United States and the decline of the Ottoman Empire, while also fueling a rise in antisemitic scapegoating of Jewish financiers. The Rothschilds serve as both central actors and human witnesses to forces larger than any single family could control.",
+      "id": 4,
+      "title": "The Almighty Dollar: 500 Years of the World's Most Powerful Money",
+      "author": "Brendan Greeley",
+      "isbn": "9780593138885",
+      "publication_year": 2026,
+      "total_pages": 432,
+      "summary": "Financial journalist Brendan Greeley traces the global history of the dollar back 500 years to its roots in 16th-century silver mines in Joachimsthal, arguing the dollar pre-dates the United States and following its journey through the Spanish Empire, colonial America, and 19th-century banking panics to its role as the world's primary reserve currency.",
       "active": true,
-      "created_at": "2026-07-30T04:56:58.315Z",
-      "link": "https://books.google.com/books/about/1873.html?hl=&id=_m-OEQAAQBAJ",
+      "created_at": "2026-08-03T13:56:31.574Z",
+      "link": null,
       "highlights": [
         {
-          "id": 1,
-          "captured_at": "2026-07-30T04:57:01.142Z",
+          "id": 10,
+          "captured_at": "2026-08-03T13:38:58.021Z",
           "page_number": null,
-          "excerpt": "1873: The Rothschilds, the First Great Depression, and the Making of the Modern World",
-          "note": "This is the book cover, not an interior page — no prose passage is available to extract."
+          "excerpt": null,
+          "note": "cover photo (misrouted new-book capture; kept for audit)"
         },
         {
-          "id": 2,
-          "captured_at": "2026-07-30T04:57:10.290Z",
+          "id": 11,
+          "captured_at": "2026-08-03T13:48:22.716Z",
           "page_number": null,
-          "excerpt": "Pendulum shifts in the political economy happen slowly—and then all at once. In this fantastically readable history, Liaquat Ahamed shows us how frothy real estate markets, a burgeoning middle class, failing autocrats, a dodgy bond market, and other seemingly disparate forces eventually came together to produce the first global financial crisis of the modern era. It's a book that has all too much to tell us about our own time period; indeed, it provides both a warning and a road map for what might come next.",
-          "note": "Rana Foroohar's blurb draws the sharpest parallel between 1873 and today, making it the most highlight-worthy passage on the page."
-        },
-        {
-          "id": 3,
-          "captured_at": "2026-07-30T04:57:16.410Z",
-          "page_number": null,
-          "excerpt": "Liaquat Ahamed matches his earlier Lords of Finance with a page-turning saga of the world's first international financial crisis. By pinpointing the essential characters, from the avaricious Jay Cooke in America to the Turkish sultan blowing his budget on a harem of two hundred women to the mysterious Rothschild banking clan, Ahamed makes 1873 seem as alive as today. And in his hands, it is. By confronting the question of what could topple economies across multiple time zones, this master writer comes again to the question of money, over a quarter century in which prices spiraled out of control—not up but down—sowing misery for the common man, especially in America.",
-          "note": "Roger Lowenstein's blurb zeroes in on the book's core argument: deflationary spirals, not just booms, devastate ordinary people — a lesson Gilded Age leaders missed."
-        },
-        {
-          "id": 4,
-          "captured_at": "2026-07-30T05:10:16.002Z",
-          "page_number": 133,
-          "excerpt": "Unable to find European buyers for his Northern Pacific bonds, Cooke redirected his efforts at home. During the Civil War, he had managed to raise $1.5 billion from small investors on behalf of the Union government at a time when economic circumstances were much tougher, and he was confident he could repeat this success now that the economy was booming. Employing the same high-pressure sales tactics that had worked so well before, he recruited an army of agents to crisscross the country armed with maps and pamphlets about the Pacific Northwest, delivering lectures on the region's glories—for example, promising balmy weather that was billed as a cross between the climates of Paris and Venice.",
-          "note": "Jay Cooke's domestic retail bond campaign for Northern Pacific mirrors the Civil War fundraising playbook — a key setup for the coming crash."
-        },
-        {
-          "id": 5,
-          "captured_at": "2026-07-31T03:37:54.064Z",
-          "page_number": null,
-          "excerpt": "We see no reason to suppose that any general panic or financial crisis is now immediately impending over the country at large. . . . But unless we are greatly deceived, within the next few years a great many very handsomely engraved railroad bonds will go to protest and certificates of stocks by the millions will find their way into the hands of the trunk makers.",
-          "note": "A prescient warning dismissed at the time — the railroad bond bubble bursting is precisely what triggered the 1873 crash."
-        },
-        {
-          "id": 6,
-          "captured_at": "2026-07-31T03:54:11.497Z",
-          "page_number": 153,
-          "excerpt": "Between 1874 and 1876, a third of U.S. railway bonds, which amounted to $2.2 billion in all, went into receivership. It was to be the worst three-year period of corporate defaults in American history, even worse than the Great Depression.",
-          "note": "Striking comparative claim: the 1874–1876 railroad collapse produced worse corporate default rates than the Great Depression."
-        },
-        {
-          "id": 7,
-          "captured_at": "2026-08-02T04:48:49.126Z",
-          "page_number": null,
-          "excerpt": "As Ludwig Bamberger, the German Liberal politician most responsible for the decision to abandon silver and move to the gold standard, confessed: \"We chose gold, not because gold is gold, but because Britain is Britain.\"",
-          "note": "Bamberger's candid admission that Germany's adoption of the gold standard was an act of geopolitical mimicry rather than economic logic — a quotable encapsulation of the book's thesis about currency decisions driven by power and prestige."
-        },
-        {
-          "id": 8,
-          "captured_at": "2026-08-02T17:37:56.739Z",
-          "page_number": null,
-          "excerpt": "Lionized for his military prowess, he had been showered with extravagant gifts by a grateful public: One group presented him with a fully furnished mansion in Philadelphia; his hometown of Galena, Illinois, gifted him a second home there; and a consortium of New York businessmen paid off the mortgage on his Washington home and threw in a bonus gift of cash and securities worth $105,000. He seemed blithely unaware that accepting such largesse created, at the very least, the appearance of impropriety.",
-          "note": "Grant lionized post-Civil War — showered with gifts including a furnished Philadelphia mansion; sets up the era's hero-worship and excess preceding the 1873 crash."
-        },
-        {
-          "id": 9,
-          "captured_at": "2026-08-03T01:26:44.880Z",
-          "page_number": null,
-          "excerpt": "The 1874 cartoon was one of the first depictions of the elephant as a symbol for the Republican party.",
-          "note": "The 1874 midterm context and political panic surrounding Grant's potential third term aligns with the book's coverage of the post-1873 crash era and its political fallout in America."
+          "excerpt": "Just 1 Rhine florin could buy a lot. The year Schlick took out his loan, a pound of bacon in nearby Saxony was 1 groschen. A day's wages for the best-paid carpenters were 3 groschen. At the time, there were 21 Saxon groschen to 1 Rhine florin. So a single florin was worth seven days of well-paid work, or twenty-one pounds of bacon.",
+          "note": "This passage is about medieval German currency and Stephan Schlick — content that does not match the 1873 Rothschilds book; likely from a different book about early modern monetary history or the origins of the thaler/dollar."
         }
       ]
     }
@@ -1067,7 +1089,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 26
+        "count": 28
       },
       {
         "tag": "tweet",
@@ -1075,15 +1097,15 @@
       },
       {
         "tag": "investing",
-        "count": 20
+        "count": 22
       },
       {
         "tag": "ai agents",
-        "count": 15
+        "count": 16
       },
       {
         "tag": "fintech",
-        "count": 11
+        "count": 13
       },
       {
         "tag": "capital expenditure",
@@ -1094,15 +1116,15 @@
         "count": 5
       },
       {
+        "tag": "science",
+        "count": 5
+      },
+      {
         "tag": "security",
         "count": 5
       },
       {
         "tag": "asset management",
-        "count": 4
-      },
-      {
-        "tag": "science",
         "count": 4
       },
       {
@@ -1128,16 +1150,20 @@
         "count": 10
       },
       {
+        "publication": "Unknown",
+        "count": 7
+      },
+      {
+        "publication": "Financial Times",
+        "count": 5
+      },
+      {
         "publication": "Twitter/X",
         "count": 5
       },
       {
-        "publication": "Unknown",
-        "count": 5
-      },
-      {
-        "publication": "Financial Times",
-        "count": 4
+        "publication": "Apple Podcasts",
+        "count": 2
       },
       {
         "publication": "Bloomberg",
@@ -1149,10 +1175,6 @@
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
-        "count": 1
-      },
-      {
-        "publication": "Apple Podcasts",
         "count": 1
       },
       {
@@ -1208,6 +1230,10 @@
         "count": 1
       },
       {
+        "publication": "The Public Domain Review",
+        "count": 1
+      },
+      {
         "publication": "Unstable Equilibria (Substack)",
         "count": 1
       },
@@ -1227,7 +1253,7 @@
       },
       {
         "month": "2026-08",
-        "count": 15
+        "count": 20
       }
     ]
   }
