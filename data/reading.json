@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-03T15:48:43.211Z",
-  "count": 72,
+  "generated_at": "2026-08-03T18:00:13.550Z",
+  "count": 73,
   "entries": [
+    {
+      "id": "rl-20260803170831-b690ae",
+      "date": "2026-08-03T17:08:31.611Z",
+      "publication": "stafforini.com",
+      "title": "Situational Awareness LP",
+      "author": "Pablo Stafforini",
+      "url": "https://stafforini.com/notes/situational-awareness-lp/",
+      "summary": "Situational Awareness LP is an AGI-focused hedge fund founded in 2024 by Leopold Aschenbrenner and co-managed by Carl Shulman, backed by the Collison brothers, Daniel Gross, and Nat Friedman, investing in public equities, semiconductors, and energy infrastructure. The article describes a \"copycat\" strategy for retail/smaller investors to replicate the fund's disclosed public equity positions using SEC 13F filings, including its significant limitations such as delayed disclosure, omission of short positions and full option details. It then provides extensive Python code to fetch, parse, and backtest the copycat strategy against SPY, computing both an equity-proxy return (treating options as linear underlying exposure) and an option-proxy return (using MarketData historical option prices), along with risk-adjusted metrics.",
+      "tags": [
+        "investing",
+        "ai agents",
+        "fintech",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260803150903-2b7cdb",
       "date": "2026-08-03T15:09:03.006Z",
@@ -1183,7 +1200,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 28
+        "count": 29
       },
       {
         "tag": "tweet",
@@ -1191,15 +1208,15 @@
       },
       {
         "tag": "investing",
-        "count": 23
+        "count": 24
       },
       {
         "tag": "ai agents",
-        "count": 16
+        "count": 17
       },
       {
         "tag": "fintech",
-        "count": 13
+        "count": 14
       },
       {
         "tag": "capital expenditure",
@@ -1338,6 +1355,10 @@
       {
         "publication": "christianselig.com",
         "count": 1
+      },
+      {
+        "publication": "stafforini.com",
+        "count": 1
       }
     ],
     "by_month": [
@@ -1347,7 +1368,7 @@
       },
       {
         "month": "2026-08",
-        "count": 21
+        "count": 22
       }
     ]
   }
