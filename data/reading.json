@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-03T21:00:11.979Z",
-  "count": 73,
+  "generated_at": "2026-08-03T22:00:12.664Z",
+  "count": 74,
   "entries": [
+    {
+      "id": "rl-20260803214049-49724c",
+      "date": "2026-08-03T21:40:49.505Z",
+      "publication": "FT",
+      "title": "Iranian tanker tolls: totally legit after all?",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/06f8f1a1-50a1-43d0-a236-c2d65ff38e87",
+      "summary": "The piece examines whether Iran and Oman could legally charge fees for tanker passage through the Strait of Hormuz by structuring them as service fees rather than transit tolls, drawing on precedents from Denmark and Turkey. JPMorgan analysts argue such a framework could be legally defensible under international maritime law, particularly since neither the US nor Iran has ratified UNCLOS. A bilateral Iran-Oman transit authority is floated as a potential outcome that could reopen the Strait while giving Iran legitimacy and revenue.",
+      "tags": [
+        "security",
+        "investing",
+        "sustainability"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260803170831-b690ae",
       "date": "2026-08-03T17:08:31.611Z",
@@ -1203,12 +1219,12 @@
         "count": 29
       },
       {
-        "tag": "tweet",
+        "tag": "investing",
         "count": 25
       },
       {
-        "tag": "investing",
-        "count": 24
+        "tag": "tweet",
+        "count": 25
       },
       {
         "tag": "ai agents",
@@ -1219,11 +1235,11 @@
         "count": 14
       },
       {
-        "tag": "capital expenditure",
-        "count": 6
+        "tag": "security",
+        "count": 7
       },
       {
-        "tag": "security",
+        "tag": "capital expenditure",
         "count": 6
       },
       {
@@ -1240,7 +1256,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 4
+        "count": 5
       },
       {
         "tag": "etfs",
@@ -1298,6 +1314,10 @@
       },
       {
         "publication": "Convexity Maven",
+        "count": 1
+      },
+      {
+        "publication": "FT",
         "count": 1
       },
       {
@@ -1368,7 +1388,7 @@
       },
       {
         "month": "2026-08",
-        "count": 22
+        "count": 23
       }
     ]
   }
