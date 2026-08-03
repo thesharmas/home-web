@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-02T20:00:19.533Z",
-  "count": 57,
+  "generated_at": "2026-08-03T00:00:23.879Z",
+  "count": 58,
   "entries": [
+    {
+      "id": "rl-20260802231530-df31ae",
+      "date": "2026-08-02T23:15:30.930Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Ankur Goyal (@ankrgyl) on X",
+      "author": "Ankur Goyal (@ankrgyl)",
+      "url": "https://x.com/ankrgyl/status/2082565187064811637",
+      "summary": "[1/7] I have long felt the diminishing effectiveness of LLM-as-a-judge for agents, and one day over coffee @mitch_troy gave me a rant that helped clarify why. The ground truth for an agent isn't its output, it is how the agent should behave.\n\nThis is important for two reasons: \n\n",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260802193007-e50e09",
       "date": "2026-08-02T19:30:07.487Z",
@@ -926,7 +940,7 @@
     "by_tag": [
       {
         "tag": "tweet",
-        "count": 24
+        "count": 25
       },
       {
         "tag": "technology",
@@ -980,7 +994,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 19
+        "count": 20
       },
       {
         "publication": "Twitter/X",
@@ -1086,7 +1100,7 @@
       },
       {
         "month": "2026-08",
-        "count": 6
+        "count": 7
       }
     ]
   }
