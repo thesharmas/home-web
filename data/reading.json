@@ -1,7 +1,127 @@
 {
-  "generated_at": "2026-08-03T02:00:15.243Z",
-  "count": 58,
+  "generated_at": "2026-08-03T05:00:15.712Z",
+  "count": 66,
   "entries": [
+    {
+      "id": "rl-20260803045052-a2a980",
+      "date": "2026-08-03T04:50:53.087Z",
+      "publication": "The Economist",
+      "title": "America has become an entrepreneur's paradise",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/07/27/america-has-become-an-entrepreneurs-paradise",
+      "summary": "The Economist article argues that America has become increasingly favorable for small entrepreneurs, with AI tools empowering Etsy sellers, small-town accountants, and other independent operators. It profiles individuals like Zachary Dunn, who left traditional employment to start an online hat business. The piece suggests AI is leveling the playing field for small businesses.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "fintech"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044940-93870d",
+      "date": "2026-08-03T04:49:41.778Z",
+      "publication": "The Economist",
+      "title": "A common European safe asset is still unlikely",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/07/30/a-common-european-safe-asset-is-still-unlikely",
+      "summary": "Germany's Chancellor Friedrich Merz personally traveled to Dublin to deliver a firm rejection to Irish counterpart Micheál Martin, who holds the rotating EU Council presidency. The article examines why a common European safe asset remains unlikely, attributing the obstacle primarily to high national debts among member states. The piece is framed around negotiations over a new seven-year EU budget.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044731-a7a9a1",
+      "date": "2026-08-03T04:47:32.041Z",
+      "publication": "The Economist",
+      "title": "Retail investors should beware perpetual futures",
+      "author": "Buttonwood",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/28/retail-investors-should-beware-perpetual-futures",
+      "summary": "The Economist's Buttonwood column warns retail investors about perpetual futures, financial derivatives that originated in the crypto world and are now entering mainstream markets. The article frames them as a reinvention of an old financial idea, signaling caution. It suggests these products carry significant risks for ordinary investors.",
+      "tags": [
+        "fintech",
+        "investing",
+        "etfs"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044702-6573f2",
+      "date": "2026-08-03T04:47:03.034Z",
+      "publication": "The Economist",
+      "title": "Border walls are symbols of power—and monuments to delusion",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/07/30/border-walls-are-symbols-of-power-and-monuments-to-delusion",
+      "summary": "This Economist Culture piece uses a summer walk along Hadrian's Wall as a lens to examine the broader history and symbolism of border walls. It argues that such structures serve as demonstrations of imperial power while ultimately proving to be monuments to overreach and delusion. The article reflects on what Hadrian's Wall meant to both its Roman builders and the Caledonian tribes who faced it.",
+      "tags": [
+        "science",
+        "sustainability"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044323-7a4a10",
+      "date": "2026-08-03T04:43:25.487Z",
+      "publication": "The Economist",
+      "title": "A racist massacre. A white-supremacist coup. A century of lies",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/07/30/a-racist-massacre-a-white-supremacist-coup-a-century-of-lies",
+      "summary": "This Economist article reviews Lauren Collins's book 'They Stole a City,' published by Penguin Press, which recounts the 1898 white-supremacist coup and racist massacre in North Carolina. The book examines the atrocity itself and its long aftermath, including how the perpetrators faced no punishment. The review explores the century of lies and cover-up that followed the violent seizure of power.",
+      "tags": [
+        "science"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044224-d72761",
+      "date": "2026-08-03T04:42:24.952Z",
+      "publication": "The Economist",
+      "title": "The terrifying threat of a genetically engineered plague",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/07/30/the-terrifying-threat-of-a-genetically-engineered-plague",
+      "summary": "This is a review of Annie Jacobsen's book 'Biological War: A Scenario,' which explores the terrifying consequences of a genetically engineered pathogen leaking from a Russian laboratory. The piece is categorized under The Economist's Culture section and describes a scenario in which an infected person carries a so-called 'demon germ' without initially feeling severely ill. The review examines the plausibility and repercussions of such a biological threat.",
+      "tags": [
+        "security",
+        "science"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803044107-69483e",
+      "date": "2026-08-03T04:41:08.411Z",
+      "publication": "The Economist",
+      "title": "How Tom Holland became the world's highest-grossing young actor",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/07/27/how-tom-holland-became-the-worlds-highest-grossing-young-actor",
+      "summary": "This Economist article examines how Tom Holland became the world's highest-grossing young actor, drawing lessons from his prodigious early success. In 2026, Holland stars in two major summer blockbusters: 'The Odyssey,' where he plays Telemachus, and 'Spider-Man: Brand New Day,' his seventh outing as the Web-Slinger. The piece explores what makes Holland such a rare and bankable Hollywood talent.",
+      "tags": [
+        "technology"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260803043904-e8f686",
+      "date": "2026-08-03T04:39:05.344Z",
+      "publication": "The Economist",
+      "title": "The tide turns for a Florida darling and California loser",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/07/28/the-tide-turns-for-a-florida-darling-and-california-loser",
+      "summary": "This Economist article examines the shifting fortunes of Miami and San Francisco, arguing that Miami — once celebrated as a booming alternative to expensive coastal cities — is now facing new challenges, while San Francisco appears to be staging a comeback. The piece is filed from both cities and uses street-level anecdotes, such as a drag queen dancing at a World Cup watch party, to illustrate San Francisco's reviving energy. The article is part of a series called 'Doom to boom' covering US urban trends.",
+      "tags": [
+        "technology",
+        "investing"
+      ],
+      "source": "ios",
+      "partial": true
+    },
     {
       "id": "rl-20260802231530-df31ae",
       "date": "2026-08-02T23:15:30.930Z",
@@ -946,24 +1066,24 @@
   "aggregates": {
     "by_tag": [
       {
+        "tag": "technology",
+        "count": 26
+      },
+      {
         "tag": "tweet",
         "count": 25
       },
       {
-        "tag": "technology",
-        "count": 23
-      },
-      {
         "tag": "investing",
-        "count": 17
+        "count": 20
       },
       {
         "tag": "ai agents",
-        "count": 14
+        "count": 15
       },
       {
         "tag": "fintech",
-        "count": 8
+        "count": 11
       },
       {
         "tag": "capital expenditure",
@@ -974,27 +1094,27 @@
         "count": 5
       },
       {
+        "tag": "security",
+        "count": 5
+      },
+      {
         "tag": "asset management",
         "count": 4
       },
       {
-        "tag": "security",
+        "tag": "science",
         "count": 4
       },
       {
         "tag": "sustainability",
-        "count": 2
+        "count": 3
       },
       {
         "tag": "etfs",
-        "count": 1
+        "count": 2
       },
       {
         "tag": "particle physics",
-        "count": 1
-      },
-      {
-        "tag": "science",
         "count": 1
       }
     ],
@@ -1002,6 +1122,10 @@
       {
         "publication": "X (formerly Twitter)",
         "count": 20
+      },
+      {
+        "publication": "The Economist",
+        "count": 10
       },
       {
         "publication": "Twitter/X",
@@ -1017,10 +1141,6 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 2
-      },
-      {
-        "publication": "The Economist",
         "count": 2
       },
       {
@@ -1107,7 +1227,7 @@
       },
       {
         "month": "2026-08",
-        "count": 7
+        "count": 15
       }
     ]
   }
