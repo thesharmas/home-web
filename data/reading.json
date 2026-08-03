@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-03T15:00:14.630Z",
-  "count": 71,
+  "generated_at": "2026-08-03T15:48:43.211Z",
+  "count": 72,
   "entries": [
+    {
+      "id": "rl-20260803150903-2b7cdb",
+      "date": "2026-08-03T15:09:03.006Z",
+      "publication": "Bloomberg",
+      "title": "The Tungsten Market Is Warning of an Upcoming War",
+      "author": "David Fickling",
+      "url": "https://podcasts.apple.com/us/podcast/the-tungsten-market-is-warning-of-an-upcoming-war/id1056200096?i=1000779646689",
+      "summary": "Bloomberg Opinion columnist David Fickling discusses tungsten mining as a geopolitical indicator, describing it as 'a century old prediction market for war.' He explores tungsten's strategic importance in war manufacturing due to its high density and melting point, and visits Australia's Dolphin Mine, which historically opens during wartime and closes during peace. Fickling examines why investors are again interested in tungsten and why sustaining production outside China has proven difficult.",
+      "tags": [
+        "investing",
+        "security",
+        "asset management",
+        "sustainability"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260803145100-310a75",
       "date": "2026-08-03T14:51:00.247Z",
@@ -1057,6 +1074,83 @@
   ],
   "books": [
     {
+      "id": 1,
+      "title": "1873: The Rothschilds, the First Great Depression, and the Making of the Modern World",
+      "author": "Liaquat Ahamed",
+      "isbn": "9781594204173",
+      "publication_year": null,
+      "total_pages": null,
+      "summary": "The book examines the financial crash of 1873, tracing how the first era of globalization and a speculative railroad-bond boom—largely financed through the Rothschild banking family—collapsed into a worldwide crisis of defaults, currency chaos, and prolonged deflation. Liaquat Ahamed shows how the crash rippled into major historical events, including the end of Reconstruction in the United States and the decline of the Ottoman Empire, while also fueling a rise in antisemitic scapegoating of Jewish financiers. The Rothschilds serve as both central actors and human witnesses to forces larger than any single family could control.",
+      "active": false,
+      "created_at": "2026-07-30T04:56:58.315Z",
+      "link": "https://books.google.com/books/about/1873.html?hl=&id=_m-OEQAAQBAJ",
+      "highlights": [
+        {
+          "id": 1,
+          "captured_at": "2026-07-30T04:57:01.142Z",
+          "page_number": null,
+          "excerpt": "1873: The Rothschilds, the First Great Depression, and the Making of the Modern World",
+          "note": "This is the book cover, not an interior page — no prose passage is available to extract."
+        },
+        {
+          "id": 2,
+          "captured_at": "2026-07-30T04:57:10.290Z",
+          "page_number": null,
+          "excerpt": "Pendulum shifts in the political economy happen slowly—and then all at once. In this fantastically readable history, Liaquat Ahamed shows us how frothy real estate markets, a burgeoning middle class, failing autocrats, a dodgy bond market, and other seemingly disparate forces eventually came together to produce the first global financial crisis of the modern era. It's a book that has all too much to tell us about our own time period; indeed, it provides both a warning and a road map for what might come next.",
+          "note": "Rana Foroohar's blurb draws the sharpest parallel between 1873 and today, making it the most highlight-worthy passage on the page."
+        },
+        {
+          "id": 3,
+          "captured_at": "2026-07-30T04:57:16.410Z",
+          "page_number": null,
+          "excerpt": "Liaquat Ahamed matches his earlier Lords of Finance with a page-turning saga of the world's first international financial crisis. By pinpointing the essential characters, from the avaricious Jay Cooke in America to the Turkish sultan blowing his budget on a harem of two hundred women to the mysterious Rothschild banking clan, Ahamed makes 1873 seem as alive as today. And in his hands, it is. By confronting the question of what could topple economies across multiple time zones, this master writer comes again to the question of money, over a quarter century in which prices spiraled out of control—not up but down—sowing misery for the common man, especially in America.",
+          "note": "Roger Lowenstein's blurb zeroes in on the book's core argument: deflationary spirals, not just booms, devastate ordinary people — a lesson Gilded Age leaders missed."
+        },
+        {
+          "id": 4,
+          "captured_at": "2026-07-30T05:10:16.002Z",
+          "page_number": 133,
+          "excerpt": "Unable to find European buyers for his Northern Pacific bonds, Cooke redirected his efforts at home. During the Civil War, he had managed to raise $1.5 billion from small investors on behalf of the Union government at a time when economic circumstances were much tougher, and he was confident he could repeat this success now that the economy was booming. Employing the same high-pressure sales tactics that had worked so well before, he recruited an army of agents to crisscross the country armed with maps and pamphlets about the Pacific Northwest, delivering lectures on the region's glories—for example, promising balmy weather that was billed as a cross between the climates of Paris and Venice.",
+          "note": "Jay Cooke's domestic retail bond campaign for Northern Pacific mirrors the Civil War fundraising playbook — a key setup for the coming crash."
+        },
+        {
+          "id": 5,
+          "captured_at": "2026-07-31T03:37:54.064Z",
+          "page_number": null,
+          "excerpt": "We see no reason to suppose that any general panic or financial crisis is now immediately impending over the country at large. . . . But unless we are greatly deceived, within the next few years a great many very handsomely engraved railroad bonds will go to protest and certificates of stocks by the millions will find their way into the hands of the trunk makers.",
+          "note": "A prescient warning dismissed at the time — the railroad bond bubble bursting is precisely what triggered the 1873 crash."
+        },
+        {
+          "id": 6,
+          "captured_at": "2026-07-31T03:54:11.497Z",
+          "page_number": 153,
+          "excerpt": "Between 1874 and 1876, a third of U.S. railway bonds, which amounted to $2.2 billion in all, went into receivership. It was to be the worst three-year period of corporate defaults in American history, even worse than the Great Depression.",
+          "note": "Striking comparative claim: the 1874–1876 railroad collapse produced worse corporate default rates than the Great Depression."
+        },
+        {
+          "id": 7,
+          "captured_at": "2026-08-02T04:48:49.126Z",
+          "page_number": null,
+          "excerpt": "As Ludwig Bamberger, the German Liberal politician most responsible for the decision to abandon silver and move to the gold standard, confessed: \"We chose gold, not because gold is gold, but because Britain is Britain.\"",
+          "note": "Bamberger's candid admission that Germany's adoption of the gold standard was an act of geopolitical mimicry rather than economic logic — a quotable encapsulation of the book's thesis about currency decisions driven by power and prestige."
+        },
+        {
+          "id": 8,
+          "captured_at": "2026-08-02T17:37:56.739Z",
+          "page_number": null,
+          "excerpt": "Lionized for his military prowess, he had been showered with extravagant gifts by a grateful public: One group presented him with a fully furnished mansion in Philadelphia; his hometown of Galena, Illinois, gifted him a second home there; and a consortium of New York businessmen paid off the mortgage on his Washington home and threw in a bonus gift of cash and securities worth $105,000. He seemed blithely unaware that accepting such largesse created, at the very least, the appearance of impropriety.",
+          "note": "Grant lionized post-Civil War — showered with gifts including a furnished Philadelphia mansion; sets up the era's hero-worship and excess preceding the 1873 crash."
+        },
+        {
+          "id": 9,
+          "captured_at": "2026-08-03T01:26:44.880Z",
+          "page_number": null,
+          "excerpt": "The 1874 cartoon was one of the first depictions of the elephant as a symbol for the Republican party.",
+          "note": "The 1874 midterm context and political panic surrounding Grant's potential third term aligns with the book's coverage of the post-1873 crash era and its political fallout in America."
+        }
+      ]
+    },
+    {
       "id": 4,
       "title": "The Almighty Dollar: 500 Years of the World's Most Powerful Money",
       "author": "Brendan Greeley",
@@ -1097,7 +1191,7 @@
       },
       {
         "tag": "investing",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "ai agents",
@@ -1112,6 +1206,14 @@
         "count": 6
       },
       {
+        "tag": "security",
+        "count": 6
+      },
+      {
+        "tag": "asset management",
+        "count": 5
+      },
+      {
         "tag": "cloud",
         "count": 5
       },
@@ -1120,16 +1222,8 @@
         "count": 5
       },
       {
-        "tag": "security",
-        "count": 5
-      },
-      {
-        "tag": "asset management",
-        "count": 4
-      },
-      {
         "tag": "sustainability",
-        "count": 3
+        "count": 4
       },
       {
         "tag": "etfs",
@@ -1162,11 +1256,11 @@
         "count": 5
       },
       {
-        "publication": "Apple Podcasts",
-        "count": 2
+        "publication": "Bloomberg",
+        "count": 3
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Apple Podcasts",
         "count": 2
       },
       {
@@ -1253,7 +1347,7 @@
       },
       {
         "month": "2026-08",
-        "count": 20
+        "count": 21
       }
     ]
   }
