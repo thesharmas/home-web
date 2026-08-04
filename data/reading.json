@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-04T05:00:15.174Z",
-  "count": 76,
+  "generated_at": "2026-08-04T20:00:14.308Z",
+  "count": 77,
   "entries": [
+    {
+      "id": "rl-20260804192927-5d6581",
+      "date": "2026-08-04T19:29:27.189Z",
+      "publication": "Slate Podcasts",
+      "title": "Money Talks: Live from the Library of Mistakes",
+      "author": "Felix Salmon",
+      "url": "https://podcasts.apple.com/us/podcast/money-talks-live-from-the-library-of-mistakes/id876523888?i=1000779811616",
+      "summary": "Felix Salmon sits down with Lee Buchheit for an in-depth conversation on sovereign debt, recorded live at The Library of Mistakes. The episode is part of Slate's Money Talks series and runs approximately 43 minutes. Slate Plus members get ad-free access and weekly bonus episodes.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260804035131-f9639e",
       "date": "2026-08-04T03:51:31.740Z",
@@ -1263,12 +1278,12 @@
         "count": 30
       },
       {
-        "tag": "tweet",
+        "tag": "investing",
         "count": 26
       },
       {
-        "tag": "investing",
-        "count": 25
+        "tag": "tweet",
+        "count": 26
       },
       {
         "tag": "ai agents",
@@ -1276,7 +1291,7 @@
       },
       {
         "tag": "fintech",
-        "count": 14
+        "count": 15
       },
       {
         "tag": "security",
@@ -1341,6 +1356,10 @@
         "count": 2
       },
       {
+        "publication": "Slate Podcasts",
+        "count": 2
+      },
+      {
         "publication": "The Information",
         "count": 2
       },
@@ -1393,10 +1412,6 @@
         "count": 1
       },
       {
-        "publication": "Slate Podcasts",
-        "count": 1
-      },
-      {
         "publication": "Substack (Magnetic North)",
         "count": 1
       },
@@ -1436,7 +1451,7 @@
       },
       {
         "month": "2026-08",
-        "count": 25
+        "count": 26
       }
     ]
   }
