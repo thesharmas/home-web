@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-04T21:00:13.144Z",
-  "count": 78,
+  "generated_at": "2026-08-04T23:00:15.472Z",
+  "count": 79,
   "entries": [
+    {
+      "id": "rl-20260804221535-0dc5c4",
+      "date": "2026-08-04T22:15:35.268Z",
+      "publication": "Prospect Magazine",
+      "title": "How the BBC turned the litigation table on Trump",
+      "author": "DAT Green",
+      "url": "https://www.prospectmagazine.co.uk/ideas/law/the-weekly-constitutional/74288/bbc-turned-litigation-table-on-trump",
+      "summary": "President Trump's $5bn defamation lawsuit against the BBC in Florida has backfired, as the court has ordered Trump to disclose extensive internal business and financial records relevant to his claimed damages. Trump had asserted massive commercial harm to justify the inflated damages figure, but now faces the dilemma of either revealing sensitive business records or finding a pretext to drop the case. The author argues the lawsuit exemplifies Trump's tendency toward bluster without strategic forethought, and that the BBC's refusal to capitulate has left him trapped.",
+      "tags": [
+        "security",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260804203552-005c3e",
       "date": "2026-08-04T20:35:52.822Z",
@@ -1289,7 +1304,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "tweet",
@@ -1309,7 +1324,7 @@
       },
       {
         "tag": "security",
-        "count": 7
+        "count": 8
       },
       {
         "tag": "capital expenditure",
@@ -1418,6 +1433,10 @@
         "count": 1
       },
       {
+        "publication": "Prospect Magazine",
+        "count": 1
+      },
+      {
         "publication": "Quanta Magazine",
         "count": 1
       },
@@ -1465,7 +1484,7 @@
       },
       {
         "month": "2026-08",
-        "count": 27
+        "count": 28
       }
     ]
   }
