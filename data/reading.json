@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-04T01:00:15.355Z",
-  "count": 75,
+  "generated_at": "2026-08-04T04:00:13.437Z",
+  "count": 76,
   "entries": [
+    {
+      "id": "rl-20260804035131-f9639e",
+      "date": "2026-08-04T03:51:31.740Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Erik Meijer (@headinthebox) on X",
+      "author": "Erik Meijer (@headinthebox)",
+      "url": "https://x.com/headinthebox/status/2084414685701632406",
+      "summary": "[1/2] Free tip of the day, if you have any kind of self improvement loop, show this paper https://t.co/F9y1RBJgW0 to the model and ask it to incorporate it.\n\nThen when we meet in person one day, you can buy me a beer as a thank you.\n\n[2/2] @__avik Also related to weakest pre-cond",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260804002228-36c2c9",
       "date": "2026-08-04T00:22:28.763Z",
@@ -1235,11 +1249,11 @@
         "count": 30
       },
       {
-        "tag": "investing",
-        "count": 25
+        "tag": "tweet",
+        "count": 26
       },
       {
-        "tag": "tweet",
+        "tag": "investing",
         "count": 25
       },
       {
@@ -1286,7 +1300,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 20
+        "count": 21
       },
       {
         "publication": "The Economist",
@@ -1408,7 +1422,7 @@
       },
       {
         "month": "2026-08",
-        "count": 24
+        "count": 25
       }
     ]
   }
