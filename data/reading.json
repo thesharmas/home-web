@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-03T22:00:12.664Z",
-  "count": 74,
+  "generated_at": "2026-08-04T01:00:15.355Z",
+  "count": 75,
   "entries": [
+    {
+      "id": "rl-20260804002228-36c2c9",
+      "date": "2026-08-04T00:22:28.763Z",
+      "publication": "Lil'Log (lilianweng.github.io)",
+      "title": "Harness Engineering for Self-Improvement",
+      "author": "Lilian Weng",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "summary": "Lilian Weng surveys the emerging field of harness engineering—the systems surrounding base LLMs that orchestrate execution, context, tools, memory, and workflow—as a practical near-term path toward recursive self-improvement (RSI) in AI. The post covers design patterns (workflow automation, file-system memory, sub-agents), optimization techniques (context engineering, automated workflow search, evolutionary program search, self-improving harness loops), and joint optimization of harnesses with model weights. It concludes with open challenges including weak evaluators, reward hacking, diversity collapse, and the ongoing need for human oversight.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260803214049-49724c",
       "date": "2026-08-03T21:40:49.505Z",
@@ -1216,7 +1232,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 29
+        "count": 30
       },
       {
         "tag": "investing",
@@ -1228,7 +1244,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 17
+        "count": 18
       },
       {
         "tag": "fintech",
@@ -1243,15 +1259,15 @@
         "count": 6
       },
       {
+        "tag": "science",
+        "count": 6
+      },
+      {
         "tag": "asset management",
         "count": 5
       },
       {
         "tag": "cloud",
-        "count": 5
-      },
-      {
-        "tag": "science",
         "count": 5
       },
       {
@@ -1329,6 +1345,10 @@
         "count": 1
       },
       {
+        "publication": "Lil'Log (lilianweng.github.io)",
+        "count": 1
+      },
+      {
         "publication": "LinkedIn",
         "count": 1
       },
@@ -1388,7 +1408,7 @@
       },
       {
         "month": "2026-08",
-        "count": 23
+        "count": 24
       }
     ]
   }
