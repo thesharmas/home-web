@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-05T16:00:15.584Z",
-  "count": 84,
+  "generated_at": "2026-08-05T17:00:17.254Z",
+  "count": 85,
   "entries": [
+    {
+      "id": "rl-20260805163341-04e84d",
+      "date": "2026-08-05T16:33:41.280Z",
+      "publication": "Financial Times",
+      "title": "Time travellers are using LinkedIn to teach us about artificial intelligence",
+      "author": "Louis Ashworth",
+      "url": "https://www.ft.com/content/4a4b442c-7ae4-4553-bcab-d744d8d46c79",
+      "summary": "An NBER paper tracks how LinkedIn users retroactively edit past job descriptions to emphasise AI skills and de-emphasise DEI, a phenomenon the researchers call 'time travel'. At least one in five LinkedIn users has made such edits, with AI product managers being the most represented group. The study also finds that use of AI tools to write these edits rises inversely with education level, with a notable exception for MBA holders from lower-ranked programmes.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260805155845-9beaf0",
       "date": "2026-08-05T15:58:45.463Z",
@@ -1385,7 +1401,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "investing",
@@ -1397,11 +1413,11 @@
       },
       {
         "tag": "ai agents",
-        "count": 20
+        "count": 21
       },
       {
         "tag": "fintech",
-        "count": 18
+        "count": 19
       },
       {
         "tag": "security",
@@ -1447,7 +1463,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 6
+        "count": 7
       },
       {
         "publication": "Unknown",
@@ -1581,7 +1597,7 @@
       },
       {
         "month": "2026-08",
-        "count": 33
+        "count": 34
       }
     ]
   }
