@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-04T23:00:15.472Z",
-  "count": 79,
+  "generated_at": "2026-08-05T06:00:10.875Z",
+  "count": 80,
   "entries": [
+    {
+      "id": "rl-20260805050913-333b70",
+      "date": "2026-08-05T05:09:13.966Z",
+      "publication": "Liberty Street Economics (Federal Reserve Bank of New York)",
+      "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
+      "author": "Kenechukwu Anadu, Pablo D. Azar, Sean Baker, Marco Cipriani, Thomas M. Eisenbach, Mattia Landoni, Gabriele La Spada, Marco Macchiavelli, and J. Christina Wang",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
+      "summary": "The post documents the continued rapid growth of U.S. dollar stablecoins to ~$308 billion in market cap through mid-2026, coinciding with passage of the GENIUS Act. It then uses the 2023 Silicon Valley Bank failure as a case study to examine how non-crypto shocks affect stablecoin reserve composition, finding that USDC's Circle Reserve Fund sharply reduced interest-rate risk (shorter maturities) while dramatically increasing repo holdings and shifting bank deposits toward GSIBs. The authors conclude that the SVB episode reallocated risk within USDC's reserves from interest-rate risk toward counterparty risk, underscoring growing interconnectedness between stablecoins and traditional finance.",
+      "tags": [
+        "fintech",
+        "investing",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260804221535-0dc5c4",
       "date": "2026-08-04T22:15:35.268Z",
@@ -1307,12 +1323,12 @@
         "count": 31
       },
       {
-        "tag": "tweet",
+        "tag": "investing",
         "count": 27
       },
       {
-        "tag": "investing",
-        "count": 26
+        "tag": "tweet",
+        "count": 27
       },
       {
         "tag": "ai agents",
@@ -1320,11 +1336,11 @@
       },
       {
         "tag": "fintech",
-        "count": 15
+        "count": 16
       },
       {
         "tag": "security",
-        "count": 8
+        "count": 9
       },
       {
         "tag": "capital expenditure",
@@ -1421,6 +1437,10 @@
         "count": 1
       },
       {
+        "publication": "Liberty Street Economics (Federal Reserve Bank of New York)",
+        "count": 1
+      },
+      {
         "publication": "Lil'Log (lilianweng.github.io)",
         "count": 1
       },
@@ -1484,7 +1504,7 @@
       },
       {
         "month": "2026-08",
-        "count": 28
+        "count": 29
       }
     ]
   }
