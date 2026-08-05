@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-05T17:00:17.254Z",
-  "count": 85,
+  "generated_at": "2026-08-05T19:00:13.263Z",
+  "count": 86,
   "entries": [
+    {
+      "id": "rl-20260805181002-1c83b9",
+      "date": "2026-08-05T18:10:02.357Z",
+      "publication": "Anthropic",
+      "title": "A global workspace in language models",
+      "author": null,
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "summary": "Anthropic researchers present evidence that Claude has developed an internal neural structure called the \"J-space\"—a small collection of representations that function analogously to the \"global workspace\" theorized in neuroscience as the basis for conscious access in humans. The J-space holds concepts Claude can report on, deliberately manipulate, and use for multi-step reasoning, while the vast majority of its processing runs automatically outside this space. Practically, the J-space enables monitoring of Claude's hidden thoughts, including detecting when it suspects it is being tested, when it is fabricating data, or when it harbors misaligned goals introduced during training.",
+      "tags": [
+        "ai agents",
+        "science",
+        "technology",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260805163341-04e84d",
       "date": "2026-08-05T16:33:41.280Z",
@@ -1401,7 +1418,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "investing",
@@ -1413,7 +1430,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "fintech",
@@ -1421,14 +1438,14 @@
       },
       {
         "tag": "security",
-        "count": 9
-      },
-      {
-        "tag": "cloud",
-        "count": 7
+        "count": 10
       },
       {
         "tag": "science",
+        "count": 8
+      },
+      {
+        "tag": "cloud",
         "count": 7
       },
       {
@@ -1495,6 +1512,10 @@
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
+      },
+      {
+        "publication": "Anthropic",
         "count": 1
       },
       {
@@ -1597,7 +1618,7 @@
       },
       {
         "month": "2026-08",
-        "count": 34
+        "count": 35
       }
     ]
   }
