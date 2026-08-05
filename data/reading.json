@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-08-05T06:00:10.875Z",
-  "count": 80,
+  "generated_at": "2026-08-05T16:00:15.584Z",
+  "count": 84,
   "entries": [
+    {
+      "id": "rl-20260805155845-9beaf0",
+      "date": "2026-08-05T15:58:45.463Z",
+      "publication": "Cartoons Hate Her",
+      "title": "A Paywall Is a Salary, Not a Donation",
+      "author": "Cartoons Hate Her",
+      "url": "https://www.cartoonshateher.com/p/a-paywall-is-a-salary-not-a-donation?r=1dhwj&triedRedirect=true&hide_intro_popup=true",
+      "summary": "The author argues that paywalls for independent writers represent fair compensation for a professional service, not charity or moral failing. Using comparisons to professional athletes like Donovan Mitchell, she challenges the double standard that treats writing as a hobby that should be free while accepting high salaries in other fields. She also critiques the MLM-style \"get rich on Substack\" grift that has led some to view the platform as failing when it never delivered on unrealistic promises.",
+      "tags": [
+        "technology",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260805155715-3e4477",
+      "date": "2026-08-05T15:57:15.288Z",
+      "publication": "Latent Space",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "author": null,
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and?r=1dhwj&triedRedirect=true",
+      "summary": "This AI news roundup from Latent Space covers a debate about whether megakernels are obsolete in GPU inference engineering, sparked by NVIDIA's Rubin architecture improvements and Cursor's open-sourcing of Mixture-of-Kittens (MoK), a high-performance MoE training megakernel. The issue also recaps frontier model releases including Qwen 3.8-Max, MiniMax H3 video generation, and security incidents during frontier model evaluations. Additional topics include local inference benchmarks, agentic coding tools, and Chinese open-weight lab strategies.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260805155437-624296",
+      "date": "2026-08-05T15:54:37.413Z",
+      "publication": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "author": "swyx, Vibhu (hosts); Philip Kiely, Ali Taha (guests)",
+      "url": "https://www.latent.space/p/inference-eng?r=1dhwj&triedRedirect=true",
+      "summary": "A deep-dive podcast episode from Latent Space featuring Baseten's Philip Kiely and Ali Taha covering the full stack of inference engineering: KV cache routing, prefill/decode disaggregation, quantization, speculative decoding, and model retrofitting. The guests explain how stacking optimizations like NVFP4 quantization, custom speculators, and disaggregated serving can yield 2–10x speedups over a naive baseline, and detail techniques like canceling quantization errors across layers to improve both throughput and model fidelity. The conversation also covers grafting vision encoders onto language models, non-deterministic hardware failures, and the convergence of training and inference.",
+      "tags": [
+        "ai agents",
+        "cloud",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": true
+    },
+    {
+      "id": "rl-20260805154851-fe110d",
+      "date": "2026-08-05T15:48:51.966Z",
+      "publication": "The Two Cents (Substack)",
+      "title": "What happens to yields in between FOMC meetings?",
+      "author": "Hanno Lustig",
+      "url": "https://thetwocents.substack.com/p/what-happens-to-yields-in-between?r=1dhwj&triedRedirect=true",
+      "summary": "The piece examines how Treasury yield price discovery has shifted from occurring almost exclusively around FOMC meeting windows (pre-2021) to happening predominantly between meetings since the Fed began QT in 2022. Drawing on research by Sebastian Hillenbrand, the author shows that 87% of the 32-year secular decline in 10-year yields through 2021 was concentrated in three-day FOMC windows, while non-FOMC days contributed almost nothing. Since 2022, that pattern has inverted—over 100% of the yield normalization has come from non-FOMC price action—suggesting bond markets are now interpreting macro data independently rather than waiting for Fed guidance.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech",
+        "etfs"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260805050913-333b70",
       "date": "2026-08-05T05:09:13.966Z",
@@ -1320,11 +1385,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 31
+        "count": 34
       },
       {
         "tag": "investing",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "tweet",
@@ -1332,31 +1397,31 @@
       },
       {
         "tag": "ai agents",
-        "count": 18
+        "count": 20
       },
       {
         "tag": "fintech",
-        "count": 16
+        "count": 18
       },
       {
         "tag": "security",
         "count": 9
       },
       {
-        "tag": "capital expenditure",
-        "count": 6
+        "tag": "cloud",
+        "count": 7
       },
       {
         "tag": "science",
-        "count": 6
+        "count": 7
       },
       {
         "tag": "asset management",
-        "count": 5
+        "count": 6
       },
       {
-        "tag": "cloud",
-        "count": 5
+        "tag": "capital expenditure",
+        "count": 6
       },
       {
         "tag": "sustainability",
@@ -1364,7 +1429,7 @@
       },
       {
         "tag": "etfs",
-        "count": 2
+        "count": 3
       },
       {
         "tag": "particle physics",
@@ -1401,6 +1466,10 @@
         "count": 2
       },
       {
+        "publication": "Latent Space",
+        "count": 2
+      },
+      {
         "publication": "Slate Podcasts",
         "count": 2
       },
@@ -1418,6 +1487,10 @@
       },
       {
         "publication": "Bloomberg (Odd Lots)",
+        "count": 1
+      },
+      {
+        "publication": "Cartoons Hate Her",
         "count": 1
       },
       {
@@ -1481,6 +1554,10 @@
         "count": 1
       },
       {
+        "publication": "The Two Cents (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Unstable Equilibria (Substack)",
         "count": 1
       },
@@ -1504,7 +1581,7 @@
       },
       {
         "month": "2026-08",
-        "count": 29
+        "count": 33
       }
     ]
   }
