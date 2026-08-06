@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-08-06T20:00:17.378Z",
-  "count": 97,
+  "generated_at": "2026-08-06T21:00:15.338Z",
+  "count": 100,
   "entries": [
+    {
+      "id": "rl-20260806205220-44021b",
+      "date": "2026-08-06T20:52:20.073Z",
+      "publication": "Bloomberg",
+      "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/brad-setser-on-the-uss-unusual-japanese-yen-intervention/id1056200096?i=1000780200558",
+      "summary": "The US and Japan jointly intervened to halt the yen's slide, marking the first such collaboration in 15 years. Treasury Secretary Scott Bessent took the unusual step of selling euros rather than dollars and used a little-known Federal Reserve repo facility. Brad Setser of the Council on Foreign Relations discusses why the Bank of Japan delayed rate hikes, broader East Asian currency weakness, and Japan's fiscal outlook.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806200358-9b3ce6",
+      "date": "2026-08-06T20:03:58.165Z",
+      "publication": "Substack (Chris Dillow)",
+      "title": "On the ownership of assets",
+      "author": "Chris Dillow",
+      "url": "https://chrisdillow.substack.com/p/on-the-ownership-of-assets",
+      "summary": "Chris Dillow uses Gianni Infantino's failed attempt to sell a stake in the World Cup as a springboard to explore the economics of asset ownership, focusing on the hold-up problem and residual claimant theory. He traces how incomplete contracts push toward vertical integration and ownership by indispensable agents, drawing on Coase, Hart & Moore, and Marx. The piece ultimately argues that because externalities make society a de facto residual claimant on banks and polluters, there is an economic case for broader public or collective ownership of productive assets.",
+      "tags": [
+        "investing",
+        "asset management",
+        "sustainability"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806200353-a321b8",
+      "date": "2026-08-06T20:03:53.239Z",
+      "publication": "Phenomenal World",
+      "title": "Brady's Lessons",
+      "author": "Stephen Paduano",
+      "url": "https://phenomenalworld.org/analysis/bradys-lessons/",
+      "summary": "The article examines the Brady Plan of 1989 as a model for resolving today's sovereign debt crises in developing nations, reviewing how it succeeded where the Baker Plan failed by cutting debt stocks and coordinating multilateral institutions. It analyzes the shortcomings of the Common Framework, the current debt-restructuring mechanism, through case studies of Chad, Zambia, Ghana, and Ethiopia. The central lesson drawn is that the Brady Plan's key success factor was not its technical financial structure but its political coordination among multilaterals—a lesson urgently applicable today as 'holdout debtors' like Senegal and Bolivia resist necessary restructurings by playing multilateral institutions against each other.",
+      "tags": [
+        "investing",
+        "fintech",
+        "sustainability"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260806195110-85388e",
       "date": "2026-08-06T19:51:10.222Z",
@@ -1585,12 +1632,12 @@
         "count": 42
       },
       {
-        "tag": "tweet",
-        "count": 31
+        "tag": "investing",
+        "count": 32
       },
       {
-        "tag": "investing",
-        "count": 29
+        "tag": "tweet",
+        "count": 31
       },
       {
         "tag": "ai agents",
@@ -1598,7 +1645,7 @@
       },
       {
         "tag": "fintech",
-        "count": 19
+        "count": 21
       },
       {
         "tag": "security",
@@ -1618,11 +1665,11 @@
       },
       {
         "tag": "asset management",
-        "count": 6
+        "count": 7
       },
       {
         "tag": "sustainability",
-        "count": 5
+        "count": 7
       },
       {
         "tag": "etfs",
@@ -1660,7 +1707,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 3
+        "count": 4
       },
       {
         "publication": "Apple Podcasts",
@@ -1735,6 +1782,10 @@
         "count": 1
       },
       {
+        "publication": "Phenomenal World",
+        "count": 1
+      },
+      {
         "publication": "Prospect Magazine",
         "count": 1
       },
@@ -1744,6 +1795,10 @@
       },
       {
         "publication": "RecoveringResolutionRegulator",
+        "count": 1
+      },
+      {
+        "publication": "Substack (Chris Dillow)",
         "count": 1
       },
       {
@@ -1790,7 +1845,7 @@
       },
       {
         "month": "2026-08",
-        "count": 46
+        "count": 49
       }
     ]
   }
