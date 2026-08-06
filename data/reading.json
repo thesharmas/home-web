@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-05T19:00:13.263Z",
-  "count": 86,
+  "generated_at": "2026-08-06T02:00:16.944Z",
+  "count": 87,
   "entries": [
+    {
+      "id": "rl-20260806011309-270652",
+      "date": "2026-08-06T01:13:09.304Z",
+      "publication": "1688 / Alibaba",
+      "title": "MerchantBench: A 365-day seller-side environment",
+      "author": null,
+      "url": "https://air.1688.com/kapp/next1688/merchantbench/",
+      "summary": "MerchantBench is a simulated 365-day seller-side environment that couples a time-varying supplier marketplace with a persistent merchant store and order-level customer outcomes. An agent acts every 12 hours across four linked decisions: sourcing, listing and pricing, cash-flow management, and feedback adaptation. The benchmark uses 98,843 real product records, 365 simulated days, and 26 merchant tools.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260805181002-1c83b9",
       "date": "2026-08-05T18:10:02.357Z",
@@ -1418,7 +1433,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 36
+        "count": 37
       },
       {
         "tag": "investing",
@@ -1430,7 +1445,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "fintech",
@@ -1509,6 +1524,10 @@
       {
         "publication": "The Information",
         "count": 2
+      },
+      {
+        "publication": "1688 / Alibaba",
+        "count": 1
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
@@ -1618,7 +1637,7 @@
       },
       {
         "month": "2026-08",
-        "count": 35
+        "count": 36
       }
     ]
   }
