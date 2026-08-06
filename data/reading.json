@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-08-06T03:00:16.183Z",
-  "count": 89,
+  "generated_at": "2026-08-06T17:00:18.248Z",
+  "count": 92,
   "entries": [
+    {
+      "id": "rl-20260806162559-dbacfc",
+      "date": "2026-08-06T16:25:59.032Z",
+      "publication": "Ian's Newsletter",
+      "title": "Getting Back in the Loop",
+      "author": "Ian Kar",
+      "url": "https://ians-newsletter-491cf1.beehiiv.com/p/getting-back-in-the-loop?_bhlid=94551f254163ec4e4a465120e823bc14e4b321d3",
+      "summary": "Ian Kar returns to publishing after a difficult year marked by his father's heart attack and an extended stay at his parents' home, reflecting on family, caregiving, and the asymmetry of parent-child relationships. He argues that boredom and distance from city life rekindled his motivation to write and publish online, framing the internet as a homing beacon for like-minded people. He previews upcoming pieces on the U.S.-China AI adoption race, AI-generated slop, and the drift toward neofeudalism in the modern economy.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806161642-cd6157",
+      "date": "2026-08-06T16:16:42.513Z",
+      "publication": "X (formerly Twitter)",
+      "title": "PostHog (@posthog) on X",
+      "author": "PostHog (@posthog)",
+      "url": "https://x.com/posthog/status/2083231950744244360",
+      "summary": "[1/2] https://t.co/5EmO9JSOso\n\n[2/2] @i_spy_coffee @pauldambra blame overlap %, prior merged PRs in these paths, days since last touch of those path.\n\nyou can actually read the code here: https://t.co/djve3NwAop",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806161558-cf0b77",
+      "date": "2026-08-06T16:15:58.391Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Spencer Walsh (@thespencerwalsh) on X",
+      "author": "Spencer Walsh (@thespencerwalsh)",
+      "url": "https://x.com/thespencerwalsh/status/2085118018296947020",
+      "summary": "Safe to say the US consumer remained healthy in Q2... https://t.co/ApT4j4a5yM",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260806025152-f62475",
       "date": "2026-08-06T02:51:52.675Z",
@@ -1461,11 +1504,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 37
+        "count": 38
       },
       {
         "tag": "tweet",
-        "count": 29
+        "count": 31
       },
       {
         "tag": "investing",
@@ -1473,7 +1516,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 23
+        "count": 24
       },
       {
         "tag": "fintech",
@@ -1515,7 +1558,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 24
+        "count": 26
       },
       {
         "publication": "The Economist",
@@ -1587,6 +1630,10 @@
       },
       {
         "publication": "Hugging Face",
+        "count": 1
+      },
+      {
+        "publication": "Ian's Newsletter",
         "count": 1
       },
       {
@@ -1665,7 +1712,7 @@
       },
       {
         "month": "2026-08",
-        "count": 38
+        "count": 41
       }
     ]
   }
