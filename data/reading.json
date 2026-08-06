@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-08-06T02:00:16.944Z",
-  "count": 87,
+  "generated_at": "2026-08-06T03:00:16.183Z",
+  "count": 89,
   "entries": [
+    {
+      "id": "rl-20260806025152-f62475",
+      "date": "2026-08-06T02:51:52.675Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Sawyer Hood (@sawyerhood) on X",
+      "author": "Sawyer Hood (@sawyerhood)",
+      "url": "https://x.com/sawyerhood/status/2085039905529597982",
+      "summary": "[1/15] my new daily driver for building software https://t.co/6CWG9rVgg5\n\n[2/15] @trashpandaemoji we are all indebted to pi\n\n[3/15] @aroussi let me know what you think!\n\n[4/15] @zaidmukaddam ty zaid let me know what you think\n\n[5/15] @daveCodes_ it is checked into the repo as an ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806022445-3582d3",
+      "date": "2026-08-06T02:24:45.349Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Ernie Tedeschi (@ernietedeschi) on X",
+      "author": "Ernie Tedeschi (@ernietedeschi)",
+      "url": "https://x.com/ernietedeschi/status/2085167198088343597",
+      "summary": "[1/2] It's incorrect to assume all non-market hours are leisure. Fang &amp; Yang (2022) finds Europeans work 16% fewer market hours but 20% more home production hours (cooking, cleaning, etc) than Americans do. Among &lt;60 year olds, it's -9%/+12% respectively.\nhttps://t.co/nbMP",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260806011309-270652",
       "date": "2026-08-06T01:13:09.304Z",
@@ -1436,12 +1464,12 @@
         "count": 37
       },
       {
-        "tag": "investing",
-        "count": 28
+        "tag": "tweet",
+        "count": 29
       },
       {
-        "tag": "tweet",
-        "count": 27
+        "tag": "investing",
+        "count": 28
       },
       {
         "tag": "ai agents",
@@ -1487,7 +1515,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 22
+        "count": 24
       },
       {
         "publication": "The Economist",
@@ -1637,7 +1665,7 @@
       },
       {
         "month": "2026-08",
-        "count": 36
+        "count": 38
       }
     ]
   }
