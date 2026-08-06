@@ -1,7 +1,73 @@
 {
-  "generated_at": "2026-08-06T17:00:18.248Z",
-  "count": 92,
+  "generated_at": "2026-08-06T19:00:17.798Z",
+  "count": 96,
   "entries": [
+    {
+      "id": "rl-20260806182036-4fcb55",
+      "date": "2026-08-06T18:20:36.133Z",
+      "publication": "The Information",
+      "title": "What Google's AI Shake-Up Means for Pichai Succession",
+      "author": "Martin Peers",
+      "url": "https://www.theinformation.com/newsletters/the-briefing/googles-ai-shake-means-pichai-succession?shared=f07d0940b88e1711&rc=olgw0g",
+      "summary": "Google elevated DeepMind CEO Demis Hassabis to chair of its AI unit and chief scientist of Alphabet, while several DeepMind leaders including Jeff Dean departed to start their own firm. The piece argues the shake-up strengthens Google Cloud chief Thomas Kurian's chances as a Sundar Pichai successor, as Hassabis appears more interested in a scientific role than operational leadership. Additional news covers Figma's sharp revenue growth slowdown and stock drop, Shopify's strong earnings beat, and Uber's $10 billion planned investment in autonomous vehicles.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806181520-fb1c34",
+      "date": "2026-08-06T18:15:20.809Z",
+      "publication": "The Information",
+      "title": "How Dario Amodei Spread Anthropic's Religion and Stirred Up Silicon Valley",
+      "author": "Cory Weinberg, Stephanie Palazzolo, and Amir Efrati",
+      "url": "https://www.theinformation.com/articles/dario-amodei-spread-anthropics-religion-stirred-silicon-valley?shared=5008f4c9a43d7d8e&rc=olgw0g",
+      "summary": "A deep profile of Anthropic CEO Dario Amodei examines his unorthodox leadership style—driven by a tight inner circle, existential AI concerns, and a quasi-religious mission—that has guided the company to surpass OpenAI in revenue but increasingly irritates investors, competitors, and government officials. The piece traces Amodei's evolution from a safety-focused OpenAI researcher to the head of the fastest-growing major company in history, detailing his clashes with the Trump administration, Silicon Valley VCs, and industry peers over AI regulation and open-source risks. As Anthropic approaches a planned IPO, questions mount about whether Amodei's principled but inflexible style can survive the pressures of public markets.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "security"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260806181445-7bf83c",
+      "date": "2026-08-06T18:14:46.759Z",
+      "publication": "The Information",
+      "title": "SoftBank Borrows Against OpenAI Stake as It Invests More",
+      "author": "Martin Peers",
+      "url": "https://www.theinformation.com/articles/softbank-borrows-against-openai-stake-as-it-invests-more",
+      "summary": "SoftBank borrowed $10 billion against its OpenAI stake, just a month after investing another $10 billion into the company. The move highlights the financial risks SoftBank is taking with its massive OpenAI investment, having already deployed $20 billion of a planned $30 billion second investment on top of an earlier $34 billion commitment. The loan-against-stake maneuver signals the Japanese investment giant is stretching its finances to maintain and grow its OpenAI position.",
+      "tags": [
+        "investing",
+        "technology",
+        "capital expenditure",
+        "ai agents"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260806181353-8c2718",
+      "date": "2026-08-06T18:13:53.564Z",
+      "publication": "The Information",
+      "title": "Nvidia Weighs Radical Idea: Less Rubin Ultra Chip Memory",
+      "author": "Qianer Liu and Phoebe Liu",
+      "url": "https://www.theinformation.com/articles/nvidia-weighs-radical-idea-less-rubin-ultra-chip-memory?shared=b6f956e19ea755f9&rc=olgw0g",
+      "summary": "Nvidia is testing multiple versions of its next-generation Rubin Ultra GPU with significantly less high-bandwidth memory than originally announced—as little as 192GB or 256GB compared to the planned 1TB—due to a shortage of advanced HBM4E chips. The memory reduction could affect performance but might also produce cheaper chip options suitable for many AI workloads, and Nvidia may offset the impact through server-level design improvements like faster networking. Nvidia has until late next year to finalize the chip's specs and has struck a $500 billion partnership with SK Hynix to help secure stable memory supply.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "capital expenditure",
+        "cloud"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260806162559-dbacfc",
       "date": "2026-08-06T16:25:59.032Z",
@@ -1504,7 +1570,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 38
+        "count": 42
       },
       {
         "tag": "tweet",
@@ -1512,11 +1578,11 @@
       },
       {
         "tag": "investing",
-        "count": 28
+        "count": 29
       },
       {
         "tag": "ai agents",
-        "count": 24
+        "count": 28
       },
       {
         "tag": "fintech",
@@ -1524,22 +1590,22 @@
       },
       {
         "tag": "security",
-        "count": 10
+        "count": 11
+      },
+      {
+        "tag": "cloud",
+        "count": 9
+      },
+      {
+        "tag": "capital expenditure",
+        "count": 8
       },
       {
         "tag": "science",
         "count": 8
       },
       {
-        "tag": "cloud",
-        "count": 7
-      },
-      {
         "tag": "asset management",
-        "count": 6
-      },
-      {
-        "tag": "capital expenditure",
         "count": 6
       },
       {
@@ -1569,6 +1635,10 @@
         "count": 7
       },
       {
+        "publication": "The Information",
+        "count": 6
+      },
+      {
         "publication": "Unknown",
         "count": 6
       },
@@ -1590,10 +1660,6 @@
       },
       {
         "publication": "Slate Podcasts",
-        "count": 2
-      },
-      {
-        "publication": "The Information",
         "count": 2
       },
       {
@@ -1712,7 +1778,7 @@
       },
       {
         "month": "2026-08",
-        "count": 41
+        "count": 45
       }
     ]
   }
