@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T21:00:15.338Z",
+  "generated_at": "2026-08-07T02:00:22.097Z",
   "count": 100,
   "entries": [
     {
@@ -52,14 +52,14 @@
     {
       "id": "rl-20260806195110-85388e",
       "date": "2026-08-06T19:51:10.222Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "The confounding 'compounding' of 'compounding'",
+      "author": "Louis Ashworth",
       "url": "https://www.ft.com/content/00cc32f2-f392-40af-9484-decc85b7e9fe",
-      "summary": null,
+      "summary": "The article examines the overuse of the word \"compounding\" in corporate earnings calls and executive commentary, noting that the term is frequently misapplied as a vague synonym for growth. After explaining the genuine financial meaning of compounding — where subsequent change occurs to an already-changed entity, driven by reinvestment — the author collects examples from executives at Sysco, Spotify, Palantir, NatWest, and others all using the word in the same week. The piece gently mocks the buzzword inflation without explicitly condemning it, leaving readers to judge which usages are legitimate.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260806182036-4fcb55",
@@ -1691,14 +1691,14 @@
       },
       {
         "publication": "Financial Times",
-        "count": 7
-      },
-      {
-        "publication": "Unknown",
-        "count": 7
+        "count": 8
       },
       {
         "publication": "The Information",
+        "count": 6
+      },
+      {
+        "publication": "Unknown",
         "count": 6
       },
       {
