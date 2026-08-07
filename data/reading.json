@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-07T02:00:22.097Z",
-  "count": 100,
+  "generated_at": "2026-08-07T17:00:22.800Z",
+  "count": 101,
   "entries": [
+    {
+      "id": "rl-20260807161456-0dd12e",
+      "date": "2026-08-07T16:14:58.123Z",
+      "publication": "The Information",
+      "title": "Datadog Says Largest Customer Reduced Spending, Shares Drop 19%",
+      "author": "Kevin McLaughlin",
+      "url": "https://www.theinformation.com/articles/datadog-says-largest-customer-reduced-spending-shares-drop-19",
+      "summary": "Datadog's shares fell over 19% after the company forecast slower revenue growth, attributing the slowdown to its largest customer cutting spending. CEO Olivier Pomel declined to identify the customer but confirmed it renewed its contract. Analysts suggest the drop may reflect concerns about Datadog's usage-based business model rather than a fundamental customer loss.",
+      "tags": [
+        "cloud",
+        "technology"
+      ],
+      "source": "ios",
+      "partial": true
+    },
     {
       "id": "rl-20260806205220-44021b",
       "date": "2026-08-06T20:52:20.073Z",
@@ -1629,7 +1644,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 42
+        "count": 43
       },
       {
         "tag": "investing",
@@ -1653,7 +1668,7 @@
       },
       {
         "tag": "cloud",
-        "count": 9
+        "count": 10
       },
       {
         "tag": "capital expenditure",
@@ -1695,7 +1710,7 @@
       },
       {
         "publication": "The Information",
-        "count": 6
+        "count": 7
       },
       {
         "publication": "Unknown",
@@ -1845,7 +1860,7 @@
       },
       {
         "month": "2026-08",
-        "count": 49
+        "count": 50
       }
     ]
   }
