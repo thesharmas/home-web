@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-08-08T18:00:14.688Z",
-  "count": 104,
+  "generated_at": "2026-08-08T21:00:15.191Z",
+  "count": 107,
   "entries": [
+    {
+      "id": "rl-20260808205423-2d65b6",
+      "date": "2026-08-08T20:54:23.143Z",
+      "publication": "Asimov's Addendum",
+      "title": "Google's Westinghouse Bet",
+      "author": "Tim O'Reilly",
+      "url": "https://asimovaddendum.substack.com/p/googles-westinghouse-bet?r=1dhwj&triedRedirect=true",
+      "summary": "Tim O'Reilly argues that Google's August 2026 leadership shakeup at DeepMind—including Demis Hassabis stepping back and Jeff Dean departing—may not signal failure in the AI race but rather a deliberate strategic shift toward AI infrastructure and diffusion, akin to Westinghouse's bet on AC power distribution over Edison's frontier dominance. Drawing on Jeff Ding's thesis that diffusion matters more than frontier invention in technology revolutions, O'Reilly suggests Google Cloud CEO Thomas Kurian may have won an internal argument to make Google the platform layer others' AI runs on, rather than competing ruinously at the frontier. The piece questions whether the real AI prize is building the best model or building the electrical grid.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260808205328-ea8453",
+      "date": "2026-08-08T20:53:28.904Z",
+      "publication": "Princeton University Press",
+      "title": "Technology and the Rise of Great Powers",
+      "author": "Jeffrey Ding",
+      "url": "https://press.princeton.edu/books/paperback/9780691260341/technology-and-the-rise-of-great-powers",
+      "summary": "Jeffrey Ding's book presents a novel theory of how technological revolutions shape great power competition, arguing that success depends not on who first innovates but on which states best diffuse and adapt new technologies at scale. Drawing on historical case studies of the First, Second, and Third Industrial Revolutions and statistical analysis, Ding develops a framework centered on institutional adaptations and skill infrastructure. The book's findings have direct implications for understanding how AI could influence the current US-China power balance.",
+      "tags": [
+        "technology",
+        "security",
+        "ai agents",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260808204016-d9d2b4",
+      "date": "2026-08-08T20:40:16.529Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Post",
+      "author": "Skeletor 💹 (anime dad arc) (@SkeleCap)",
+      "url": "https://x.com/SkeleCap/status/2086122299699437764",
+      "summary": "Tempted to post s/d curve here but real answer:\n\n-undershooting a market can destroy demand in a way that’s difficult to recover, leading to weird outcomes. \n-demand is also growing (I just ran out of Fable credits on one account).\n-avoiding negative surprise supply shocks is a +",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260808171310-6fc6a7",
       "date": "2026-08-08T17:13:10.705Z",
@@ -1682,19 +1730,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 43
+        "count": 45
       },
       {
         "tag": "investing",
-        "count": 32
+        "count": 33
       },
       {
         "tag": "tweet",
-        "count": 32
+        "count": 33
       },
       {
         "tag": "ai agents",
-        "count": 28
+        "count": 30
       },
       {
         "tag": "fintech",
@@ -1702,18 +1750,18 @@
       },
       {
         "tag": "security",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "cloud",
-        "count": 10
-      },
-      {
-        "tag": "capital expenditure",
-        "count": 8
+        "count": 11
       },
       {
         "tag": "science",
+        "count": 9
+      },
+      {
+        "tag": "capital expenditure",
         "count": 8
       },
       {
@@ -1736,7 +1784,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 27
+        "count": 28
       },
       {
         "publication": "The Economist",
@@ -1791,6 +1839,10 @@
         "count": 1
       },
       {
+        "publication": "Asimov's Addendum",
+        "count": 1
+      },
+      {
         "publication": "Bloomberg (Odd Lots)",
         "count": 1
       },
@@ -1836,6 +1888,10 @@
       },
       {
         "publication": "Phenomenal World",
+        "count": 1
+      },
+      {
+        "publication": "Princeton University Press",
         "count": 1
       },
       {
@@ -1898,7 +1954,7 @@
       },
       {
         "month": "2026-08",
-        "count": 53
+        "count": 56
       }
     ]
   }
