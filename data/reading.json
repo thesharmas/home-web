@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-08-08T03:00:19.557Z",
-  "count": 103,
+  "generated_at": "2026-08-08T18:00:14.688Z",
+  "count": 104,
   "entries": [
+    {
+      "id": "rl-20260808171310-6fc6a7",
+      "date": "2026-08-08T17:13:10.705Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.axios.com/2026/08/08/simplify-book-axios-smart-brevity?mrfcid=202608086a7107cca447ee21c3cb6e89",
+      "summary": null,
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20260808020214-6a611b",
       "date": "2026-08-08T02:02:14.338Z",
@@ -1735,11 +1747,11 @@
         "count": 8
       },
       {
-        "publication": "The Information",
-        "count": 7
+        "publication": "Unknown",
+        "count": 8
       },
       {
-        "publication": "Unknown",
+        "publication": "The Information",
         "count": 7
       },
       {
@@ -1886,7 +1898,7 @@
       },
       {
         "month": "2026-08",
-        "count": 52
+        "count": 53
       }
     ]
   }
