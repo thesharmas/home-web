@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-07T17:00:22.800Z",
-  "count": 101,
+  "generated_at": "2026-08-08T02:00:17.131Z",
+  "count": 102,
   "entries": [
+    {
+      "id": "rl-20260808013657-3049aa",
+      "date": "2026-08-08T01:36:57.174Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Cassandra Unchained (@michaeljburry) on X",
+      "author": "Cassandra Unchained (@michaeljburry)",
+      "url": "https://x.com/michaeljburry/status/2085900831711252722",
+      "summary": "From 2000, it is not like the stocks that did great the next 5 years suddenly started growing like dotcoms. They doubled, tripled & quadrupled because price mattered again. \nPrice did not matter from 1998 LTCM to March of 2000. Complete idiots made permanent fortunes during that ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260807161456-0dd12e",
       "date": "2026-08-07T16:14:58.123Z",
@@ -1652,7 +1666,7 @@
       },
       {
         "tag": "tweet",
-        "count": 31
+        "count": 32
       },
       {
         "tag": "ai agents",
@@ -1698,7 +1712,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 26
+        "count": 27
       },
       {
         "publication": "The Economist",
@@ -1860,7 +1874,7 @@
       },
       {
         "month": "2026-08",
-        "count": 50
+        "count": 51
       }
     ]
   }
