@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-08T21:00:15.191Z",
-  "count": 107,
+  "generated_at": "2026-08-09T02:00:15.821Z",
+  "count": 108,
   "entries": [
+    {
+      "id": "rl-20260809011012-0017eb",
+      "date": "2026-08-09T01:10:12.886Z",
+      "publication": "The Two Cents (Substack)",
+      "title": "The carry trade that can't be unwound",
+      "author": "Hanno Lustig",
+      "url": "https://thetwocents.substack.com/p/the-carry-trade-that-cant-be-unwound?r=1dhwj&triedRedirect=true",
+      "summary": "The piece argues that Japan's public sector has effectively become the world's largest currency carry trader, borrowing short-term at below-market rates via Bank of Japan reserves and investing in foreign equities and bonds without hedging currency risk. As the BoJ attempts to normalize interest rates, it faces a dilemma: raising rates inflicts massive losses on the public sector's balance sheet (given ~93% of GDP in floating-rate liabilities), while not raising rates risks further yen depreciation and rising inflation. The author concludes the BoJ is trapped, having built a sovereign wealth fund funded with borrowed money that cannot easily be unwound.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260808205423-2d65b6",
       "date": "2026-08-08T20:54:23.143Z",
@@ -1734,7 +1750,7 @@
       },
       {
         "tag": "investing",
-        "count": 33
+        "count": 34
       },
       {
         "tag": "tweet",
@@ -1746,7 +1762,7 @@
       },
       {
         "tag": "fintech",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "security",
@@ -1761,12 +1777,12 @@
         "count": 9
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 8
       },
       {
-        "tag": "asset management",
-        "count": 7
+        "tag": "capital expenditure",
+        "count": 8
       },
       {
         "tag": "sustainability",
@@ -1820,6 +1836,10 @@
       },
       {
         "publication": "Slate Podcasts",
+        "count": 2
+      },
+      {
+        "publication": "The Two Cents (Substack)",
         "count": 2
       },
       {
@@ -1927,10 +1947,6 @@
         "count": 1
       },
       {
-        "publication": "The Two Cents (Substack)",
-        "count": 1
-      },
-      {
         "publication": "Unstable Equilibria (Substack)",
         "count": 1
       },
@@ -1954,7 +1970,7 @@
       },
       {
         "month": "2026-08",
-        "count": 56
+        "count": 57
       }
     ]
   }
