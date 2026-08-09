@@ -658,7 +658,711 @@
     }
    ],
    "generated_at": "2026-08-02T18:47:05Z"
+  },
+  {
+   "week_start": "2026-08-02",
+   "week_end": "2026-08-09",
+   "title": "Week ending Aug 9, 2026",
+   "overview": "Your reading this week split into two dominant currents that kept crossing paths: the AI infrastructure supercycle and the plumbing of sovereign finance. On the AI side, you moved from macro (hyperscaler credit spreads, SoftBank's leveraged bet on OpenAI, Nvidia quietly cutting Rubin Ultra memory specs) down to the research layer (Lilian Weng's harness-engineering survey, Anthropic's discovery of a \"global workspace\" inside Claude, Ankur Goyal's point about judging agents on behavior rather than output) and back up to strategy (O'Reilly's read on Google's DeepMind shakeup as a deliberate Westinghouse-style diffusion play, reinforced by Jeffrey Ding's book on why diffusion — not invention — wins great-power tech races). The throughline is that the AI story is quietly shifting from \"who has the best model\" to \"who controls the supply chain, the scaffolding, and the distribution,\" with real financial strain (Datadog's customer pullback, Nvidia's memory shortage, SoftBank's borrowing-against-stake maneuver) showing the capex boom isn't frictionless.\n\nThe second thread was sovereign and monetary plumbing under stress: Ethiopia's value recovery instruments, the Brady Plan's lessons for today's Common Framework debt restructurings, the BoJ's carry-trade trap, the US-Japan yen intervention, and the shift of Treasury yield price discovery away from FOMC meeting days. These pieces share a skepticism of institutional machinery — VRIs get gamed, the Common Framework lacks the Brady Plan's political coordination, and central banks are reaching for increasingly unconventional tools (repo facilities, euro sales, staggered lock-ups) because the old playbooks no longer fit. A smaller but sharp third thread ran through geopolitics-as-economics: tungsten as a war-prediction market, Hadrian's Wall as a monument to imperial overreach, and the Iran-Oman Strait of Hormuz toll idea, all treating hard-power questions through a market lens.\n\nYour book highlights this week tracked closely with the money themes: The Almighty Dollar's account of the Joachimsthal silver boom reads like a 16th-century startup case study, and its closing highlight — that Toledo/Spain collapsed *because of* silver abundance, not despite it — is a striking echo of this week's supply-glut argument about hyperscaler bonds and the risk of AI capex oversupply.",
+   "themes": [
+    {
+     "name": "AI Infrastructure & the Capex Supercycle Under Strain",
+     "description": "Coverage of how the AI buildout is actually being financed and supplied, and the first visible cracks — leveraged bets, chip shortages, and customer pullbacks — appearing beneath the boom narrative.",
+     "items": [
+      {
+       "title": "Wild Beast and Fickle, Too: Market is Misreading Hyperscaler Spreads",
+       "url": "https://unstableequilibria.substack.com/p/wild-beast-and-fickle-too?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "Nvidia Weighs Radical Idea: Less Rubin Ultra Chip Memory",
+       "url": "https://www.theinformation.com/articles/nvidia-weighs-radical-idea-less-rubin-ultra-chip-memory?shared=b6f956e19ea755f9&rc=olgw0g"
+      },
+      {
+       "title": "SoftBank Borrows Against OpenAI Stake as It Invests More",
+       "url": "https://www.theinformation.com/articles/softbank-borrows-against-openai-stake-as-it-invests-more"
+      },
+      {
+       "title": "Datadog Says Largest Customer Reduced Spending, Shares Drop 19%",
+       "url": "https://www.theinformation.com/articles/datadog-says-largest-customer-reduced-spending-shares-drop-19"
+      },
+      {
+       "title": "What Google's AI Shake-Up Means for Pichai Succession",
+       "url": "https://www.theinformation.com/newsletters/the-briefing/googles-ai-shake-means-pichai-succession?shared=f07d0940b88e1711&rc=olgw0g"
+      },
+      {
+       "title": "Google's Westinghouse Bet",
+       "url": "https://asimovaddendum.substack.com/p/googles-westinghouse-bet?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "name": "Frontier AI Research & the Self-Improvement Loop",
+     "description": "A cluster of pieces on how agents are actually built and evaluated — harness/scaffolding design, interpretability findings, and benchmark environments — pointing to orchestration and evaluation, not raw scale, as the next frontier.",
+     "items": [
+      {
+       "title": "Harness Engineering for Self-Improvement",
+       "url": "https://lilianweng.github.io/posts/2026-07-04-harness/"
+      },
+      {
+       "title": "A global workspace in language models",
+       "url": "https://www.anthropic.com/research/global-workspace"
+      },
+      {
+       "title": "MerchantBench: A 365-day seller-side environment",
+       "url": "https://air.1688.com/kapp/next1688/merchantbench/"
+      },
+      {
+       "title": "Ankur Goyal (@ankrgyl) on X",
+       "url": "https://x.com/ankrgyl/status/2082565187064811637"
+      },
+      {
+       "title": "Erik Meijer (@headinthebox) on X",
+       "url": "https://x.com/headinthebox/status/2084414685701632406"
+      },
+      {
+       "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+       "url": "https://www.latent.space/p/inference-eng?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "[AINews] Megakernels are so dead and so back",
+       "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "name": "Sovereign Debt, Currency Plumbing & the Limits of State Finance",
+     "description": "A run of pieces on how governments restructure debt, manage currencies, and get trapped by their own balance sheets — showing that the mechanics, not the headlines, are where the real risk sits.",
+     "items": [
+      {
+       "title": "Ep 179: Ethiopia's Value Recovery Instruments",
+       "url": "https://podcasts.apple.com/us/podcast/ep-179-ethiopias-value-recovery-instruments/id1528208049?i=1000779713663"
+      },
+      {
+       "title": "Brady's Lessons",
+       "url": "https://phenomenalworld.org/analysis/bradys-lessons/"
+      },
+      {
+       "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
+       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/"
+      },
+      {
+       "title": "The carry trade that can't be unwound",
+       "url": "https://thetwocents.substack.com/p/the-carry-trade-that-cant-be-unwound?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "A common European safe asset is still unlikely",
+       "url": "https://www.economist.com/finance-and-economics/2026/07/30/a-common-european-safe-asset-is-still-unlikely"
+      },
+      {
+       "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+       "url": "https://podcasts.apple.com/us/podcast/brad-setser-on-the-uss-unusual-japanese-yen-intervention/id1056200096?i=1000780200558"
+      }
+     ]
+    },
+    {
+     "name": "Market Structure, Credit & Investor Psychology",
+     "description": "Pieces probing whether current market signals — credit spreads, lock-up mechanics, yield timing, price-agnostic rallies — actually mean what conventional wisdom assumes.",
+     "items": [
+      {
+       "title": "Retail investors should beware perpetual futures",
+       "url": "https://www.economist.com/finance-and-economics/2026/07/28/retail-investors-should-beware-perpetual-futures"
+      },
+      {
+       "title": "SpaceX's staggered lock-up release prolongs the pain",
+       "url": "https://www.ft.com/content/6a8c1d6c-63c7-4d3d-8882-eb5c67b2f9e1"
+      },
+      {
+       "title": "What happens to yields in between FOMC meetings?",
+       "url": "https://thetwocents.substack.com/p/what-happens-to-yields-in-between?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "Cassandra Unchained (@michaeljburry) on X",
+       "url": "https://x.com/michaeljburry/status/2085900831711252722"
+      },
+      {
+       "title": "Situational Awareness LP",
+       "url": "https://stafforini.com/notes/situational-awareness-lp/"
+      },
+      {
+       "title": "Too Situationally Aware to Fail",
+       "url": "https://podcasts.apple.com/us/podcast/too-situationally-aware-to-fail/id876523888?i=1000779352778"
+      },
+      {
+       "title": "Struggling to make sense of AstraZeneca-BMS",
+       "url": "https://www.ft.com/content/eddbdc29-5206-4c79-9ea7-f1a06ff040f1"
+      }
+     ]
+    },
+    {
+     "name": "Geopolitics, Deep History & the Logic of Power",
+     "description": "Reading that treats hard-power and security questions through economic and historical lenses — war-prediction commodities, imperial wall-building, and the diffusion theory of great-power competition.",
+     "items": [
+      {
+       "title": "The Tungsten Market Is Warning of an Upcoming War",
+       "url": "https://podcasts.apple.com/us/podcast/the-tungsten-market-is-warning-of-an-upcoming-war/id1056200096?i=1000779646689"
+      },
+      {
+       "title": "Border walls are symbols of power—and monuments to delusion",
+       "url": "https://www.economist.com/culture/2026/07/30/border-walls-are-symbols-of-power-and-monuments-to-delusion"
+      },
+      {
+       "title": "The terrifying threat of a genetically engineered plague",
+       "url": "https://www.economist.com/culture/2026/07/30/the-terrifying-threat-of-a-genetically-engineered-plague"
+      },
+      {
+       "title": "A racist massacre. A white-supremacist coup. A century of lies",
+       "url": "https://www.economist.com/culture/2026/07/30/a-racist-massacre-a-white-supremacist-coup-a-century-of-lies"
+      },
+      {
+       "title": "Technology and the Rise of Great Powers",
+       "url": "https://press.princeton.edu/books/paperback/9780691260341/technology-and-the-rise-of-great-powers"
+      },
+      {
+       "title": "Iranian tanker tolls: totally legit after all?",
+       "url": "https://www.ft.com/content/06f8f1a1-50a1-43d0-a236-c2d65ff38e87"
+      }
+     ]
+    },
+    {
+     "name": "Culture, Media Economics & Institutional Drift",
+     "description": "A lighter but pointed thread on how cities, celebrities, writers, and institutions adapt (or don't) — with sharp observations on paywalls, litigation strategy, and buzzword inflation.",
+     "items": [
+      {
+       "title": "The tide turns for a Florida darling and California loser",
+       "url": "https://www.economist.com/united-states/2026/07/28/the-tide-turns-for-a-florida-darling-and-california-loser"
+      },
+      {
+       "title": "How Tom Holland became the world's highest-grossing young actor",
+       "url": "https://www.economist.com/culture/2026/07/27/how-tom-holland-became-the-worlds-highest-grossing-young-actor"
+      },
+      {
+       "title": "A Paywall Is a Salary, Not a Donation",
+       "url": "https://www.cartoonshateher.com/p/a-paywall-is-a-salary-not-a-donation?r=1dhwj&triedRedirect=true&hide_intro_popup=true"
+      },
+      {
+       "title": "How the BBC turned the litigation table on Trump",
+       "url": "https://www.prospectmagazine.co.uk/ideas/law/the-weekly-constitutional/74288/bbc-turned-litigation-table-on-trump"
+      },
+      {
+       "title": "On the ownership of assets",
+       "url": "https://chrisdillow.substack.com/p/on-the-ownership-of-assets"
+      },
+      {
+       "title": "Ars Notoria and the Promise of Instant Knowledge",
+       "url": "https://publicdomainreview.org/essay/ars-notoria/"
+      },
+      {
+       "title": "Time travellers are using LinkedIn to teach us about artificial intelligence",
+       "url": "https://www.ft.com/content/4a4b442c-7ae4-4553-bcab-d744d8d46c79"
+      },
+      {
+       "title": "Getting Back in the Loop",
+       "url": "https://ians-newsletter-491cf1.beehiiv.com/p/getting-back-in-the-loop?_bhlid=94551f254163ec4e4a465120e823bc14e4b321d3"
+      },
+      {
+       "title": "The confounding 'compounding' of 'compounding'",
+       "url": "https://www.ft.com/content/00cc32f2-f392-40af-9484-decc85b7e9fe"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Credit-spread widening isn't automatically a stress signal — hyperscaler OAS blew out in July 2026 mainly because of a flood of new AI-linked bond issuance ($165B in H1), not deteriorating credit quality; the real tell is whether investment-grade spreads start converging with junk.",
+     "sources": [
+      {
+       "title": "Wild Beast and Fickle, Too: Market is Misreading Hyperscaler Spreads",
+       "url": "https://unstableequilibria.substack.com/p/wild-beast-and-fickle-too?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "The AI capex boom is increasingly financed with leverage stacked on leverage — SoftBank borrowing $10B against its OpenAI stake weeks after investing another $10B, and Nvidia quietly trimming Rubin Ultra memory specs due to HBM4E shortages, both signal real supply and balance-sheet constraints, not infinite capital.",
+     "sources": [
+      {
+       "title": "SoftBank Borrows Against OpenAI Stake as It Invests More",
+       "url": "https://www.theinformation.com/articles/softbank-borrows-against-openai-stake-as-it-invests-more"
+      },
+      {
+       "title": "Nvidia Weighs Radical Idea: Less Rubin Ultra Chip Memory",
+       "url": "https://www.theinformation.com/articles/nvidia-weighs-radical-idea-less-rubin-ultra-chip-memory?shared=b6f956e19ea755f9&rc=olgw0g"
+      }
+     ]
+    },
+    {
+     "lesson": "\"Diffusion beats invention\" — per Jeffrey Ding's framework and O'Reilly's read on Google's DeepMind shakeup, the winner of a tech race is usually whoever best scales and diffuses a technology through the economy, not who ships the first breakthrough, reframing Google's apparent AI stumble as a deliberate platform bet.",
+     "sources": [
+      {
+       "title": "Technology and the Rise of Great Powers",
+       "url": "https://press.princeton.edu/books/paperback/9780691260341/technology-and-the-rise-of-great-powers"
+      },
+      {
+       "title": "Google's Westinghouse Bet",
+       "url": "https://asimovaddendum.substack.com/p/googles-westinghouse-bet?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "Harness and scaffolding design, not raw model scale, is becoming the dominant lever for agent capability gains; Weng's survey and Goyal's point about judging agents on behavior rather than output both point toward evaluation and orchestration as the real 2026 AI bottleneck.",
+     "sources": [
+      {
+       "title": "Harness Engineering for Self-Improvement",
+       "url": "https://lilianweng.github.io/posts/2026-07-04-harness/"
+      },
+      {
+       "title": "Ankur Goyal (@ankrgyl) on X",
+       "url": "https://x.com/ankrgyl/status/2082565187064811637"
+      }
+     ]
+    },
+    {
+     "lesson": "Sovereign debt restructuring keeps failing for political, not technical, reasons — the 1989 Brady Plan worked because it coordinated multilateral creditors politically, and that coordination is exactly what's missing from the Common Framework being tested in Chad, Zambia, Ghana, and Ethiopia today.",
+     "sources": [
+      {
+       "title": "Brady's Lessons",
+       "url": "https://phenomenalworld.org/analysis/bradys-lessons/"
+      }
+     ]
+    },
+    {
+     "lesson": "Central bank interventions are getting structurally weirder as old playbooks stop fitting — Bessent selling euros (not dollars) via an obscure Fed repo facility to defend the yen, and the BoJ trapped between inflation and its own carry-trade balance sheet, show G7 monetary tools bending under decades of accumulated imbalances.",
+     "sources": [
+      {
+       "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+       "url": "https://podcasts.apple.com/us/podcast/brad-setser-on-the-uss-unusual-japanese-yen-intervention/id1056200096?i=1000780200558"
+      },
+      {
+       "title": "The carry trade that can't be unwound",
+       "url": "https://thetwocents.substack.com/p/the-carry-trade-that-cant-be-unwound?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "Treasury yield price discovery has structurally moved off the FOMC calendar since QT began in 2022 — over 100% of yield normalization since then has come on non-meeting days, meaning markets now price macro data continuously rather than waiting for Fed pronouncements.",
+     "sources": [
+      {
+       "title": "What happens to yields in between FOMC meetings?",
+       "url": "https://thetwocents.substack.com/p/what-happens-to-yields-in-between?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "New derivative products migrate from crypto to retail faster than investor protections do — perpetual futures are the latest example, carrying crypto-native leverage mechanics that mainstream retail buyers don't yet understand.",
+     "sources": [
+      {
+       "title": "Retail investors should beware perpetual futures",
+       "url": "https://www.economist.com/finance-and-economics/2026/07/28/retail-investors-should-beware-perpetual-futures"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "Consensus reads widening hyperscaler bond spreads as a credit-quality warning; this piece argues it's actually a supply-glut artifact, and hyperscaler debt (ex-SpaceX/Oracle) is a buy once the issuance wave clears.",
+     "source": {
+      "title": "Wild Beast and Fickle, Too: Market is Misreading Hyperscaler Spreads",
+      "url": "https://unstableequilibria.substack.com/p/wild-beast-and-fickle-too?r=1dhwj&triedRedirect=true"
+     }
+    },
+    {
+     "insight": "Conventional wisdom treats Google's DeepMind leadership shakeup as evidence Google is losing the AI race; O'Reilly argues the opposite — it's a deliberate pivot to own the diffusion/platform layer, historically the more durable competitive position (Westinghouse over Edison).",
+     "source": {
+      "title": "Google's Westinghouse Bet",
+      "url": "https://asimovaddendum.substack.com/p/googles-westinghouse-bet?r=1dhwj&triedRedirect=true"
+     }
+    },
+    {
+     "insight": "Paywalls are usually framed as a moral failure of a \"free internet\" ideal; this piece argues they're simply fair market pricing for professional labor, and the real distortion is expecting writing to be free while other professional services aren't.",
+     "source": {
+      "title": "A Paywall Is a Salary, Not a Donation",
+      "url": "https://www.cartoonshateher.com/p/a-paywall-is-a-salary-not-a-donation?r=1dhwj&triedRedirect=true&hide_intro_popup=true"
+     }
+    },
+    {
+     "insight": "Trump's $5bn BBC defamation suit was framed as leverage over the network; instead the discovery process has trapped him into disclosing exactly the financial records he's spent years shielding, turning his own lawsuit into the liability.",
+     "source": {
+      "title": "How the BBC turned the litigation table on Trump",
+      "url": "https://www.prospectmagazine.co.uk/ideas/law/the-weekly-constitutional/74288/bbc-turned-litigation-table-on-trump"
+     }
+    },
+    {
+     "insight": "Burry's read on 1998-2000 cuts against \"the market always rewards fundamentals eventually\": fundamentals mattered so little in that window that \"complete idiots made permanent fortunes,\" and only the post-crash reset made price matter again — a warning against reading 2026's momentum-driven AI rally as validation of stock-picking skill.",
+     "source": {
+      "title": "Cassandra Unchained (@michaeljburry) on X",
+      "url": "https://x.com/michaeljburry/status/2085900831711252722"
+     }
+    },
+    {
+     "insight": "The standard narrative since 2021 has been \"Miami rising, San Francisco declining\"; The Economist argues that story has now inverted, with SF staging a comeback while Miami's tailwinds fade.",
+     "source": {
+      "title": "The tide turns for a Florida darling and California loser",
+      "url": "https://www.economist.com/united-states/2026/07/28/the-tide-turns-for-a-florida-darling-and-california-loser"
+     }
+    }
+   ],
+   "book_progress": {
+    "book": "The Almighty Dollar: 500 Years of the World's Most Powerful Money",
+    "author": "Brendan Greeley",
+    "link": null,
+    "note": "This week's highlights follow the book's origin story at Joachimsthal, the 16th-century Bohemian silver-mining town Greeley reframes in deliberately sardonic startup language — a monetary historian even calls it a 'Silicon Valley' of joint-stock capital, and Greeley narrates its IPO-style hype party as 'always an indicator that the founders have gotten ahead of themselves.' The arc lands on the book's central paradox by page 70: Toledo, and by extension Spain, didn't collapse despite an abundance of silver dollars — it collapsed because of them. That's a striking echo of this week's articles on the AI-bond supply glut and SoftBank's leverage-on-leverage bet: abundance and overextension, not scarcity, are what tend to break systems. (A parallel thread from 1873: The Rothschilds also ran this week, tracing Grant-era hero-worship and gift-showering as the excess that preceded the 1873 crash — the same abundance-precedes-collapse pattern from a different century.)"
+   },
+   "stats": {
+    "item_count": 51,
+    "top_publications": [
+     {
+      "name": "Twitter/X",
+      "count": 9
+     },
+     {
+      "name": "The Economist",
+      "count": 8
+     },
+     {
+      "name": "Financial Times",
+      "count": 5
+     },
+     {
+      "name": "The Information",
+      "count": 5
+     },
+     {
+      "name": "The Two Cents (Substack)",
+      "count": 2
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 22
+     },
+     {
+      "name": "investing",
+      "count": 19
+     },
+     {
+      "name": "ai agents",
+      "count": 18
+     },
+     {
+      "name": "fintech",
+      "count": 15
+     },
+     {
+      "name": "security",
+      "count": 8
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Wild Beast and Fickle, Too: Market is Misreading Hyperscaler Spreads",
+     "publication": "Unstable Equilibria (Substack)",
+     "date": "2026-08-02",
+     "url": "https://unstableequilibria.substack.com/p/wild-beast-and-fickle-too?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "Too Situationally Aware to Fail",
+     "publication": "Slate Podcasts",
+     "date": "2026-08-02",
+     "url": "https://podcasts.apple.com/us/podcast/too-situationally-aware-to-fail/id876523888?i=1000779352778"
+    },
+    {
+     "title": "Ankur Goyal (@ankrgyl) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-02",
+     "url": "https://x.com/ankrgyl/status/2082565187064811637"
+    },
+    {
+     "title": "The tide turns for a Florida darling and California loser",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/united-states/2026/07/28/the-tide-turns-for-a-florida-darling-and-california-loser"
+    },
+    {
+     "title": "How Tom Holland became the world's highest-grossing young actor",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/culture/2026/07/27/how-tom-holland-became-the-worlds-highest-grossing-young-actor"
+    },
+    {
+     "title": "The terrifying threat of a genetically engineered plague",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/culture/2026/07/30/the-terrifying-threat-of-a-genetically-engineered-plague"
+    },
+    {
+     "title": "A racist massacre. A white-supremacist coup. A century of lies",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/culture/2026/07/30/a-racist-massacre-a-white-supremacist-coup-a-century-of-lies"
+    },
+    {
+     "title": "Border walls are symbols of power—and monuments to delusion",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/culture/2026/07/30/border-walls-are-symbols-of-power-and-monuments-to-delusion"
+    },
+    {
+     "title": "Retail investors should beware perpetual futures",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/finance-and-economics/2026/07/28/retail-investors-should-beware-perpetual-futures"
+    },
+    {
+     "title": "A common European safe asset is still unlikely",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/finance-and-economics/2026/07/30/a-common-european-safe-asset-is-still-unlikely"
+    },
+    {
+     "title": "America has become an entrepreneur's paradise",
+     "publication": "The Economist",
+     "date": "2026-08-03",
+     "url": "https://www.economist.com/business/2026/07/27/america-has-become-an-entrepreneurs-paradise"
+    },
+    {
+     "title": "Struggling to make sense of AstraZeneca-BMS",
+     "publication": "Financial Times",
+     "date": "2026-08-03",
+     "url": "https://www.ft.com/content/eddbdc29-5206-4c79-9ea7-f1a06ff040f1"
+    },
+    {
+     "title": "SpaceX's staggered lock-up release prolongs the pain",
+     "publication": "Financial Times",
+     "date": "2026-08-03",
+     "url": "https://www.ft.com/content/6a8c1d6c-63c7-4d3d-8882-eb5c67b2f9e1"
+    },
+    {
+     "title": "Ars Notoria and the Promise of Instant Knowledge",
+     "publication": "The Public Domain Review",
+     "date": "2026-08-03",
+     "url": "https://publicdomainreview.org/essay/ars-notoria/"
+    },
+    {
+     "title": "Ep 179: Ethiopia's Value Recovery Instruments",
+     "publication": "Apple Podcasts",
+     "date": "2026-08-03",
+     "url": "https://podcasts.apple.com/us/podcast/ep-179-ethiopias-value-recovery-instruments/id1528208049?i=1000779713663"
+    },
+    {
+     "title": "The Tungsten Market Is Warning of an Upcoming War",
+     "publication": "Bloomberg",
+     "date": "2026-08-03",
+     "url": "https://podcasts.apple.com/us/podcast/the-tungsten-market-is-warning-of-an-upcoming-war/id1056200096?i=1000779646689"
+    },
+    {
+     "title": "Situational Awareness LP",
+     "publication": "stafforini.com",
+     "date": "2026-08-03",
+     "url": "https://stafforini.com/notes/situational-awareness-lp/"
+    },
+    {
+     "title": "Iranian tanker tolls: totally legit after all?",
+     "publication": "FT",
+     "date": "2026-08-03",
+     "url": "https://www.ft.com/content/06f8f1a1-50a1-43d0-a236-c2d65ff38e87"
+    },
+    {
+     "title": "Harness Engineering for Self-Improvement",
+     "publication": "Lil'Log (lilianweng.github.io)",
+     "date": "2026-08-04",
+     "url": "https://lilianweng.github.io/posts/2026-07-04-harness/"
+    },
+    {
+     "title": "Erik Meijer (@headinthebox) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-04",
+     "url": "https://x.com/headinthebox/status/2084414685701632406"
+    },
+    {
+     "title": "Money Talks: Live from the Library of Mistakes",
+     "publication": "Slate Podcasts",
+     "date": "2026-08-04",
+     "url": "https://podcasts.apple.com/us/podcast/money-talks-live-from-the-library-of-mistakes/id876523888?i=1000779811616"
+    },
+    {
+     "title": "Post",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-04",
+     "url": "https://x.com/NegativeGW/status/2084613995705643518"
+    },
+    {
+     "title": "How the BBC turned the litigation table on Trump",
+     "publication": "Prospect Magazine",
+     "date": "2026-08-04",
+     "url": "https://www.prospectmagazine.co.uk/ideas/law/the-weekly-constitutional/74288/bbc-turned-litigation-table-on-trump"
+    },
+    {
+     "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
+     "publication": "Liberty Street Economics (Federal Reserve Bank of New York)",
+     "date": "2026-08-05",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/"
+    },
+    {
+     "title": "What happens to yields in between FOMC meetings?",
+     "publication": "The Two Cents (Substack)",
+     "date": "2026-08-05",
+     "url": "https://thetwocents.substack.com/p/what-happens-to-yields-in-between?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+     "publication": "Latent Space",
+     "date": "2026-08-05",
+     "url": "https://www.latent.space/p/inference-eng?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "[AINews] Megakernels are so dead and so back",
+     "publication": "Latent Space",
+     "date": "2026-08-05",
+     "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "A Paywall Is a Salary, Not a Donation",
+     "publication": "Cartoons Hate Her",
+     "date": "2026-08-05",
+     "url": "https://www.cartoonshateher.com/p/a-paywall-is-a-salary-not-a-donation?r=1dhwj&triedRedirect=true&hide_intro_popup=true"
+    },
+    {
+     "title": "Time travellers are using LinkedIn to teach us about artificial intelligence",
+     "publication": "Financial Times",
+     "date": "2026-08-05",
+     "url": "https://www.ft.com/content/4a4b442c-7ae4-4553-bcab-d744d8d46c79"
+    },
+    {
+     "title": "A global workspace in language models",
+     "publication": "Anthropic",
+     "date": "2026-08-05",
+     "url": "https://www.anthropic.com/research/global-workspace"
+    },
+    {
+     "title": "MerchantBench: A 365-day seller-side environment",
+     "publication": "1688 / Alibaba",
+     "date": "2026-08-06",
+     "url": "https://air.1688.com/kapp/next1688/merchantbench/"
+    },
+    {
+     "title": "Ernie Tedeschi (@ernietedeschi) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-06",
+     "url": "https://x.com/ernietedeschi/status/2085167198088343597"
+    },
+    {
+     "title": "Sawyer Hood (@sawyerhood) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-06",
+     "url": "https://x.com/sawyerhood/status/2085039905529597982"
+    },
+    {
+     "title": "Spencer Walsh (@thespencerwalsh) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-06",
+     "url": "https://x.com/thespencerwalsh/status/2085118018296947020"
+    },
+    {
+     "title": "PostHog (@posthog) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-06",
+     "url": "https://x.com/posthog/status/2083231950744244360"
+    },
+    {
+     "title": "Getting Back in the Loop",
+     "publication": "Ian's Newsletter",
+     "date": "2026-08-06",
+     "url": "https://ians-newsletter-491cf1.beehiiv.com/p/getting-back-in-the-loop?_bhlid=94551f254163ec4e4a465120e823bc14e4b321d3"
+    },
+    {
+     "title": "Nvidia Weighs Radical Idea: Less Rubin Ultra Chip Memory",
+     "publication": "The Information",
+     "date": "2026-08-06",
+     "url": "https://www.theinformation.com/articles/nvidia-weighs-radical-idea-less-rubin-ultra-chip-memory?shared=b6f956e19ea755f9&rc=olgw0g"
+    },
+    {
+     "title": "SoftBank Borrows Against OpenAI Stake as It Invests More",
+     "publication": "The Information",
+     "date": "2026-08-06",
+     "url": "https://www.theinformation.com/articles/softbank-borrows-against-openai-stake-as-it-invests-more"
+    },
+    {
+     "title": "How Dario Amodei Spread Anthropic's Religion and Stirred Up Silicon Valley",
+     "publication": "The Information",
+     "date": "2026-08-06",
+     "url": "https://www.theinformation.com/articles/dario-amodei-spread-anthropics-religion-stirred-silicon-valley?shared=5008f4c9a43d7d8e&rc=olgw0g"
+    },
+    {
+     "title": "What Google's AI Shake-Up Means for Pichai Succession",
+     "publication": "The Information",
+     "date": "2026-08-06",
+     "url": "https://www.theinformation.com/newsletters/the-briefing/googles-ai-shake-means-pichai-succession?shared=f07d0940b88e1711&rc=olgw0g"
+    },
+    {
+     "title": "The confounding 'compounding' of 'compounding'",
+     "publication": "Financial Times",
+     "date": "2026-08-06",
+     "url": "https://www.ft.com/content/00cc32f2-f392-40af-9484-decc85b7e9fe"
+    },
+    {
+     "title": "Brady's Lessons",
+     "publication": "Phenomenal World",
+     "date": "2026-08-06",
+     "url": "https://phenomenalworld.org/analysis/bradys-lessons/"
+    },
+    {
+     "title": "On the ownership of assets",
+     "publication": "Substack (Chris Dillow)",
+     "date": "2026-08-06",
+     "url": "https://chrisdillow.substack.com/p/on-the-ownership-of-assets"
+    },
+    {
+     "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+     "publication": "Bloomberg",
+     "date": "2026-08-06",
+     "url": "https://podcasts.apple.com/us/podcast/brad-setser-on-the-uss-unusual-japanese-yen-intervention/id1056200096?i=1000780200558"
+    },
+    {
+     "title": "Datadog Says Largest Customer Reduced Spending, Shares Drop 19%",
+     "publication": "The Information",
+     "date": "2026-08-07",
+     "url": "https://www.theinformation.com/articles/datadog-says-largest-customer-reduced-spending-shares-drop-19"
+    },
+    {
+     "title": "Cassandra Unchained (@michaeljburry) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-08",
+     "url": "https://x.com/michaeljburry/status/2085900831711252722"
+    },
+    {
+     "title": "- YouTube",
+     "publication": null,
+     "date": "2026-08-08",
+     "url": "https://www.youtube.com/watch?v=87DyyMV0kCY"
+    },
+    {
+     "title": "Post",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-08",
+     "url": "https://x.com/SkeleCap/status/2086122299699437764"
+    },
+    {
+     "title": "Technology and the Rise of Great Powers",
+     "publication": "Princeton University Press",
+     "date": "2026-08-08",
+     "url": "https://press.princeton.edu/books/paperback/9780691260341/technology-and-the-rise-of-great-powers"
+    },
+    {
+     "title": "Google's Westinghouse Bet",
+     "publication": "Asimov's Addendum",
+     "date": "2026-08-08",
+     "url": "https://asimovaddendum.substack.com/p/googles-westinghouse-bet?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "The carry trade that can't be unwound",
+     "publication": "The Two Cents (Substack)",
+     "date": "2026-08-09",
+     "url": "https://thetwocents.substack.com/p/the-carry-trade-that-cant-be-unwound?r=1dhwj&triedRedirect=true"
+    }
+   ],
+   "generated_at": "2026-08-09T15:03:18Z"
   }
  ],
- "updated_at": "2026-08-02T18:47:05Z"
+ "updated_at": "2026-08-09T15:03:18Z"
 }
