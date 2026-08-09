@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T02:00:15.821Z",
+  "generated_at": "2026-08-09T06:00:09.534Z",
   "count": 108,
   "entries": [
     {
@@ -1738,6 +1738,13 @@
           "page_number": null,
           "excerpt": "Joachimsthal had a product. The founder had been demoted to a harmless, symbolic position. The CEO was in place, early investors were already being rewarded, and regulatory approval had been locked down. The city was ready for another round of investors, and so it threw an impressive party. That party is always an indicator that the founders have gotten ahead of themselves.",
           "note": "Joachimsthal is the book's origin point for the dollar's history; this passage reframes the 16th-century silver enterprise in sardonic Silicon Valley startup language."
+        },
+        {
+          "id": 14,
+          "captured_at": "2026-08-09T05:07:44.640Z",
+          "page_number": 70,
+          "excerpt": "Toledo's answer, grounded in the self-interest of its merchants, was to flip the question on its head. The city hadn't collapsed despite all those silver dollars. It had collapsed because of them.",
+          "note": "A concise encapsulation of the book's central paradox: abundance of silver caused Spain's economic collapse, not scarcity."
         }
       ]
     }
