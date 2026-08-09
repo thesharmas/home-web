@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-09T18:00:16.539Z",
-  "count": 110,
+  "generated_at": "2026-08-09T19:00:15.211Z",
+  "count": 111,
   "entries": [
+    {
+      "id": "rl-20260809185853-bf7333",
+      "date": "2026-08-09T18:58:53.223Z",
+      "publication": "The First Pancake (stories.thef1rstpancake.com)",
+      "title": "Airtable Acquisition and What Hypergrowth Teaches You",
+      "author": null,
+      "url": "https://stories.thef1rstpancake.com/airtable-acquisition-and-what-hypergrowth-teaches-you/",
+      "summary": "The author, an early Airtable employee (#69), reflects on the company's disappointing acquisition outcome and what it reveals about the real value of joining a hypergrowth startup. They argue the financial upside was always a lottery ticket outside individual contributors' control, while the true returns—network, breadth of experience, and rapid learning—are durable regardless of how the company ends. The piece closes with practical advice on evaluating a CEO's decision-making style before joining and celebrating team milestones regardless of where leadership takes the company.",
+      "tags": [
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260809171613-eefe57",
       "date": "2026-08-09T17:16:13.618Z",
@@ -1782,11 +1797,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 45
+        "count": 46
       },
       {
         "tag": "investing",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "tweet",
@@ -1983,6 +1998,10 @@
         "count": 1
       },
       {
+        "publication": "The First Pancake (stories.thef1rstpancake.com)",
+        "count": 1
+      },
+      {
         "publication": "The Public Domain Review",
         "count": 1
       },
@@ -2010,7 +2029,7 @@
       },
       {
         "month": "2026-08",
-        "count": 59
+        "count": 60
       }
     ]
   }
