@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-09T06:00:09.534Z",
-  "count": 108,
+  "generated_at": "2026-08-09T17:00:15.402Z",
+  "count": 109,
   "entries": [
+    {
+      "id": "rl-20260809161918-e57b5f",
+      "date": "2026-08-09T16:19:18.044Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Harrison Chase (@hwchase17) on X",
+      "author": "Harrison Chase (@hwchase17)",
+      "url": "https://x.com/hwchase17/status/2085780032031760694",
+      "summary": "https://t.co/NnFGj7FSYK",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260809011012-0017eb",
       "date": "2026-08-09T01:10:12.886Z",
@@ -1761,7 +1775,7 @@
       },
       {
         "tag": "tweet",
-        "count": 33
+        "count": 34
       },
       {
         "tag": "ai agents",
@@ -1807,7 +1821,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 28
+        "count": 29
       },
       {
         "publication": "The Economist",
@@ -1977,7 +1991,7 @@
       },
       {
         "month": "2026-08",
-        "count": 57
+        "count": 58
       }
     ]
   }
