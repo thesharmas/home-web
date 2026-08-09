@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-09T17:00:15.402Z",
-  "count": 109,
+  "generated_at": "2026-08-09T18:00:16.539Z",
+  "count": 110,
   "entries": [
+    {
+      "id": "rl-20260809171613-eefe57",
+      "date": "2026-08-09T17:16:13.618Z",
+      "publication": "Bob's Payment Stock Substack",
+      "title": "Shift4: Dazed and Confused",
+      "author": "Bob Hammel",
+      "url": "https://bobhammel.substack.com/p/shift4-dazed-and-confused?publication_id=4645697&post_id=210490739&isFreemail=true&r=1dhwj&triedRedirect=true",
+      "summary": "Shift4 (FOUR) shares fell 23% after Q2 results disappointed on H2 guidance, dragged by Middle East conflict impacts on Global Blue, unfavorable FX, and a poorly disclosed acquisition of an A2A payments company for up to $316MM. Analyst Bob Hammel walks through his organic GRLNF calculations, concluding that underlying growth for H2 is roughly 10%, broadly in line with H1 once Middle East and FX headwinds are stripped out. While disappointed by unforced errors around disclosure and limited share buybacks given a stretched balance sheet, Hammel remains a holder but is cautious about the stock's complexity.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260809161918-e57b5f",
       "date": "2026-08-09T16:19:18.044Z",
@@ -1771,7 +1786,7 @@
       },
       {
         "tag": "investing",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "tweet",
@@ -1783,7 +1798,7 @@
       },
       {
         "tag": "fintech",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "security",
@@ -1885,6 +1900,10 @@
       },
       {
         "publication": "Bloomberg (Odd Lots)",
+        "count": 1
+      },
+      {
+        "publication": "Bob's Payment Stock Substack",
         "count": 1
       },
       {
@@ -1991,7 +2010,7 @@
       },
       {
         "month": "2026-08",
-        "count": 58
+        "count": 59
       }
     ]
   }
