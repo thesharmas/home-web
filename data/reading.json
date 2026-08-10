@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-09T19:00:15.211Z",
-  "count": 111,
+  "generated_at": "2026-08-10T16:00:15.331Z",
+  "count": 114,
   "entries": [
+    {
+      "id": "rl-20260810153528-bc8781",
+      "date": "2026-08-10T15:35:28.372Z",
+      "publication": "Deep (Learning) Focus (Substack)",
+      "title": "Notes on Midtraining",
+      "author": "Cameron R. Wolfe, Ph.D.",
+      "url": "https://cameronrwolfe.substack.com/p/midtraining-notes?publication_id=1092659&post_id=209732624&isFreemail=true&r=1dhwj&triedRedirect=true",
+      "summary": "This article explains the emerging practice of midtraining and continued pretraining (CPT) as intermediate stages between general LLM pretraining and post-training. It covers practical strategies for dataset selection, learning rate tuning, and data mixture design, drawing on several industry tech reports including Composer 2 from Cursor. The piece demonstrates that short proxy CPT runs can predict the value of longer runs, and that domain-specific CPT consistently improves both base model performance and downstream reinforcement learning outcomes.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "science"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260810153320-92a80a",
+      "date": "2026-08-10T15:33:20.311Z",
+      "publication": "The Housing Frame (Substack)",
+      "title": "The Housing Recession is Over",
+      "author": "Conor Sen",
+      "url": "https://conorsen.substack.com/p/the-housing-recession-is-over-8b6",
+      "summary": "Conor Sen argues that the U.S. housing recession that began in early 2022 is now over after roughly 4.5 years. While weakness persists in some markets and affordability remains challenging, inventory in Florida and Texas is falling, homebuilder margins are improving, unemployment is declining, and stock market wealth is supporting high-end demand. San Francisco stands out with sharp price and rent gains driven by the AI boom.",
+      "tags": [
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260810152525-c5543c",
+      "date": "2026-08-10T15:25:25.941Z",
+      "publication": "eugenewei.com",
+      "title": "Remove the Legend",
+      "author": "Eugene Wei",
+      "url": "https://www.eugenewei.com/blog/2017/11/13/remove-the-legend?ref=thediff.co",
+      "summary": "Eugene Wei recounts his formative experience as Amazon's first strategic planning analyst in 1997, producing a monthly 'Analytics Package' of business charts under grueling conditions with Excel and unreliable copy machines. Inspired by Edward Tufte's 'The Visual Display of Quantitative Information,' he argues that line graphs are vastly improved by removing the legend and labeling data series directly on the plot. The post walks through practical Excel chart-editing steps and broader Tuftean principles for honest, efficient data visualization.",
+      "tags": [
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260809185853-bf7333",
       "date": "2026-08-09T18:58:53.223Z",
@@ -1797,11 +1842,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 46
+        "count": 48
       },
       {
         "tag": "investing",
-        "count": 36
+        "count": 38
       },
       {
         "tag": "tweet",
@@ -1809,7 +1854,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "fintech",
@@ -1825,7 +1870,7 @@
       },
       {
         "tag": "science",
-        "count": 9
+        "count": 10
       },
       {
         "tag": "asset management",
@@ -1930,6 +1975,10 @@
         "count": 1
       },
       {
+        "publication": "Deep (Learning) Focus (Substack)",
+        "count": 1
+      },
+      {
         "publication": "FT",
         "count": 1
       },
@@ -2002,6 +2051,10 @@
         "count": 1
       },
       {
+        "publication": "The Housing Frame (Substack)",
+        "count": 1
+      },
+      {
         "publication": "The Public Domain Review",
         "count": 1
       },
@@ -2018,6 +2071,10 @@
         "count": 1
       },
       {
+        "publication": "eugenewei.com",
+        "count": 1
+      },
+      {
         "publication": "stafforini.com",
         "count": 1
       }
@@ -2029,7 +2086,7 @@
       },
       {
         "month": "2026-08",
-        "count": 60
+        "count": 63
       }
     ]
   }
