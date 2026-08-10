@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-10T16:00:15.331Z",
-  "count": 114,
+  "generated_at": "2026-08-10T17:00:16.649Z",
+  "count": 116,
   "entries": [
+    {
+      "id": "rl-20260810165425-185b5c",
+      "date": "2026-08-10T16:54:25.935Z",
+      "publication": "Washingtonian",
+      "title": "Guess What? Tony P Hates You, Too.",
+      "author": "Chris Almeida",
+      "url": "https://washingtonian.com/2026/08/06/tony-p-influencer-profile/",
+      "summary": "A long profile of Anthony Polcari, a DC-based Instagram influencer known as Tony P, who went viral in 2023 posting mundane day-in-the-life content and made roughly half a million dollars in his first two years before his follower count and income declined. The piece explores how hate-watching and online mockery paradoxically fueled his brand deals, the psychological toll of public ridicule, and his pivot toward television broadcasting. With his social-media moment fading, Tony is chasing a bigger career on TV while grappling with the tension between needing his haters and resenting them.",
+      "tags": [
+        "technology",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260810164454-79cae9",
+      "date": "2026-08-10T16:44:54.439Z",
+      "publication": "FT Alphaville",
+      "title": "Just how big is the hidden leverage of AI hyperscalers?",
+      "author": null,
+      "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3",
+      "summary": "This FT Alphaville article examines the hidden leverage carried by major AI hyperscalers, though the full content is behind a paywall. The piece appears to analyse financial risk or off-balance-sheet exposure among large cloud and AI infrastructure providers. Only the headline and subscription prompts are visible in the captured text.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "cloud",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260810153528-bc8781",
       "date": "2026-08-10T15:35:28.372Z",
@@ -1842,7 +1874,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 48
+        "count": 50
       },
       {
         "tag": "investing",
@@ -1854,30 +1886,30 @@
       },
       {
         "tag": "ai agents",
-        "count": 31
+        "count": 32
       },
       {
         "tag": "fintech",
-        "count": 23
+        "count": 24
+      },
+      {
+        "tag": "cloud",
+        "count": 12
       },
       {
         "tag": "security",
         "count": 12
       },
       {
-        "tag": "cloud",
-        "count": 11
-      },
-      {
         "tag": "science",
         "count": 10
       },
       {
-        "tag": "asset management",
-        "count": 8
+        "tag": "capital expenditure",
+        "count": 9
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 8
       },
       {
@@ -1983,6 +2015,10 @@
         "count": 1
       },
       {
+        "publication": "FT Alphaville",
+        "count": 1
+      },
+      {
         "publication": "Hugging Face",
         "count": 1
       },
@@ -2063,6 +2099,10 @@
         "count": 1
       },
       {
+        "publication": "Washingtonian",
+        "count": 1
+      },
+      {
         "publication": "blog.jim-nielsen.com",
         "count": 1
       },
@@ -2086,7 +2126,7 @@
       },
       {
         "month": "2026-08",
-        "count": 63
+        "count": 65
       }
     ]
   }
