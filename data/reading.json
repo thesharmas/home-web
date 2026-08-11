@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-08-11T03:00:19.368Z",
-  "count": 117,
+  "generated_at": "2026-08-11T16:00:19.454Z",
+  "count": 120,
   "entries": [
+    {
+      "id": "rl-20260811160005-1365ed",
+      "date": "2026-08-11T16:00:05.008Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/d4750e01-78a9-46eb-8f84-16b80f853dfa",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260811153305-38a745",
+      "date": "2026-08-11T15:33:05.419Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Sizhao Yang (@zaoyang) on X",
+      "author": "Sizhao Yang (@zaoyang)",
+      "url": "https://x.com/zaoyang/status/2087195325928779786",
+      "summary": "Two labs shipped frontier open-weight mixture-of-experts (MoE) models in the same week, Inkling from Thinking Machines Lab on Jul 15 and Kimi K3 from Moonshot AI on Jul 16, and the feed immediately started scoring them against each other. That framing is wrong, and it is worth sa",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260811152418-7c84cc",
+      "date": "2026-08-11T15:24:18.980Z",
+      "publication": "stolen-thoughts.com",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "author": "Alexander Panfilov, David Schmotz, Ilia Shumailov, Luca Beurer-Kellner, Joachim Schaeffer, Ameya Prabhu, Jonas Geiping, Maksym Andriushchenko",
+      "url": "https://stolen-thoughts.com/",
+      "summary": "Researchers demonstrate that encrypted reasoning blocks returned by frontier LLM APIs (Anthropic, OpenAI, Google) can be extracted by injecting them into weaker, jailbroken models from the same provider, recovering the stronger model's hidden reasoning verbatim. Applying this pipeline to 6,708 publicly available agent trajectories on GitHub and Hugging Face, they reconstructed over 315,000 reasoning blocks and recovered 704 distinct privacy artifacts including API keys, passwords, access tokens, and personal data. The attack also enables misuse uplift by recovering hazardous reasoning hidden inside encrypted traces even when the model's visible answer appears benign.",
+      "tags": [
+        "security",
+        "ai agents",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260811025033-bbb740",
       "date": "2026-08-11T02:50:33.411Z",
@@ -1886,7 +1928,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 50
+        "count": 51
       },
       {
         "tag": "investing",
@@ -1894,22 +1936,22 @@
       },
       {
         "tag": "tweet",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "ai agents",
-        "count": 32
+        "count": 33
       },
       {
         "tag": "fintech",
         "count": 24
       },
       {
-        "tag": "cloud",
-        "count": 12
+        "tag": "security",
+        "count": 13
       },
       {
-        "tag": "security",
+        "tag": "cloud",
         "count": 12
       },
       {
@@ -1940,7 +1982,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 29
+        "count": 30
       },
       {
         "publication": "The Economist",
@@ -1948,7 +1990,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 9
+        "count": 10
       },
       {
         "publication": "Financial Times",
@@ -2129,6 +2171,10 @@
       {
         "publication": "stafforini.com",
         "count": 1
+      },
+      {
+        "publication": "stolen-thoughts.com",
+        "count": 1
       }
     ],
     "by_month": [
@@ -2138,7 +2184,7 @@
       },
       {
         "month": "2026-08",
-        "count": 66
+        "count": 69
       }
     ]
   }
