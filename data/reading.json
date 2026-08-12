@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-08-11T17:00:22.360Z",
-  "count": 120,
+  "generated_at": "2026-08-12T19:00:15.838Z",
+  "count": 124,
   "entries": [
+    {
+      "id": "rl-20260812184701-92cf27",
+      "date": "2026-08-12T18:47:01.517Z",
+      "publication": "The Economist",
+      "title": "The dark underbelly of \"Paw Patrol\"",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/08/07/the-dark-underbelly-of-paw-patrol",
+      "summary": "The Economist examines the cultural debate surrounding the hit children's cartoon \"Paw Patrol,\" exploring accusations that it is both left-wing and authoritarian neoliberal propaganda. The piece acknowledges that while such critiques may seem like culture-war excess, stories told to children do carry values worth scrutinizing. It ultimately suggests psychoanalysis—rather than ideology—as the better lens, arguing the show fulfils children's wish to solve the problems of anxious, overwhelmed adults.",
+      "tags": [
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260812184624-9a1f10",
+      "date": "2026-08-12T18:46:24.421Z",
+      "publication": "Musings on Markets (Substack)",
+      "title": "The Situational Awareness Fund Blow-up: Collateral Damage from Investment Conviction!",
+      "author": "Aswath Damodaran",
+      "url": "https://aswathdamodaran.substack.com/p/the-situational-awareness-fund-blow?publication_id=815667&post_id=210695303&isFreemail=true&r=2gv2&triedRedirect=true",
+      "summary": "Aswath Damodaran uses the rise and fall of Leopold Aschenbrenner's Situational Awareness hedge fund—which gained ~450% before losing over two-thirds of its public equity value in four weeks—as a lens to examine investment conviction: what it is, where it comes from, and how it drives portfolio concentration and leverage decisions. He argues that excessive conviction, amplified by heavy leverage and a concentrated macro AI bet, turned a bad month into a fund-ending event, and that 'humble money' consistently outperforms 'smart money' over time. The piece concludes with three lessons: investment actions must be consistent with conviction and risk, momentum can overwhelm any strategy, and overconfidence is the key destroyer of otherwise sound investment theses.",
+      "tags": [
+        "investing",
+        "asset management",
+        "ai agents",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260812184154-59c5a9",
+      "date": "2026-08-12T18:41:54.455Z",
+      "publication": "Financial Times",
+      "title": "Who is Anthropic's auditor — and why should we care?",
+      "author": "Francine McKenna",
+      "url": "https://www.ft.com/content/b93d8030-203b-4445-b4a7-49e52d9b17a5",
+      "summary": "FT Alphaville investigates which Big Four accounting firm audits Anthropic ahead of its anticipated IPO, concluding it is likely Ernst & Young by process of elimination: Deloitte audits rival OpenAI, while PwC, KPMG, and Deloitte all have client-facing partnership or alliance agreements with Anthropic that would violate auditor independence rules. The piece explains why this matters — the first of Anthropic or OpenAI to IPO will expose previously opaque accounting for the deeply intertwined AI ecosystem of hyperscalers, investments, and alliances. It also notes the SEC's chief accountant, a former EY partner, has signalled interest in loosening auditor independence rules that the AI boom has made harder to enforce.",
+      "tags": [
+        "ai agents",
+        "fintech",
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260812183934-5957a8",
+      "date": "2026-08-12T18:39:34.604Z",
+      "publication": "Financial Times",
+      "title": "America's largest home lender falls out of the hamster wheel",
+      "author": "Todd H Baker",
+      "url": "https://www.ft.com/content/0a4794fa-7112-436f-a311-9077fcba14b8",
+      "summary": "Todd H Baker argues that non-bank mortgage origination is a fundamentally broken business, using UWM Holdings' $452mn quarterly loss, suspended dividend, and $2bn rescue capital raise as the latest illustration. He outlines structural flaws including acute sensitivity to interest rates, negative convexity, and dependence on non-cash accounting, which scale and digitisation have failed to fix. He is skeptical that AI will resolve these deep structural problems, though UWM's rescue investors could profit if the Fed turns dovish.",
+      "tags": [
+        "fintech",
+        "investing",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260811160106-3cb2a2",
       "date": "2026-08-11T16:01:06.368Z",
@@ -1933,23 +1998,23 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 52
+        "count": 55
       },
       {
         "tag": "investing",
-        "count": 38
+        "count": 41
+      },
+      {
+        "tag": "ai agents",
+        "count": 36
       },
       {
         "tag": "tweet",
         "count": 35
       },
       {
-        "tag": "ai agents",
-        "count": 34
-      },
-      {
         "tag": "fintech",
-        "count": 24
+        "count": 27
       },
       {
         "tag": "security",
@@ -1960,16 +2025,16 @@
         "count": 12
       },
       {
-        "tag": "capital expenditure",
-        "count": 10
-      },
-      {
         "tag": "science",
-        "count": 10
+        "count": 11
       },
       {
         "tag": "asset management",
-        "count": 9
+        "count": 10
+      },
+      {
+        "tag": "capital expenditure",
+        "count": 10
       },
       {
         "tag": "sustainability",
@@ -1991,11 +2056,11 @@
       },
       {
         "publication": "Financial Times",
-        "count": 10
+        "count": 12
       },
       {
         "publication": "The Economist",
-        "count": 10
+        "count": 11
       },
       {
         "publication": "The Information",
@@ -2102,6 +2167,10 @@
         "count": 1
       },
       {
+        "publication": "Musings on Markets (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Phenomenal World",
         "count": 1
       },
@@ -2185,7 +2254,7 @@
       },
       {
         "month": "2026-08",
-        "count": 69
+        "count": 73
       }
     ]
   }
