@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-08-13T00:00:31.690Z",
-  "count": 125,
+  "generated_at": "2026-08-13T18:00:18.231Z",
+  "count": 127,
   "entries": [
+    {
+      "id": "rl-20260813172609-4c2352",
+      "date": "2026-08-13T17:26:09.184Z",
+      "publication": null,
+      "title": "LinkedIn CringeBot 3000",
+      "author": null,
+      "url": "https://www.cringebot3000.com/hall-of-cringe",
+      "summary": "Transform any topic into peak LinkedIn thought leadership guaranteed to make your followers shudder.",
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260813172345-9830d2",
+      "date": "2026-08-13T17:23:45.546Z",
+      "publication": "Financial Times",
+      "title": "The hyperscalers' exploding 'purchase commitments' reach $1.5tn",
+      "author": "Robin Wigglesworth",
+      "url": "https://www.ft.com/content/1fbe47a6-bbf1-4de1-973b-8ce5baea591d",
+      "summary": "Major AI hyperscalers including Alphabet, Microsoft, Amazon, Meta, and Oracle have accumulated nearly $1.5tn in off-balance-sheet purchase commitments for chips, compute, and energy, up from $982bn at end of Q1. Alphabet's obligations alone surged from $332bn to $811bn between Q1 and Q2 2026, driven largely by long-term supply agreements for technical infrastructure and energy deals running through 2054. Analysts warn these commitments can understate leverage and future liquidity needs since many do not yet appear as conventional liabilities on financial statements.",
+      "tags": [
+        "capital expenditure",
+        "cloud",
+        "technology",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260812234928-71883a",
       "date": "2026-08-12T23:49:29.852Z",
@@ -2015,7 +2044,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 56
+        "count": 57
       },
       {
         "tag": "investing",
@@ -2023,7 +2052,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 37
+        "count": 38
       },
       {
         "tag": "tweet",
@@ -2035,7 +2064,7 @@
       },
       {
         "tag": "cloud",
-        "count": 13
+        "count": 14
       },
       {
         "tag": "security",
@@ -2043,7 +2072,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "science",
@@ -2073,7 +2102,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 12
+        "count": 13
       },
       {
         "publication": "The Economist",
@@ -2085,7 +2114,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 8
+        "count": 9
       },
       {
         "publication": "Twitter/X",
@@ -2271,7 +2300,7 @@
       },
       {
         "month": "2026-08",
-        "count": 74
+        "count": 76
       }
     ]
   }
