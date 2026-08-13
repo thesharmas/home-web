@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-12T19:00:15.838Z",
-  "count": 124,
+  "generated_at": "2026-08-13T00:00:31.690Z",
+  "count": 125,
   "entries": [
+    {
+      "id": "rl-20260812234928-71883a",
+      "date": "2026-08-12T23:49:29.852Z",
+      "publication": "The Information",
+      "title": "Cerebras Shares Fall 16% On A Decline In Hardware Revenue",
+      "author": "Phoebe Liu",
+      "url": "https://www.theinformation.com",
+      "summary": "Cerebras, an AI chip designer, saw its shares fall 16% after its second earnings call despite reporting 74% revenue growth to $180 million for the quarter. Hardware sales declined significantly to $54 million, about half of the prior quarter, alarming investors. Wall Street reacted negatively amid concerns about competition and the hardware revenue decline.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "capital expenditure",
+        "cloud"
+      ],
+      "source": "ios",
+      "partial": true
+    },
     {
       "id": "rl-20260812184701-92cf27",
       "date": "2026-08-12T18:47:01.517Z",
@@ -1998,7 +2015,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 55
+        "count": 56
       },
       {
         "tag": "investing",
@@ -2006,7 +2023,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 36
+        "count": 37
       },
       {
         "tag": "tweet",
@@ -2017,12 +2034,16 @@
         "count": 27
       },
       {
+        "tag": "cloud",
+        "count": 13
+      },
+      {
         "tag": "security",
         "count": 13
       },
       {
-        "tag": "cloud",
-        "count": 12
+        "tag": "capital expenditure",
+        "count": 11
       },
       {
         "tag": "science",
@@ -2030,10 +2051,6 @@
       },
       {
         "tag": "asset management",
-        "count": 10
-      },
-      {
-        "tag": "capital expenditure",
         "count": 10
       },
       {
@@ -2064,7 +2081,7 @@
       },
       {
         "publication": "The Information",
-        "count": 8
+        "count": 9
       },
       {
         "publication": "Unknown",
@@ -2254,7 +2271,7 @@
       },
       {
         "month": "2026-08",
-        "count": 73
+        "count": 74
       }
     ]
   }
