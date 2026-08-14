@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:00:14.794Z",
+  "generated_at": "2026-08-14T20:00:17.514Z",
   "count": 133,
   "entries": [
     {
@@ -67,14 +67,14 @@
     {
       "id": "rl-20260814171148-b571b2",
       "date": "2026-08-14T17:11:48.267Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Jane Street has paid up large to avoid its numbers leaking out",
+      "author": "Toby Nangle",
       "url": "https://www.ft.com/content/28a51284-98cc-4767-a306-0540d265687f",
-      "summary": null,
+      "summary": "Jane Street issued a $14.6bn bond refinancing deal, moving from broadly syndicated public debt to private placement, apparently to avoid quarterly financial disclosures that kept leaking to journalists. FT Alphaville estimates the firm paid roughly $200mn upfront via make-whole doomsday calls on existing bonds, plus an additional ~$214mn per year in higher interest costs, just to preserve its financial secrecy. The piece argues this is a remarkably high price even for a firm as profitable as Jane Street.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260814160747-6eca9a",
@@ -2202,7 +2202,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 14
+        "count": 15
       },
       {
         "publication": "The Economist",
@@ -2210,7 +2210,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 11
+        "count": 10
       },
       {
         "publication": "The Information",
