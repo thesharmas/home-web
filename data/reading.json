@@ -1,7 +1,81 @@
 {
-  "generated_at": "2026-08-14T17:00:16.921Z",
-  "count": 128,
+  "generated_at": "2026-08-14T18:00:14.794Z",
+  "count": 133,
   "entries": [
+    {
+      "id": "rl-20260814172048-08c2bd",
+      "date": "2026-08-14T17:20:48.223Z",
+      "publication": null,
+      "title": "ikea complexity index",
+      "author": null,
+      "url": "https://ikea.greg.technology/",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260814172026-738b8d",
+      "date": "2026-08-14T17:20:26.341Z",
+      "publication": "Unsung (unsung.aresluna.org)",
+      "title": "As a Windows user, it's a very surreal way to install a program",
+      "author": null,
+      "url": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/",
+      "summary": "The article explores the macOS DMG drag-to-Applications install flow, explaining how developers use customized Finder windows with icon views, custom backgrounds, and arrows to guide users. The author curates and critiques a wide variety of these \"drag to Applications\" window designs, categorizing them by arrow style, layout direction, text instructions, visual scenes, gestalt issues, and overall aesthetics. Special attention is given to standout examples like Firefox and Inkscape, which crowdsources its installer backgrounds from the community.",
+      "tags": [
+        "technology",
+        "mac os",
+        "design",
+        "iconography"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260814171435-bd85ba",
+      "date": "2026-08-14T17:14:35.917Z",
+      "publication": "Substack (Lauren Leek)",
+      "title": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same",
+      "author": "Lauren Leek",
+      "url": "https://laurenleek.substack.com/p/temperature-zero-for-culture-why",
+      "summary": "Lauren Leek argues that recommendation algorithms, by minimising prediction error, systematically suppress variance and drive cultural, physical, and synthetic convergence toward the mean—producing more sameness the more personalised they become. Drawing on data from London high streets, Billboard lyrics, film ratings, and synthetic persona experiments, she shows the mechanism is the classic exploitation-versus-exploration trade-off. She concludes that voluntary diversity measures are insufficient and that regulation mandating a substantial exploration threshold—roughly a fifth of platform attention—is necessary, pointing to the EU's Digital Services Act as existing scaffolding.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "sustainability",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260814171331-87c88d",
+      "date": "2026-08-14T17:13:31.425Z",
+      "publication": "Financial Times",
+      "title": "The Treasury market's toxic codependency",
+      "author": "Robin Wigglesworth",
+      "url": "https://www.ft.com/content/e3cd352e-5202-4748-952f-ed623ccdc774",
+      "summary": "Robin Wigglesworth argues that the US Treasury market, long a pillar of financial stability, has become dangerously dependent on highly leveraged hedge funds, which now hold more US government debt than China, Japan, or the entire US mutual fund or banking industry. Drawing on Federal Reserve research, he details how hedge fund strategies like the basis trade and swap spread arbitrage — totalling some $4tn in gross exposure — create systemic fragility, as seen in the March 2020 and April 2025 Treasury market dislocations. While hedge funds provide liquidity and help keep US borrowing costs down, their reliance on short-term repo financing means a severe shock could turn the world's most important bond market into a systemic booby trap.",
+      "tags": [
+        "investing",
+        "fintech",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260814171148-b571b2",
+      "date": "2026-08-14T17:11:48.267Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/28a51284-98cc-4767-a306-0540d265687f",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260814160747-6eca9a",
       "date": "2026-08-14T16:07:47.855Z",
@@ -2058,15 +2132,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 57
+        "count": 59
       },
       {
         "tag": "investing",
-        "count": 41
+        "count": 43
       },
       {
         "tag": "ai agents",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "tweet",
@@ -2074,7 +2148,7 @@
       },
       {
         "tag": "fintech",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "cloud",
@@ -2089,20 +2163,32 @@
         "count": 12
       },
       {
+        "tag": "asset management",
+        "count": 11
+      },
+      {
         "tag": "science",
         "count": 11
       },
       {
-        "tag": "asset management",
-        "count": 10
-      },
-      {
         "tag": "sustainability",
-        "count": 7
+        "count": 8
       },
       {
         "tag": "etfs",
         "count": 3
+      },
+      {
+        "tag": "design",
+        "count": 1
+      },
+      {
+        "tag": "iconography",
+        "count": 1
+      },
+      {
+        "tag": "mac os",
+        "count": 1
       },
       {
         "tag": "particle physics",
@@ -2116,18 +2202,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 13
+        "count": 14
       },
       {
         "publication": "The Economist",
         "count": 11
       },
       {
-        "publication": "The Information",
-        "count": 9
+        "publication": "Unknown",
+        "count": 11
       },
       {
-        "publication": "Unknown",
+        "publication": "The Information",
         "count": 9
       },
       {
@@ -2255,6 +2341,10 @@
         "count": 1
       },
       {
+        "publication": "Substack (Lauren Leek)",
+        "count": 1
+      },
+      {
         "publication": "Substack (Magnetic North)",
         "count": 1
       },
@@ -2280,6 +2370,10 @@
       },
       {
         "publication": "Unstable Equilibria (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "Unsung (unsung.aresluna.org)",
         "count": 1
       },
       {
@@ -2314,7 +2408,7 @@
       },
       {
         "month": "2026-08",
-        "count": 77
+        "count": 82
       }
     ]
   }
