@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-08-14T20:00:17.514Z",
-  "count": 133,
+  "generated_at": "2026-08-14T21:00:14.849Z",
+  "count": 135,
   "entries": [
+    {
+      "id": "rl-20260814202327-4b6c16",
+      "date": "2026-08-14T20:23:27.497Z",
+      "publication": "Bloomberg",
+      "title": "Trucking Is Booming Again and Drivers Aren't Happy About It",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/trucking-is-booming-again-and-drivers-arent-happy-about-it/id1056200096?i=1000783088964",
+      "summary": "Bloomberg's Odd Lots podcast examines the current trucking boom, exploring why freight volumes and billing are up while supply is constrained by regulatory crackdowns on who can drive. The episode features Reed Loustalot, CMO of Truck Parking Club, discussing driver dissatisfaction, the rise of surveillance in the industry, and how a recent Supreme Court ruling could further limit capacity. The conversation questions whether this boom is structurally different from past cycles.",
+      "tags": [
+        "technology",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260814202315-7743c7",
+      "date": "2026-08-14T20:23:15.603Z",
+      "publication": "Bloomberg",
+      "title": "A Historic El Niño Is Coming That Could Cost...",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/a-historic-el-ni%C3%B1o-is-coming-that-could-cost/id1056200096?i=1000783268561",
+      "summary": "This Bloomberg Odd Lots podcast episode examines an emerging El Niño event forecasted to be record-breaking in intensity. The hosts speak with Justin Mankin, a geography professor at Dartmouth and director of the Climate Modeling and Impacts Group, about how El Niños are forecasted and why they can cause large, long-lasting economic damage through droughts, flooding, and other catastrophes.",
+      "tags": [
+        "science",
+        "sustainability",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260814172048-08c2bd",
       "date": "2026-08-14T17:20:48.223Z",
@@ -2132,11 +2163,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 59
+        "count": 61
       },
       {
         "tag": "investing",
-        "count": 43
+        "count": 44
       },
       {
         "tag": "ai agents",
@@ -2163,16 +2194,16 @@
         "count": 12
       },
       {
+        "tag": "science",
+        "count": 12
+      },
+      {
         "tag": "asset management",
         "count": 11
       },
       {
-        "tag": "science",
-        "count": 11
-      },
-      {
         "tag": "sustainability",
-        "count": 8
+        "count": 9
       },
       {
         "tag": "etfs",
@@ -2217,12 +2248,12 @@
         "count": 9
       },
       {
-        "publication": "Twitter/X",
-        "count": 5
+        "publication": "Bloomberg",
+        "count": 6
       },
       {
-        "publication": "Bloomberg",
-        "count": 4
+        "publication": "Twitter/X",
+        "count": 5
       },
       {
         "publication": "Apple Podcasts",
@@ -2408,7 +2439,7 @@
       },
       {
         "month": "2026-08",
-        "count": 82
+        "count": 84
       }
     ]
   }
