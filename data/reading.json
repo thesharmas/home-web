@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-13T18:00:18.231Z",
-  "count": 127,
+  "generated_at": "2026-08-14T17:00:16.921Z",
+  "count": 128,
   "entries": [
+    {
+      "id": "rl-20260814160747-6eca9a",
+      "date": "2026-08-14T16:07:47.855Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Haircut (@nodiligence) on X",
+      "author": "Haircut (@nodiligence)",
+      "url": "https://x.com/nodiligence/status/2088153652632719576",
+      "summary": "pulled alphabet's q2 10-Q because the $811bn is getting quoted everywhere without the rest of the page.\n\n$811.0bn of purchase commitments and other contractual obligations at 30 june, against $332.4bn at 31 march. that part is real and it's in the filing.\n\ntwo paragraphs down the",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260813172609-4c2352",
       "date": "2026-08-13T17:26:09.184Z",
@@ -2056,7 +2070,7 @@
       },
       {
         "tag": "tweet",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "fintech",
@@ -2098,7 +2112,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 30
+        "count": 31
       },
       {
         "publication": "Financial Times",
@@ -2300,7 +2314,7 @@
       },
       {
         "month": "2026-08",
-        "count": 76
+        "count": 77
       }
     ]
   }
