@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-08-15T18:00:14.876Z",
-  "count": 138,
+  "generated_at": "2026-08-15T19:00:13.897Z",
+  "count": 140,
   "entries": [
+    {
+      "id": "rl-20260815182916-8b5a90",
+      "date": "2026-08-15T18:29:16.317Z",
+      "publication": "X (formerly Twitter)",
+      "title": "AlexBartik (@AlexBartik) on X",
+      "author": "AlexBartik (@AlexBartik)",
+      "url": "https://x.com/AlexBartik/status/1820547161735770309",
+      "summary": "How do households change their consumption and household balance sheets in response to large, but time-limited, unconditional cash transfers? We study an experiment that provided $1000 a month for 3 years to 1000 young, low-income households. 1/ https://t.co/gaOs9BLIOL",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260815182825-73347b",
+      "date": "2026-08-15T18:28:25.265Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Jeffrey Gundlach (@TruthGundlach) on X",
+      "author": "Jeffrey Gundlach (@TruthGundlach)",
+      "url": "https://x.com/TruthGundlach/status/2088418344320012481",
+      "summary": "NVDA $500B fund (not to be confused with funding) consortium plan will not likely age well.  Assets of unknown life as collateral for long term debt?  Why not do a 30 year ABS deal backed by warehouses of bananas?  It’s OK, they’ll be newly engineered bananas of unknown life.",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260815175907-98a47d",
       "date": "2026-08-15T17:59:07.696Z",
@@ -2225,7 +2253,7 @@
       },
       {
         "tag": "tweet",
-        "count": 36
+        "count": 38
       },
       {
         "tag": "fintech",
@@ -2279,7 +2307,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 31
+        "count": 33
       },
       {
         "publication": "Financial Times",
@@ -2493,7 +2521,7 @@
       },
       {
         "month": "2026-08",
-        "count": 87
+        "count": 89
       }
     ]
   }
