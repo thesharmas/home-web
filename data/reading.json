@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-08-15T19:00:13.897Z",
-  "count": 140,
+  "generated_at": "2026-08-15T21:00:16.205Z",
+  "count": 142,
   "entries": [
+    {
+      "id": "rl-20260815202727-e5ea68",
+      "date": "2026-08-15T20:27:27.272Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Ben Carlson (@awealthofcs) on X",
+      "author": "Ben Carlson (@awealthofcs)",
+      "url": "https://x.com/awealthofcs/status/2088265403910721594",
+      "summary": "The S&amp;P 500 is up almost 16% per year in the 2020s\n\nThis is all the stuff you had to ignore to earn those returns:\n\nhttps://t.co/WCtixUcWFx https://t.co/Jx8lvA5QwR",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260815201831-75b8be",
+      "date": "2026-08-15T20:18:31.990Z",
+      "publication": null,
+      "title": "🔎 37.531642, -122.517538",
+      "author": null,
+      "url": "https://maps.apple.com/place?coordinate=37.531642%2C-122.517538",
+      "summary": "View details about 2112 Vallemar St in Moss Beach, CA United States on Apple Maps. Address, driving directions, images, nearby attractions and more.",
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20260815182916-8b5a90",
       "date": "2026-08-15T18:29:16.317Z",
@@ -2233,6 +2259,20 @@
           "page_number": 70,
           "excerpt": "Toledo's answer, grounded in the self-interest of its merchants, was to flip the question on its head. The city hadn't collapsed despite all those silver dollars. It had collapsed because of them.",
           "note": "A concise encapsulation of the book's central paradox: abundance of silver caused Spain's economic collapse, not scarcity."
+        },
+        {
+          "id": 15,
+          "captured_at": "2026-08-15T20:25:38.936Z",
+          "page_number": 137,
+          "excerpt": "Eight enslaved men rowed his private barge over the Severn River between Annapolis and Whitehall. He was fascinated with the possibility of developing more industries in the province and, like other planters, was making changes on his own property; he converted an old mill to a loom so the slaves at Whitehall could weave wool cloth from his flock of South Devon sheep.",
+          "note": "Vivid detail showing how colonial governors accumulated wealth through enslaved labor while ostensibly managing imperial monetary policy."
+        },
+        {
+          "id": 16,
+          "captured_at": "2026-08-15T20:29:09.941Z",
+          "page_number": null,
+          "excerpt": "In a deflation, merchants will sometimes simply refuse to keep negotiating. If they're owed money, they'll just wait for the full amount. If they owe money, they'll watch helplessly as their own earnings drop, while their loan payments don't. If they have something to sell, they'll wait for prices to go back up. Or they'll just stop buying and selling, period.",
+          "note": null
         }
       ]
     }
@@ -2253,7 +2293,7 @@
       },
       {
         "tag": "tweet",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "fintech",
@@ -2307,7 +2347,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 33
+        "count": 34
       },
       {
         "publication": "Financial Times",
@@ -2318,11 +2358,11 @@
         "count": 11
       },
       {
-        "publication": "The Information",
-        "count": 10
+        "publication": "Unknown",
+        "count": 11
       },
       {
-        "publication": "Unknown",
+        "publication": "The Information",
         "count": 10
       },
       {
@@ -2521,7 +2561,7 @@
       },
       {
         "month": "2026-08",
-        "count": 89
+        "count": 91
       }
     ]
   }
