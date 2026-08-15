@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-14T21:00:14.849Z",
-  "count": 135,
+  "generated_at": "2026-08-15T04:00:15.186Z",
+  "count": 136,
   "entries": [
+    {
+      "id": "rl-20260815033503-173d8c",
+      "date": "2026-08-15T03:35:03.634Z",
+      "publication": "The Information",
+      "title": "Nvidia Close to Deal to Guarantee About $100 Billion in Credit for OpenAI",
+      "author": "Phoebe Liu, Valida Pau, Ann Davis Vaughan",
+      "url": "https://www.theinformation.com/articles/nvidia-nears-deal-guarantee-100-billion-financing-massive-data-center?shared=81b7bf4a88a65ab8&rc=olgw0g",
+      "summary": "Nvidia is close to providing roughly $100 billion in credit support to help OpenAI lease and finance the first phase of a massive AI data center campus in Ohio, which could ultimately cost $500 billion and require 10 gigawatts of power. SB Energy, majority-owned by SoftBank, is developing the facility on largely federally controlled land, with the project originating from a U.S.-Japan trade agreement. Nvidia is also pursuing broader financing partnerships with Wall Street firms to raise $500 billion to help customers purchase its chips, while seeking to cap its total credit exposure at 25% of related deals.",
+      "tags": [
+        "capital expenditure",
+        "cloud",
+        "technology",
+        "ai agents"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260814202327-4b6c16",
       "date": "2026-08-14T20:23:27.497Z",
@@ -2163,7 +2180,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 61
+        "count": 62
       },
       {
         "tag": "investing",
@@ -2171,7 +2188,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 39
+        "count": 40
       },
       {
         "tag": "tweet",
@@ -2183,15 +2200,15 @@
       },
       {
         "tag": "cloud",
-        "count": 14
+        "count": 15
+      },
+      {
+        "tag": "capital expenditure",
+        "count": 13
       },
       {
         "tag": "security",
         "count": 13
-      },
-      {
-        "tag": "capital expenditure",
-        "count": 12
       },
       {
         "tag": "science",
@@ -2240,12 +2257,12 @@
         "count": 11
       },
       {
-        "publication": "Unknown",
+        "publication": "The Information",
         "count": 10
       },
       {
-        "publication": "The Information",
-        "count": 9
+        "publication": "Unknown",
+        "count": 10
       },
       {
         "publication": "Bloomberg",
@@ -2439,7 +2456,7 @@
       },
       {
         "month": "2026-08",
-        "count": 84
+        "count": 85
       }
     ]
   }
