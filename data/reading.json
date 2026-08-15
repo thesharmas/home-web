@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-08-15T04:00:15.186Z",
-  "count": 136,
+  "generated_at": "2026-08-15T18:00:14.876Z",
+  "count": 138,
   "entries": [
+    {
+      "id": "rl-20260815175907-98a47d",
+      "date": "2026-08-15T17:59:07.696Z",
+      "publication": "Latent Space",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "author": "Richard MacManus",
+      "url": "https://www.latent.space/p/flue-2?r=1dhwj&triedRedirect=true",
+      "summary": "Fred Schott, creator of the Astro web framework, has released Flue 2, an agent framework for developers that introduces React-style \"Agent Hooks\" written in TypeScript, allowing agents to dynamically manage state, lifecycle events, and capabilities at runtime. Flue is built on the open-source minimal harness Pi, with Schott arguing that a harness is fundamental to what an agent is rather than an optional feature. The framework emphasizes host portability and composability over file-based routing, and is positioned against competitors like Vercel's eve and older agent frameworks such as LangChain and Mastra.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260815175535-00c3a9",
+      "date": "2026-08-15T17:55:35.205Z",
+      "publication": "Don't Worry About the Vase (Substack)",
+      "title": "On Dwarkesh Patel's Podcast With Ryan Greenblatt",
+      "author": "Zvi Mowshowitz",
+      "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-podcast-with-ryan?r=1dhwj&triedRedirect=true",
+      "summary": "Zvi Mowshowitz breaks down a Dwarkesh Patel podcast featuring Ryan Greenblatt on recursive self-improvement, AI R&D automation, and AI misalignment. He contrasts Dwarkesh's skeptical view—that AI only learns from well-specified verifiable examples—with Ryan's more alarming 'scheming models' framework, which Zvi finds closer to his own position. The post covers topics including whether AI R&D is verifiable enough to unlock rapid self-improvement, the risks of reward hacking and misaligned training pipelines, and debates about AI alignment to users versus society.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science",
+        "security"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260815033503-173d8c",
       "date": "2026-08-15T03:35:03.634Z",
@@ -2180,7 +2213,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 62
+        "count": 64
       },
       {
         "tag": "investing",
@@ -2188,7 +2221,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 40
+        "count": 42
       },
       {
         "tag": "tweet",
@@ -2200,19 +2233,19 @@
       },
       {
         "tag": "cloud",
-        "count": 15
+        "count": 16
+      },
+      {
+        "tag": "security",
+        "count": 14
       },
       {
         "tag": "capital expenditure",
         "count": 13
       },
       {
-        "tag": "security",
-        "count": 13
-      },
-      {
         "tag": "science",
-        "count": 12
+        "count": 13
       },
       {
         "tag": "asset management",
@@ -2273,11 +2306,11 @@
         "count": 5
       },
       {
-        "publication": "Apple Podcasts",
-        "count": 2
+        "publication": "Latent Space",
+        "count": 3
       },
       {
-        "publication": "Latent Space",
+        "publication": "Apple Podcasts",
         "count": 2
       },
       {
@@ -2326,6 +2359,10 @@
       },
       {
         "publication": "Deep (Learning) Focus (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "Don't Worry About the Vase (Substack)",
         "count": 1
       },
       {
@@ -2456,7 +2493,7 @@
       },
       {
         "month": "2026-08",
-        "count": 85
+        "count": 87
       }
     ]
   }
