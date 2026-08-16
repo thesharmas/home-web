@@ -1362,7 +1362,557 @@
     }
    ],
    "generated_at": "2026-08-09T15:03:18Z"
+  },
+  {
+   "week_start": "2026-08-09",
+   "week_end": "2026-08-16",
+   "title": "Week ending Aug 16, 2026",
+   "overview": "Your reading this week circled one dominant obsession: where the money for the AI buildout is actually coming from, and how much of it is invisible until it isn't. The Financial Times ran a near-serialized investigation — Goldman's $1.5tn in aggregate hyperscaler lease commitments (a trillion of it off-balance-sheet under GAAP), Morgan Stanley's $982bn-plus in chip/power purchase commitments, Alphabet's obligations alone jumping from $332bn to $811bn in a single quarter, and then Nvidia stepping in to guarantee ~$100bn of credit so OpenAI can build a $500bn Ohio campus. SpaceX, Cerebras, and a viral Twitter thread correcting the Alphabet 10-Q framing rounded out the picture: capital is flowing at a scale that strains the language normally used to describe corporate balance sheets, and multiple smart observers (Wigglesworth, nodiligence, Gundlach) are independently flagging that the accounting hasn't caught up to the exposure.\n\nA second, closely related thread was AI's technical and reputational frontier — midtraining best practices, a genuinely alarming paper on extracting encrypted reasoning traces from frontier model APIs (recovering real API keys and passwords from public agent trajectories), Zvi's breakdown of the Dwarkesh/Greenblatt conversation on recursive self-improvement and scheming models, and the Zuckerberg-vs-Amodei contrast in how labs market their own risk. Dario's own tweet on regulation this week is the coda to that story. Threaded through both AI clusters was a market-history lesson from Damodaran on the Situational Awareness Fund's collapse — a very direct parable about what happens when high AI conviction meets leverage and concentration, published the same week as the SpaceX and Nvidia mega-financings.\n\nOutside AI, you read a cluster on market structure fragility (Treasury market codependency on hedge fund leverage, Jane Street paying up to stay private, UWM's structurally broken mortgage-origination model) alongside a lighter cluster on culture and craft — the Tony P influencer profile, an Economist meditation on Paw Patrol, Lauren Leek's algorithmic-sameness argument, and two well-observed pieces on design taste (Eugene Wei on chart legends, the DMG-installer survey). Your two book highlights from 'The Almighty Dollar' — colonial wealth built on enslaved labor and a passage on how deflation freezes commerce — sit unexpectedly well next to this week's articles: both are about how monetary and capital systems obscure who bears the risk.",
+   "themes": [
+    {
+     "name": "The Hidden Leverage of the AI Buildout",
+     "description": "A week-long FT investigation plus adjacent reporting shows hyperscaler and AI-infrastructure obligations ballooning to roughly $1.5tn, much of it off-balance-sheet, with new mega-financings (SpaceX, Nvidia/OpenAI) layering on more.",
+     "items": [
+      {
+       "title": "Just how big is the hidden leverage of AI hyperscalers?",
+       "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3"
+      },
+      {
+       "title": "The hyperscalers' exploding 'purchase commitments' reach $1.5tn",
+       "url": "https://www.ft.com/content/1fbe47a6-bbf1-4de1-973b-8ce5baea591d"
+      },
+      {
+       "title": "SpaceX's 'very achievable' $100bn revenue run rate target",
+       "url": "https://www.ft.com/content/d4750e01-78a9-46eb-8f84-16b80f853dfa"
+      },
+      {
+       "title": "Nvidia Close to Deal to Guarantee About $100 Billion in Credit for OpenAI",
+       "url": "https://www.theinformation.com/articles/nvidia-nears-deal-guarantee-100-billion-financing-massive-data-center?shared=81b7bf4a88a65ab8&rc=olgw0g"
+      },
+      {
+       "title": "Cerebras Shares Fall 16% On A Decline In Hardware Revenue",
+       "url": "https://www.theinformation.com"
+      },
+      {
+       "title": "Haircut (@nodiligence) on X",
+       "url": "https://x.com/nodiligence/status/2088153652632719576"
+      },
+      {
+       "title": "Jeffrey Gundlach (@TruthGundlach) on X",
+       "url": "https://x.com/TruthGundlach/status/2088418344320012481"
+      }
+     ]
+    },
+    {
+     "name": "AI Research Frontier & Safety",
+     "description": "Technical progress (midtraining recipes, new open-weight MoE models, agent frameworks) sat alongside sobering security and alignment findings this week.",
+     "items": [
+      {
+       "title": "Notes on Midtraining",
+       "url": "https://cameronrwolfe.substack.com/p/midtraining-notes?publication_id=1092659&post_id=209732624&isFreemail=true&r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+       "url": "https://stolen-thoughts.com/"
+      },
+      {
+       "title": "Sizhao Yang (@zaoyang) on X",
+       "url": "https://x.com/zaoyang/status/2087195325928779786"
+      },
+      {
+       "title": "On Dwarkesh Patel's Podcast With Ryan Greenblatt",
+       "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-podcast-with-ryan?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+       "url": "https://www.latent.space/p/flue-2?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "name": "AI's Public Narrative & Governance",
+     "description": "How AI labs and their leaders manage their own image and accountability — from marketing tone to who audits Anthropic's books.",
+     "items": [
+      {
+       "title": "Zuckerberg v. Amodei in AI Marketing",
+       "url": "https://www.theinformation.com/newsletters/the-briefing/zuckerberg-v-amodei-ai-marketing?shared=03c1d0c9c289d6ce&rc=olgw0g"
+      },
+      {
+       "title": "Who is Anthropic's auditor — and why should we care?",
+       "url": "https://www.ft.com/content/b93d8030-203b-4445-b4a7-49e52d9b17a5"
+      },
+      {
+       "title": "Dario Amodei (@DarioAmodei) on X",
+       "url": "https://x.com/DarioAmodei/status/2088758816376807762"
+      }
+     ]
+    },
+    {
+     "name": "Market Structure & Investor Psychology",
+     "description": "Stories about leverage, conviction, and disclosure across payments, mortgages, market-making, and Treasuries — plus a hedge-fund blowup that ties them together.",
+     "items": [
+      {
+       "title": "Shift4: Dazed and Confused",
+       "url": "https://bobhammel.substack.com/p/shift4-dazed-and-confused?publication_id=4645697&post_id=210490739&isFreemail=true&r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "The Situational Awareness Fund Blow-up: Collateral Damage from Investment Conviction!",
+       "url": "https://aswathdamodaran.substack.com/p/the-situational-awareness-fund-blow?publication_id=815667&post_id=210695303&isFreemail=true&r=2gv2&triedRedirect=true"
+      },
+      {
+       "title": "America's largest home lender falls out of the hamster wheel",
+       "url": "https://www.ft.com/content/0a4794fa-7112-436f-a311-9077fcba14b8"
+      },
+      {
+       "title": "Jane Street has paid up large to avoid its numbers leaking out",
+       "url": "https://www.ft.com/content/28a51284-98cc-4767-a306-0540d265687f"
+      },
+      {
+       "title": "The Treasury market's toxic codependency",
+       "url": "https://www.ft.com/content/e3cd352e-5202-4748-952f-ed623ccdc774"
+      },
+      {
+       "title": "Ben Carlson (@awealthofcs) on X",
+       "url": "https://x.com/awealthofcs/status/2088265403910721594"
+      },
+      {
+       "title": "AlexBartik (@AlexBartik) on X",
+       "url": "https://x.com/AlexBartik/status/1820547161735770309"
+      }
+     ]
+    },
+    {
+     "name": "Real Economy Signals: Housing, Weather, Freight",
+     "description": "A trio of pieces on tangible, non-AI economic cycles turning or straining — housing, an incoming record El Niño, and a booming but driver-unfriendly trucking market.",
+     "items": [
+      {
+       "title": "The Housing Recession is Over",
+       "url": "https://conorsen.substack.com/p/the-housing-recession-is-over-8b6"
+      },
+      {
+       "title": "A Historic El Niño Is Coming That Could Cost...",
+       "url": "https://podcasts.apple.com/us/podcast/a-historic-el-ni%C3%B1o-is-coming-that-could-cost/id1056200096?i=1000783268561"
+      },
+      {
+       "title": "Trucking Is Booming Again and Drivers Aren't Happy About It",
+       "url": "https://podcasts.apple.com/us/podcast/trucking-is-booming-again-and-drivers-arent-happy-about-it/id1056200096?i=1000783088964"
+      }
+     ]
+    },
+    {
+     "name": "Culture, Attention & Craft",
+     "description": "Lighter reading on how algorithms flatten culture, how creators live inside their own hate-watch economics, and two well-made pieces on visual/interaction design taste.",
+     "items": [
+      {
+       "title": "Guess What? Tony P Hates You, Too.",
+       "url": "https://washingtonian.com/2026/08/06/tony-p-influencer-profile/"
+      },
+      {
+       "title": "The dark underbelly of \"Paw Patrol\"",
+       "url": "https://www.economist.com/culture/2026/08/07/the-dark-underbelly-of-paw-patrol"
+      },
+      {
+       "title": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same",
+       "url": "https://laurenleek.substack.com/p/temperature-zero-for-culture-why"
+      },
+      {
+       "title": "Remove the Legend",
+       "url": "https://www.eugenewei.com/blog/2017/11/13/remove-the-legend?ref=thediff.co"
+      },
+      {
+       "title": "As a Windows user, it's a very surreal way to install a program",
+       "url": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/"
+      },
+      {
+       "title": "Airtable Acquisition and What Hypergrowth Teaches You",
+       "url": "https://stories.thef1rstpancake.com/airtable-acquisition-and-what-hypergrowth-teaches-you/"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Headline 'conservative' hyperscaler balance sheets are misleading: Goldman found $1.5tn in aggregate lease commitments, a full $1tn of which stays off-balance-sheet under GAAP rules for uncommenced leases — treat reported debt metrics for AI capex as a floor, not the full picture.",
+     "sources": [
+      {
+       "title": "Just how big is the hidden leverage of AI hyperscalers?",
+       "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3"
+      },
+      {
+       "title": "The hyperscalers' exploding 'purchase commitments' reach $1.5tn",
+       "url": "https://www.ft.com/content/1fbe47a6-bbf1-4de1-973b-8ce5baea591d"
+      }
+     ]
+    },
+    {
+     "lesson": "Viral single-number financial claims need their filing's full context before you react — the widely-quoted $811bn Alphabet figure is real, but the next two paragraphs of the actual 10-Q reportedly change how alarming it should be.",
+     "sources": [
+      {
+       "title": "Haircut (@nodiligence) on X",
+       "url": "https://x.com/nodiligence/status/2088153652632719576"
+      }
+     ]
+    },
+    {
+     "lesson": "Disclosure quality can move a stock as much as fundamentals: Shift4 fell 23% largely on a poorly disclosed acquisition and guidance shock, even though underlying organic growth was roughly 10% and in line with H1 once one-off headwinds are stripped out.",
+     "sources": [
+      {
+       "title": "Shift4: Dazed and Confused",
+       "url": "https://bobhammel.substack.com/p/shift4-dazed-and-confused?publication_id=4645697&post_id=210490739&isFreemail=true&r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "High investment conviction is only safe with risk controls: the Situational Awareness Fund turned a +450% run into a fund-ending event in four weeks once leverage and concentration met a bad month — conviction without position sizing is fragility, not skill.",
+     "sources": [
+      {
+       "title": "The Situational Awareness Fund Blow-up: Collateral Damage from Investment Conviction!",
+       "url": "https://aswathdamodaran.substack.com/p/the-situational-awareness-fund-blow?publication_id=815667&post_id=210695303&isFreemail=true&r=2gv2&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "Encrypted or hidden model reasoning is not a security boundary: researchers extracted 315,000+ reasoning blocks (including real API keys and credentials) from frontier-model traces by piping them through weaker, jailbroken sibling models — treat any CoT output as a potential leak surface.",
+     "sources": [
+      {
+       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+       "url": "https://stolen-thoughts.com/"
+      }
+     ]
+    },
+    {
+     "lesson": "The career payoff of joining a hypergrowth startup is mostly non-financial and durable — network, learning velocity, and experience compound reliably even when the equity outcome ends up being a disappointing acquisition.",
+     "sources": [
+      {
+       "title": "Airtable Acquisition and What Hypergrowth Teaches You",
+       "url": "https://stories.thef1rstpancake.com/airtable-acquisition-and-what-hypergrowth-teaches-you/"
+      }
+     ]
+    },
+    {
+     "lesson": "Midtraining/continued pretraining works best with gradual data-mixture annealing toward higher-quality, domain-specific data rather than abrupt switches, and should be tuned for downstream post-trainability, not just immediate benchmark scores.",
+     "sources": [
+      {
+       "title": "Notes on Midtraining",
+       "url": "https://cameronrwolfe.substack.com/p/midtraining-notes?publication_id=1092659&post_id=209732624&isFreemail=true&r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "Scale and digitization don't fix a structurally broken business model: UWM's $452mn quarterly loss shows non-bank mortgage origination's negative convexity and rate-sensitivity are architectural problems that AI is unlikely to solve either.",
+     "sources": [
+      {
+       "title": "America's largest home lender falls out of the hamster wheel",
+       "url": "https://www.ft.com/content/0a4794fa-7112-436f-a311-9077fcba14b8"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The lesson from the Situational Awareness Fund isn't that AI conviction was wrong — it's that 'humble money' (diversified, unlevered) beats 'smart money' (concentrated, leveraged) over time, inverting the usual hero narrative around high-conviction star investors.",
+     "source": {
+      "title": "The Situational Awareness Fund Blow-up: Collateral Damage from Investment Conviction!",
+      "url": "https://aswathdamodaran.substack.com/p/the-situational-awareness-fund-blow?publication_id=815667&post_id=210695303&isFreemail=true&r=2gv2&triedRedirect=true"
+     }
+    },
+    {
+     "insight": "Against the tech-optimist assumption that AI can fix any inefficient industry, non-bank mortgage origination's core flaws (negative convexity, rate sensitivity, non-cash accounting dependence) are structural enough that AI is unlikely to rescue the business model.",
+     "source": {
+      "title": "America's largest home lender falls out of the hamster wheel",
+      "url": "https://www.ft.com/content/0a4794fa-7112-436f-a311-9077fcba14b8"
+     }
+    },
+    {
+     "insight": "Contrary to the still-common 'housing is in trouble' narrative, the U.S. housing recession that began in 2022 is over — inventory is falling in Florida and Texas, builder margins are improving, and AI-boom wealth effects are propping up high-end demand.",
+     "source": {
+      "title": "The Housing Recession is Over",
+      "url": "https://conorsen.substack.com/p/the-housing-recession-is-over-8b6"
+     }
+    },
+    {
+     "insight": "The viral hyperscaler-leverage panic may be partly a misreading: the eye-popping $811bn Alphabet purchase-commitments figure is real per the 10-Q, but the framing dominating social feeds reportedly skips context two paragraphs later that would temper the alarm.",
+     "source": {
+      "title": "Haircut (@nodiligence) on X",
+      "url": "https://x.com/nodiligence/status/2088153652632719576"
+     }
+    },
+    {
+     "insight": "Scoring simultaneous frontier open-weight MoE releases (Inkling vs. Kimi K3) against each other as a head-to-head contest is the wrong frame — it misses that parallel releases from independent labs in the same week represent convergent progress, not a single winner-take-all race.",
+     "source": {
+      "title": "Sizhao Yang (@zaoyang) on X",
+      "url": "https://x.com/zaoyang/status/2087195325928779786"
+     }
+    },
+    {
+     "insight": "Recommendation algorithms don't need explicit ideological bias to homogenize culture — pure error-minimization is enough to systematically suppress variance, meaning voluntary 'diversity' features are structurally insufficient without a mandated exploration threshold.",
+     "source": {
+      "title": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same",
+      "url": "https://laurenleek.substack.com/p/temperature-zero-for-culture-why"
+     }
+    }
+   ],
+   "book_progress": {
+    "book": "The Almighty Dollar: 500 Years of the World's Most Powerful Money",
+    "author": "Brendan Greeley",
+    "link": null,
+    "note": "This week's two highlights land squarely in the same territory as your reading list: one shows a colonial governor converting enslaved labor into industrial capacity while formally managing imperial monetary policy — a reminder that 'who bears the risk' is often obscured by whoever controls the ledger, exactly the question this week's FT series keeps asking about hyperscaler off-balance-sheet debt. The second, on how deflation freezes commerce (creditors wait, debtors stall, trade seizes up), is a useful historical counterweight to a week of stories about leverage, credit guarantees, and purchase commitments piling up on the assumption that growth (and inflation) keeps flowing forever."
+   },
+   "stats": {
+    "item_count": 34,
+    "top_publications": [
+     {
+      "name": "Twitter/X",
+      "count": 7
+     },
+     {
+      "name": "Financial Times",
+      "count": 7
+     },
+     {
+      "name": "The Information",
+      "count": 3
+     },
+     {
+      "name": "Bloomberg",
+      "count": 2
+     },
+     {
+      "name": "Deep (Learning) Focus (Substack)",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 19
+     },
+     {
+      "name": "ai agents",
+      "count": 12
+     },
+     {
+      "name": "investing",
+      "count": 10
+     },
+     {
+      "name": "fintech",
+      "count": 6
+     },
+     {
+      "name": "capital expenditure",
+      "count": 5
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Harrison Chase (@hwchase17) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-09",
+     "url": "https://x.com/hwchase17/status/2085780032031760694"
+    },
+    {
+     "title": "Shift4: Dazed and Confused",
+     "publication": "Bob's Payment Stock Substack",
+     "date": "2026-08-09",
+     "url": "https://bobhammel.substack.com/p/shift4-dazed-and-confused?publication_id=4645697&post_id=210490739&isFreemail=true&r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "Airtable Acquisition and What Hypergrowth Teaches You",
+     "publication": "The First Pancake (stories.thef1rstpancake.com)",
+     "date": "2026-08-09",
+     "url": "https://stories.thef1rstpancake.com/airtable-acquisition-and-what-hypergrowth-teaches-you/"
+    },
+    {
+     "title": "Remove the Legend",
+     "publication": "eugenewei.com",
+     "date": "2026-08-10",
+     "url": "https://www.eugenewei.com/blog/2017/11/13/remove-the-legend?ref=thediff.co"
+    },
+    {
+     "title": "The Housing Recession is Over",
+     "publication": "The Housing Frame (Substack)",
+     "date": "2026-08-10",
+     "url": "https://conorsen.substack.com/p/the-housing-recession-is-over-8b6"
+    },
+    {
+     "title": "Notes on Midtraining",
+     "publication": "Deep (Learning) Focus (Substack)",
+     "date": "2026-08-10",
+     "url": "https://cameronrwolfe.substack.com/p/midtraining-notes?publication_id=1092659&post_id=209732624&isFreemail=true&r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "Just how big is the hidden leverage of AI hyperscalers?",
+     "publication": "Financial Times",
+     "date": "2026-08-10",
+     "url": "https://www.ft.com/content/a0a07cce-6d19-4b1e-a73b-9855a06ba7b3"
+    },
+    {
+     "title": "Guess What? Tony P Hates You, Too.",
+     "publication": "Washingtonian",
+     "date": "2026-08-10",
+     "url": "https://washingtonian.com/2026/08/06/tony-p-influencer-profile/"
+    },
+    {
+     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+     "publication": "stolen-thoughts.com",
+     "date": "2026-08-11",
+     "url": "https://stolen-thoughts.com/"
+    },
+    {
+     "title": "Sizhao Yang (@zaoyang) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-11",
+     "url": "https://x.com/zaoyang/status/2087195325928779786"
+    },
+    {
+     "title": "SpaceX's 'very achievable' $100bn revenue run rate target",
+     "publication": "Financial Times",
+     "date": "2026-08-11",
+     "url": "https://www.ft.com/content/d4750e01-78a9-46eb-8f84-16b80f853dfa"
+    },
+    {
+     "title": "Zuckerberg v. Amodei in AI Marketing",
+     "publication": "The Information",
+     "date": "2026-08-11",
+     "url": "https://www.theinformation.com/newsletters/the-briefing/zuckerberg-v-amodei-ai-marketing?shared=03c1d0c9c289d6ce&rc=olgw0g"
+    },
+    {
+     "title": "America's largest home lender falls out of the hamster wheel",
+     "publication": "Financial Times",
+     "date": "2026-08-12",
+     "url": "https://www.ft.com/content/0a4794fa-7112-436f-a311-9077fcba14b8"
+    },
+    {
+     "title": "Who is Anthropic's auditor — and why should we care?",
+     "publication": "Financial Times",
+     "date": "2026-08-12",
+     "url": "https://www.ft.com/content/b93d8030-203b-4445-b4a7-49e52d9b17a5"
+    },
+    {
+     "title": "The Situational Awareness Fund Blow-up: Collateral Damage from Investment Conviction!",
+     "publication": "Musings on Markets (Substack)",
+     "date": "2026-08-12",
+     "url": "https://aswathdamodaran.substack.com/p/the-situational-awareness-fund-blow?publication_id=815667&post_id=210695303&isFreemail=true&r=2gv2&triedRedirect=true"
+    },
+    {
+     "title": "The dark underbelly of \"Paw Patrol\"",
+     "publication": "The Economist",
+     "date": "2026-08-12",
+     "url": "https://www.economist.com/culture/2026/08/07/the-dark-underbelly-of-paw-patrol"
+    },
+    {
+     "title": "Cerebras Shares Fall 16% On A Decline In Hardware Revenue",
+     "publication": "The Information",
+     "date": "2026-08-12",
+     "url": "https://www.theinformation.com"
+    },
+    {
+     "title": "The hyperscalers' exploding 'purchase commitments' reach $1.5tn",
+     "publication": "Financial Times",
+     "date": "2026-08-13",
+     "url": "https://www.ft.com/content/1fbe47a6-bbf1-4de1-973b-8ce5baea591d"
+    },
+    {
+     "title": "LinkedIn CringeBot 3000",
+     "publication": null,
+     "date": "2026-08-13",
+     "url": "https://www.cringebot3000.com/hall-of-cringe"
+    },
+    {
+     "title": "Haircut (@nodiligence) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-14",
+     "url": "https://x.com/nodiligence/status/2088153652632719576"
+    },
+    {
+     "title": "Jane Street has paid up large to avoid its numbers leaking out",
+     "publication": "Financial Times",
+     "date": "2026-08-14",
+     "url": "https://www.ft.com/content/28a51284-98cc-4767-a306-0540d265687f"
+    },
+    {
+     "title": "The Treasury market's toxic codependency",
+     "publication": "Financial Times",
+     "date": "2026-08-14",
+     "url": "https://www.ft.com/content/e3cd352e-5202-4748-952f-ed623ccdc774"
+    },
+    {
+     "title": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same",
+     "publication": "Substack (Lauren Leek)",
+     "date": "2026-08-14",
+     "url": "https://laurenleek.substack.com/p/temperature-zero-for-culture-why"
+    },
+    {
+     "title": "As a Windows user, it's a very surreal way to install a program",
+     "publication": "Unsung (unsung.aresluna.org)",
+     "date": "2026-08-14",
+     "url": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/"
+    },
+    {
+     "title": "A Historic El Niño Is Coming That Could Cost...",
+     "publication": "Bloomberg",
+     "date": "2026-08-14",
+     "url": "https://podcasts.apple.com/us/podcast/a-historic-el-ni%C3%B1o-is-coming-that-could-cost/id1056200096?i=1000783268561"
+    },
+    {
+     "title": "Trucking Is Booming Again and Drivers Aren't Happy About It",
+     "publication": "Bloomberg",
+     "date": "2026-08-14",
+     "url": "https://podcasts.apple.com/us/podcast/trucking-is-booming-again-and-drivers-arent-happy-about-it/id1056200096?i=1000783088964"
+    },
+    {
+     "title": "Nvidia Close to Deal to Guarantee About $100 Billion in Credit for OpenAI",
+     "publication": "The Information",
+     "date": "2026-08-15",
+     "url": "https://www.theinformation.com/articles/nvidia-nears-deal-guarantee-100-billion-financing-massive-data-center?shared=81b7bf4a88a65ab8&rc=olgw0g"
+    },
+    {
+     "title": "On Dwarkesh Patel's Podcast With Ryan Greenblatt",
+     "publication": "Don't Worry About the Vase (Substack)",
+     "date": "2026-08-15",
+     "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-podcast-with-ryan?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+     "publication": "Latent Space",
+     "date": "2026-08-15",
+     "url": "https://www.latent.space/p/flue-2?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "Jeffrey Gundlach (@TruthGundlach) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-15",
+     "url": "https://x.com/TruthGundlach/status/2088418344320012481"
+    },
+    {
+     "title": "AlexBartik (@AlexBartik) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-15",
+     "url": "https://x.com/AlexBartik/status/1820547161735770309"
+    },
+    {
+     "title": "🔎 37.531642, -122.517538",
+     "publication": null,
+     "date": "2026-08-15",
+     "url": "https://maps.apple.com/place?coordinate=37.531642%2C-122.517538"
+    },
+    {
+     "title": "Ben Carlson (@awealthofcs) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-15",
+     "url": "https://x.com/awealthofcs/status/2088265403910721594"
+    },
+    {
+     "title": "Dario Amodei (@DarioAmodei) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-16",
+     "url": "https://x.com/DarioAmodei/status/2088758816376807762"
+    }
+   ],
+   "generated_at": "2026-08-16T15:02:31Z"
   }
  ],
- "updated_at": "2026-08-09T15:03:18Z"
+ "updated_at": "2026-08-16T15:02:31Z"
 }
