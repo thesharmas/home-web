@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-15T21:00:16.205Z",
-  "count": 142,
+  "generated_at": "2026-08-16T03:00:17.036Z",
+  "count": 143,
   "entries": [
+    {
+      "id": "rl-20260816022543-871631",
+      "date": "2026-08-16T02:25:43.316Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Dario Amodei (@DarioAmodei) on X",
+      "author": "Dario Amodei (@DarioAmodei)",
+      "url": "https://x.com/DarioAmodei/status/2088758816376807762",
+      "summary": "[1/2] 1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation.\n\nFirst, on regulation, I think that “either concentrate it in the hands o",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260815202727-e5ea68",
       "date": "2026-08-15T20:27:27.272Z",
@@ -2293,7 +2307,7 @@
       },
       {
         "tag": "tweet",
-        "count": 39
+        "count": 40
       },
       {
         "tag": "fintech",
@@ -2347,7 +2361,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 34
+        "count": 35
       },
       {
         "publication": "Financial Times",
@@ -2561,7 +2575,7 @@
       },
       {
         "month": "2026-08",
-        "count": 91
+        "count": 92
       }
     ]
   }
