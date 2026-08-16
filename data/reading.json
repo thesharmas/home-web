@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-16T03:00:17.036Z",
-  "count": 143,
+  "generated_at": "2026-08-16T19:00:14.156Z",
+  "count": 144,
   "entries": [
+    {
+      "id": "rl-20260816181539-b4bcd4",
+      "date": "2026-08-16T18:15:39.067Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Will Manidis (@WillManidis) on X",
+      "author": "Will Manidis (@WillManidis)",
+      "url": "https://x.com/WillManidis/status/2089025981927338105",
+      "summary": "https://t.co/gUtCMiKjHU https://t.co/W1zUkemJuw",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260816022543-871631",
       "date": "2026-08-16T02:25:43.316Z",
@@ -2307,7 +2321,7 @@
       },
       {
         "tag": "tweet",
-        "count": 40
+        "count": 41
       },
       {
         "tag": "fintech",
@@ -2361,7 +2375,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 35
+        "count": 36
       },
       {
         "publication": "Financial Times",
@@ -2575,7 +2589,7 @@
       },
       {
         "month": "2026-08",
-        "count": 92
+        "count": 93
       }
     ]
   }
