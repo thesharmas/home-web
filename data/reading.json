@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-16T19:00:14.156Z",
-  "count": 144,
+  "generated_at": "2026-08-17T17:00:20.333Z",
+  "count": 145,
   "entries": [
+    {
+      "id": "rl-20260817165920-ea18b8",
+      "date": "2026-08-17T16:59:20.546Z",
+      "publication": "Financial Times",
+      "title": "People are worried about America's solvency",
+      "author": "Robin Wigglesworth",
+      "url": "https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e",
+      "summary": "An NBER paper surveyed bond investors, ordinary voters, and economics/finance graduates about US government debt risk, finding that across all groups the average stated probability of a US debt crisis within ten years is around 50%. Despite this high perceived risk, the concern translates weakly into action: 72% of investors report no concrete portfolio change, and showing respondents actual CBO debt projections only nudged planned Treasury purchase reductions by 4.2 percentage points. The economists conclude that beliefs translate weakly into intended action.",
+      "tags": [
+        "investing",
+        "fintech",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260816181539-b4bcd4",
       "date": "2026-08-16T18:15:39.067Z",
@@ -2313,7 +2329,7 @@
       },
       {
         "tag": "investing",
-        "count": 44
+        "count": 45
       },
       {
         "tag": "ai agents",
@@ -2325,7 +2341,7 @@
       },
       {
         "tag": "fintech",
-        "count": 28
+        "count": 29
       },
       {
         "tag": "cloud",
@@ -2345,7 +2361,7 @@
       },
       {
         "tag": "asset management",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "sustainability",
@@ -2379,7 +2395,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 15
+        "count": 16
       },
       {
         "publication": "The Economist",
@@ -2589,7 +2605,7 @@
       },
       {
         "month": "2026-08",
-        "count": 93
+        "count": 94
       }
     ]
   }
