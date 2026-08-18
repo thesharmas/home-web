@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-08-17T17:00:20.333Z",
-  "count": 145,
+  "generated_at": "2026-08-18T17:00:17.969Z",
+  "count": 148,
   "entries": [
+    {
+      "id": "rl-20260818161410-743403",
+      "date": "2026-08-18T16:14:10.555Z",
+      "publication": "On Data and Democracy (Substack)",
+      "title": "Hook and Squeeze",
+      "author": "Adam Bonica",
+      "url": "https://data4democracy.substack.com/p/hook-and-squeeze?r=2gv2&triedRedirect=true",
+      "summary": "Political scientist Adam Bonica presents a data-driven investigation showing how Democratic fundraising consultants and PACs have built a spam pipeline that disproportionately exploits elderly donors, with captive donors averaging 75 years old accounting for nearly half of $1.4 billion raised by spam PACs. The piece details how organizations like the Progressive Turnout Project spent 64 cents of every fundraising dollar back on more fundraising, and how top party leaders including Hakeem Jeffries have embraced the same tactics. The investigation was suppressed by both The New York Times and The Bulwark after cease-and-desist letters from lawyers representing the DCCC, DSCC, and other named organizations.",
+      "tags": [
+        "fintech",
+        "investing",
+        "technology",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260818161334-5bb952",
+      "date": "2026-08-18T16:13:34.299Z",
+      "publication": "sascha-steffen.de",
+      "title": "Who bears the risk in Nvidia's $500 billion financing platform?",
+      "author": "Sascha Steffen",
+      "url": "https://www.sascha-steffen.de/updates/nvidia-500bn-ai-financing-credit-risk",
+      "summary": "Sascha Steffen analyzes Nvidia's August 2026 announcement of $500 billion in third-party compute financing platforms organized with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR. He argues that the credit risk in these structures flows from short-lived GPU collateral through bankruptcy-remote SPVs into insurance general accounts, relabeled as investment-grade fixed income, and is only as sound as the offtaker — robust where hyperscalers hold firm take-or-pay contracts, fragile where AI labs are the ultimate payers. He warns of a second circularity (platform managers owning the insurers bearing the risk), potential forced-selling via ratings downgrades, and a European regulatory blind spot as Solvency II reforms increase insurer appetite for exactly this paper.",
+      "tags": [
+        "investing",
+        "ai agents",
+        "cloud",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260818161206-9f555b",
+      "date": "2026-08-18T16:12:06.972Z",
+      "publication": "vectoral.com",
+      "title": "Who Are the Token Brokers?",
+      "author": "Matt Lenhard",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "summary": "The article investigates the emerging market of 'token brokers' — individuals and websites that buy unused AI API credits from startups and resell them at steep discounts of 30–80% off list price. The author conducts direct outreach to brokers, explores credit marketplace websites, and scans forums like Telegram and Reddit to map the ecosystem. He concludes that tens of millions of dollars in credits are circulating in this gray market and warns that provider crackdowns are likely forthcoming.",
+      "tags": [
+        "security",
+        "ai agents",
+        "fintech",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260817165920-ea18b8",
       "date": "2026-08-17T16:59:20.546Z",
@@ -2325,15 +2376,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 64
+        "count": 66
       },
       {
         "tag": "investing",
-        "count": 45
+        "count": 47
       },
       {
         "tag": "ai agents",
-        "count": 42
+        "count": 44
       },
       {
         "tag": "tweet",
@@ -2341,15 +2392,15 @@
       },
       {
         "tag": "fintech",
-        "count": 29
+        "count": 32
       },
       {
         "tag": "cloud",
-        "count": 16
+        "count": 17
       },
       {
         "tag": "security",
-        "count": 14
+        "count": 16
       },
       {
         "tag": "capital expenditure",
@@ -2514,6 +2565,10 @@
         "count": 1
       },
       {
+        "publication": "On Data and Democracy (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Phenomenal World",
         "count": 1
       },
@@ -2590,11 +2645,19 @@
         "count": 1
       },
       {
+        "publication": "sascha-steffen.de",
+        "count": 1
+      },
+      {
         "publication": "stafforini.com",
         "count": 1
       },
       {
         "publication": "stolen-thoughts.com",
+        "count": 1
+      },
+      {
+        "publication": "vectoral.com",
         "count": 1
       }
     ],
@@ -2605,7 +2668,7 @@
       },
       {
         "month": "2026-08",
-        "count": 94
+        "count": 97
       }
     ]
   }
