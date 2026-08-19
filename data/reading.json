@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-19T18:00:15.759Z",
-  "count": 151,
+  "generated_at": "2026-08-19T20:00:13.996Z",
+  "count": 152,
   "entries": [
+    {
+      "id": "rl-20260819193344-d94df4",
+      "date": "2026-08-19T19:33:44.913Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Olivia Moore (@omooretweets) on X",
+      "author": "Olivia Moore (@omooretweets)",
+      "url": "https://x.com/omooretweets/status/2090132821579014534",
+      "summary": "[1/3] I made an AI influencer who got 1,200 followers and 1M views in a week - on less than $200. \n\nMy stack:\n\n- Image gen/editing: @ChatGPT\n- Script / prompts: @ChatGPT \n- Sound effects: @ElevenLabs\n- Talking videos: @MiniMax_AI\n- Action videos: @imagine\n- Video gen: @krea_ai + ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260819172053-c0dc20",
       "date": "2026-08-19T17:20:53.792Z",
@@ -2435,7 +2449,7 @@
       },
       {
         "tag": "tweet",
-        "count": 42
+        "count": 43
       },
       {
         "tag": "fintech",
@@ -2489,7 +2503,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 37
+        "count": 38
       },
       {
         "publication": "Financial Times",
@@ -2715,7 +2729,7 @@
       },
       {
         "month": "2026-08",
-        "count": 100
+        "count": 101
       }
     ]
   }
