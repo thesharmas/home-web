@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-20T03:00:17.149Z",
-  "count": 153,
+  "generated_at": "2026-08-20T16:00:16.820Z",
+  "count": 154,
   "entries": [
+    {
+      "id": "rl-20260820153634-1b1330",
+      "date": "2026-08-20T15:36:34.056Z",
+      "publication": "Octopusyarn",
+      "title": "You Are a Type of Guy",
+      "author": "Octopusyarn",
+      "url": "https://www.octopusyarn.com/p/you-are-a-type-of-guy",
+      "summary": "The author reflects on how status games and the fear of being 'not enough' drove years of competitive identity-switching—from smart kid to spiritual hipster—and how a psychological judo move helped them embrace being a 'type of guy' without shame. They argue that decoupling activities and self-worth from status competition, following the model of unpretentious hobbyists like birders, creates space for genuine meaning. Ultimately, accepting one's ordinariness and using stereotypes as starting points rather than cages allows for real individuation and authentic connection.",
+      "tags": [
+        "design",
+        "technology",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260820023143-adf6f0",
       "date": "2026-08-20T02:31:43.035Z",
@@ -2451,11 +2467,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 68
+        "count": 69
       },
       {
         "tag": "investing",
-        "count": 49
+        "count": 50
       },
       {
         "tag": "ai agents",
@@ -2499,7 +2515,7 @@
       },
       {
         "tag": "design",
-        "count": 1
+        "count": 2
       },
       {
         "tag": "iconography",
@@ -2640,6 +2656,10 @@
         "count": 1
       },
       {
+        "publication": "Octopusyarn",
+        "count": 1
+      },
+      {
         "publication": "On Data and Democracy (Substack)",
         "count": 1
       },
@@ -2743,7 +2763,7 @@
       },
       {
         "month": "2026-08",
-        "count": 102
+        "count": 103
       }
     ]
   }
