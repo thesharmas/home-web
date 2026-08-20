@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-20T19:00:26.301Z",
-  "count": 154,
+  "generated_at": "2026-08-20T20:00:14.013Z",
+  "count": 156,
   "entries": [
+    {
+      "id": "rl-20260820194930-58f64a",
+      "date": "2026-08-20T19:49:30.781Z",
+      "publication": "Bloomberg",
+      "title": "Nick Bostrom on What Happens If AI Solves All of Our Problems",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/nick-bostrom-on-what-happens-if-ai-solves-all-of-our-problems/id1056200096?i=1000784504728",
+      "summary": "Philosopher Nick Bostrom, known for his work on AI existential risk in 'Superintelligence', discusses his follow-up book 'Deep Utopia', which explores what human life and meaning might look like if AI solves all of humanity's problems. He examines two divergent futures for AI — catastrophic misalignment versus a fully 'solved world' — and considers what role humans might play when AI and robots can do everything better. The episode is part of Bloomberg's Odd Lots podcast.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260820192956-cbbf07",
+      "date": "2026-08-20T19:29:56.615Z",
+      "publication": "Apple Podcasts",
+      "title": "AI and Alienation",
+      "author": "Rohit Lamba",
+      "url": "https://podcasts.apple.com/us/podcast/ai-and-alienation/id1896825645?i=1000784552555",
+      "summary": "This podcast episode examines how AI is concentrating wealth, disrupting labor markets, and straining infrastructure, framing it as the latest 'General Purpose Technology' humanity must adapt to. Cornell economist Rohit Lamba discusses AI's global spread, with a focus on India, where inequality, unreliable utilities, and youth unemployment make the stakes especially high. He offers frameworks for navigating the disruption with less pain than past technological transitions.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260820153634-1b1330",
       "date": "2026-08-20T15:36:34.056Z",
@@ -2480,15 +2512,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 69
+        "count": 71
       },
       {
         "tag": "investing",
-        "count": 50
+        "count": 51
       },
       {
         "tag": "ai agents",
-        "count": 45
+        "count": 47
       },
       {
         "tag": "tweet",
@@ -2507,11 +2539,11 @@
         "count": 16
       },
       {
-        "tag": "capital expenditure",
-        "count": 14
+        "tag": "science",
+        "count": 15
       },
       {
-        "tag": "science",
+        "tag": "capital expenditure",
         "count": 14
       },
       {
@@ -2566,19 +2598,19 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 6
+        "count": 7
       },
       {
         "publication": "Twitter/X",
         "count": 5
       },
       {
-        "publication": "Latent Space",
+        "publication": "Apple Podcasts",
         "count": 3
       },
       {
-        "publication": "Apple Podcasts",
-        "count": 2
+        "publication": "Latent Space",
+        "count": 3
       },
       {
         "publication": "Slate Podcasts",
@@ -2776,7 +2808,7 @@
       },
       {
         "month": "2026-08",
-        "count": 103
+        "count": 105
       }
     ]
   }
