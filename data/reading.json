@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:00:16.820Z",
+  "generated_at": "2026-08-20T19:00:26.301Z",
   "count": 154,
   "entries": [
     {
@@ -2407,7 +2407,7 @@
       "publication_year": 2026,
       "total_pages": 432,
       "summary": "Financial journalist Brendan Greeley traces the global history of the dollar back 500 years to its roots in 16th-century silver mines in Joachimsthal, arguing the dollar pre-dates the United States and following its journey through the Spanish Empire, colonial America, and 19th-century banking panics to its role as the world's primary reserve currency.",
-      "active": true,
+      "active": false,
       "created_at": "2026-08-03T13:56:31.574Z",
       "link": null,
       "highlights": [
@@ -2461,6 +2461,19 @@
           "note": null
         }
       ]
+    },
+    {
+      "id": 5,
+      "title": "The True Believer",
+      "author": "Eric Hoffer",
+      "isbn": null,
+      "publication_year": 1951,
+      "total_pages": null,
+      "summary": "A stevedore on the San Francisco docks in the 1940s, Eric Hoffer wrote philosophical treatises in his spare time while living in the railroad yards. The True Believer--the first and most famous of his books--was made into a bestseller when President Eisenhower cited it during one of the earliest television press conferences. Completely relevant and essential for understanding the world today, The True Believer is a visionary, highly provocative look into the mind of the fanatic and a penetrating study of how an individual becomes one.--From publisher description.",
+      "active": true,
+      "created_at": "2026-08-20T18:17:12.819Z",
+      "link": "https://books.google.com/books/about/The_True_Believer.html?hl=&id=0KnZAAAAMAAJ",
+      "highlights": []
     }
   ],
   "aggregates": {
