@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-19T20:00:13.996Z",
-  "count": 152,
+  "generated_at": "2026-08-20T03:00:17.149Z",
+  "count": 153,
   "entries": [
+    {
+      "id": "rl-20260820023143-adf6f0",
+      "date": "2026-08-20T02:31:43.035Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Guillermo Rauch (@rauchg) on X",
+      "author": "Guillermo Rauch (@rauchg)",
+      "url": "https://x.com/rauchg/status/2090255740384751664",
+      "summary": "https://t.co/OL0LzGtvAw is 6.3mb. It starts up in 10µs¹. It's a Zig-compiled static ELF binary, or an even smaller 𝚕𝚒𝚋𝚏𝚡.𝚠𝚊𝚜𝚖² \n\nAI will make most infrastructure natively optimized. Case in point: fx can literally finish tasks faster than other agents can boot.\n\nFast is ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260819193344-d94df4",
       "date": "2026-08-19T19:33:44.913Z",
@@ -2449,7 +2463,7 @@
       },
       {
         "tag": "tweet",
-        "count": 43
+        "count": 44
       },
       {
         "tag": "fintech",
@@ -2503,7 +2517,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 38
+        "count": 39
       },
       {
         "publication": "Financial Times",
@@ -2729,7 +2743,7 @@
       },
       {
         "month": "2026-08",
-        "count": 101
+        "count": 102
       }
     ]
   }
