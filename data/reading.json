@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-21T17:00:18.938Z",
-  "count": 159,
+  "generated_at": "2026-08-21T18:00:14.054Z",
+  "count": 161,
   "entries": [
+    {
+      "id": "rl-20260821170159-81e183",
+      "date": "2026-08-21T17:01:59.828Z",
+      "publication": "Doubleword Blog",
+      "title": "What happens when a GPU reads memory",
+      "author": "Fergus Finn",
+      "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+      "summary": "The article traces the complete hardware journey of a single global memory load instruction (LDG.E) in a CUDA vector-add kernel running on an RTX 4090, from the warp's register file through the coalescer, L1 cache, TLB, crossbar, L2 cache, memory controller, and GDDR6X DRAM, and back. Each stage is explained in detail including latency measurements (L1 ~15 ns, L2 ~127 ns, DRAM ~255 ns) derived from microbenchmarks run on the hardware itself. The appendix reverse-engineers undocumented GPU internals such as L1/L2 set-index hash functions, the L2 slice routing function, TLB geometry, and DRAM row structure through timing experiments and hardware performance counters.",
+      "tags": [
+        "technology",
+        "science",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260821170156-230a8a",
+      "date": "2026-08-21T17:01:56.273Z",
+      "publication": "fergusfinn.com",
+      "title": "What happens when you run a CUDA kernel",
+      "author": "Fergus Finn",
+      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "summary": "A detailed technical walkthrough tracing the full lifecycle of a simple CUDA vector-addition kernel on an RTX 4090, from compilation through nvcc (PTX → SASS → fatbin) to the host launch stub, pushbuffer/GPFIFO command stream, doorbell ring, and compute work distributor. It then covers how warps are scheduled on SMs using compiler-encoded control bits (stall counts, scoreboard barriers, yield hints), how memory coalescing works, and how results travel back to the CPU via a completion semaphore and PCIe DMA. An appendix details the reverse-engineering techniques (LD_PRELOAD shims, strace, ncu, raw QMD inspection) used to observe the closed-source driver internals.",
+      "tags": [
+        "technology",
+        "cloud",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260821164020-e3785a",
       "date": "2026-08-21T16:40:20.468Z",
@@ -2559,7 +2591,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 71
+        "count": 73
       },
       {
         "tag": "investing",
@@ -2579,15 +2611,15 @@
       },
       {
         "tag": "cloud",
+        "count": 19
+      },
+      {
+        "tag": "science",
         "count": 17
       },
       {
         "tag": "security",
         "count": 16
-      },
-      {
-        "tag": "science",
-        "count": 15
       },
       {
         "tag": "asset management",
@@ -2709,6 +2741,10 @@
       },
       {
         "publication": "Don't Worry About the Vase (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "Doubleword Blog",
         "count": 1
       },
       {
@@ -2836,6 +2872,10 @@
         "count": 1
       },
       {
+        "publication": "fergusfinn.com",
+        "count": 1
+      },
+      {
         "publication": "sascha-steffen.de",
         "count": 1
       },
@@ -2859,7 +2899,7 @@
       },
       {
         "month": "2026-08",
-        "count": 108
+        "count": 110
       }
     ]
   }
