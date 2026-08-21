@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-08-20T20:00:14.013Z",
-  "count": 156,
+  "generated_at": "2026-08-21T17:00:18.938Z",
+  "count": 159,
   "entries": [
+    {
+      "id": "rl-20260821164020-e3785a",
+      "date": "2026-08-21T16:40:20.468Z",
+      "publication": "Financial Times",
+      "title": "The US Treasury is buying long bonds, but not very many",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/150aa8bf-54d1-448f-bdc9-14152ce3d76c",
+      "summary": "Treasury Secretary Scott Bessent announced plans to at least double long-end liquidity support buyback operations to prop up the US bond market, but the actual net impact is modest. Despite the announcement, the Treasury still plans to issue a net ~$97bn of new 20-30 year bonds this quarter, down only ~$6bn from the prior $103bn plan. Bond markets were unimpressed, with long-dated yields continuing to rise and the intervention failing to soothe investor concerns.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260821163650-256d86",
+      "date": "2026-08-21T16:36:50.251Z",
+      "publication": "Rupak's Substack",
+      "title": "Is Jane Street a hedge fund or a PTF?",
+      "author": "Rupak Ghose",
+      "url": "https://rupakghose.substack.com/p/is-jane-street-a-hedge-fund-or-a?r=18lw6l",
+      "summary": "Rupak Ghose argues that Jane Street is best described as a proprietary trading firm (PTF) with increasingly hedge-fund-like characteristics, including longer holding periods, large directional bets, and a massive ~$500bn balance sheet dwarfing peers like Citadel Securities and HRT. He uses 'hedge fund' as shorthand for this directional shift rather than a technical regulatory label. The piece also highlights Jane Street's extraordinary return on equity and its growing capital deployment as key differentiators from classical high-velocity PTF models.",
+      "tags": [
+        "investing",
+        "fintech",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260821163631-e38214",
+      "date": "2026-08-21T16:36:31.884Z",
+      "publication": "Financial Times",
+      "title": "What is Jane Street?",
+      "author": "Daniel Davies",
+      "url": "https://www.ft.com/content/ef1d7530-a514-4b18-9a0f-8843cac02929",
+      "summary": "The article explores whether Jane Street is best classified as a proprietary trading firm or a hedge fund, using four criteria: open-ended fund structure, source of leverage, overnight position-holding, and ability to compound returns. The author argues the semantic debate is useful because it sharpens intuitions about systemic risk, noting that traditional prop trading firms are intrinsically limited in the damage they can do to the broader financial system. The key question posed is: if Jane Street blew up, what would it take with it?",
+      "tags": [
+        "fintech",
+        "investing",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260820194930-58f64a",
       "date": "2026-08-20T19:49:30.781Z",
@@ -2516,7 +2563,7 @@
       },
       {
         "tag": "investing",
-        "count": 51
+        "count": 54
       },
       {
         "tag": "ai agents",
@@ -2528,7 +2575,7 @@
       },
       {
         "tag": "fintech",
-        "count": 32
+        "count": 35
       },
       {
         "tag": "cloud",
@@ -2543,12 +2590,12 @@
         "count": 15
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 14
       },
       {
-        "tag": "asset management",
-        "count": 12
+        "tag": "capital expenditure",
+        "count": 14
       },
       {
         "tag": "sustainability",
@@ -2582,7 +2629,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 18
+        "count": 20
       },
       {
         "publication": "The Economist",
@@ -2729,6 +2776,10 @@
         "count": 1
       },
       {
+        "publication": "Rupak's Substack",
+        "count": 1
+      },
+      {
         "publication": "Substack (Chris Dillow)",
         "count": 1
       },
@@ -2808,7 +2859,7 @@
       },
       {
         "month": "2026-08",
-        "count": 105
+        "count": 108
       }
     ]
   }
