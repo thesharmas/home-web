@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:00:14.054Z",
+  "generated_at": "2026-08-22T17:00:19.664Z",
   "count": 161,
   "entries": [
     {
@@ -2584,7 +2584,22 @@
       "active": true,
       "created_at": "2026-08-20T18:17:12.819Z",
       "link": "https://books.google.com/books/about/The_True_Believer.html?hl=&id=0KnZAAAAMAAJ",
-      "highlights": []
+      "highlights": [
+        {
+          "id": 21,
+          "captured_at": "2026-08-22T16:21:51.893Z",
+          "page_number": 7,
+          "excerpt": "A mass movement attracts and holds a following not because it can satisfy the desire for self-advancement, but because it can satisfy the passion for self-renunciation.",
+          "note": "Chapter II 'The Desire for Substitutes' opens with a core thesis distinguishing mass movements from practical organizations by their appeal to self-renunciation over self-interest."
+        },
+        {
+          "id": 22,
+          "captured_at": "2026-08-22T16:42:21.813Z",
+          "page_number": 28,
+          "excerpt": "Misery does not automatically generate discontent, nor is the intensity of discontent directly proportionate to the degree of misery. Discontent is likely to be highest when misery is bearable; when conditions have so improved that an ideal state seems almost within reach.",
+          "note": "This passage articulates Hoffer's counterintuitive insight that revolutions arise not from peak misery but from rising expectations — a concept echoing Tocqueville's observations on pre-revolutionary France."
+        }
+      ]
     }
   ],
   "aggregates": {
