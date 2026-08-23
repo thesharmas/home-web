@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:00:15.704Z",
+  "generated_at": "2026-08-23T00:00:45.034Z",
   "count": 161,
   "entries": [
     {
@@ -2633,6 +2633,20 @@
           "page_number": 80,
           "excerpt": "The effectiveness of a doctrine should not be judged by its profundity, sublimity or the validity of the truths it embodies, but by how thoroughly it insulates the individual from his self and the world as it is.",
           "note": "Hoffer's pointed critique of ideological thinking — that doctrine's power lies in psychological insulation rather than truth — is a standout aphorism likely to resonate with readers."
+        },
+        {
+          "id": 28,
+          "captured_at": "2026-08-22T23:15:32.503Z",
+          "page_number": 101,
+          "excerpt": "The deindividualization which is a prerequisite for thorough integration and selfless dedication is also, to a considerable extent, a process of dehumanization. The torture chamber is a corporate institution.",
+          "note": "Hoffer's chilling observation that mass-movement cohesion and atrocity share the same psychological root — deindividualization — is likely why this passage was flagged."
+        },
+        {
+          "id": 29,
+          "captured_at": "2026-08-22T23:18:58.845Z",
+          "page_number": 105,
+          "excerpt": "The truth seems to be that propaganda on its own cannot force its way into unwilling minds; neither can it inculcate something wholly new; nor can it keep people persuaded once they have ceased to believe. It penetrates only into minds already open, and rather than instill opinion it articulates and justifies opinions already present in the minds of its recipients.",
+          "note": "Hoffer's counterintuitive argument that propaganda is far less powerful than feared — it amplifies existing beliefs rather than creating new ones — remains highly cited in media and political analysis."
         }
       ]
     }
