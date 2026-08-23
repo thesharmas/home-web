@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-23T00:00:45.034Z",
-  "count": 161,
+  "generated_at": "2026-08-23T01:00:15.302Z",
+  "count": 162,
   "entries": [
+    {
+      "id": "rl-20260823005647-67e4ce",
+      "date": "2026-08-23T00:56:47.254Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Samswara (@samswoora) on X",
+      "author": "Samswara (@samswoora)",
+      "url": "https://x.com/samswoora/status/2091144027328467454",
+      "summary": "Working with llm’s heavily is like microdosing alzheimers",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260821170159-81e183",
       "date": "2026-08-21T17:01:59.828Z",
@@ -2667,7 +2681,7 @@
       },
       {
         "tag": "tweet",
-        "count": 44
+        "count": 45
       },
       {
         "tag": "fintech",
@@ -2721,7 +2735,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 39
+        "count": 40
       },
       {
         "publication": "Financial Times",
@@ -2963,7 +2977,7 @@
       },
       {
         "month": "2026-08",
-        "count": 110
+        "count": 111
       }
     ]
   }
