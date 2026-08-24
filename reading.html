@@ -123,6 +123,22 @@
         body.term-page-light .hm-cell.hm-selected { outline: 2px solid #1a1a12; outline-offset: 1px; }
         .hm-scroll::-webkit-scrollbar { height: 6px; }
         .hm-scroll::-webkit-scrollbar-thumb { background: rgba(16, 185, 129, 0.35); }
+
+        /* Shared entry links land on their card — flash it so it's obvious which one */
+        .entry-anchor { scroll-margin-top: 6rem; }
+        body.term-page-dark .entry-flash { animation: entryFlashDark 3s ease-out 1; }
+        body.term-page-light .entry-flash { animation: entryFlashLight 3s ease-out 1; }
+        @keyframes entryFlashDark {
+            0%, 55% { box-shadow: 0 0 0 2px #6ee7b7; background-color: rgba(16, 185, 129, 0.16); }
+            100% { box-shadow: 0 0 0 2px rgba(110, 231, 183, 0); background-color: rgba(16, 185, 129, 0); }
+        }
+        @keyframes entryFlashLight {
+            0%, 55% { box-shadow: 0 0 0 2px #0d9367; background-color: rgba(13, 147, 103, 0.14); }
+            100% { box-shadow: 0 0 0 2px rgba(13, 147, 103, 0); background-color: rgba(13, 147, 103, 0); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .entry-flash { animation: none !important; box-shadow: 0 0 0 2px currentColor; }
+        }
     </style>
 </head>
 <body class="min-h-screen antialiased transition-colors duration-200 font-mono text-sm"
@@ -344,8 +360,10 @@
                                 <template x-for="entry in group.items" :key="entry.id">
                                     <div>
                                     <template x-if="entry.kind === 'book'">
-                                        <article class="border border-l-4 p-4 sm:p-5 transition-colors"
-                                                 :class="darkMode ? 'border-cyan-400/30 border-l-cyan-400/60 bg-cyan-950/20 hover:border-cyan-400/50' : 'border-cyan-900/60 border-l-cyan-800 bg-cyan-50/70 hover:border-cyan-900'">
+                                        <article :id="entry.id"
+                                                 class="entry-anchor border border-l-4 p-4 sm:p-5 transition-colors"
+                                                 :class="[darkMode ? 'border-cyan-400/30 border-l-cyan-400/60 bg-cyan-950/20 hover:border-cyan-400/50' : 'border-cyan-900/60 border-l-cyan-800 bg-cyan-50/70 hover:border-cyan-900',
+                                                          flashId === entry.id ? 'entry-flash' : '']">
                                             <div class="flex items-start gap-3 sm:gap-4">
                                                 <span class="shrink-0 text-xs pt-1 tabular-nums"
                                                       :class="darkMode ? 'text-cyan-400/80' : 'text-cyan-800'"
@@ -421,14 +439,22 @@
                                                                 @click="setTagFilter(tagFilter === 'book' ? null : 'book')"
                                                                 class="text-xs transition-colors"
                                                                 :class="darkMode ? 'text-cyan-300/90 hover:text-cyan-200' : 'text-cyan-800 hover:text-cyan-950'">#book</button>
+                                                        <button type="button" @click="shareEntry(entry)"
+                                                                class="ml-auto text-[10px] uppercase tracking-wider border px-1.5 py-0.5 transition-colors"
+                                                                :class="darkMode ? 'border-cyan-400/30 text-cyan-300/80 hover:border-cyan-300 hover:text-cyan-100' : 'border-cyan-800/50 text-cyan-800 hover:border-cyan-900 hover:text-cyan-950'"
+                                                                :aria-label="'Copy a link to ' + entry.title">
+                                                            <span x-text="copiedId === entry.id ? 'link copied \u2713' : 'copy link'"></span>
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </article>
                                     </template>
                                     <template x-if="entry.kind !== 'book'">
-                                    <article class="border p-4 sm:p-5 transition-colors"
-                                             :class="darkMode ? 'border-emerald-500/25 bg-black/30 hover:border-emerald-500/45' : 'border-gray-800 bg-white hover:border-gray-900'">
+                                    <article :id="entry.id"
+                                             class="entry-anchor border p-4 sm:p-5 transition-colors"
+                                             :class="[darkMode ? 'border-emerald-500/25 bg-black/30 hover:border-emerald-500/45' : 'border-gray-800 bg-white hover:border-gray-900',
+                                                      flashId === entry.id ? 'entry-flash' : '']">
                                         <div class="flex items-start gap-3 sm:gap-4">
                                             <span class="shrink-0 text-xs pt-1 tabular-nums"
                                                   :class="darkMode ? 'text-emerald-500/80' : 'text-gray-500'"
@@ -475,6 +501,12 @@
                                                     <span class="text-[10px] uppercase tracking-wider border px-1.5 py-0.5"
                                                           :class="darkMode ? 'border-emerald-500/25 text-emerald-500/70' : 'border-gray-400 text-gray-500'"
                                                           x-text="entry.source"></span>
+                                                    <button type="button" @click="shareEntry(entry)"
+                                                            class="ml-auto text-[10px] uppercase tracking-wider border px-1.5 py-0.5 transition-colors"
+                                                            :class="darkMode ? 'border-emerald-500/25 text-emerald-500/70 hover:border-emerald-400 hover:text-emerald-200' : 'border-gray-400 text-gray-500 hover:border-gray-900 hover:text-gray-900'"
+                                                            :aria-label="'Copy a link to ' + entry.title">
+                                                        <span x-text="copiedId === entry.id ? 'link copied \u2713' : 'copy link'"></span>
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
@@ -510,6 +542,8 @@
                 tagFilter: null,
                 dayFilter: null,
                 expanded: {},
+                copiedId: null,
+                flashId: null,
                 hoverDay: null,
                 hoverX: 0,
                 hoverY: 0,
@@ -583,6 +617,8 @@
                         }
                     } catch (err) { /* no digest card */ }
                     this.loading = false;
+                    this.openHashEntry();
+                    window.addEventListener('hashchange', () => this.openHashEntry());
                 },
 
                 get latestWeek() {
@@ -739,6 +775,76 @@
                         title: entry.title,
                         author: entry.author,
                         highlights: entry.highlights.length,
+                    });
+                },
+                entryUrl(entry) {
+                    return location.origin + location.pathname + '#' + entry.id;
+                },
+                async copyText(text) {
+                    if (navigator.clipboard && window.isSecureContext) {
+                        try {
+                            // A pending permission prompt can leave writeText unsettled — never hang the button on it
+                            await Promise.race([
+                                navigator.clipboard.writeText(text),
+                                new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 1200)),
+                            ]);
+                            return true;
+                        } catch (err) { /* fall through to the textarea path */ }
+                    }
+                    // http:// or older Safari — copy out of a throwaway textarea
+                    const ta = document.createElement('textarea');
+                    ta.value = text;
+                    ta.setAttribute('readonly', '');
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.select();
+                    let ok = false;
+                    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+                    document.body.removeChild(ta);
+                    return ok;
+                },
+                async shareEntry(entry) {
+                    const url = this.entryUrl(entry);
+                    const ok = await this.copyText(url);
+                    if (!ok) {
+                        // Nothing left but to hand the user the link to copy by hand
+                        window.prompt('Copy this link:', url);
+                        return;
+                    }
+                    this.copiedId = entry.id;
+                    setTimeout(() => { if (this.copiedId === entry.id) this.copiedId = null; }, 1800);
+                    this.track('reading_entry_share', {
+                        id: entry.id,
+                        kind: entry.kind,
+                        title: entry.title,
+                        publication: entry.publication,
+                        url: entry.url,
+                    });
+                },
+                // #<entry-id> lands on that card: filters cleared, summary open, card flashed
+                openHashEntry() {
+                    let id = '';
+                    try { id = decodeURIComponent((location.hash || '').slice(1)); } catch (e) { return; }
+                    if (!id) return;
+                    const entry = this.feed.find(e => e.id === id);
+                    if (!entry) return;
+                    this.tagFilter = null;
+                    this.dayFilter = null;
+                    this.expanded[entry.id] = true;
+                    if (entry.kind === 'book') this.summaryExpanded[entry.id] = true;
+                    this.$nextTick(() => {
+                        const el = document.getElementById(id);
+                        if (!el) return;
+                        el.scrollIntoView({ block: 'center' });
+                        this.flashId = id;
+                        setTimeout(() => { if (this.flashId === id) this.flashId = null; }, 3200);
+                    });
+                    this.track('reading_entry_deeplink', {
+                        id: entry.id,
+                        kind: entry.kind,
+                        title: entry.title,
+                        publication: entry.publication,
                     });
                 },
                 toggleSummary(entry) {
