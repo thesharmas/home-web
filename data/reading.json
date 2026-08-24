@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-08-24T17:00:18.401Z",
-  "count": 164,
+  "generated_at": "2026-08-24T18:00:18.159Z",
+  "count": 167,
   "entries": [
+    {
+      "id": "rl-20260824172919-ee5217",
+      "date": "2026-08-24T17:29:19.457Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Brad Setser (@Brad_Setser) on X",
+      "author": "Brad Setser (@Brad_Setser)",
+      "url": "https://x.com/Brad_Setser/status/2091565430460531150",
+      "summary": "[1/17] Really enjoyed Adam Tooze's latest two substacks -- on the Fed's intervention to stabilize the Treasury market in March 2020, and on the structural change in the Treasury market linked to a rise in issuance relative to global reserve demand\n\n1/\n\nhttps://t.co/Wy9EC6jO3z\n\n[2",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260824170351-cd9d1b",
+      "date": "2026-08-24T17:03:51.933Z",
+      "publication": "Asterisk Magazine",
+      "title": "What to Expect When You're Expecting a World of Multi-Agent Systems",
+      "author": null,
+      "url": "https://asteriskmag.com/issues/15/what-to-expect-when-you-re-expecting-a-world-of-multi-agent-systems",
+      "summary": "The article examines the \"AI Village,\" a long-running experiment in which up to 27 AI agents share goals, memory, and communication tools, revealing failure modes unique to multi-agent systems. Key problems include lossy memory compression that compounds hallucinations across agents, open-ended goals that lead to runaway process-building or premature closure, and fragile trust dynamics where social consensus can override ground truth and human oversight. The author argues that fixing individual model capabilities won't resolve these emergent group-level failures, which will matter increasingly as agent systems take on real-world work affecting health, finances, and legal status.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260824170015-94a78d",
+      "date": "2026-08-24T17:00:15.977Z",
+      "publication": "Groundbreaker",
+      "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+      "author": null,
+      "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom?r=18lw6l&triedRedirect=true",
+      "summary": "The piece draws a detailed structural parallel between the 2005-2006 subprime mortgage boom and today's AI compute build-out, arguing that trillions of dollars in take-or-pay compute contracts signed in 2025-2026 function like 2/28 adjustable-rate mortgages: they carry a \"teaser period\" during construction (24-36 months) before full payment obligations commence in 2027-2028. The author constructs an AI \"reset wall\" showing that frontier labs like OpenAI face committed annual compute costs that exceed any plausible revenue path at the peak, making the current boom structurally dependent on continuous capital-market access rather than operating cash flow. The conclusion is that the financing structure—not the technology itself—risks breaking before demand scales into the committed supply, with the risk concentrated in S&P 500 index holdings that most retail investors don't realize are exposed.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "cloud",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260824165853-704bd6",
       "date": "2026-08-24T16:58:53.224Z",
@@ -2702,19 +2749,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 74
+        "count": 75
       },
       {
         "tag": "investing",
-        "count": 55
+        "count": 56
       },
       {
         "tag": "ai agents",
-        "count": 47
+        "count": 49
       },
       {
         "tag": "tweet",
-        "count": 45
+        "count": 46
       },
       {
         "tag": "fintech",
@@ -2722,22 +2769,22 @@
       },
       {
         "tag": "cloud",
-        "count": 19
+        "count": 20
       },
       {
         "tag": "science",
-        "count": 18
+        "count": 19
       },
       {
         "tag": "security",
         "count": 17
       },
       {
-        "tag": "asset management",
-        "count": 15
+        "tag": "capital expenditure",
+        "count": 16
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 15
       },
       {
@@ -2768,7 +2815,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 40
+        "count": 41
       },
       {
         "publication": "Financial Times",
@@ -2835,6 +2882,10 @@
         "count": 1
       },
       {
+        "publication": "Asterisk Magazine",
+        "count": 1
+      },
+      {
         "publication": "Bloomberg (Odd Lots)",
         "count": 1
       },
@@ -2864,6 +2915,10 @@
       },
       {
         "publication": "FT",
+        "count": 1
+      },
+      {
+        "publication": "Groundbreaker",
         "count": 1
       },
       {
@@ -3018,7 +3073,7 @@
       },
       {
         "month": "2026-08",
-        "count": 113
+        "count": 116
       }
     ]
   }
