@@ -777,8 +777,12 @@
                         highlights: entry.highlights.length,
                     });
                 },
+                // Share the r/<id>.html shim, not the bare #anchor: it carries this entry's
+                // Open Graph tags so the link unfurls as the article, then redirects into
+                // the log at the same card. Built by scripts/build_share_pages.py.
                 entryUrl(entry) {
-                    return location.origin + location.pathname + '#' + entry.id;
+                    const file = entry.kind === 'book' ? 'book-' + entry.bookId : entry.id;
+                    return new URL('r/' + file + '.html', location.href).href;
                 },
                 async copyText(text) {
                     if (navigator.clipboard && window.isSecureContext) {

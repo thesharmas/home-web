@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What happens when a GPU reads memory — Rohit's Web</title>
+    <meta name="description" content="The article traces the complete hardware journey of a single global memory load instruction (LDG.E) in a CUDA vector-add kernel running on an RTX 4090, from the warp&#x27;s register file through the…">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://thesharmas.org/reading.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://thesharmas.org/r/rl-20260821170159-81e183.html">
+    <meta property="og:site_name" content="Rohit&#x27;s Web">
+    <meta property="og:title" content="What happens when a GPU reads memory">
+    <meta property="og:description" content="The article traces the complete hardware journey of a single global memory load instruction (LDG.E) in a CUDA vector-add kernel running on an RTX 4090, from the warp&#x27;s register file through the…">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="What happens when a GPU reads memory">
+    <meta name="twitter:description" content="The article traces the complete hardware journey of a single global memory load instruction (LDG.E) in a CUDA vector-add kernel running on an RTX 4090, from the warp&#x27;s register file through the…">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script>
+        location.replace("../reading.html#rl-20260821170159-81e183");
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=../reading.html#rl-20260821170159-81e183"></noscript>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace;
+               background: #050806; color: #c8f5c8;
+               margin: 0; padding: 3rem 1.5rem; line-height: 1.6; }
+        main { max-width: 42rem; margin: 0 auto; }
+        h1 { font-size: 1.25rem; line-height: 1.4; margin: 0 0 0.75rem; }
+        p { color: #a7d7bb; font-size: 0.875rem; }
+        a { color: #6ee7b7; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>What happens when a GPU reads memory</h1>
+        <p>The article traces the complete hardware journey of a single global memory load instruction (LDG.E) in a CUDA vector-add kernel running on an RTX 4090, from the warp&#x27;s register file through the coalescer, L1 cache, TLB, crossbar, L2 cache, memory controller, and GDDR6X DRAM, and back. Each stage is explained in detail including latency measurements (L1 ~15 ns, L2 ~127 ns, DRAM ~255 ns) derived from microbenchmarks run on the hardware itself. The appendix reverse-engineers undocumented GPU internals such as L1/L2 set-index hash functions, the L2 slice routing function, TLB geometry, and DRAM…</p>
+        <p>
+            <a href="https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory" rel="noopener noreferrer">Read it at Doubleword Blog</a><br>
+            <a href="../reading.html#rl-20260821170159-81e183">See it in the reading log</a>
+        </p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+name: Build reading share pages
+
+# data/reading.json is pushed in from elsewhere; regenerate the per-entry
+# Open Graph shims under r/ whenever it lands so new entries are shareable.
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/reading.json
+      - scripts/build_share_pages.py
+      - .github/workflows/share-pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Data pushes can arrive back to back; only the newest one needs to build.
+concurrency:
+  group: share-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate share pages
+        run: python3 scripts/build_share_pages.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain r)" ]; then
+            echo "share pages already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add r
+          git commit -m "Rebuild reading share pages [automated]"
+          # The data pusher may have raced us; rebase onto whatever landed and retry.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt) — rebasing"
+            git pull --rebase --autostash
+          done
+          echo "could not push share pages after 3 attempts" >&2
+          exit 1
