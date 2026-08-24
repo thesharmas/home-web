@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-24T18:00:18.159Z",
-  "count": 167,
+  "generated_at": "2026-08-24T20:00:14.753Z",
+  "count": 168,
   "entries": [
+    {
+      "id": "rl-20260824192926-1bf980",
+      "date": "2026-08-24T19:29:26.069Z",
+      "publication": "Bloomberg",
+      "title": "Jasmine Sun on What the AI Industry Got Wrong About Data Centers",
+      "author": "Jasmine Sun",
+      "url": "https://podcasts.apple.com/us/podcast/jasmine-sun-on-what-the-ai-industry-got-wrong-about/id1056200096?i=1000784746275",
+      "summary": "Independent writer and Substacker Jasmine Sun joins Bloomberg's Odd Lots podcast to discuss the growing public backlash against data center construction in communities across the US. She draws on on-the-ground reporting from Wisconsin and Michigan to explain why opposition has surged despite data centers historically being welcomed and even incentivized by local governments. The episode explores what this 180-degree shift represents and what developers will need to do to gain community acceptance going forward.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud",
+        "sustainability"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260824172919-ee5217",
       "date": "2026-08-24T17:29:19.457Z",
@@ -2749,7 +2766,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 75
+        "count": 76
       },
       {
         "tag": "investing",
@@ -2757,7 +2774,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 49
+        "count": 50
       },
       {
         "tag": "tweet",
@@ -2769,7 +2786,7 @@
       },
       {
         "tag": "cloud",
-        "count": 20
+        "count": 21
       },
       {
         "tag": "science",
@@ -2789,7 +2806,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 9
+        "count": 10
       },
       {
         "tag": "etfs",
@@ -2835,7 +2852,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 7
+        "count": 8
       },
       {
         "publication": "Twitter/X",
@@ -3073,7 +3090,7 @@
       },
       {
         "month": "2026-08",
-        "count": 116
+        "count": 117
       }
     ]
   }
