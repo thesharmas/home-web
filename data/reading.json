@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-08-23T01:00:15.302Z",
-  "count": 162,
+  "generated_at": "2026-08-24T17:00:18.401Z",
+  "count": 164,
   "entries": [
+    {
+      "id": "rl-20260824165853-704bd6",
+      "date": "2026-08-24T16:58:53.224Z",
+      "publication": "Substack (Jared Bernstein)",
+      "title": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+      "author": "Jared Bernstein",
+      "url": "https://econjared.substack.com/p/the-government-report-that-made-me?r=18lw6l",
+      "summary": "Former Biden economic adviser Jared Bernstein argues that a new, unsigned Census Bureau report claiming 24,000 non-citizens voted in the 2020 election is deeply flawed and represents a dangerous politicization of U.S. statistical agencies. He explains that the report's record-linkage methodology is unreliable—lacking SSN-based matching—meaning the alleged noncitizen voters are more likely data errors than real cases, as corroborated by two former Census experts. Bernstein concludes that, unlike his previous position, he can no longer confidently assert that the Trump administration is not manipulating government data.",
+      "tags": [
+        "security",
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260824164117-048f90",
+      "date": "2026-08-24T16:41:17.040Z",
+      "publication": "American Affairs Journal",
+      "title": "The Debt-Equity Distinction: A Century of Policy by Accident",
+      "author": null,
+      "url": "https://americanaffairsjournal.org/2026/08/the-debt-equity-distinction-a-century-of-policy-by-accident/",
+      "summary": "The article argues that the tax deductibility of corporate interest payments—which makes debt systematically cheaper than equity—was not a deliberate policy choice but an accidental byproduct of World War I financing exigencies that was never reversed. This debt-equity distinction has profoundly shaped modern finance, enabling leveraged buyouts, debt-funded share buybacks, and debt-heavy M&A while disadvantaging equity-dependent innovators and increasing systemic financial fragility. The author surveys reform options (CBIT, dividend deductions, cost-of-capital allowances) but acknowledges that a century of path dependency and entrenched interests makes change extremely difficult despite near-universal academic consensus that the distinction is economically unjustified.",
+      "tags": [
+        "investing",
+        "fintech",
+        "capital expenditure",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260823005647-67e4ce",
       "date": "2026-08-23T00:56:47.254Z",
@@ -2669,11 +2702,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 73
+        "count": 74
       },
       {
         "tag": "investing",
-        "count": 54
+        "count": 55
       },
       {
         "tag": "ai agents",
@@ -2685,7 +2718,7 @@
       },
       {
         "tag": "fintech",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "cloud",
@@ -2693,19 +2726,19 @@
       },
       {
         "tag": "science",
-        "count": 17
+        "count": 18
       },
       {
         "tag": "security",
-        "count": 16
+        "count": 17
       },
       {
         "tag": "asset management",
-        "count": 14
+        "count": 15
       },
       {
         "tag": "capital expenditure",
-        "count": 14
+        "count": 15
       },
       {
         "tag": "sustainability",
@@ -2783,6 +2816,10 @@
       },
       {
         "publication": "Ahead of AI (magazine.sebastianraschka.com)",
+        "count": 1
+      },
+      {
+        "publication": "American Affairs Journal",
         "count": 1
       },
       {
@@ -2898,6 +2935,10 @@
         "count": 1
       },
       {
+        "publication": "Substack (Jared Bernstein)",
+        "count": 1
+      },
+      {
         "publication": "Substack (Lauren Leek)",
         "count": 1
       },
@@ -2977,7 +3018,7 @@
       },
       {
         "month": "2026-08",
-        "count": 111
+        "count": 113
       }
     ]
   }
