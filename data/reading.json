@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-08-24T20:00:14.753Z",
-  "count": 168,
+  "generated_at": "2026-08-25T06:00:13.149Z",
+  "count": 169,
   "entries": [
+    {
+      "id": "rl-20260825050515-0c69c3",
+      "date": "2026-08-25T05:05:15.471Z",
+      "publication": "DeepLearning.AI",
+      "title": "DeepLearning.AI Membership",
+      "author": null,
+      "url": "https://www.deeplearning.ai/membership",
+      "summary": "DeepLearning.AI promotes its membership and learning paths for AI education, targeting both beginners and experienced learners. It highlights courses like AI Python for Beginners, AI for Everyone, and Generative AI for Everyone to help people learn AI concepts and coding. The platform emphasizes accessibility, noting no prior coding background is needed.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20260824192926-1bf980",
       "date": "2026-08-24T19:29:26.069Z",
@@ -2766,7 +2781,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 76
+        "count": 77
       },
       {
         "tag": "investing",
@@ -2774,7 +2789,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 50
+        "count": 51
       },
       {
         "tag": "tweet",
@@ -2920,6 +2935,10 @@
       },
       {
         "publication": "Deep (Learning) Focus (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "DeepLearning.AI",
         "count": 1
       },
       {
@@ -3090,7 +3109,7 @@
       },
       {
         "month": "2026-08",
-        "count": 117
+        "count": 118
       }
     ]
   }
