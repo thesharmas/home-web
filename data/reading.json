@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:00:20.059Z",
+  "generated_at": "2026-08-25T23:00:15.433Z",
   "count": 175,
   "entries": [
     {
@@ -36,14 +36,14 @@
     {
       "id": "rl-20260825205925-ec272a",
       "date": "2026-08-25T20:59:25.990Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Bessent gets Drucked",
+      "author": "Robin Wigglesworth",
       "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a",
-      "summary": null,
+      "summary": "FT columnist Robin Wigglesworth covers Stanley Druckenmiller's WSJ op-ed criticising US Treasury Secretary Scott Bessent's bond buyback programme, arguing it amounts to price management rather than liquidity management. Druckenmiller, a longtime mentor of Bessent, warns that suppressing long-term yields subsidises fiscal procrastination and erodes the Treasury market's hard-won credibility. Wigglesworth agrees, noting that the buybacks are too small to meaningfully affect net long-dated issuance and that escalating commitments are undermining Bessent's credibility with markets.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260825162804-57af14",
@@ -2952,14 +2952,14 @@
       },
       {
         "publication": "Financial Times",
-        "count": 20
-      },
-      {
-        "publication": "Unknown",
-        "count": 12
+        "count": 21
       },
       {
         "publication": "The Economist",
+        "count": 11
+      },
+      {
+        "publication": "Unknown",
         "count": 11
       },
       {
