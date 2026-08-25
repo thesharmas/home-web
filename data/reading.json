@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-25T16:00:20.154Z",
-  "count": 171,
+  "generated_at": "2026-08-25T17:00:20.846Z",
+  "count": 172,
   "entries": [
+    {
+      "id": "rl-20260825162804-57af14",
+      "date": "2026-08-25T16:28:04.850Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Joe (@JoePostingg) on X",
+      "author": "Joe (@JoePostingg)",
+      "url": "https://x.com/JoePostingg/status/2091658120640737616",
+      "summary": "[1/4] I have found Claude to be a really useful tool for book discovery. I like to ask it a research question and then if I think it's answer is interesting I follow up with \"Is there a canonical monograph on this topic?\". Have found half a dozen interesting books this way\n\n[2/4]",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260825154716-a5aed8",
       "date": "2026-08-25T15:47:16.548Z",
@@ -2837,7 +2851,7 @@
       },
       {
         "tag": "tweet",
-        "count": 47
+        "count": 48
       },
       {
         "tag": "fintech",
@@ -2891,7 +2905,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 42
+        "count": 43
       },
       {
         "publication": "Financial Times",
@@ -3157,7 +3171,7 @@
       },
       {
         "month": "2026-08",
-        "count": 120
+        "count": 121
       }
     ]
   }
