@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-25T14:00:16.901Z",
-  "count": 170,
+  "generated_at": "2026-08-25T16:00:20.154Z",
+  "count": 171,
   "entries": [
+    {
+      "id": "rl-20260825154716-a5aed8",
+      "date": "2026-08-25T15:47:16.548Z",
+      "publication": "Mercatus Center Podcasts",
+      "title": "Ben Harris on AI, Fiscal Sustainability, and the...",
+      "author": "David Beckworth (@DavidBeckworth)",
+      "url": "https://podcasts.apple.com/us/podcast/ben-harris-on-ai-fiscal-sustainability-and-the/id1099277290?i=1000785452751",
+      "summary": "Ben Harris, VP and director of economic studies at Brookings Institution and former senior Treasury and CEA official, joins the Macro Musings podcast to discuss why recent economic shocks proved less damaging than expected and the persistence of inflation. The conversation covers AI's potential to improve U.S. fiscal sustainability, reasons to temper AI optimism, and how longer lifespans and higher interest rates could complicate the fiscal outlook.",
+      "tags": [
+        "ai agents",
+        "investing",
+        "technology",
+        "sustainability"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260825133855-f0a887",
       "date": "2026-08-25T13:38:55.182Z",
@@ -2808,15 +2825,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 77
+        "count": 78
       },
       {
         "tag": "investing",
-        "count": 56
+        "count": 57
       },
       {
         "tag": "ai agents",
-        "count": 51
+        "count": 52
       },
       {
         "tag": "tweet",
@@ -2848,7 +2865,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 10
+        "count": 11
       },
       {
         "tag": "etfs",
@@ -3013,6 +3030,10 @@
         "count": 1
       },
       {
+        "publication": "Mercatus Center Podcasts",
+        "count": 1
+      },
+      {
         "publication": "Musings on Markets (Substack)",
         "count": 1
       },
@@ -3136,7 +3157,7 @@
       },
       {
         "month": "2026-08",
-        "count": 119
+        "count": 120
       }
     ]
   }
