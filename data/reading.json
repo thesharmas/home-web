@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-08-25T21:00:17.701Z",
-  "count": 173,
+  "generated_at": "2026-08-25T22:00:20.059Z",
+  "count": 175,
   "entries": [
+    {
+      "id": "rl-20260825210250-df0f86",
+      "date": "2026-08-25T21:02:50.580Z",
+      "publication": "Slate",
+      "title": "The Cult of Raising Cane's",
+      "author": null,
+      "url": "https://slate.com/business/2026/08/raising-canes-restaurant-near-fast-food-chicken.html?tpcc=reddit-social--raisingcanes-",
+      "summary": "Raising Cane's has grown into America's third-biggest chicken chain by doing exactly one thing—serving chicken fingers with a single dipping sauce—while inspiring near-religious fan devotion called Caniacs who camp overnight for new openings. The chain's privately held status, founder-led culture, minimalist menu, and savvy viral marketing with celebrities and social media have fueled a doubling of domestic sales to nearly $5 billion in five years. Its carefully stoked hype around new location openings, combined with genuine product quality, has created a cult following that rivals far older and larger fast-food brands.",
+      "tags": [
+        "technology",
+        "design"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260825210212-eca2c4",
+      "date": "2026-08-25T21:02:12.717Z",
+      "publication": "RAYON (Substack)",
+      "title": "Do you really want a \"slow life?\"",
+      "author": "katie lowe",
+      "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life",
+      "summary": "In her 23rd month without a smartphone, the author reflects on what a slow, analog evening actually looks like day to day — weeding, cooking, reading, waiting. She argues that the real substance of a slow life is boredom and solitude, not the aesthetic performance of slowness, and that learning to sit with boredom rather than mask it is where genuine mental flourishing happens.",
+      "tags": [
+        "design",
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260825205925-ec272a",
       "date": "2026-08-25T20:59:25.990Z",
@@ -2851,7 +2882,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 78
+        "count": 80
       },
       {
         "tag": "investing",
@@ -2875,7 +2906,7 @@
       },
       {
         "tag": "science",
-        "count": 19
+        "count": 20
       },
       {
         "tag": "security",
@@ -2894,12 +2925,12 @@
         "count": 11
       },
       {
-        "tag": "etfs",
-        "count": 3
+        "tag": "design",
+        "count": 4
       },
       {
-        "tag": "design",
-        "count": 2
+        "tag": "etfs",
+        "count": 3
       },
       {
         "tag": "iconography",
@@ -3088,11 +3119,19 @@
         "count": 1
       },
       {
+        "publication": "RAYON (Substack)",
+        "count": 1
+      },
+      {
         "publication": "RecoveringResolutionRegulator",
         "count": 1
       },
       {
         "publication": "Rupak's Substack",
+        "count": 1
+      },
+      {
+        "publication": "Slate",
         "count": 1
       },
       {
@@ -3183,7 +3222,7 @@
       },
       {
         "month": "2026-08",
-        "count": 122
+        "count": 124
       }
     ]
   }
