@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-25T06:00:13.149Z",
-  "count": 169,
+  "generated_at": "2026-08-25T14:00:16.901Z",
+  "count": 170,
   "entries": [
+    {
+      "id": "rl-20260825133855-f0a887",
+      "date": "2026-08-25T13:38:55.182Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Aryan (@AryanBha22) on X",
+      "author": "Aryan (@AryanBha22)",
+      "url": "https://x.com/AryanBha22/status/2092060180481462615",
+      "summary": "[1/2] being a vc junior is basically being a brown man in the marriage market\n\nafter carefully evading bottom bucket auntie inbound h1b deal flow, you finally find the girl of ur dreams\n\nbring her home to the inv committe just to hear a\n\n“beta, she’s nice but why can’t you find s",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260825050515-0c69c3",
       "date": "2026-08-25T05:05:15.471Z",
@@ -2775,6 +2789,19 @@
           "note": "Hoffer's counterintuitive argument that propaganda is far less powerful than feared — it amplifies existing beliefs rather than creating new ones — remains highly cited in media and political analysis."
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Morals and Markets",
+      "author": "Viviana A. Rotman Zelizer",
+      "isbn": "9780231545426",
+      "publication_year": 2017,
+      "total_pages": null,
+      "summary": "Life insurance—the promise of an insurer to pay a sum upon a person's death in exchange for a regular premium—is a bizarre enterprise. How can we monetize human life? Should we? What statistics do we use, what assumptions do we make, and what behavioral factors do we consider? First published in 1979, Morals and Markets Is a pathbreaking study exploring the development of life insurance in the United States. Viviana A. Rotman Zelizer combines economic history and a sociological perspective to advance a novel interpretation of the life insurance industry. The book pioneered a cultural approach to the analysis of morally controversial markets. Zelizer begins in the mid-nineteenth century with the rise of the life insurance industry, a contentious chapter in the history of American business. Life insurance was stigmatized at first, denounced in newspapers and condemned by religious leaders as an immoral and sacrilegious gamble on human life. Over time, the business became a widely praised arrangement to secure a family's future. How did life insurance overcome cultural barriers? As Zelizer shows, the evolution of the industry in the United States matched evolving attitudes toward death, money, family relations, property, and personal legacy.",
+      "active": true,
+      "created_at": "2026-08-25T13:21:25.790Z",
+      "link": "https://play.google.com/store/books/details?id=bn8yDwAAQBAJ",
+      "highlights": []
     }
   ],
   "aggregates": {
@@ -2793,7 +2820,7 @@
       },
       {
         "tag": "tweet",
-        "count": 46
+        "count": 47
       },
       {
         "tag": "fintech",
@@ -2847,7 +2874,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 41
+        "count": 42
       },
       {
         "publication": "Financial Times",
@@ -3109,7 +3136,7 @@
       },
       {
         "month": "2026-08",
-        "count": 118
+        "count": 119
       }
     ]
   }
