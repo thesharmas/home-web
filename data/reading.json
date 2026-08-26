@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-25T23:00:15.433Z",
-  "count": 175,
+  "generated_at": "2026-08-26T18:00:20.193Z",
+  "count": 176,
   "entries": [
+    {
+      "id": "rl-20260826175916-ed6a8f",
+      "date": "2026-08-26T17:59:16.430Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Colin Francis (@colifran_) on X",
+      "author": "Colin Francis (@colifran_)",
+      "url": "https://x.com/colifran_/status/2092280107033616451",
+      "summary": "[1/5] https://t.co/J1VVHNvCyx\n\n[2/5] for the evals i built something i call LEDGER: https://t.co/YHhrkyGgJa\n\nthe high level idea is that we're evaluating each claim against the current code state through a translation layer since natural language != code syntax.\n\nthrough that we ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260825210250-df0f86",
       "date": "2026-08-25T21:02:50.580Z",
@@ -2795,7 +2809,7 @@
       "publication_year": 1951,
       "total_pages": null,
       "summary": "A stevedore on the San Francisco docks in the 1940s, Eric Hoffer wrote philosophical treatises in his spare time while living in the railroad yards. The True Believer--the first and most famous of his books--was made into a bestseller when President Eisenhower cited it during one of the earliest television press conferences. Completely relevant and essential for understanding the world today, The True Believer is a visionary, highly provocative look into the mind of the fanatic and a penetrating study of how an individual becomes one.--From publisher description.",
-      "active": true,
+      "active": false,
       "created_at": "2026-08-20T18:17:12.819Z",
       "link": "https://books.google.com/books/about/The_True_Believer.html?hl=&id=0KnZAAAAMAAJ",
       "highlights": [
@@ -2894,7 +2908,7 @@
       },
       {
         "tag": "tweet",
-        "count": 48
+        "count": 49
       },
       {
         "tag": "fintech",
@@ -2948,7 +2962,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 43
+        "count": 44
       },
       {
         "publication": "Financial Times",
@@ -3222,7 +3236,7 @@
       },
       {
         "month": "2026-08",
-        "count": 124
+        "count": 125
       }
     ]
   }
