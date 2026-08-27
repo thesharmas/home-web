@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-08-27T17:00:19.774Z",
-  "count": 181,
+  "generated_at": "2026-08-27T23:00:18.836Z",
+  "count": 183,
   "entries": [
+    {
+      "id": "rl-20260827223933-9a6bed",
+      "date": "2026-08-27T22:39:33.114Z",
+      "publication": "Bloomberg",
+      "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254",
+      "summary": "Bloomberg's podcast returns to the Jackson Hole Fed symposium, the first under new Fed Chairman Kevin Warsh, to discuss the current monetary policy landscape including high bond yields, above-target inflation, and AI's uncertain economic impact. Kansas City Fed President Jeffrey Schmid shares his views on baby boomer retirements and their effect on the labor force, his recent FOMC votes, and the symposium's focus on payments. The episode offers a preview of what to expect from Warsh's debut speech and how it may signal a departure from the Powell era.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260827223916-7234bb",
+      "date": "2026-08-27T22:39:16.411Z",
+      "publication": "Apple Podcasts",
+      "title": "What Should Not Be for Sale",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/what-should-not-be-for-sale/id1896825645?i=1000786256770",
+      "summary": "This podcast episode explores the moral limits of markets, featuring philosopher Debra Satz and her book 'Why Some Things Should Not Be For Sale.' It contrasts her views with those of Nobel Prize-winning economist Al Roth, who argues markets can be beneficial even in controversial areas like organ trade. The episode questions which things should be kept off the market and why.",
+      "tags": [
+        "investing",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260827163629-a6241d",
       "date": "2026-08-27T16:36:29.925Z",
@@ -39,14 +69,14 @@
     {
       "id": "rl-20260827162654-afa110",
       "date": "2026-08-27T16:26:54.291Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "What a century of data tells us about today's corporate bond spreads",
+      "author": "Duncan Lamont",
       "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e",
-      "summary": null,
+      "summary": "Duncan Lamont of Schroders examines a century of data to argue that today's tight corporate bond spreads may not be as anomalous as a 30-year view suggests, drawing parallels with the post-WWII era of persistently low spreads. He identifies five historical factors that suppressed spreads then—high government debt, strong growth and low defaults, financial repression, institutional demand, and defensive sector composition—and assesses how many apply today. His conclusion is that while spreads could stay lower for longer, active and discriminating investment is warranted given thin margins of safety and uneven risks from AI and geopolitics.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260827140856-4c1355",
@@ -2987,7 +3017,7 @@
       },
       {
         "tag": "investing",
-        "count": 59
+        "count": 61
       },
       {
         "tag": "ai agents",
@@ -2999,7 +3029,7 @@
       },
       {
         "tag": "fintech",
-        "count": 37
+        "count": 38
       },
       {
         "tag": "cloud",
@@ -3007,7 +3037,7 @@
       },
       {
         "tag": "science",
-        "count": 20
+        "count": 21
       },
       {
         "tag": "capital expenditure",
@@ -3053,14 +3083,14 @@
       },
       {
         "publication": "Financial Times",
-        "count": 23
-      },
-      {
-        "publication": "Unknown",
-        "count": 12
+        "count": 24
       },
       {
         "publication": "The Economist",
+        "count": 11
+      },
+      {
+        "publication": "Unknown",
         "count": 11
       },
       {
@@ -3069,7 +3099,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 8
+        "count": 9
       },
       {
         "publication": "Twitter/X",
@@ -3077,7 +3107,7 @@
       },
       {
         "publication": "Apple Podcasts",
-        "count": 3
+        "count": 4
       },
       {
         "publication": "Latent Space",
@@ -3323,7 +3353,7 @@
       },
       {
         "month": "2026-08",
-        "count": 130
+        "count": 132
       }
     ]
   }
