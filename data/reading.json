@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-08-27T15:00:19.922Z",
-  "count": 178,
+  "generated_at": "2026-08-27T17:00:19.774Z",
+  "count": 181,
   "entries": [
+    {
+      "id": "rl-20260827163629-a6241d",
+      "date": "2026-08-27T16:36:29.925Z",
+      "publication": "Financial Times",
+      "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67",
+      "summary": "Morgan Stanley's credit team initiates coverage of Nvidia with a 'neutral' rating, coining the term 'balance-sheet-as-a-service' to describe how Nvidia uses its financial strength to subsidise AI infrastructure build-outs for customers. The analysts estimate Nvidia's all-in credit exposure could reach approximately $200bn by end-2028, largely driven by contingent obligations from customer revenue backstops and ecosystem financing structures that are opaque and potentially off-balance-sheet. While Nvidia's balance sheet remains robust, Morgan Stanley cautions that tail risks are too early-stage and unclear to justify stepping in.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260827163621-9bb8a8",
+      "date": "2026-08-27T16:36:21.854Z",
+      "publication": "Financial Times",
+      "title": "Charting the trillion-dollar TAM wars",
+      "author": "Bryce Elder and Toby Nangle",
+      "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816",
+      "summary": "The article traces the history of \"total addressable market\" (TAM) estimates used by tech companies in IPO filings, noting how figures have ballooned to absurd levels — with SpaceX claiming a $28.5 trillion TAM and Anthropic poised to top it. The authors argue TAM is inherently silly but legally useful precisely because it is not a financial projection and thus cannot constitute fraud. They illustrate its uselessness as a predictor of post-IPO performance, including the ironic example of Nvidia far exceeding 400% of its own 2018 TAM estimate.",
+      "tags": [
+        "technology",
+        "investing",
+        "fintech",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260827162654-afa110",
+      "date": "2026-08-27T16:26:54.291Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260827140856-4c1355",
       "date": "2026-08-27T14:08:56.641Z",
@@ -2937,15 +2983,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 80
+        "count": 82
       },
       {
         "tag": "investing",
-        "count": 57
+        "count": 59
       },
       {
         "tag": "ai agents",
-        "count": 52
+        "count": 54
       },
       {
         "tag": "tweet",
@@ -2953,7 +2999,7 @@
       },
       {
         "tag": "fintech",
-        "count": 36
+        "count": 37
       },
       {
         "tag": "cloud",
@@ -2964,12 +3010,12 @@
         "count": 20
       },
       {
-        "tag": "security",
+        "tag": "capital expenditure",
         "count": 17
       },
       {
-        "tag": "capital expenditure",
-        "count": 16
+        "tag": "security",
+        "count": 17
       },
       {
         "tag": "asset management",
@@ -3007,14 +3053,14 @@
       },
       {
         "publication": "Financial Times",
-        "count": 21
-      },
-      {
-        "publication": "The Economist",
-        "count": 11
+        "count": 23
       },
       {
         "publication": "Unknown",
+        "count": 12
+      },
+      {
+        "publication": "The Economist",
         "count": 11
       },
       {
@@ -3277,7 +3323,7 @@
       },
       {
         "month": "2026-08",
-        "count": 127
+        "count": 130
       }
     ]
   }
