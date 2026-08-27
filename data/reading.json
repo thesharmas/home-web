@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-26T18:00:20.193Z",
-  "count": 176,
+  "generated_at": "2026-08-27T05:00:18.543Z",
+  "count": 177,
   "entries": [
+    {
+      "id": "rl-20260827040153-2cb324",
+      "date": "2026-08-27T04:01:53.441Z",
+      "publication": "X (formerly Twitter)",
+      "title": "John_Hempton (@John_Hempton) on X",
+      "author": "John_Hempton (@John_Hempton)",
+      "url": "https://x.com/John_Hempton/status/2092814206919713220",
+      "summary": "On a long enough time frame all fiat money goes to zero.\n\nOn a long enough time frame all gold is stolen.\n\nThey ultimately both go to zero.\n\nDiscuss.",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260826175916-ed6a8f",
       "date": "2026-08-26T17:59:16.430Z",
@@ -2890,6 +2904,19 @@
       "created_at": "2026-08-25T13:21:25.790Z",
       "link": "https://play.google.com/store/books/details?id=bn8yDwAAQBAJ",
       "highlights": []
+    },
+    {
+      "id": 7,
+      "title": "How to Rule the World",
+      "author": "Theo Baker",
+      "isbn": "9781802068283",
+      "publication_year": 2026,
+      "total_pages": null,
+      "summary": "A searing critique of the crony-capitalist, talent-scraping culture of the Stanford elites, by a brilliant young journalist When seventeen-year old Theo Baker arrived at Stanford University one brisk September morning, its manicured lawns, palm trees and sparkling fountains, all under azure Californian skies, provoked in him both wonderment and a sense of anticipation. After all, this legendary campus, where Rodin sculptures rub shoulders with nuclear laboratories, is where Silicon Valley was birthed. Its research park housed the headquarters of Facebook and Hewlett Packard, with venture capitalists a stone's throw away, ready to fund the next promising teenager's startup. With an annual budget eclipsing the budgets of 153 countries, yet a reputation for being laid-back and innovative, Stanford seemed like tech heaven. Instead, Baker discovered a cultural rot. In this astonishing debut Baker recounts his freshman year mission to uncover the secrets behind Silicon Valley's training ground. He describes the Stanford inside Stanford, a strange, money-soaked subculture of infinite excess and access, afforded only to those special few students plucked from the crowd and expected to create billion dollar companies. And he documents a culture of getting ahead at any cost, of cut corners enabled and embraced. A culture that went to the very top. Baker's investigations for the student newspaper would soon place him in the impossibly difficult position of investigating his own university's president, a famous neuroscientist with a squeaky-clean reputation. By the end of his freshman year, after Baker's reporting revealed two decades of unreported research misconduct allegations, including in a study that claimed to have found the cause of degeneration in Alzheimer's patients, Stanford's president was forced to resign. Both coming-of-age story and clear-eyed exposé, Baker takes us inside this elite American world like no other, revealing the ambitious, amoral, and at-times laughably absurd truth behind the institution training kids to rule the world.",
+      "active": true,
+      "created_at": "2026-08-27T04:11:36.025Z",
+      "link": "https://books.google.com/books/about/How_to_Rule_the_World.html?hl=&id=fUh4EQAAQBAJ",
+      "highlights": []
     }
   ],
   "aggregates": {
@@ -2908,7 +2935,7 @@
       },
       {
         "tag": "tweet",
-        "count": 49
+        "count": 50
       },
       {
         "tag": "fintech",
@@ -2962,7 +2989,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 44
+        "count": 45
       },
       {
         "publication": "Financial Times",
@@ -3236,7 +3263,7 @@
       },
       {
         "month": "2026-08",
-        "count": 125
+        "count": 126
       }
     ]
   }
