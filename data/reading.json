@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-28T17:00:21.688Z",
-  "count": 184,
+  "generated_at": "2026-08-28T22:00:17.498Z",
+  "count": 185,
   "entries": [
+    {
+      "id": "rl-20260828214458-880b1c",
+      "date": "2026-08-28T21:44:58.398Z",
+      "publication": "Bloomberg",
+      "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400",
+      "summary": "Chicago Fed President Austan Goolsbee, speaking at the Jackson Hole Economic Symposium, expresses concern about an overheating economy where inflation remains above the 2% target and GDP growth is driven largely by AI and data center investment. He discusses uncertainty among central bankers about how to cool the economy and warns that the next shock could be imminent. Goolsbee also shares his skepticism of metrics like r*, his embrace of Kevin Warsh's reduced forward-guidance philosophy, and the indicators shaping his reaction function.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "investing",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260828163914-5344f7",
       "date": "2026-08-28T16:39:14.033Z",
@@ -3043,15 +3060,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 83
+        "count": 84
       },
       {
         "tag": "investing",
-        "count": 62
+        "count": 63
       },
       {
         "tag": "ai agents",
-        "count": 55
+        "count": 56
       },
       {
         "tag": "tweet",
@@ -3071,7 +3088,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 17
+        "count": 18
       },
       {
         "tag": "security",
@@ -3124,12 +3141,12 @@
         "count": 11
       },
       {
-        "publication": "The Information",
+        "publication": "Bloomberg",
         "count": 10
       },
       {
-        "publication": "Bloomberg",
-        "count": 9
+        "publication": "The Information",
+        "count": 10
       },
       {
         "publication": "Twitter/X",
@@ -3383,7 +3400,7 @@
       },
       {
         "month": "2026-08",
-        "count": 133
+        "count": 134
       }
     ]
   }
