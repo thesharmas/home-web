@@ -150,6 +150,25 @@
                :class="darkMode ? 'text-emerald-500/70' : 'text-gray-600'">5 projects</p>
         </header>
 
+        <aside class="oc-card sec-cyan mb-10" aria-labelledby="infra-heading">
+            <h2 id="infra-heading" class="text-sm font-bold uppercase tracking-wide mb-3">How it&rsquo;s set up</h2>
+            <div class="oc-body space-y-3 leading-relaxed text-xs sm:text-sm">
+                <p>
+                    OpenClaw runs on a private VPS accessible only through a Tailscale network, so it isn&rsquo;t exposed to the public internet.
+                    WhatsApp is the everyday interface for requests, approvals, alerts, and status updates. Behind it, 11 separate workspaces
+                    keep each area focused and isolated.
+                </p>
+                <p>
+                    Scheduled automations make the agent proactive: sending reminders, scanning for important events, monitoring the house,
+                    and regularly collecting useful data. Important actions pause for approval, while automated health checks, backups, and
+                    integration tests keep everything dependable.
+                </p>
+            </div>
+            <p class="oc-tag mt-5 text-[10px] font-bold uppercase tracking-[0.16em] leading-relaxed">
+                Tailscale-only &middot; self-hosted &middot; 11 workspaces &middot; proactive automations &middot; human approval
+            </p>
+        </aside>
+
         <nav class="mb-14 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-[0.2em]" aria-label="Sections">
             <a href="#readlog" class="oc-navlink px-3 py-2">01 readlog</a>
             <a href="#home" class="oc-navlink px-3 py-2">02 home</a>
