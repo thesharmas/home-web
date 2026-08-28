@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-28T00:00:36.642Z",
-  "count": 183,
+  "generated_at": "2026-08-28T17:00:21.688Z",
+  "count": 184,
   "entries": [
+    {
+      "id": "rl-20260828163914-5344f7",
+      "date": "2026-08-28T16:39:14.033Z",
+      "publication": "Financial Times",
+      "title": "Harvard and the Cloudflare governance fight",
+      "author": "Sujeet Indap",
+      "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d",
+      "summary": "Cloudflare founders Matt Prince and Michelle Zatlyn, both Harvard Business School alumni, are embroiled in a major corporate governance dispute over their attempt to create new share classes to preserve their voting control of the company despite a dwindling economic stake. Shareholder plaintiffs are challenging the independence of the special committee that approved the restructuring, citing close personal and professional ties between the directors and the founders, including a professor who stayed at Prince's home and used an AI chatbot to build a one-sided case for founder control. The case is being closely watched as a test of Delaware's recently relaxed shareholder rights regime.",
+      "tags": [
+        "investing",
+        "technology",
+        "fintech",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260827223933-9a6bed",
       "date": "2026-08-27T22:39:33.114Z",
@@ -3026,15 +3043,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 82
+        "count": 83
       },
       {
         "tag": "investing",
-        "count": 61
+        "count": 62
       },
       {
         "tag": "ai agents",
-        "count": 54
+        "count": 55
       },
       {
         "tag": "tweet",
@@ -3042,7 +3059,7 @@
       },
       {
         "tag": "fintech",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "cloud",
@@ -3096,7 +3113,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 24
+        "count": 25
       },
       {
         "publication": "The Economist",
@@ -3366,7 +3383,7 @@
       },
       {
         "month": "2026-08",
-        "count": 132
+        "count": 133
       }
     ]
   }
