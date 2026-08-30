@@ -2303,7 +2303,430 @@
     }
    ],
    "generated_at": "2026-08-23T15:02:18Z"
+  },
+  {
+   "week_start": "2026-08-23",
+   "week_end": "2026-08-30",
+   "title": "Week ending Aug 30, 2026",
+   "overview": "Your reading this week clustered hard around one question: what happens when the financing behind the AI boom meets reality? Groundbreaker's subprime-ARM analogy for AI compute contracts set the frame, and it echoed through the FT's piece on Nvidia's opaque $200bn 'balance-sheet-as-a-service' credit exposure, the TAM-wars column on SpaceX's and Anthropic's absurd addressable-market claims, zartbot's deep architectural read on OpenAI's Jalapeño inference chip, and Fed officials (Goolsbee, Schmid) publicly worrying about an economy overheating on AI capex. Asterisk's AI Village report added a second, less-discussed angle on the same boom: multi-agent systems fail in ways that individual model improvements can't fix, which matters more as agentic deployments scale faster than anyone is auditing them.\n\nA second thread ran underneath the AI story: the plumbing of debt and credit itself. American Affairs traced how the debt-equity tax distinction — an accidental WWI-era policy never revisited — still shapes who gets to borrow cheaply versus who has to raise expensive equity. The FT's century-long look at corporate bond spreads argued today's tightness isn't unprecedented once you look past the last 30 years, while Druckenmiller's public break with his protégé Bessent over Treasury buybacks, amplified by Brad Setser pointing to Adam Tooze's Treasury-market essays, kept sovereign debt credibility in frame. Layered on top: institutional trust took a hit via Jared Bernstein's essay on a shoddy, unsigned Census report, and Cloudflare's founder-control fight showed how governance 'independence' is often anything but.\n\nA smaller, quieter thread — Debra Satz on markets' moral limits, Raising Cane's cult-like retail devotion, and a 23-months-without-a-smartphone essay on real versus performed 'slow living' — offered a counterweight to the finance-and-AI density, all circling the same theme of what gets commodified and what shouldn't be.",
+   "themes": [
+    {
+     "name": "The AI Boom's Financial Plumbing Is Cracking",
+     "description": "Multiple pieces converge on the idea that AI's real risk isn't model capability but financing structure — compute contracts, chip credit exposure, and TAM inflation that don't survive contact with actual revenue.",
+     "items": [
+      {
+       "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+       "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom?r=18lw6l&triedRedirect=true"
+      },
+      {
+       "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+       "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+      },
+      {
+       "title": "Charting the trillion-dollar TAM wars",
+       "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+      },
+      {
+       "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+       "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+      },
+      {
+       "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+       "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400"
+      },
+      {
+       "title": "Ben Harris on AI, Fiscal Sustainability, and the...",
+       "url": "https://podcasts.apple.com/us/podcast/ben-harris-on-ai-fiscal-sustainability-and-the/id1099277290?i=1000785452751"
+      }
+     ]
+    },
+    {
+     "name": "Multi-Agent AI's Emergent Failure Modes",
+     "description": "A distinct AI thread: what breaks when many agents coordinate, not just one model's raw capability.",
+     "items": [
+      {
+       "title": "What to Expect When You're Expecting a World of Multi-Agent Systems",
+       "url": "https://asteriskmag.com/issues/15/what-to-expect-when-you-re-expecting-a-world-of-multi-agent-systems"
+      },
+      {
+       "title": "Jasmine Sun on What the AI Industry Got Wrong About Data Centers",
+       "url": "https://podcasts.apple.com/us/podcast/jasmine-sun-on-what-the-ai-industry-got-wrong-about/id1056200096?i=1000784746275"
+      }
+     ]
+    },
+    {
+     "name": "The Quiet Architecture of Debt and Credit",
+     "description": "How accidental policy history, buyback politics, and long-run spread data shape today's credit markets more than headlines suggest.",
+     "items": [
+      {
+       "title": "The Debt-Equity Distinction: A Century of Policy by Accident",
+       "url": "https://americanaffairsjournal.org/2026/08/the-debt-equity-distinction-a-century-of-policy-by-accident/"
+      },
+      {
+       "title": "What a century of data tells us about today's corporate bond spreads",
+       "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+      },
+      {
+       "title": "Bessent gets Drucked",
+       "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+      },
+      {
+       "title": "Brad Setser (@Brad_Setser) on X",
+       "url": "https://x.com/Brad_Setser/status/2091565430460531150"
+      },
+      {
+       "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+       "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254"
+      }
+     ]
+    },
+    {
+     "name": "Institutions Losing the Benefit of the Doubt",
+     "description": "Two separate stories about trust breaking down in institutions that depend on perceived neutrality: a federal statistical agency and a corporate governance committee.",
+     "items": [
+      {
+       "title": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+       "url": "https://econjared.substack.com/p/the-government-report-that-made-me?r=18lw6l"
+      },
+      {
+       "title": "Harvard and the Cloudflare governance fight",
+       "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+      }
+     ]
+    },
+    {
+     "name": "What Markets Shouldn't Touch, and What They Sell Well",
+     "description": "A lighter counter-thread on the moral limits of markets, the manufacture of cult-brand devotion, and what genuine (non-performed) simplicity actually requires.",
+     "items": [
+      {
+       "title": "What Should Not Be for Sale",
+       "url": "https://podcasts.apple.com/us/podcast/what-should-not-be-for-sale/id1896825645?i=1000786256770"
+      },
+      {
+       "title": "The Cult of Raising Cane's",
+       "url": "https://slate.com/business/2026/08/raising-canes-restaurant-near-fast-food-chicken.html?tpcc=reddit-social--raisingcanes-"
+      },
+      {
+       "title": "Do you really want a \"slow life?\"",
+       "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Debt's tax advantage over equity isn't a deliberate policy — it's a WWI-era financing accident that was never reversed, and it still tilts modern corporate America toward leverage, buybacks, and debt-funded M&A over equity-funded innovation.",
+     "sources": [
+      {
+       "title": "The Debt-Equity Distinction: A Century of Policy by Accident",
+       "url": "https://americanaffairsjournal.org/2026/08/the-debt-equity-distinction-a-century-of-policy-by-accident/"
+      }
+     ]
+    },
+    {
+     "lesson": "AI compute contracts function like 2005-06 subprime ARMs: a 24-36 month 'teaser period' of build-out costs gives way to full payment obligations in 2027-28 that exceed any plausible revenue path frontier labs currently have.",
+     "sources": [
+      {
+       "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+       "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom?r=18lw6l&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "Multi-agent AI systems fail in ways that fixing individual model capability can't solve — lossy memory compression compounds hallucination across agents, and social consensus among agents can override ground truth even with human oversight present.",
+     "sources": [
+      {
+       "title": "What to Expect When You're Expecting a World of Multi-Agent Systems",
+       "url": "https://asteriskmag.com/issues/15/what-to-expect-when-you-re-expecting-a-world-of-multi-agent-systems"
+      }
+     ]
+    },
+    {
+     "lesson": "Nvidia is effectively acting as a lender to its own customer base — Morgan Stanley estimates ~$200bn of largely opaque, off-balance-sheet credit exposure by 2028 from revenue backstops and ecosystem financing, meaning its 'strong balance sheet' also concentrates industry-wide tail risk.",
+     "sources": [
+      {
+       "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+       "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+      }
+     ]
+    },
+    {
+     "lesson": "TAM figures in IPO filings (SpaceX's $28.5T, Anthropic's forthcoming even larger one) are legally useful specifically because they aren't financial projections and therefore can't constitute fraud — treat them as marketing artifacts, not analysis.",
+     "sources": [
+      {
+       "title": "Charting the trillion-dollar TAM wars",
+       "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+      }
+     ]
+    },
+    {
+     "lesson": "Statistical-agency credibility is a fragile public good: an unsigned, SSN-unverified Census report on noncitizen voting shows how fast institutional trust erodes once agencies are seen producing politically convenient rather than methodologically sound findings.",
+     "sources": [
+      {
+       "title": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+       "url": "https://econjared.substack.com/p/the-government-report-that-made-me?r=18lw6l"
+      }
+     ]
+    },
+    {
+     "lesson": "Corporate bond spreads that look alarmingly tight by a 30-year lens look normal by a century-long lens — the same bundle of factors (high debt, financial repression, institutional demand) that suppressed spreads post-WWII largely applies again today.",
+     "sources": [
+      {
+       "title": "What a century of data tells us about today's corporate bond spreads",
+       "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+      }
+     ]
+    },
+    {
+     "lesson": "Founder-control fights increasingly hinge on governance-committee 'independence' that turns out not to be independent at all — Cloudflare's case involves a professor who stayed at the founder's home and used AI to help build the case for founder control.",
+     "sources": [
+      {
+       "title": "Harvard and the Cloudflare governance fight",
+       "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The AI boom's real vulnerability isn't model capability at all — it's financing structure: like subprime ARMs, the risk was underwritten quietly in 2025-26 and won't show up as a crisis until payment obligations reset in 2027-28.",
+     "source": {
+      "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+      "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom?r=18lw6l&triedRedirect=true"
+     }
+    },
+    {
+     "insight": "Today's corporate bond spreads that look dangerously tight by recent-decades standards are actually closer to the historical norm — it's the last 30 years, not today, that may be the statistical anomaly.",
+     "source": {
+      "title": "What a century of data tells us about today's corporate bond spreads",
+      "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+     }
+    },
+    {
+     "insight": "Nvidia's balance-sheet strength is arguably a liability rather than an asset — by financing its own customers' infrastructure buildouts, it is quietly absorbing the credit risk of an entire industry while presenting as 'robust' on paper.",
+     "source": {
+      "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+      "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+     }
+    },
+    {
+     "insight": "TAM numbers get more absurd, not less, precisely because their legal safety comes from not being projections — the incentive structure rewards inflating them, not moderating them.",
+     "source": {
+      "title": "Charting the trillion-dollar TAM wars",
+      "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+     }
+    },
+    {
+     "insight": "Druckenmiller's critique implies Bessent's Treasury buyback program is simultaneously too small to help market liquidity and too visible not to read as 'price management' — meaning the policy may be actively undermining the credibility it's meant to protect.",
+     "source": {
+      "title": "Bessent gets Drucked",
+      "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+     }
+    },
+    {
+     "insight": "Genuine slow living isn't the curated aesthetic of analog hobbies (weeding, cooking, reading) — it's tolerating boredom and solitude without escaping into a substitute performance of leisure, which is a much harder and less Instagrammable thing to do.",
+     "source": {
+      "title": "Do you really want a \"slow life?\"",
+      "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 24,
+    "top_publications": [
+     {
+      "name": "Twitter/X",
+      "count": 6
+     },
+     {
+      "name": "Financial Times",
+      "count": 5
+     },
+     {
+      "name": "Bloomberg",
+      "count": 3
+     },
+     {
+      "name": "American Affairs Journal",
+      "count": 1
+     },
+     {
+      "name": "Substack (Jared Bernstein)",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 12
+     },
+     {
+      "name": "ai agents",
+      "count": 10
+     },
+     {
+      "name": "investing",
+      "count": 9
+     },
+     {
+      "name": "science",
+      "count": 5
+     },
+     {
+      "name": "capital expenditure",
+      "count": 4
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "The Debt-Equity Distinction: A Century of Policy by Accident",
+     "publication": "American Affairs Journal",
+     "date": "2026-08-24",
+     "url": "https://americanaffairsjournal.org/2026/08/the-debt-equity-distinction-a-century-of-policy-by-accident/"
+    },
+    {
+     "title": "The Government Report That Made Me Stop Trusting Our Statistical Agencies",
+     "publication": "Substack (Jared Bernstein)",
+     "date": "2026-08-24",
+     "url": "https://econjared.substack.com/p/the-government-report-that-made-me?r=18lw6l"
+    },
+    {
+     "title": "The Teaser Period: Why the AI Boom Is Built to Break",
+     "publication": "Groundbreaker",
+     "date": "2026-08-24",
+     "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom?r=18lw6l&triedRedirect=true"
+    },
+    {
+     "title": "What to Expect When You're Expecting a World of Multi-Agent Systems",
+     "publication": "Asterisk Magazine",
+     "date": "2026-08-24",
+     "url": "https://asteriskmag.com/issues/15/what-to-expect-when-you-re-expecting-a-world-of-multi-agent-systems"
+    },
+    {
+     "title": "Brad Setser (@Brad_Setser) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-24",
+     "url": "https://x.com/Brad_Setser/status/2091565430460531150"
+    },
+    {
+     "title": "Jasmine Sun on What the AI Industry Got Wrong About Data Centers",
+     "publication": "Bloomberg",
+     "date": "2026-08-24",
+     "url": "https://podcasts.apple.com/us/podcast/jasmine-sun-on-what-the-ai-industry-got-wrong-about/id1056200096?i=1000784746275"
+    },
+    {
+     "title": "DeepLearning.AI Membership",
+     "publication": "DeepLearning.AI",
+     "date": "2026-08-25",
+     "url": "https://www.deeplearning.ai/membership"
+    },
+    {
+     "title": "Aryan (@AryanBha22) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-25",
+     "url": "https://x.com/AryanBha22/status/2092060180481462615"
+    },
+    {
+     "title": "Ben Harris on AI, Fiscal Sustainability, and the...",
+     "publication": "Mercatus Center Podcasts",
+     "date": "2026-08-25",
+     "url": "https://podcasts.apple.com/us/podcast/ben-harris-on-ai-fiscal-sustainability-and-the/id1099277290?i=1000785452751"
+    },
+    {
+     "title": "Joe (@JoePostingg) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-25",
+     "url": "https://x.com/JoePostingg/status/2091658120640737616"
+    },
+    {
+     "title": "Bessent gets Drucked",
+     "publication": "Financial Times",
+     "date": "2026-08-25",
+     "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+    },
+    {
+     "title": "Do you really want a \"slow life?\"",
+     "publication": "RAYON (Substack)",
+     "date": "2026-08-25",
+     "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+    },
+    {
+     "title": "The Cult of Raising Cane's",
+     "publication": "Slate",
+     "date": "2026-08-25",
+     "url": "https://slate.com/business/2026/08/raising-canes-restaurant-near-fast-food-chicken.html?tpcc=reddit-social--raisingcanes-"
+    },
+    {
+     "title": "Colin Francis (@colifran_) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-26",
+     "url": "https://x.com/colifran_/status/2092280107033616451"
+    },
+    {
+     "title": "John_Hempton (@John_Hempton) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-27",
+     "url": "https://x.com/John_Hempton/status/2092814206919713220"
+    },
+    {
+     "title": "Gaurav Kheterpal (@gauravkheterpal) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-27",
+     "url": "https://x.com/gauravkheterpal/status/2092857377150374257"
+    },
+    {
+     "title": "What a century of data tells us about today's corporate bond spreads",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+    },
+    {
+     "title": "Charting the trillion-dollar TAM wars",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+    },
+    {
+     "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+    },
+    {
+     "title": "What Should Not Be for Sale",
+     "publication": "Apple Podcasts",
+     "date": "2026-08-27",
+     "url": "https://podcasts.apple.com/us/podcast/what-should-not-be-for-sale/id1896825645?i=1000786256770"
+    },
+    {
+     "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+     "publication": "Bloomberg",
+     "date": "2026-08-27",
+     "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254"
+    },
+    {
+     "title": "Harvard and the Cloudflare governance fight",
+     "publication": "Financial Times",
+     "date": "2026-08-28",
+     "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+    },
+    {
+     "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+     "publication": "Bloomberg",
+     "date": "2026-08-28",
+     "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400"
+    },
+    {
+     "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+     "publication": "zartbot.github.io",
+     "date": "2026-08-30",
+     "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+    }
+   ],
+   "generated_at": "2026-08-30T15:01:58Z"
   }
  ],
- "updated_at": "2026-08-23T15:02:18Z"
+ "updated_at": "2026-08-30T15:01:58Z"
 }
