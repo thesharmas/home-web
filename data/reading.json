@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-08-28T22:00:17.498Z",
-  "count": 185,
+  "generated_at": "2026-08-30T03:00:16.552Z",
+  "count": 186,
   "entries": [
+    {
+      "id": "rl-20260830021031-bfccac",
+      "date": "2026-08-30T02:10:31.191Z",
+      "publication": "zartbot.github.io",
+      "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+      "author": null,
+      "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html",
+      "summary": "A detailed first-principles analysis of OpenAI's Jalapeño inference chip architecture, written from the perspective of an infrastructure lead who has previously critiqued Nvidia GPU shortcomings. The author traces how Jalapeño's design decisions—including eliminating the unified L2 cache, adopting a NUMA memory architecture, adding an out-of-order superscalar core, and using a dedicated collective-communication NOC—directly address the latency and efficiency deficiencies of Nvidia GPUs in LLM inference scenarios. The piece also covers Jalapeño's hardware/software co-design philosophy, including its AI-agent-driven compiler stack (Gluon, Linear Layouts, chilisim) and how the chip was taped out in just 9 months using XLS as the RTL language with AI-assisted design iteration.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "cloud",
+        "science"
+      ],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20260828214458-880b1c",
       "date": "2026-08-28T21:44:58.398Z",
@@ -3060,7 +3077,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 84
+        "count": 85
       },
       {
         "tag": "investing",
@@ -3068,7 +3085,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 56
+        "count": 57
       },
       {
         "tag": "tweet",
@@ -3080,11 +3097,11 @@
       },
       {
         "tag": "cloud",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "science",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "capital expenditure",
@@ -3391,6 +3408,10 @@
       {
         "publication": "vectoral.com",
         "count": 1
+      },
+      {
+        "publication": "zartbot.github.io",
+        "count": 1
       }
     ],
     "by_month": [
@@ -3400,7 +3421,7 @@
       },
       {
         "month": "2026-08",
-        "count": 134
+        "count": 135
       }
     ]
   }
