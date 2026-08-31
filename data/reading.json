@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-31T16:00:23.676Z",
-  "count": 189,
+  "generated_at": "2026-08-31T19:00:21.319Z",
+  "count": 190,
   "entries": [
+    {
+      "id": "rl-20260831180020-8468b5",
+      "date": "2026-08-31T18:00:20.514Z",
+      "publication": "X (formerly Twitter)",
+      "title": "goodalexander (@goodalexander) on X",
+      "author": "goodalexander (@goodalexander)",
+      "url": "https://x.com/goodalexander/status/2094483992107962565",
+      "summary": "Anthropic is going to have a lot of Claudeforce type moments where you can arb the software multiple with AI gains \n\nOpenAI is going to run a big ads business, and I think it will compete with Google for share\n\nBut vibe coding, and ppl OpenClawing is not going to last because the",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260831144815-9e8100",
       "date": "2026-08-31T14:48:15.254Z",
@@ -3134,7 +3148,7 @@
       },
       {
         "tag": "tweet",
-        "count": 51
+        "count": 52
       },
       {
         "tag": "fintech",
@@ -3188,7 +3202,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 46
+        "count": 47
       },
       {
         "publication": "Financial Times",
@@ -3470,7 +3484,7 @@
       },
       {
         "month": "2026-08",
-        "count": 138
+        "count": 139
       }
     ]
   }
