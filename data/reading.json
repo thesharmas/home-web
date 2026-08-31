@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:00:24.787Z",
+  "generated_at": "2026-08-31T16:00:23.676Z",
   "count": 189,
   "entries": [
     {
@@ -38,14 +38,14 @@
     {
       "id": "rl-20260831134121-fd6bdf",
       "date": "2026-08-31T13:41:21.738Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "FT",
+      "title": "Happy birthday to the First Index Investment Trust",
+      "author": "Robin Wigglesworth",
       "url": "https://www.ft.com/content/c0341d15-482e-41a6-abe1-ef3e5e9a0d0b",
-      "summary": null,
+      "summary": "Fifty years after Vanguard's First Index Investment Trust launched in August 1976 with a dismal $11.32mn raise against a $150mn target, Robin Wigglesworth recounts the fund's troubled origins — rooted more in corporate revenge than investment philosophy — and its long slog to relevance. The piece traces how the fund, derided as \"Bogle's Folly,\" didn't cross $100mn until 1981 and only surpassed Fidelity's Magellan as the world's largest fund in 2000, by which point it managed $1.7tn today. Wigglesworth also highlights how the S&P 500's concentration has grown dramatically since FIIT's launch, with the top 10 holdings now representing 38% of the index versus 29% in 1976.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260830021031-bfccac",
@@ -3195,11 +3195,11 @@
         "count": 25
       },
       {
-        "publication": "Unknown",
-        "count": 12
+        "publication": "The Economist",
+        "count": 11
       },
       {
-        "publication": "The Economist",
+        "publication": "Unknown",
         "count": 11
       },
       {
@@ -3221,6 +3221,10 @@
       {
         "publication": "Latent Space",
         "count": 3
+      },
+      {
+        "publication": "FT",
+        "count": 2
       },
       {
         "publication": "Slate Podcasts",
@@ -3288,10 +3292,6 @@
       },
       {
         "publication": "Doubleword Blog",
-        "count": 1
-      },
-      {
-        "publication": "FT",
         "count": 1
       },
       {
