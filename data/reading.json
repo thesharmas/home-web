@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-08-31T14:00:22.895Z",
-  "count": 188,
+  "generated_at": "2026-08-31T15:00:24.787Z",
+  "count": 189,
   "entries": [
+    {
+      "id": "rl-20260831144815-9e8100",
+      "date": "2026-08-31T14:48:15.254Z",
+      "publication": "Apple Podcasts",
+      "title": "Ep 180: Bonds, Yields, and Elections ft. Layna Mosley",
+      "author": "Layna Mosley",
+      "url": "https://podcasts.apple.com/us/podcast/ep-180-bonds-yields-and-elections-ft-layna-mosley/id1528208049?i=1000786984175",
+      "summary": "This podcast episode explores the relationship between U.S. Treasury yields and elections, with expert guest Layna Mosley. The Treasury Secretary's efforts to bring rates down ahead of November are discussed, along with Mosley's new research on Brazil, elections, and bond rates. The episode warns that rising yields may pose political consequences for incumbents.",
+      "tags": [
+        "investing",
+        "asset management",
+        "etfs"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260831134602-ca9b2c",
       "date": "2026-08-31T13:46:02.925Z",
@@ -3110,7 +3126,7 @@
       },
       {
         "tag": "investing",
-        "count": 63
+        "count": 64
       },
       {
         "tag": "ai agents",
@@ -3142,7 +3158,7 @@
       },
       {
         "tag": "asset management",
-        "count": 15
+        "count": 16
       },
       {
         "tag": "sustainability",
@@ -3154,7 +3170,7 @@
       },
       {
         "tag": "etfs",
-        "count": 3
+        "count": 4
       },
       {
         "tag": "iconography",
@@ -3195,12 +3211,12 @@
         "count": 10
       },
       {
-        "publication": "Twitter/X",
+        "publication": "Apple Podcasts",
         "count": 5
       },
       {
-        "publication": "Apple Podcasts",
-        "count": 4
+        "publication": "Twitter/X",
+        "count": 5
       },
       {
         "publication": "Latent Space",
@@ -3454,7 +3470,7 @@
       },
       {
         "month": "2026-08",
-        "count": 137
+        "count": 138
       }
     ]
   }
