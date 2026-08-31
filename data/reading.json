@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-08-30T03:00:16.552Z",
-  "count": 186,
+  "generated_at": "2026-08-31T14:00:22.895Z",
+  "count": 188,
   "entries": [
+    {
+      "id": "rl-20260831134602-ca9b2c",
+      "date": "2026-08-31T13:46:02.925Z",
+      "publication": "calpaterson.com",
+      "title": "Agent memory as a file format",
+      "author": "Cal Paterson",
+      "url": "https://calpaterson.com/memoryfields.html",
+      "summary": "The article introduces 'Memoryfields', a simple portable file format for AI agent memory based on Markdown pages, optional YAML frontmatter, and an optional SQLite vector index. The author argues that existing agent memory systems are either too complex, too lock-in-prone, or strip context from information, and that memory is better represented as a data format (a zip of Markdown files) rather than a multi-stage pipeline. Key design decisions include using prose instead of chunks, semantic search instead of knowledge graph traversal, minimal mechanism to give agents flexibility, and an open interchangeable format.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "design",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260831134121-fd6bdf",
+      "date": "2026-08-31T13:41:21.738Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/c0341d15-482e-41a6-abe1-ef3e5e9a0d0b",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260830021031-bfccac",
       "date": "2026-08-30T02:10:31.191Z",
@@ -3077,7 +3106,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 85
+        "count": 86
       },
       {
         "tag": "investing",
@@ -3085,7 +3114,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 57
+        "count": 58
       },
       {
         "tag": "tweet",
@@ -3097,7 +3126,7 @@
       },
       {
         "tag": "cloud",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "science",
@@ -3121,7 +3150,7 @@
       },
       {
         "tag": "design",
-        "count": 4
+        "count": 5
       },
       {
         "tag": "etfs",
@@ -3150,11 +3179,11 @@
         "count": 25
       },
       {
-        "publication": "The Economist",
-        "count": 11
+        "publication": "Unknown",
+        "count": 12
       },
       {
-        "publication": "Unknown",
+        "publication": "The Economist",
         "count": 11
       },
       {
@@ -3382,6 +3411,10 @@
         "count": 1
       },
       {
+        "publication": "calpaterson.com",
+        "count": 1
+      },
+      {
         "publication": "christianselig.com",
         "count": 1
       },
@@ -3421,7 +3454,7 @@
       },
       {
         "month": "2026-08",
-        "count": 135
+        "count": 137
       }
     ]
   }
