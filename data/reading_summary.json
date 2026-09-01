@@ -2726,7 +2726,418 @@
     }
    ],
    "generated_at": "2026-08-30T15:01:58Z"
+  },
+  {
+   "week_start": "2026-08-25",
+   "week_end": "2026-09-01",
+   "title": "Week ending Sep 1, 2026",
+   "overview": "Your reading this week clustered hard around two poles: the Fed's transition under new Chairman Kevin Warsh and the widening question of whether AI infrastructure spending is being financed on solid ground. Six pieces — from Ben Harris's Macro Musings conversation on AI and fiscal sustainability to two dispatches from Jackson Hole (Schmid, Goolsbee) to Druckenmiller's broadside against Bessent's bond buybacks to a century-spanning look at corporate credit spreads — all circle the same anxiety: policymakers and markets are managing appearances (yields, spreads, buybacks) in ways that may be papering over real fragility rather than fixing it.\n\nThe second thread was the money behind AI. The FT's TAM-wars piece, its Nvidia \"balance-sheet-as-a-service\" analysis, and a deep architectural teardown of OpenAI's Jalapeño inference chip together sketch an industry where marketing math (trillion-dollar TAMs), vendor financing risk (Nvidia's ~$200bn contingent exposure), and genuine hardware innovation (NUMA memory, dedicated collective-comm NOC) are all advancing at once — some of it real engineering progress, some of it financial engineering that could unwind badly.\n\nEverything else this week connects to those two threads at an angle: Cal Paterson's case for dead-simple, portable agent memory formats and Colin Francis's LEDGER eval approach are the practitioner's-eye view of the same AI buildout being financed above; the Cloudflare governance fight and the Raising Cane's cult-following piece are both studies in how founders and brands manufacture and defend control/loyalty; and the slow-life essay, the markets-morality podcast, and a handful of sharp tweets (fiat vs. gold, Salesforce's recycled \"never log in again\" promise) supply the skeptical, contrarian counterweight running under all of it.",
+   "themes": [
+    {
+     "name": "The Fed Under Warsh: Overheating, Politicized Bonds, and Election-Year Yields",
+     "description": "Six pieces track the Fed's transition to Kevin Warsh and the growing sense that both monetary and fiscal authorities are managing bond-market optics rather than fundamentals. Jackson Hole dispatches, Druckenmiller's attack on Bessent's buybacks, and a century of credit-spread history all bear on the same question: is today's calm engineered or earned?",
+     "items": [
+      {
+       "title": "Ben Harris on AI, Fiscal Sustainability, and the...",
+       "url": "https://podcasts.apple.com/us/podcast/ben-harris-on-ai-fiscal-sustainability-and-the/id1099277290?i=1000785452751"
+      },
+      {
+       "title": "Bessent gets Drucked",
+       "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+      },
+      {
+       "title": "What a century of data tells us about today's corporate bond spreads",
+       "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+      },
+      {
+       "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+       "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254"
+      },
+      {
+       "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+       "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400"
+      },
+      {
+       "title": "Ep 180: Bonds, Yields, and Elections ft. Layna Mosley",
+       "url": "https://podcasts.apple.com/us/podcast/ep-180-bonds-yields-and-elections-ft-layna-mosley/id1528208049?i=1000786984175"
+      }
+     ]
+    },
+    {
+     "name": "AI Infrastructure's Money Machine: TAM Inflation, Chip Architecture, Balance-Sheet Risk",
+     "description": "The financial plumbing behind the AI buildout got scrutinized from three angles: how absurd TAM claims stay legally safe precisely by being unfalsifiable, how Nvidia's customer-financing exposure could reach $200bn by 2028, and how a rival's inference-chip design (Jalapeño) directly targets Nvidia's architectural weak points.",
+     "items": [
+      {
+       "title": "Charting the trillion-dollar TAM wars",
+       "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+      },
+      {
+       "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+       "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+      },
+      {
+       "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+       "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+      }
+     ]
+    },
+    {
+     "name": "Agent Memory & Practical AI Tooling",
+     "description": "A practitioner-level counterpart to the macro AI story: how to actually build the memory and evaluation layers underneath these systems, from Cal Paterson's portable Markdown-based memory format to a from-the-trenches eval technique for code-generation claims.",
+     "items": [
+      {
+       "title": "Agent memory as a file format",
+       "url": "https://calpaterson.com/memoryfields.html"
+      },
+      {
+       "title": "Colin Francis (@colifran_) on X",
+       "url": "https://x.com/colifran_/status/2092280107033616451"
+      },
+      {
+       "title": "Joe (@JoePostingg) on X",
+       "url": "https://x.com/JoePostingg/status/2091658120640737616"
+      }
+     ]
+    },
+    {
+     "name": "Founder Power, Cult Brands, and the Attention Economy",
+     "description": "Three pieces on how modern institutions command loyalty and control: a founder-control governance fight at Cloudflare, the manufactured devotion behind Raising Cane's cult following, and an argument that opting out of smartphone culture is really about tolerating boredom, not aesthetics.",
+     "items": [
+      {
+       "title": "Harvard and the Cloudflare governance fight",
+       "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+      },
+      {
+       "title": "The Cult of Raising Cane's",
+       "url": "https://slate.com/business/2026/08/raising-canes-restaurant-near-fast-food-chicken.html?tpcc=reddit-social--raisingcanes-"
+      },
+      {
+       "title": "Do you really want a \"slow life?\"",
+       "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+      }
+     ]
+    },
+    {
+     "name": "Markets, Morality, and Hype-Cycle Skepticism",
+     "description": "A loose cluster on the limits of market logic and the recycling of hype: a philosophy podcast on what shouldn't be for sale, Vanguard's unglamorous 50-year origin story, and sharp tweets skewering both hard-money mythology and enterprise software's repeated \"never log in again\" promise.",
+     "items": [
+      {
+       "title": "What Should Not Be for Sale",
+       "url": "https://podcasts.apple.com/us/podcast/what-should-not-be-for-sale/id1896825645?i=1000786256770"
+      },
+      {
+       "title": "Happy birthday to the First Index Investment Trust",
+       "url": "https://www.ft.com/content/c0341d15-482e-41a6-abe1-ef3e5e9a0d0b"
+      },
+      {
+       "title": "Gaurav Kheterpal (@gauravkheterpal) on X",
+       "url": "https://x.com/gauravkheterpal/status/2092857377150374257"
+      },
+      {
+       "title": "John_Hempton (@John_Hempton) on X",
+       "url": "https://x.com/John_Hempton/status/2092814206919713220"
+      },
+      {
+       "title": "goodalexander (@goodalexander) on X",
+       "url": "https://x.com/goodalexander/status/2094483992107962565"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Watch for the shift from liquidity management to price management: Druckenmiller's critique of Bessent's bond buybacks argues they suppress long yields to subsidize fiscal procrastination rather than genuinely stabilizing the Treasury market — a distinction worth applying whenever a policy is framed as 'smoothing markets.'",
+     "sources": [
+      {
+       "title": "Bessent gets Drucked",
+       "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+      }
+     ]
+    },
+    {
+     "lesson": "Today's tight corporate bond spreads aren't necessarily an anomaly — viewed over a century rather than 30 years, they resemble the low-spread post-WWII era, so the 'spreads are dangerously tight' narrative needs the right historical baseline before you trust it.",
+     "sources": [
+      {
+       "title": "What a century of data tells us about today's corporate bond spreads",
+       "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+      }
+     ]
+    },
+    {
+     "lesson": "Two Fed presidents at Jackson Hole (Schmid, Goolsbee) both flagged overheating risk and uncertainty about AI's true economic effect under Warsh's less forward-guidance-heavy approach — a signal to stay skeptical of confident near-term rate calls right now.",
+     "sources": [
+      {
+       "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+       "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400"
+      },
+      {
+       "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+       "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254"
+      }
+     ]
+    },
+    {
+     "lesson": "Treat headline TAM figures as legal cover, not forecasts: they're deliberately unfalsifiable (SpaceX's $28.5tn, Anthropic's even larger claim), which is exactly why they can't be prosecuted as fraud and shouldn't be used to size a real opportunity.",
+     "sources": [
+      {
+       "title": "Charting the trillion-dollar TAM wars",
+       "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+      }
+     ]
+    },
+    {
+     "lesson": "Nvidia's strength is increasingly entangled with off-balance-sheet vendor financing — Morgan Stanley estimates ~$200bn in contingent exposure by 2028 from customer revenue backstops, so its credit risk deserves separate tracking from its reported balance sheet.",
+     "sources": [
+      {
+       "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+       "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+      }
+     ]
+    },
+    {
+     "lesson": "Custom inference silicon like OpenAI's Jalapeño is attacking Nvidia's real architectural weak points (unified L2 cache, memory NUMA-ness, collective-communication overhead) — the competitive threat here is engineering-driven, not just a cost play, and worth tracking technically.",
+     "sources": [
+      {
+       "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+       "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+      }
+     ]
+    },
+    {
+     "lesson": "For your own memory-system experiments: the strongest emerging design pattern favors simple, portable formats (Markdown + optional vector index, prose over chunks) over complex multi-stage pipelines or knowledge-graph traversal.",
+     "sources": [
+      {
+       "title": "Agent memory as a file format",
+       "url": "https://calpaterson.com/memoryfields.html"
+      }
+     ]
+    },
+    {
+     "lesson": "Governance 'independence' claims deserve scrutiny of the actual social graph, not just formal titles — the Cloudflare special committee's independence is being challenged over personal ties (a director who stayed at the founder's home) that undercut its supposed objectivity.",
+     "sources": [
+      {
+       "title": "Harvard and the Cloudflare governance fight",
+       "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The consensus view treats bond buybacks as routine liquidity management; Druckenmiller argues they're actually price management that erodes Treasury market credibility and subsidizes fiscal procrastination — success in the bond market right now may be manufactured, not earned.",
+     "source": {
+      "title": "Bessent gets Drucked",
+      "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+     }
+    },
+    {
+     "insight": "Against the common '30-year-low spreads mean danger' take, a century of data shows persistently low spreads have happened before (post-WWII) for structural reasons that largely still apply — tight spreads aren't automatically a warning sign.",
+     "source": {
+      "title": "What a century of data tells us about today's corporate bond spreads",
+      "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+     }
+    },
+    {
+     "insight": "The bigger and more absurd a TAM claim gets, the less legal risk it carries, because it stops resembling a real financial projection — inverting the intuitive assumption that grander claims mean greater exposure.",
+     "source": {
+      "title": "Charting the trillion-dollar TAM wars",
+      "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+     }
+    },
+    {
+     "insight": "Wellness-culture 'slow living' is usually sold as an aesthetic (unplugging, ritual, minimalism); the actual substance of it is tolerating boredom and solitude — the performance of slowness is arguably the opposite of the thing itself.",
+     "source": {
+      "title": "Do you really want a \"slow life?\"",
+      "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+     }
+    },
+    {
+     "insight": "Hard-money advocates treat gold as the permanent alternative to debasable fiat; the counterargument is that both trend to zero over a long enough horizon — fiat through debasement, gold through confiscation/theft — so neither is a truly permanent store of value.",
+     "source": {
+      "title": "John_Hempton (@John_Hempton) on X",
+      "url": "https://x.com/John_Hempton/status/2092814206919713220"
+     }
+    },
+    {
+     "insight": "Enterprise software vendors keep recycling the exact same promise ('you'll never need to log in again') every few years without it ever holding — a pattern worth applying skeptically to today's AI-agent equivalent of that pitch.",
+     "source": {
+      "title": "Gaurav Kheterpal (@gauravkheterpal) on X",
+      "url": "https://x.com/gauravkheterpal/status/2092857377150374257"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 20,
+    "top_publications": [
+     {
+      "name": "Financial Times",
+      "count": 6
+     },
+     {
+      "name": "Twitter/X",
+      "count": 5
+     },
+     {
+      "name": "Bloomberg",
+      "count": 2
+     },
+     {
+      "name": "Apple Podcasts",
+      "count": 2
+     },
+     {
+      "name": "Mercatus Center Podcasts",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 9
+     },
+     {
+      "name": "investing",
+      "count": 8
+     },
+     {
+      "name": "ai agents",
+      "count": 7
+     },
+     {
+      "name": "design",
+      "count": 3
+     },
+     {
+      "name": "fintech",
+      "count": 3
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Ben Harris on AI, Fiscal Sustainability, and the...",
+     "publication": "Mercatus Center Podcasts",
+     "date": "2026-08-25",
+     "url": "https://podcasts.apple.com/us/podcast/ben-harris-on-ai-fiscal-sustainability-and-the/id1099277290?i=1000785452751"
+    },
+    {
+     "title": "Joe (@JoePostingg) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-25",
+     "url": "https://x.com/JoePostingg/status/2091658120640737616"
+    },
+    {
+     "title": "Bessent gets Drucked",
+     "publication": "Financial Times",
+     "date": "2026-08-25",
+     "url": "https://www.ft.com/content/9d61ca14-6939-4efa-a6fe-0ec1b283d77a"
+    },
+    {
+     "title": "Do you really want a \"slow life?\"",
+     "publication": "RAYON (Substack)",
+     "date": "2026-08-25",
+     "url": "https://ktklp.substack.com/p/do-you-really-want-a-slow-life"
+    },
+    {
+     "title": "The Cult of Raising Cane's",
+     "publication": "Slate",
+     "date": "2026-08-25",
+     "url": "https://slate.com/business/2026/08/raising-canes-restaurant-near-fast-food-chicken.html?tpcc=reddit-social--raisingcanes-"
+    },
+    {
+     "title": "Colin Francis (@colifran_) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-26",
+     "url": "https://x.com/colifran_/status/2092280107033616451"
+    },
+    {
+     "title": "John_Hempton (@John_Hempton) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-27",
+     "url": "https://x.com/John_Hempton/status/2092814206919713220"
+    },
+    {
+     "title": "Gaurav Kheterpal (@gauravkheterpal) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-27",
+     "url": "https://x.com/gauravkheterpal/status/2092857377150374257"
+    },
+    {
+     "title": "What a century of data tells us about today's corporate bond spreads",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/0a50dff4-27f4-46f1-9bdd-9dc047842b2e"
+    },
+    {
+     "title": "Charting the trillion-dollar TAM wars",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/5b479f2e-6b34-4373-b65b-531b92bac816"
+    },
+    {
+     "title": "Nvidia's $200bn 'balance sheet-as-a-service'",
+     "publication": "Financial Times",
+     "date": "2026-08-27",
+     "url": "https://www.ft.com/content/9a6947bf-9d4e-4489-80b9-2178ea657a67"
+    },
+    {
+     "title": "What Should Not Be for Sale",
+     "publication": "Apple Podcasts",
+     "date": "2026-08-27",
+     "url": "https://podcasts.apple.com/us/podcast/what-should-not-be-for-sale/id1896825645?i=1000786256770"
+    },
+    {
+     "title": "Kansas City Fed President Jeffrey Schmid on the First (Jackson Hole Under Kevin Warsh)",
+     "publication": "Bloomberg",
+     "date": "2026-08-27",
+     "url": "https://podcasts.apple.com/us/podcast/kansas-city-fed-president-jeffrey-schmid-on-the-first/id1056200096?i=1000786275254"
+    },
+    {
+     "title": "Harvard and the Cloudflare governance fight",
+     "publication": "Financial Times",
+     "date": "2026-08-28",
+     "url": "https://www.ft.com/content/a95aebcf-6cfe-418c-8c11-ddf05f3aef4d"
+    },
+    {
+     "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+     "publication": "Bloomberg",
+     "date": "2026-08-28",
+     "url": "https://podcasts.apple.com/us/podcast/austan-goolsbee-is-worried-the-economy-is-overheating/id1056200096?i=1000786536400"
+    },
+    {
+     "title": "Jalapeño: OpenAI's Inference Chip Architecture Analysis",
+     "publication": "zartbot.github.io",
+     "date": "2026-08-30",
+     "url": "https://zartbot.github.io/blog/arch/jalapeno/en.html"
+    },
+    {
+     "title": "Happy birthday to the First Index Investment Trust",
+     "publication": "FT",
+     "date": "2026-08-31",
+     "url": "https://www.ft.com/content/c0341d15-482e-41a6-abe1-ef3e5e9a0d0b"
+    },
+    {
+     "title": "Agent memory as a file format",
+     "publication": "calpaterson.com",
+     "date": "2026-08-31",
+     "url": "https://calpaterson.com/memoryfields.html"
+    },
+    {
+     "title": "Ep 180: Bonds, Yields, and Elections ft. Layna Mosley",
+     "publication": "Apple Podcasts",
+     "date": "2026-08-31",
+     "url": "https://podcasts.apple.com/us/podcast/ep-180-bonds-yields-and-elections-ft-layna-mosley/id1528208049?i=1000786984175"
+    },
+    {
+     "title": "goodalexander (@goodalexander) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-08-31",
+     "url": "https://x.com/goodalexander/status/2094483992107962565"
+    }
+   ],
+   "generated_at": "2026-09-01T15:03:17Z"
   }
  ],
- "updated_at": "2026-08-30T15:01:58Z"
+ "updated_at": "2026-09-01T15:03:17Z"
 }
