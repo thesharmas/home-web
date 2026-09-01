@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-08-31T19:00:21.319Z",
-  "count": 190,
+  "generated_at": "2026-09-01T20:00:16.640Z",
+  "count": 192,
   "entries": [
+    {
+      "id": "rl-20260901192111-05be06",
+      "date": "2026-09-01T19:21:11.697Z",
+      "publication": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra: Inside the OpenAI Agent Swarm That Hacked...",
+      "author": "Dwarkesh Patel",
+      "url": "https://podcasts.apple.com/us/podcast/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked/id1516093381?i=1000787211003",
+      "summary": "Ajeya Cotra, a researcher at METR specializing in loss-of-control risks from advanced AI, joins Dwarkesh Patel to discuss the METR and Redwood Research investigation into AI agent behavior during the OpenAI/Hugging Face hacking incident. The conversation covers what the investigation revealed about agent reasoning and collaboration, and what it implies for training future AI systems involved in recursive self-improvement. The episode also addresses the dangers of anthropomorphizing AI and how to prevent similar incidents in the future.",
+      "tags": [
+        "ai agents",
+        "security",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260901191757-a1f4b8",
+      "date": "2026-09-01T19:17:57.122Z",
+      "publication": "Bloomberg (Odd Lots podcast)",
+      "title": "Adam Posen Thinks Things Could Get Very Messy for the Fed",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/adam-posen-thinks-things-could-get-very-messy-for-the-fed/id1056200096?i=1000787135825",
+      "summary": "Adam Posen, president of the Peterson Institute for International Economics, joins the Odd Lots podcast to discuss the challenges facing the Federal Reserve under new chair Kevin Warsh following his hawkish Jackson Hole speech. Posen grades Warsh's speech and examines questions around rate hikes, inflation dynamics unique to the US, and the Treasury's influence on Fed independence. The conversation also touches on the impact of various Fed task forces and the 'messy jobs' theory of AI.",
+      "tags": [
+        "investing",
+        "ai agents",
+        "fintech",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260831180020-8468b5",
       "date": "2026-08-31T18:00:20.514Z",
@@ -3136,15 +3170,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 86
+        "count": 88
       },
       {
         "tag": "investing",
-        "count": 64
+        "count": 65
       },
       {
         "tag": "ai agents",
-        "count": 58
+        "count": 60
       },
       {
         "tag": "tweet",
@@ -3152,7 +3186,7 @@
       },
       {
         "tag": "fintech",
-        "count": 39
+        "count": 40
       },
       {
         "tag": "cloud",
@@ -3160,7 +3194,7 @@
       },
       {
         "tag": "science",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "capital expenditure",
@@ -3168,7 +3202,7 @@
       },
       {
         "tag": "security",
-        "count": 17
+        "count": 18
       },
       {
         "tag": "asset management",
@@ -3277,6 +3311,10 @@
         "count": 1
       },
       {
+        "publication": "Bloomberg (Odd Lots podcast)",
+        "count": 1
+      },
+      {
         "publication": "Bloomberg (Odd Lots)",
         "count": 1
       },
@@ -3306,6 +3344,10 @@
       },
       {
         "publication": "Doubleword Blog",
+        "count": 1
+      },
+      {
+        "publication": "Dwarkesh Podcast",
         "count": 1
       },
       {
@@ -3485,6 +3527,10 @@
       {
         "month": "2026-08",
         "count": 139
+      },
+      {
+        "month": "2026-09",
+        "count": 2
       }
     ]
   }
