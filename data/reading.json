@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-09-02T04:00:22.219Z",
-  "count": 195,
+  "generated_at": "2026-09-02T19:00:23.708Z",
+  "count": 198,
   "entries": [
+    {
+      "id": "rl-20260902181728-21195a",
+      "date": "2026-09-02T18:17:28.410Z",
+      "publication": null,
+      "title": "Attention Required! | Cloudflare",
+      "author": null,
+      "url": "https://www.chathamhouse.org/2026/09/reverse-kindleberger-trap-reasons-worry-about-next-financial-crisis",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260902181632-ea1b59",
+      "date": "2026-09-02T18:16:32.086Z",
+      "publication": "Financial Times",
+      "title": "So how big *was* Bessent's yentervention?",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/958aa5ab-78e0-40cb-9a18-25e9fd5de233",
+      "summary": "FT Alphaville investigates the actual size of the US Treasury's July 2025 intervention in the Japanese yen market. After reviewing ESF financial statements and weekly foreign exchange reserve releases, the author estimates the intervention was approximately $500mn — far smaller than the $5-10bn clue Scott Bessent appeared to plant for journalists and a fraction of the theoretical $26.3bn maximum. Former US Treasury deputy assistant secretary Brad Setser independently arrived at a similar figure.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260902181535-863aa0",
+      "date": "2026-09-02T18:15:35.644Z",
+      "publication": "Financial Times",
+      "title": "GoPro: a totally normal, unremarkable piece of merger activity",
+      "author": "Louis Ashworth",
+      "url": "https://www.ft.com/content/e7cc6fc2-74ae-497b-92bf-d8254dd161fa",
+      "summary": "GoPro announced a merger with Starman Optical, a privately held optical-photonics company, with shareholders receiving $1.14 per share in cash plus ~10% equity in the combined entity. The deal follows a suspicious price surge tied to YouTuber Markiplier publicly disclosing an 8.5% stake and promoting GoPro's new camera, raising eyebrows about the timing. FT Alphaville notes that Starman itself has a thin corporate history, ongoing litigation, and the merger announcement was not yet accompanied by an SEC filing.",
+      "tags": [
+        "technology",
+        "investing",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260902033709-6bda84",
       "date": "2026-09-02T03:37:09.015Z",
@@ -3212,11 +3255,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 88
+        "count": 89
       },
       {
         "tag": "investing",
-        "count": 65
+        "count": 67
       },
       {
         "tag": "ai agents",
@@ -3228,7 +3271,7 @@
       },
       {
         "tag": "fintech",
-        "count": 40
+        "count": 41
       },
       {
         "tag": "cloud",
@@ -3239,11 +3282,11 @@
         "count": 23
       },
       {
-        "tag": "capital expenditure",
-        "count": 18
+        "tag": "security",
+        "count": 19
       },
       {
-        "tag": "security",
+        "tag": "capital expenditure",
         "count": 18
       },
       {
@@ -3282,14 +3325,14 @@
       },
       {
         "publication": "Financial Times",
-        "count": 25
-      },
-      {
-        "publication": "The Economist",
-        "count": 11
+        "count": 27
       },
       {
         "publication": "Unknown",
+        "count": 12
+      },
+      {
+        "publication": "The Economist",
         "count": 11
       },
       {
@@ -3572,7 +3615,7 @@
       },
       {
         "month": "2026-09",
-        "count": 5
+        "count": 8
       }
     ]
   }
