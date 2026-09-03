@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:00:29.933Z",
+  "generated_at": "2026-09-03T19:00:29.018Z",
   "count": 206,
   "entries": [
     {
@@ -34,14 +34,14 @@
     {
       "id": "rl-20260903163121-ff45d3",
       "date": "2026-09-03T16:31:21.212Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Why does it even matter if SoftBank's an investment holding company?",
+      "author": "Toby Nangle",
       "url": "https://www.ft.com/content/2d69802f-cdea-4884-ac53-e20001495ada",
-      "summary": null,
+      "summary": "SoftBank is preparing to issue up to $20bn in US dollar bonds, which would mark its entry into the domestic US high-yield bond market. The piece explains why SoftBank has historically avoided US domestic issuance — its classification as a foreign investment holding company subjects it to restrictions under the Investment Company Act of 1940, limiting its ability to issue debt to US investors. The move is driven by the need to refinance a $40bn bridge loan tied to its OpenAI investment, with analysts speculating a new 10-year bond could carry a ~9% coupon.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260903155328-d17800",
@@ -3445,11 +3445,11 @@
       },
       {
         "publication": "Financial Times",
-        "count": 27
+        "count": 28
       },
       {
         "publication": "Unknown",
-        "count": 13
+        "count": 12
       },
       {
         "publication": "Bloomberg",
