@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:00:27.291Z",
+  "generated_at": "2026-09-03T23:00:27.856Z",
   "count": 208,
   "entries": [
     {
@@ -3396,6 +3396,19 @@
       "active": true,
       "created_at": "2026-08-27T23:44:37.230Z",
       "link": "https://play.google.com/store/books/details?id=s7HqBgAAQBAJ",
+      "highlights": []
+    },
+    {
+      "id": 9,
+      "title": "Essentialism",
+      "author": "Greg McKeown",
+      "isbn": "9780804137386",
+      "publication_year": 2014,
+      "total_pages": null,
+      "summary": "THE LIFE-CHANGING NEW YORK TIMES BESTSELLER • MORE THAN TWO MILLION COPIES SOLD “Essentialism holds the keys to solving one of the great puzzles of life: How can we do less but accomplish more?”—Adam Grant, bestselling author of Think Again Essentialism isn’t about getting more done in less time. It’s about getting only the right things done. Have you ever found yourself stretched too thin? Are you often busy but not productive? Do you feel like your time is constantly being hijacked? If you answered yes to any of these, the way out is the Way of the Essentialist. Essentialism is more than a time-management technique. It is a systematic discipline for discerning what is absolutely essential, then eliminating everything that is not, so we can make the highest possible contribution toward the things that really matter. By forcing us to apply more selective criteria for where to spend our precious time and energy, the disciplined pursuit of less empowers us to reclaim control of our own choices, instead of giving others the implicit permission to choose for us. Essentialism is not one more thing to do. It’s a whole new way of doing less, but better, in every area of our lives. Join the millions of people who have used Essentialism to change their outlook on the world.",
+      "active": true,
+      "created_at": "2026-09-03T22:31:00.289Z",
+      "link": "https://books.google.com/books/about/Essentialism.html?hl=&id=CleNDQAAQBAJ",
       "highlights": []
     }
   ],
