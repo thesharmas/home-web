@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-09-03T16:00:31.066Z",
-  "count": 203,
+  "generated_at": "2026-09-03T17:00:29.933Z",
+  "count": 206,
   "entries": [
+    {
+      "id": "rl-20260903164715-85025d",
+      "date": "2026-09-03T16:47:15.369Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Worst Contrarian - BACK OFFICE @ LARP CAPITAL (@larpcapitalwc) on X",
+      "author": "Worst Contrarian - BACK OFFICE @ LARP CAPITAL (@larpcapitalwc)",
+      "url": "https://x.com/larpcapitalwc/status/2095515756528361727",
+      "summary": "[1/2] Spoke to an old mate from uni who told me he does an option strategy called “the wheel” and basically the way it works is at some stage in the future you are going to be financially raped but you don’t know when\n\n[2/2] @Alice_comfy Those losses can’t run forever …",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260903163650-f803ac",
+      "date": "2026-09-03T16:36:50.274Z",
+      "publication": "Core Memory",
+      "title": "San Francisco's Hot List Proves That The Ragebait Economy Is Still Raging",
+      "author": "Kylie Robison",
+      "url": "https://www.corememory.com/p/san-francisco-hot-list-known-ragebait",
+      "summary": "Kylie Robison examines the viral \"San Francisco's Hot List,\" a curated ranking of the city's most dateable people launched by Celeste Amadon, which quickly drew massive online mockery of San Francisco's tech culture and aesthetics. The list featured a mix of high-profile tech personalities and lesser-known young professionals, some of whom were unaware they had been nominated. The piece situates the stunt within the broader \"ragebait economy,\" noting how it provoked predictable ridicule while still commanding widespread engagement.",
+      "tags": [
+        "technology",
+        "design"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260903163121-ff45d3",
+      "date": "2026-09-03T16:31:21.212Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/2d69802f-cdea-4884-ac53-e20001495ada",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260903155328-d17800",
       "date": "2026-09-03T15:53:28.781Z",
@@ -3334,7 +3375,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 91
+        "count": 92
       },
       {
         "tag": "investing",
@@ -3346,7 +3387,7 @@
       },
       {
         "tag": "tweet",
-        "count": 56
+        "count": 57
       },
       {
         "tag": "fintech",
@@ -3378,7 +3419,7 @@
       },
       {
         "tag": "design",
-        "count": 5
+        "count": 6
       },
       {
         "tag": "etfs",
@@ -3400,7 +3441,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 51
+        "count": 52
       },
       {
         "publication": "Financial Times",
@@ -3408,7 +3449,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 12
+        "count": 13
       },
       {
         "publication": "Bloomberg",
@@ -3496,6 +3537,10 @@
       },
       {
         "publication": "Convexity Maven",
+        "count": 1
+      },
+      {
+        "publication": "Core Memory",
         "count": 1
       },
       {
@@ -3698,7 +3743,7 @@
       },
       {
         "month": "2026-09",
-        "count": 13
+        "count": 16
       }
     ]
   }
