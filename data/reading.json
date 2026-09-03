@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-09-03T15:05:29.178Z",
-  "count": 201,
+  "generated_at": "2026-09-03T16:00:31.066Z",
+  "count": 203,
   "entries": [
+    {
+      "id": "rl-20260903155328-d17800",
+      "date": "2026-09-03T15:53:28.781Z",
+      "publication": "Apple Podcasts",
+      "title": "Why Do We Love Gold So Much?",
+      "author": "Jacob Goldstein",
+      "url": "https://podcasts.apple.com/us/podcast/why-do-we-love-gold-so-much/id1896825645?i=1000787631990",
+      "summary": "This podcast episode explores why gold has such enduring appeal as a store of value, examining both its physical properties and its long history as a collective obsession. Jacob Goldstein, author of 'Money: The True Story of a Made-Up Thing,' explains the real reasons gold is seen as a stable alternative to currencies. The episode was prompted by gold's strong performance in August, driven by buying from individuals, investors, and central banks worldwide.",
+      "tags": [
+        "investing",
+        "asset management"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260903155323-e40b2e",
+      "date": "2026-09-03T15:53:23.478Z",
+      "publication": "Bloomberg",
+      "title": "What's Behind the Big Surge in US Government Bond Yields?",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/whats-behind-the-big-surge-in-us-government-bond-yields/id1056200096?i=1000787605034",
+      "summary": "Global bond yields have hit their highest levels since 2008, with the 30-year US Treasury touching 5%, amid a surprise expansion of the Treasury's bond buyback program and a hawkish speech by Fed Chairman Kevin Warsh at Jackson Hole. Bloomberg's Odd Lots podcast speaks with Stanford Professor Darrell Duffie, a bond market expert who presented at Jackson Hole in 2023, to explore what is driving yields higher. The conversation covers policy options for bringing yields down and the challenge of shrinking the Fed's balance sheet.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260903141842-1088c4",
       "date": "2026-09-03T14:18:42.737Z",
@@ -3307,7 +3338,7 @@
       },
       {
         "tag": "investing",
-        "count": 67
+        "count": 69
       },
       {
         "tag": "ai agents",
@@ -3319,7 +3350,7 @@
       },
       {
         "tag": "fintech",
-        "count": 41
+        "count": 42
       },
       {
         "tag": "cloud",
@@ -3334,12 +3365,12 @@
         "count": 20
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 18
       },
       {
-        "tag": "asset management",
-        "count": 16
+        "tag": "capital expenditure",
+        "count": 18
       },
       {
         "tag": "sustainability",
@@ -3380,12 +3411,12 @@
         "count": 12
       },
       {
-        "publication": "The Economist",
+        "publication": "Bloomberg",
         "count": 11
       },
       {
-        "publication": "Bloomberg",
-        "count": 10
+        "publication": "The Economist",
+        "count": 11
       },
       {
         "publication": "The Information",
@@ -3393,7 +3424,7 @@
       },
       {
         "publication": "Apple Podcasts",
-        "count": 5
+        "count": 6
       },
       {
         "publication": "Twitter/X",
@@ -3667,7 +3698,7 @@
       },
       {
         "month": "2026-09",
-        "count": 11
+        "count": 13
       }
     ]
   }
