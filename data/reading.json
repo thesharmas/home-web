@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-09-02T23:00:32.418Z",
-  "count": 199,
+  "generated_at": "2026-09-03T15:05:29.178Z",
+  "count": 201,
   "entries": [
+    {
+      "id": "rl-20260903141842-1088c4",
+      "date": "2026-09-03T14:18:42.737Z",
+      "publication": "seeksocial.io",
+      "title": "Scraping TikTok's Mobile API",
+      "author": null,
+      "url": "https://tiktok-api.seeksocial.io/",
+      "summary": "A detailed technical guide to accessing TikTok's private Android HTTP+JSON API, covering device registration and activation, request signing (X-Argus, X-Ladon, X-Gorgon) using Simon, Speck, SM3 and TTEncrypt, regional host partitioning, and TLS fingerprint spoofing via uTLS. The guide explains how all four gates must be correct simultaneously to avoid TikTok's silent soft-block (HTTP 200 with empty body), and documents 24 measured endpoints. A system built on this approach collected 3.23 billion creator profiles, 5.94 billion videos and 2.8 billion comments in three weeks.",
+      "tags": [
+        "technology",
+        "security",
+        "ai agents",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260903141838-00ce23",
+      "date": "2026-09-03T14:18:38.915Z",
+      "publication": "Hugging Face",
+      "title": "TikTok Videos: 4.5 billion posts with engagement metrics",
+      "author": "kuben-developer",
+      "url": "https://huggingface.co/datasets/kuben-developer/tiktok-videos-4b",
+      "summary": "A Hugging Face dataset containing 4.5 billion TikTok video records collected via TikTok's private Android API over roughly three weeks, stored as 27 zstd-compressed Parquet files totalling ~289 GB. Each row represents one unique video and includes fields such as caption, engagement counts (views, likes, comments, shares, saves), sound metadata, country, and language. The dataset is released for research use, with caveats around snapshot timing, non-shuffled row ordering, absence of author identity, and GDPR/CCPA obligations.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "science",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260902220234-6df51f",
       "date": "2026-09-02T22:02:34.640Z",
@@ -3269,7 +3303,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 89
+        "count": 91
       },
       {
         "tag": "investing",
@@ -3277,7 +3311,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 60
+        "count": 62
       },
       {
         "tag": "tweet",
@@ -3289,15 +3323,15 @@
       },
       {
         "tag": "cloud",
-        "count": 23
+        "count": 25
       },
       {
         "tag": "science",
-        "count": 23
+        "count": 24
       },
       {
         "tag": "security",
-        "count": 19
+        "count": 20
       },
       {
         "tag": "capital expenditure",
@@ -3371,6 +3405,10 @@
       },
       {
         "publication": "FT",
+        "count": 2
+      },
+      {
+        "publication": "Hugging Face",
         "count": 2
       },
       {
@@ -3451,10 +3489,6 @@
       },
       {
         "publication": "Groundbreaker",
-        "count": 1
-      },
-      {
-        "publication": "Hugging Face",
         "count": 1
       },
       {
@@ -3602,6 +3636,10 @@
         "count": 1
       },
       {
+        "publication": "seeksocial.io",
+        "count": 1
+      },
+      {
         "publication": "stafforini.com",
         "count": 1
       },
@@ -3629,7 +3667,7 @@
       },
       {
         "month": "2026-09",
-        "count": 9
+        "count": 11
       }
     ]
   }
