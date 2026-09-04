@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:00:32.618Z",
+  "generated_at": "2026-09-04T20:00:26.426Z",
   "count": 216,
   "entries": [
     {
@@ -55,14 +55,14 @@
     {
       "id": "rl-20260904171413-351dff",
       "date": "2026-09-04T17:14:13.079Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Are credit rating agencies getting fed up with hyperscalers?",
+      "author": "Toby Nangle",
       "url": "https://www.ft.com/content/623c286b-c973-4488-83f3-97e9016e85f6",
-      "summary": null,
+      "summary": "S&P Global Ratings has published a candid 'temperature check' on hyperscalers, warning that capex is rising faster than anticipated, financing structures are growing more complex and opaque, and returns on AI investment remain unquantified. The agency projects the top six US hyperscalers will spend over $7tn through 2030 but lacks ROI data to underpin its ratings, forcing it to assume the companies know what they are doing. S&P flags that some firms, notably Oracle, have very little headroom before crossing downgrade thresholds into junk territory, and warns that interconnected circular financing structures could amplify volatility sharply if AI demand disappoints.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260904163420-b6013b",
@@ -3606,11 +3606,11 @@
       },
       {
         "publication": "Financial Times",
-        "count": 28
+        "count": 29
       },
       {
         "publication": "Unknown",
-        "count": 13
+        "count": 12
       },
       {
         "publication": "Bloomberg",
