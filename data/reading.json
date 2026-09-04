@@ -1,7 +1,69 @@
 {
-  "generated_at": "2026-09-04T17:00:33.797Z",
-  "count": 212,
+  "generated_at": "2026-09-04T18:00:32.618Z",
+  "count": 216,
   "entries": [
+    {
+      "id": "rl-20260904172659-08b316",
+      "date": "2026-09-04T17:26:59.390Z",
+      "publication": "Anil Dash",
+      "title": "VC isn't VC anymore — understanding the rise of Cancer Capital",
+      "author": "Anil Dash",
+      "url": "https://www.anildash.com/2026/09/02/cancer-capital/",
+      "summary": "Anil Dash, a veteran startup CEO and founder, argues that venture capital has transformed into what he calls \"Cancer Capital\" — a handful of mega-firms that have grown so large and legally restructured themselves so thoroughly that they are no longer accountable to markets, regulators, or voters. He contends these firms, exemplified by Andreessen Horowitz, have shifted from funding innovation to wielding concentrated political and financial power, funneling hundreds of millions into politics and engaging in self-dealing that insulates them from risk. Dash frames this as an existential threat to democracy and civil society, promising further analysis of how this transformation occurred.",
+      "tags": [
+        "fintech",
+        "investing",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260904172527-aac03d",
+      "date": "2026-09-04T17:25:27.777Z",
+      "publication": "Colossus",
+      "title": "Invisible Companies",
+      "author": "Jay Barney, Haiyang Zhang & Jerry Neumann",
+      "url": "https://colossus.com/article/invisible-companies/",
+      "summary": "The essay introduces the concept of 'invisible companies'—businesses that earn sustained above-normal profits not because of traditional moats like patents or scale, but because competitors simply fail to notice them. Drawing on examples like Steve Ross's Kinney Services, Constellation Software, HEICO, and Waste Management, the authors argue that competitive neglect—driven by unawareness, missing data, cognitive filters, and status bias—is itself a durable source of excess returns. The piece also explores how AI and better data may erode some invisibility while potentially hardcoding new blind spots, and offers practical heuristics for finding these overlooked opportunities.",
+      "tags": [
+        "investing",
+        "technology",
+        "asset management",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260904171546-8d139e",
+      "date": "2026-09-04T17:15:46.379Z",
+      "publication": "governance.fyi",
+      "title": "What Caused The Burrito Discourse? One Fund Who Ate Chipotle's Goodwill",
+      "author": "Dave Deek",
+      "url": "https://www.governance.fyi/p/chipotles-enshittification",
+      "summary": "The article traces how Chipotle's founder Steve Ells built a high-performing, generosity-driven fast-food chain through careful management and quality control, only to see activist investor Bill Ackman's Pershing Square exploit food-safety scandals to install new management focused on margin extraction. Under CEO Brian Niccol, cost-cutting measures—including reduced portions, app-based ordering that eliminated customer feedback, and tighter staffing—gradually eroded the brand equity and customer goodwill Chipotle had accumulated over decades. The result was modest short-term returns for Pershing Square (just one percentage point above the S&P 500) at the cost of declining same-store sales and a damaged brand by 2025-2026.",
+      "tags": [
+        "investing",
+        "asset management",
+        "technology",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260904171413-351dff",
+      "date": "2026-09-04T17:14:13.079Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/623c286b-c973-4488-83f3-97e9016e85f6",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260904163420-b6013b",
       "date": "2026-09-04T16:34:20.991Z",
@@ -3474,15 +3536,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 93
+        "count": 96
       },
       {
         "tag": "investing",
-        "count": 69
+        "count": 72
       },
       {
         "tag": "ai agents",
-        "count": 63
+        "count": 64
       },
       {
         "tag": "tweet",
@@ -3490,7 +3552,7 @@
       },
       {
         "tag": "fintech",
-        "count": 42
+        "count": 44
       },
       {
         "tag": "cloud",
@@ -3506,7 +3568,7 @@
       },
       {
         "tag": "asset management",
-        "count": 18
+        "count": 20
       },
       {
         "tag": "capital expenditure",
@@ -3548,7 +3610,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 12
+        "count": 13
       },
       {
         "publication": "Bloomberg",
@@ -3603,6 +3665,10 @@
         "count": 1
       },
       {
+        "publication": "Anil Dash",
+        "count": 1
+      },
+      {
         "publication": "Anthropic",
         "count": 1
       },
@@ -3632,6 +3698,10 @@
       },
       {
         "publication": "Cartoons Hate Her",
+        "count": 1
+      },
+      {
+        "publication": "Colossus",
         "count": 1
       },
       {
@@ -3811,6 +3881,10 @@
         "count": 1
       },
       {
+        "publication": "governance.fyi",
+        "count": 1
+      },
+      {
         "publication": "sascha-steffen.de",
         "count": 1
       },
@@ -3846,7 +3920,7 @@
       },
       {
         "month": "2026-09",
-        "count": 22
+        "count": 26
       }
     ]
   }
