@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-09-04T14:00:34.316Z",
-  "count": 210,
+  "generated_at": "2026-09-04T17:00:33.797Z",
+  "count": 212,
   "entries": [
+    {
+      "id": "rl-20260904163420-b6013b",
+      "date": "2026-09-04T16:34:20.991Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Yunfan Ye (@realYunfanYe) on X",
+      "author": "Yunfan Ye (@realYunfanYe)",
+      "url": "https://x.com/realYunfanYe/status/2095612137582526615",
+      "summary": "[1/17] GPT-6 Astra is a beast. Give it a Zillow listing. It can 3D model the house based on the listing photos and create a cool promotion video. \n\nThe video was just created in one shot and there are still some wrong details. But I am sure it will be much better if I ask it to p",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260904162956-4a89df",
+      "date": "2026-09-04T16:29:56.151Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Matt Shumer (@mattshumer_) on X",
+      "author": "Matt Shumer (@mattshumer_)",
+      "url": "https://x.com/mattshumer_/status/2095723177389232540",
+      "summary": "[1/8] A lot of people are asking how I pulled off these super long-horizon builds with Astra.\n\nAstra is extremely powerful, but by default it struggled with a task this difficult. I tested a bunch of approaches to get past this, and the one I landed on is something I'm calling th",
+      "tags": [
+        "tweet"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260904134442-142c0b",
       "date": "2026-09-04T13:44:42.258Z",
@@ -3458,7 +3486,7 @@
       },
       {
         "tag": "tweet",
-        "count": 60
+        "count": 62
       },
       {
         "tag": "fintech",
@@ -3512,7 +3540,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 55
+        "count": 57
       },
       {
         "publication": "Financial Times",
@@ -3818,7 +3846,7 @@
       },
       {
         "month": "2026-09",
-        "count": 20
+        "count": 22
       }
     ]
   }
