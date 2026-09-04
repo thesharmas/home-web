@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-03T23:00:27.856Z",
-  "count": 208,
+  "generated_at": "2026-09-04T00:01:03.912Z",
+  "count": 209,
   "entries": [
+    {
+      "id": "rl-20260903231616-e16c04",
+      "date": "2026-09-03T23:16:16.016Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Aiden Cline (@rekram11) on X",
+      "author": "Aiden Cline (@rekram11)",
+      "url": "https://x.com/rekram11/status/2095557317483782213",
+      "summary": "[1/2] We started using this the other day and the whole team is hooked \n\nhttps://t.co/rdMypbM6nY\n\n[2/2] @ryanvogel mfer",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260903213601-ba6ca3",
       "date": "2026-09-03T21:36:01.143Z",
@@ -3428,7 +3442,7 @@
       },
       {
         "tag": "tweet",
-        "count": 59
+        "count": 60
       },
       {
         "tag": "fintech",
@@ -3482,7 +3496,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 54
+        "count": 55
       },
       {
         "publication": "Financial Times",
@@ -3784,7 +3798,7 @@
       },
       {
         "month": "2026-09",
-        "count": 18
+        "count": 19
       }
     ]
   }
