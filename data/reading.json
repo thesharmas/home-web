@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:00:26.426Z",
+  "generated_at": "2026-09-05T22:00:32.433Z",
   "count": 216,
   "entries": [
     {
@@ -3529,6 +3529,19 @@
       "active": true,
       "created_at": "2026-09-03T22:31:00.289Z",
       "link": "https://books.google.com/books/about/Essentialism.html?hl=&id=CleNDQAAQBAJ",
+      "highlights": []
+    },
+    {
+      "id": 10,
+      "title": "Prelude to Foundation",
+      "author": "Isaac Asimov",
+      "isbn": "9780593159972",
+      "publication_year": 2020,
+      "total_pages": null,
+      "summary": "The first of two prequel novels in Isaac Asimov’s classic science-fiction masterpiece, the Foundation series THE EPIC SAGA THAT INSPIRED THE APPLE TV+ SERIES FOUNDATION It is the year 12,020 G.E. and Emperor Cleon I sits uneasily on the Imperial throne of Trantor. Here in the great multidomed capital of the Galactic Empire, forty billion people have created a civilization of unimaginable technological and cultural complexity. Yet Cleon knows there are those who would see him fall—those whom he would destroy if only he could read the future. Hari Seldon has come to Trantor to deliver his paper on psychohistory, his remarkable theory of prediction. Little does the young Outworld mathematician know that he has already sealed his fate and the fate of humanity. For Hari possesses the prophetic power that makes him the most wanted man in the Empire . . . the man who holds the key to the future—an apocalyptic power to be known forever after as the Foundation.",
+      "active": true,
+      "created_at": "2026-09-05T21:20:42.610Z",
+      "link": "https://books.google.com/books/about/Prelude_to_Foundation.html?hl=&id=Eh-OEAAAQBAJ",
       "highlights": []
     }
   ],
