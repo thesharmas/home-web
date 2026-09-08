@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-09-08T01:00:39.796Z",
-  "count": 222,
+  "generated_at": "2026-09-08T18:00:43.320Z",
+  "count": 223,
   "entries": [
+    {
+      "id": "rl-20260908170314-5d7c80",
+      "date": "2026-09-08T17:03:14.364Z",
+      "publication": "The Rustbelt Reader",
+      "title": "The Man Who Could Wait",
+      "author": "The Rustbelt Reader",
+      "url": "https://therustbeltreader.substack.com/p/the-man-who-could-wait",
+      "summary": "This essay uses the Panic of 1873 as a lens to examine how liability structure—not asset quality—determined who survived the crisis. Drawing on Thomas Mellon's memoir, Liaquat Ahamed's history, and contemporary sources, it argues that Mellon's survival owed less to clairvoyance than to decades of refusals that left him room to wait when others were forced to sell. The piece closes with a durable principle: the right to wait is purchased through liquidity, reputation, and creditor trust, not moral virtue alone.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260908010027-edd444",
       "date": "2026-09-08T01:00:27.753Z",
@@ -3641,7 +3656,7 @@
       },
       {
         "tag": "investing",
-        "count": 74
+        "count": 75
       },
       {
         "tag": "ai agents",
@@ -3653,7 +3668,7 @@
       },
       {
         "tag": "fintech",
-        "count": 44
+        "count": 45
       },
       {
         "tag": "cloud",
@@ -3958,6 +3973,10 @@
         "count": 1
       },
       {
+        "publication": "The Rustbelt Reader",
+        "count": 1
+      },
+      {
         "publication": "Unstable Equilibria (Substack)",
         "count": 1
       },
@@ -4033,7 +4052,7 @@
       },
       {
         "month": "2026-09",
-        "count": 32
+        "count": 33
       }
     ]
   }
