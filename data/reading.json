@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-06T19:00:29.199Z",
-  "count": 221,
+  "generated_at": "2026-09-08T01:00:39.796Z",
+  "count": 222,
   "entries": [
+    {
+      "id": "rl-20260908010027-edd444",
+      "date": "2026-09-08T01:00:27.753Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Gappy (Giuseppe Paleologo) (@__paleologo) on X",
+      "author": "Gappy (Giuseppe Paleologo) (@__paleologo)",
+      "url": "https://x.com/__paleologo/status/2097113492121686218",
+      "summary": "[1/16] I thought I'd share a personal work experience that could be of interest to non-finance people who are still figuring out whether AI is coming for their jobs. A short🧵.\n1/\n\n[2/16] Everyone who works in fundamental and systematic equities investing has gone through at leas",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260906181030-13288d",
       "date": "2026-09-06T18:10:30.449Z",
@@ -3635,7 +3649,7 @@
       },
       {
         "tag": "tweet",
-        "count": 62
+        "count": 63
       },
       {
         "tag": "fintech",
@@ -3689,7 +3703,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 57
+        "count": 58
       },
       {
         "publication": "Financial Times",
@@ -4019,7 +4033,7 @@
       },
       {
         "month": "2026-09",
-        "count": 31
+        "count": 32
       }
     ]
   }
