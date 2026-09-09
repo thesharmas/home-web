@@ -1,7 +1,102 @@
 {
-  "generated_at": "2026-09-08T18:00:43.320Z",
-  "count": 223,
+  "generated_at": "2026-09-09T00:01:00.086Z",
+  "count": 229,
   "entries": [
+    {
+      "id": "rl-20260908234816-e0b276",
+      "date": "2026-09-08T23:48:19.222Z",
+      "publication": "The Economist",
+      "title": "Europe's bond markets are suffering a post-holiday shock",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/09/01/europes-bond-markets-are-suffering-a-post-holiday-shock",
+      "summary": "The Economist reports that Europe's bond markets are experiencing turbulence following the summer holiday period, with rising yields presenting challenges for investors. Euro-zone government bond investors must navigate 21 different country markets plus EU debt, compounding the difficulty. The article notes that while the reasons for rising yields differ from those in America, they are equally problematic.",
+      "tags": [
+        "investing",
+        "asset management",
+        "etfs",
+        "fintech"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260908234408-0a706c",
+      "date": "2026-09-08T23:44:14.454Z",
+      "publication": "The Economist",
+      "title": "The extraordinary rise of Miami's economy",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy",
+      "summary": "The Economist examines Miami's remarkable economic boom, driven by an influx of capital and favorable political conditions. The city has attracted wealthy tech and finance figures, with luxury real estate sales reaching extraordinary heights. The article questions whether this growth trajectory is sustainable long-term.",
+      "tags": [
+        "fintech",
+        "investing",
+        "technology"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260908234343-9004c6",
+      "date": "2026-09-08T23:43:45.884Z",
+      "publication": "The Economist",
+      "title": "How to combine exercise with video games",
+      "author": null,
+      "url": "https://www.economist.com/well-informed/2026/08/28/how-to-combine-exercise-with-video-games",
+      "summary": "The article explores how video games, particularly VR-based ones, can be used as a form of exercise. It highlights games like \"Pistol Whip\" that require physical movement such as stepping and squatting. The piece argues that combining gaming with exercise could make physical activity more enjoyable.",
+      "tags": [
+        "technology",
+        "science",
+        "design"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260908234033-912dd0",
+      "date": "2026-09-08T23:40:36.355Z",
+      "publication": "The Economist",
+      "title": "A suspicious signal in a dark-matter detector has physicists excited",
+      "author": null,
+      "url": "https://www.economist.com/science-and-technology/2026/09/02/a-suspicious-signal-in-a-dark-matter-detector-has-physicists-excited",
+      "summary": "A mysterious signal detected on June 16th 2023 in the LUX-ZEPLIN (LZ) underground dark-matter experiment in South Dakota has excited physicists. The experiment, part of the ongoing hunt for WIMPs (Weakly Interacting Massive Particles), registered an anomalous blip that could potentially be significant. Researchers are cautiously optimistic, acknowledging it may be nothing or could represent a major breakthrough in dark matter detection.",
+      "tags": [
+        "particle physics",
+        "science"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260908233854-5591e2",
+      "date": "2026-09-08T23:38:56.112Z",
+      "publication": "The Economist",
+      "title": "The jackal and the snitch: What do a spoiled Venezuelan and poor Texan have in common?",
+      "author": null,
+      "url": "https://www.economist.com/culture/2024/the-jackal-and-the-snitch",
+      "summary": "This is a Weekly edition of The Economist app showing multiple culture and lifestyle articles. Featured pieces include a review of a British Museum show on the Bayeux tapestry, a book review connecting to 'Catch the Devil / The Jackal', a piece on museum patronage, Robert Harris's new Roman novel 'Agrippa', and a feature on the Hyrox fitness trend. The notification confirms a readlog entry was triggered for 'Catch the Devil / The Jackal — book review'.",
+      "tags": [
+        "design",
+        "science",
+        "technology"
+      ],
+      "source": "ios",
+      "partial": true
+    },
+    {
+      "id": "rl-20260908233836-ba3d88",
+      "date": "2026-09-08T23:38:38.100Z",
+      "publication": "The Economist",
+      "title": "Catch the Devil / The Jackal — book review",
+      "author": null,
+      "url": "https://www.economist.com",
+      "summary": "A book review from The Economist covering two books about infamous criminals: 'Catch the Devil' by Pamela Colloff and 'The Jackal' by Joby Warrick. The piece contrasts the biographical backgrounds of the two subjects — one a worldly Venezuelan and the other a Texan from a working-class background. The review appears to explore how such different origins led to notorious criminal careers.",
+      "tags": [
+        "security",
+        "science"
+      ],
+      "source": "ios",
+      "partial": true
+    },
     {
       "id": "rl-20260908170314-5d7c80",
       "date": "2026-09-08T17:03:14.364Z",
@@ -3652,11 +3747,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 99
+        "count": 102
       },
       {
         "tag": "investing",
-        "count": 75
+        "count": 77
       },
       {
         "tag": "ai agents",
@@ -3668,23 +3763,23 @@
       },
       {
         "tag": "fintech",
-        "count": 45
+        "count": 47
+      },
+      {
+        "tag": "science",
+        "count": 28
       },
       {
         "tag": "cloud",
         "count": 25
       },
       {
-        "tag": "science",
-        "count": 24
-      },
-      {
         "tag": "security",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "asset management",
-        "count": 20
+        "count": 21
       },
       {
         "tag": "capital expenditure",
@@ -3696,11 +3791,15 @@
       },
       {
         "tag": "design",
-        "count": 6
+        "count": 8
       },
       {
         "tag": "etfs",
-        "count": 4
+        "count": 5
+      },
+      {
+        "tag": "particle physics",
+        "count": 2
       },
       {
         "tag": "iconography",
@@ -3708,10 +3807,6 @@
       },
       {
         "tag": "mac os",
-        "count": 1
-      },
-      {
-        "tag": "particle physics",
         "count": 1
       }
     ],
@@ -3725,15 +3820,15 @@
         "count": 29
       },
       {
+        "publication": "The Economist",
+        "count": 17
+      },
+      {
         "publication": "Unknown",
         "count": 12
       },
       {
         "publication": "Bloomberg",
-        "count": 11
-      },
-      {
-        "publication": "The Economist",
         "count": 11
       },
       {
@@ -4052,7 +4147,7 @@
       },
       {
         "month": "2026-09",
-        "count": 33
+        "count": 39
       }
     ]
   }
