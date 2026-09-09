@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-09T00:01:00.086Z",
-  "count": 229,
+  "generated_at": "2026-09-09T03:00:38.649Z",
+  "count": 230,
   "entries": [
+    {
+      "id": "rl-20260909024321-f3d06f",
+      "date": "2026-09-09T02:43:21.035Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Sorian (@sorianmaran) on X",
+      "author": "Sorian (@sorianmaran)",
+      "url": "https://x.com/sorianmaran/status/2097390389770760500",
+      "summary": "The funniest thing is that at some point Benioff will want to sell Salesforce to Anthropic and become their executive chairman of enterprise.  They are values aligned.\n\nHe will want to sell for at least 300bn\n\nAnthropic will only do it if they price it in stock and ANT stock is 2",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260908234816-e0b276",
       "date": "2026-09-08T23:48:19.222Z",
@@ -3759,7 +3773,7 @@
       },
       {
         "tag": "tweet",
-        "count": 63
+        "count": 64
       },
       {
         "tag": "fintech",
@@ -3813,7 +3827,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 58
+        "count": 59
       },
       {
         "publication": "Financial Times",
@@ -4147,7 +4161,7 @@
       },
       {
         "month": "2026-09",
-        "count": 39
+        "count": 40
       }
     ]
   }
