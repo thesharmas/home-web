@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-12T17:00:43.020Z",
-  "count": 236,
+  "generated_at": "2026-09-12T21:00:52.550Z",
+  "count": 238,
   "entries": [
+    {
+      "id": "rl-20260912203346-52de84",
+      "date": "2026-09-12T20:33:46.088Z",
+      "publication": "DAIR.AI Academy",
+      "title": "Harness Engineering – Paper Collection",
+      "author": null,
+      "url": "https://academy.dair.ai/papers/collections/harness-engineering",
+      "summary": "This curated collection of 21 papers traces the evolution of AI 'harnesses'—everything surrounding model weights that determines how a model interacts with the world—from a bare sampling loop in 2019 to self-modifying harnesses in 2026. Organized into sections covering static harnesses, learnable harnesses, and shipped 2026 systems, it argues that the same model weights can score anywhere from 30% to 95.5% on a benchmark depending solely on harness design. The collection was compiled from a YC Paper Club session recorded August 26, 2026.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260912202824-4a5ee2",
+      "date": "2026-09-12T20:28:24.222Z",
+      "publication": "Slate Podcasts",
+      "title": "The Private Equity Confidence Game",
+      "author": "Felix Salmon, Elizabeth Spiers, Emily Peck, William D. Cohan",
+      "url": "https://podcasts.apple.com/us/podcast/the-private-equity-confidence-game/id876523888?i=1000789113811",
+      "summary": "This episode of Slate Money features author William D. Cohan discussing his book Money to Burn, which investigates private-equity firm Apollo Global Management and its billionaire co-founder Leon Black. The conversation covers Black's investment empire, the broader dominance of private equity on Wall Street, his personal scandals, and his controversial relationship with Jeffrey Epstein.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260912165100-cf612e",
       "date": "2026-09-12T16:51:00.030Z",
@@ -3851,15 +3883,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 106
+        "count": 107
       },
       {
         "tag": "investing",
-        "count": 78
+        "count": 79
       },
       {
         "tag": "ai agents",
-        "count": 69
+        "count": 70
       },
       {
         "tag": "tweet",
@@ -3867,7 +3899,7 @@
       },
       {
         "tag": "fintech",
-        "count": 48
+        "count": 49
       },
       {
         "tag": "science",
@@ -3875,7 +3907,7 @@
       },
       {
         "tag": "cloud",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "security",
@@ -3883,7 +3915,7 @@
       },
       {
         "tag": "asset management",
-        "count": 21
+        "count": 22
       },
       {
         "tag": "capital expenditure",
@@ -3952,6 +3984,10 @@
         "count": 3
       },
       {
+        "publication": "Slate Podcasts",
+        "count": 3
+      },
+      {
         "publication": "Deep (Learning) Focus (Substack)",
         "count": 2
       },
@@ -3961,10 +3997,6 @@
       },
       {
         "publication": "Hugging Face",
-        "count": 2
-      },
-      {
-        "publication": "Slate Podcasts",
         "count": 2
       },
       {
@@ -4033,6 +4065,10 @@
       },
       {
         "publication": "Core Memory",
+        "count": 1
+      },
+      {
+        "publication": "DAIR.AI Academy",
         "count": 1
       },
       {
@@ -4255,7 +4291,7 @@
       },
       {
         "month": "2026-09",
-        "count": 46
+        "count": 48
       }
     ]
   }
