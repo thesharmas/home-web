@@ -1,7 +1,69 @@
 {
-  "generated_at": "2026-09-11T17:00:35.663Z",
-  "count": 232,
+  "generated_at": "2026-09-12T17:00:43.020Z",
+  "count": 236,
   "entries": [
+    {
+      "id": "rl-20260912165100-cf612e",
+      "date": "2026-09-12T16:51:00.030Z",
+      "publication": "The Economist",
+      "title": "India's payments system is ten. It must start paying for itself",
+      "author": null,
+      "url": "https://www.economist.com/asia/2026/08/30/indias-payments-system-is-ten-it-must-start-paying-for-itself",
+      "summary": "India's Unified Payments Interface (UPI) marks its tenth anniversary processing 25 billion transactions in August 2026 alone, having transformed the country from a cash-dominant economy to a largely digital one. The system's success has been driven by its simplicity, cheap mobile data, and a government ban on merchant transaction fees since 2020. However, new legislation re-legalising fees signals a reckoning: banks are under-subsidised and under-invested, and UPI must find a sustainable funding model to avoid stagnation.",
+      "tags": [
+        "fintech",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260912162807-8eab6a",
+      "date": "2026-09-12T16:28:07.602Z",
+      "publication": "The Economist",
+      "title": "Chandrababu Naidu's techno-utopian vision for his Indian state",
+      "author": null,
+      "url": "https://www.economist.com/asia/2026/09/03/chandrababu-naidus-techno-utopian-vision-for-his-indian-state",
+      "summary": "Chandrababu Naidu, the 76-year-old chief minister of Andhra Pradesh, is pursuing an ambitious plan to build Amaravati, a massive greenfield capital city, while positioning his state as a hub for advanced manufacturing, data centres, and quantum computing. His efforts have attracted major investments including a 1 GW Google AI data-centre project, but critics warn that Amaravati is an over-ambitious vanity project whose financing depends on speculative land-price increases and fragile political alliances. The piece questions whether Naidu can truly bend economic geography to his will, given the state's strained finances, the unproven commercialisation of quantum technology, and the historical record of half-empty greenfield cities worldwide.",
+      "tags": [
+        "technology",
+        "ai agents",
+        "cloud",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260912162545-704eac",
+      "date": "2026-09-12T16:25:45.848Z",
+      "publication": "The Economist",
+      "title": "Woke 1 was about identity. Woke 2 is about class",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/09/03/woke-1-was-about-identity-woke-2-is-about-class",
+      "summary": "The Economist's Lexington column argues that the American left is undergoing a shift from Woke 1—focused on race and gender identity—to Woke 2, which emphasizes class and economic populism. Using the New York Post's mockery of DSA members' privileged backgrounds as a jumping-off point, the piece traces how electoral defeats, Trump's inroads with non-white working-class voters, and Zohran Mamdani's inclusive affordability message have pushed Democrats toward economic rather than identity-based politics. The column concludes that, whatever its contradictions, this class-oriented turn represents at least a partial return to traditional Democratic priorities.",
+      "tags": [
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260912162529-d49ddf",
+      "date": "2026-09-12T16:25:29.324Z",
+      "publication": "The Economist",
+      "title": "A prawn superpower rises",
+      "author": null,
+      "url": "https://www.economist.com/the-americas/2026/09/02/a-prawn-superpower-rises",
+      "summary": "Ecuador has become the world's leading exporter of prawns, surpassing India in 2020 and now accounting for 6% of GDP, driven by a tech-intensive, low-density aquaculture model that achieves ~95% survival rates. After a devastating white-spot disease outbreak around 2000, Ecuador took a different path from Asian rivals by breeding disease-resistant larvae, eliminating antibiotics, and deploying advanced feeding and monitoring technology. Geopolitical tailwinds—particularly US tariffs on Indian prawns under Trump—further boosted Ecuador's market share, though falling prices from oversupply remain a key challenge.",
+      "tags": [
+        "sustainability",
+        "science",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260911162243-4a7d55",
       "date": "2026-09-11T16:22:43.991Z",
@@ -3789,15 +3851,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 103
+        "count": 106
       },
       {
         "tag": "investing",
-        "count": 77
+        "count": 78
       },
       {
         "tag": "ai agents",
-        "count": 68
+        "count": 69
       },
       {
         "tag": "tweet",
@@ -3805,15 +3867,15 @@
       },
       {
         "tag": "fintech",
-        "count": 47
+        "count": 48
       },
       {
         "tag": "science",
-        "count": 28
+        "count": 30
       },
       {
         "tag": "cloud",
-        "count": 26
+        "count": 27
       },
       {
         "tag": "security",
@@ -3829,7 +3891,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "design",
@@ -3863,7 +3925,7 @@
       },
       {
         "publication": "The Economist",
-        "count": 17
+        "count": 21
       },
       {
         "publication": "Unknown",
@@ -4193,7 +4255,7 @@
       },
       {
         "month": "2026-09",
-        "count": 42
+        "count": 46
       }
     ]
   }
