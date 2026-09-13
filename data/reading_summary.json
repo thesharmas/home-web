@@ -3619,7 +3619,430 @@
     }
    ],
    "generated_at": "2026-09-06T15:02:51Z"
+  },
+  {
+   "week_start": "2026-09-06",
+   "week_end": "2026-09-13",
+   "title": "Week ending Sep 13, 2026",
+   "overview": "Your reading this week orbited a single macro question: is the world actually escaping the low-growth, low-rate \"new normal,\" or is it just borrowing against an AI-driven capex boom? FT Alphaville's look at Stephen Miran's thesis anchored this, arguing rising Treasury yields reflect optimism about AI-and-strategic-autonomy-driven growth rather than fiscal distrust. That same capex story threaded through Cameron Wolfe's RL-for-LLMs primer, OpenAI's new Agents API, DAIR.AI's harness-engineering paper collection, and Andhra Pradesh CM Naidu's Amaravati gambit — each a different layer of the same stack, from training algorithms to agent infrastructure to a sovereign state betting its balance sheet on data centres.\n\nA second, quieter thread ran underneath: how liquidity and liability structure — not asset quality or foresight — decide who survives a shock. The Rustbelt Reader's essay on Thomas Mellon during the Panic of 1873, the Economist's read on Europe's post-holiday bond selloff, the FT's piece on Senegal's total-return swaps, and the Slate Money episode on Apollo's Leon Black all circle the same idea from different eras: leverage, covenants, and creditor trust determine who gets to wait out a crisis and who gets forced to sell.\n\nThe rest of the week filled in texture — housing and cities bifurcating by wealth (Conor Sen's move-upmarket thesis, Miami's boom, and even the Economist's Woke-1-to-Woke-2 political read), emerging markets leapfrogging incumbents through technology rather than cost (Ecuador's prawn industry, India's UPI turning ten), and a scattering of culture and science (a dark-matter blip, VR exercise games, true-crime book reviews), plus a reminder that open-weight AI's safety guardrails are becoming as fragile as they are load-bearing (the abliteration piece). No book highlights this week — reading was entirely article-based.",
+   "themes": [
+    {
+     "name": "The AI Capex Supercycle and Its Infrastructure",
+     "description": "This week traced the AI buildout from macro thesis down to implementation layer — why capex might justify higher rates, how models are actually trained and orchestrated, and where the guardrails are fraying.",
+     "items": [
+      {
+       "title": "Is Stephen Miran right?",
+       "url": "https://ftav.substack.com/p/is-stephen-miran-right?r=1dhwj"
+      },
+      {
+       "title": "Reinforcement Learning for LLMs: The Complete Guide",
+       "url": "https://cameronrwolfe.substack.com/p/llm-rl?r=1dhwj"
+      },
+      {
+       "title": "Agents API Overview",
+       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+      },
+      {
+       "title": "Harness Engineering – Paper Collection",
+       "url": "https://academy.dair.ai/papers/collections/harness-engineering"
+      },
+      {
+       "title": "Chandrababu Naidu's techno-utopian vision for his Indian state",
+       "url": "https://www.economist.com/asia/2026/09/03/chandrababu-naidus-techno-utopian-vision-for-his-indian-state"
+      },
+      {
+       "title": "The Story I Almost Didn't Publish: Abliteration AI",
+       "url": "https://ajsai.substack.com/p/the-story-i-almost-didnt-publish?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "name": "Liquidity, Leverage, and Who Survives a Credit Shock",
+     "description": "From an 1873 panic to a 2026 sovereign-debt squeeze, this theme is about liability structure as destiny — who has the right to wait, and who gets forced to sell.",
+     "items": [
+      {
+       "title": "The Man Who Could Wait",
+       "url": "https://therustbeltreader.substack.com/p/the-man-who-could-wait"
+      },
+      {
+       "title": "Europe's bond markets are suffering a post-holiday shock",
+       "url": "https://www.economist.com/finance-and-economics/2026/09/01/europes-bond-markets-are-suffering-a-post-holiday-shock"
+      },
+      {
+       "title": "The clock is ticking on Senegal's 'total return swaps'",
+       "url": "https://www.ft.com/content/33d4674f-31db-4551-9ad3-c43d5c94c94c"
+      },
+      {
+       "title": "The Private Equity Confidence Game",
+       "url": "https://podcasts.apple.com/us/podcast/the-private-equity-confidence-game/id876523888?i=1000789113811"
+      }
+     ]
+    },
+    {
+     "name": "Wealth Bifurcation in Housing, Cities, and Politics",
+     "description": "Real estate, urban booms, and even left-wing politics are splitting along the same wealth-concentration fault line this week.",
+     "items": [
+      {
+       "title": "The Housing Shortage Has Moved Upmarket",
+       "url": "https://conorsen.substack.com/p/the-housing-shortage-has-moved-upmarket?r=1dhwj"
+      },
+      {
+       "title": "The extraordinary rise of Miami's economy",
+       "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy"
+      },
+      {
+       "title": "Woke 1 was about identity. Woke 2 is about class",
+       "url": "https://www.economist.com/united-states/2026/09/03/woke-1-was-about-identity-woke-2-is-about-class"
+      }
+     ]
+    },
+    {
+     "name": "Emerging-Market Leapfrogging",
+     "description": "Ecuador and India show how tech-intensive strategy, not cost advantage or subsidy alone, is reshaping who wins in global trade and finance.",
+     "items": [
+      {
+       "title": "A prawn superpower rises",
+       "url": "https://www.economist.com/the-americas/2026/09/02/a-prawn-superpower-rises"
+      },
+      {
+       "title": "India's payments system is ten. It must start paying for itself",
+       "url": "https://www.economist.com/asia/2026/08/30/indias-payments-system-is-ten-it-must-start-paying-for-itself"
+      }
+     ]
+    },
+    {
+     "name": "Science and Culture Miscellany",
+     "description": "Lighter reading rounded out the week: physics, fitness, and true crime.",
+     "items": [
+      {
+       "title": "A suspicious signal in a dark-matter detector has physicists excited",
+       "url": "https://www.economist.com/science-and-technology/2026/09/02/a-suspicious-signal-in-a-dark-matter-detector-has-physicists-excited"
+      },
+      {
+       "title": "How to combine exercise with video games",
+       "url": "https://www.economist.com/well-informed/2026/08/28/how-to-combine-exercise-with-video-games"
+      },
+      {
+       "title": "Catch the Devil / The Jackal — book review",
+       "url": "https://www.economist.com"
+      },
+      {
+       "title": "The jackal and the snitch: What do a spoiled Venezuelan and poor Texan have in common?",
+       "url": "https://www.economist.com/culture/2024/the-jackal-and-the-snitch"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Rising long-end rates may reflect genuine optimism about AI-capex-driven growth rather than fiscal or credibility risk — the 10y10y forward returning to early-2000s levels is worth tracking as a growth-regime signal, not just a risk gauge.",
+     "sources": [
+      {
+       "title": "Is Stephen Miran right?",
+       "url": "https://ftav.substack.com/p/is-stephen-miran-right?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "The right to wait out a financial panic is purchased in advance through low leverage, liquidity, and creditor trust, not through superior foresight — build slack before the crisis, because you cannot buy it during one.",
+     "sources": [
+      {
+       "title": "The Man Who Could Wait",
+       "url": "https://therustbeltreader.substack.com/p/the-man-who-could-wait"
+      }
+     ]
+    },
+    {
+     "lesson": "Structured instruments like total-return swaps can convert a country's domestic debt into an acceleration-prone external liability overnight; watch collateral and covenant structure, not just headline debt-to-GDP, when assessing sovereign risk.",
+     "sources": [
+      {
+       "title": "The clock is ticking on Senegal's 'total return swaps'",
+       "url": "https://www.ft.com/content/33d4674f-31db-4551-9ad3-c43d5c94c94c"
+      }
+     ]
+    },
+    {
+     "lesson": "Harness design — not just model weights — can swing benchmark scores from roughly 30% to 95.5%; a meaningful share of reported AI capability gains is systems engineering around the model, not the model itself.",
+     "sources": [
+      {
+       "title": "Harness Engineering – Paper Collection",
+       "url": "https://academy.dair.ai/papers/collections/harness-engineering"
+      }
+     ]
+    },
+    {
+     "lesson": "Housing demand is bifurcating by wealth cohort rather than by cycle: millennials aging into peak-earning years are pulling demand upmarket regardless of whether the AI boom continues, arguing for tilting real-estate exposure toward move-up and luxury rather than entry-level.",
+     "sources": [
+      {
+       "title": "The Housing Shortage Has Moved Upmarket",
+       "url": "https://conorsen.substack.com/p/the-housing-shortage-has-moved-upmarket?r=1dhwj"
+      },
+      {
+       "title": "The extraordinary rise of Miami's economy",
+       "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy"
+      }
+     ]
+    },
+    {
+     "lesson": "Open-weight models are closing the gap with frontier closed models fast enough that safety-stripped (\"abliterated\") variants are now a live cybersecurity threat rather than a hypothetical one — defensive tooling needs to scale in step with capability diffusion.",
+     "sources": [
+      {
+       "title": "The Story I Almost Didn't Publish: Abliteration AI",
+       "url": "https://ajsai.substack.com/p/the-story-i-almost-didnt-publish?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "Payment-rail success built on subsidized free transactions eventually forces a reckoning on who funds the infrastructure — UPI's decade of free merchant transactions is now colliding with banks that are under-subsidized and under-invested.",
+     "sources": [
+      {
+       "title": "India's payments system is ten. It must start paying for itself",
+       "url": "https://www.economist.com/asia/2026/08/30/indias-payments-system-is-ten-it-must-start-paying-for-itself"
+      }
+     ]
+    },
+    {
+     "lesson": "Techno-utopian state-building bets succeed or fail on the same lever as private-equity leverage: speculative asset-price appreciation funding the vision. Watch the financing structure of a grand plan as closely as its stated ambition.",
+     "sources": [
+      {
+       "title": "Chandrababu Naidu's techno-utopian vision for his Indian state",
+       "url": "https://www.economist.com/asia/2026/09/03/chandrababu-naidus-techno-utopian-vision-for-his-indian-state"
+      },
+      {
+       "title": "The Private Equity Confidence Game",
+       "url": "https://podcasts.apple.com/us/podcast/the-private-equity-confidence-game/id876523888?i=1000789113811"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The post-2008 \"new normal\" of secularly low growth and low rates may already be ending — rising long yields could be a bullish growth signal (AI capex) rather than a bond-vigilante warning about fiscal irresponsibility.",
+     "source": {
+      "title": "Is Stephen Miran right?",
+      "url": "https://ftav.substack.com/p/is-stephen-miran-right?r=1dhwj"
+     }
+    },
+    {
+     "insight": "Trade-up and luxury housing demand can stay structurally robust even if the AI boom busts, because it is driven by millennial demographics and accumulated wealth rather than by the boom itself — decoupling a chunk of housing from the AI-cycle narrative dominating markets commentary.",
+     "source": {
+      "title": "The Housing Shortage Has Moved Upmarket",
+      "url": "https://conorsen.substack.com/p/the-housing-shortage-has-moved-upmarket?r=1dhwj"
+     }
+    },
+    {
+     "insight": "Survival in a financial panic is determined far more by liability structure and the discipline to refuse deals than by superior foresight or stock-picking skill, cutting against the popular myth that history's great investors simply \"saw it coming.\"",
+     "source": {
+      "title": "The Man Who Could Wait",
+      "url": "https://therustbeltreader.substack.com/p/the-man-who-could-wait"
+     }
+    },
+    {
+     "insight": "The American left's identity-politics era (Woke 1) is giving way to a class-based economic populism (Woke 2) — an acknowledgment that the left's center of gravity is shifting toward economics rather than away from politics altogether, contrary to takes that treat 'wokeness' as monolithic.",
+     "source": {
+      "title": "Woke 1 was about identity. Woke 2 is about class",
+      "url": "https://www.economist.com/united-states/2026/09/03/woke-1-was-about-identity-woke-2-is-about-class"
+     }
+    },
+    {
+     "insight": "A large share of frontier AI capability gains may come from harness and scaffolding design rather than base-model scaling, undercutting scaling-law-only narratives about why models are getting more capable.",
+     "source": {
+      "title": "Harness Engineering – Paper Collection",
+      "url": "https://academy.dair.ai/papers/collections/harness-engineering"
+     }
+    },
+    {
+     "insight": "Ecuador overtook Asian aquaculture incumbents not through cheap labor but through a tech-intensive, low-density, disease-resistant breeding model, cutting against the standard emerging-market cost-advantage story for how developing economies win export markets.",
+     "source": {
+      "title": "A prawn superpower rises",
+      "url": "https://www.economist.com/the-americas/2026/09/02/a-prawn-superpower-rises"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 22,
+    "top_publications": [
+     {
+      "name": "The Economist",
+      "count": 10
+     },
+     {
+      "name": "Twitter/X",
+      "count": 2
+     },
+     {
+      "name": "FT Alphaville",
+      "count": 1
+     },
+     {
+      "name": "Financial Times",
+      "count": 1
+     },
+     {
+      "name": "DAIR.AI Academy",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 11
+     },
+     {
+      "name": "investing",
+      "count": 7
+     },
+     {
+      "name": "ai agents",
+      "count": 6
+     },
+     {
+      "name": "science",
+      "count": 6
+     },
+     {
+      "name": "fintech",
+      "count": 5
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Is Stephen Miran right?",
+     "publication": "FT Alphaville",
+     "date": "2026-09-06",
+     "url": "https://ftav.substack.com/p/is-stephen-miran-right?r=1dhwj"
+    },
+    {
+     "title": "The Housing Shortage Has Moved Upmarket",
+     "publication": "The Housing Frame (Substack)",
+     "date": "2026-09-06",
+     "url": "https://conorsen.substack.com/p/the-housing-shortage-has-moved-upmarket?r=1dhwj"
+    },
+    {
+     "title": "The Story I Almost Didn't Publish: Abliteration AI",
+     "publication": "Substack (AG+ / AI Daily News)",
+     "date": "2026-09-06",
+     "url": "https://ajsai.substack.com/p/the-story-i-almost-didnt-publish?r=1dhwj"
+    },
+    {
+     "title": "Reinforcement Learning for LLMs: The Complete Guide",
+     "publication": "Deep (Learning) Focus (Substack)",
+     "date": "2026-09-06",
+     "url": "https://cameronrwolfe.substack.com/p/llm-rl?r=1dhwj"
+    },
+    {
+     "title": "Jayda G's Radio 1 Essential Mix",
+     "publication": "SoundCloud",
+     "date": "2026-09-06",
+     "url": "https://soundcloud.com/jaydagmusic/jayda-gs-radio-1-essential-mix?ref=clipboard&p=i&c=0&si=306F1AF7A9C04C5DBBE1C01DDD8522F7"
+    },
+    {
+     "title": "Gappy (Giuseppe Paleologo) (@__paleologo) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-09-08",
+     "url": "https://x.com/__paleologo/status/2097113492121686218"
+    },
+    {
+     "title": "The Man Who Could Wait",
+     "publication": "The Rustbelt Reader",
+     "date": "2026-09-08",
+     "url": "https://therustbeltreader.substack.com/p/the-man-who-could-wait"
+    },
+    {
+     "title": "Catch the Devil / The Jackal — book review",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com"
+    },
+    {
+     "title": "The jackal and the snitch: What do a spoiled Venezuelan and poor Texan have in common?",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com/culture/2024/the-jackal-and-the-snitch"
+    },
+    {
+     "title": "A suspicious signal in a dark-matter detector has physicists excited",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com/science-and-technology/2026/09/02/a-suspicious-signal-in-a-dark-matter-detector-has-physicists-excited"
+    },
+    {
+     "title": "How to combine exercise with video games",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com/well-informed/2026/08/28/how-to-combine-exercise-with-video-games"
+    },
+    {
+     "title": "The extraordinary rise of Miami's economy",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy"
+    },
+    {
+     "title": "Europe's bond markets are suffering a post-holiday shock",
+     "publication": "The Economist",
+     "date": "2026-09-08",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/01/europes-bond-markets-are-suffering-a-post-holiday-shock"
+    },
+    {
+     "title": "Sorian (@sorianmaran) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-09-09",
+     "url": "https://x.com/sorianmaran/status/2097390389770760500"
+    },
+    {
+     "title": "The clock is ticking on Senegal's 'total return swaps'",
+     "publication": "Financial Times",
+     "date": "2026-09-09",
+     "url": "https://www.ft.com/content/33d4674f-31db-4551-9ad3-c43d5c94c94c"
+    },
+    {
+     "title": "Agents API Overview",
+     "publication": "OpenAI Developer Documentation",
+     "date": "2026-09-11",
+     "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+    },
+    {
+     "title": "A prawn superpower rises",
+     "publication": "The Economist",
+     "date": "2026-09-12",
+     "url": "https://www.economist.com/the-americas/2026/09/02/a-prawn-superpower-rises"
+    },
+    {
+     "title": "Woke 1 was about identity. Woke 2 is about class",
+     "publication": "The Economist",
+     "date": "2026-09-12",
+     "url": "https://www.economist.com/united-states/2026/09/03/woke-1-was-about-identity-woke-2-is-about-class"
+    },
+    {
+     "title": "Chandrababu Naidu's techno-utopian vision for his Indian state",
+     "publication": "The Economist",
+     "date": "2026-09-12",
+     "url": "https://www.economist.com/asia/2026/09/03/chandrababu-naidus-techno-utopian-vision-for-his-indian-state"
+    },
+    {
+     "title": "India's payments system is ten. It must start paying for itself",
+     "publication": "The Economist",
+     "date": "2026-09-12",
+     "url": "https://www.economist.com/asia/2026/08/30/indias-payments-system-is-ten-it-must-start-paying-for-itself"
+    },
+    {
+     "title": "The Private Equity Confidence Game",
+     "publication": "Slate Podcasts",
+     "date": "2026-09-12",
+     "url": "https://podcasts.apple.com/us/podcast/the-private-equity-confidence-game/id876523888?i=1000789113811"
+    },
+    {
+     "title": "Harness Engineering – Paper Collection",
+     "publication": "DAIR.AI Academy",
+     "date": "2026-09-12",
+     "url": "https://academy.dair.ai/papers/collections/harness-engineering"
+    }
+   ],
+   "generated_at": "2026-09-13T15:03:07Z"
   }
  ],
- "updated_at": "2026-09-06T15:02:51Z"
+ "updated_at": "2026-09-13T15:03:07Z"
 }
