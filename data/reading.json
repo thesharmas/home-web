@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-09-12T21:00:52.550Z",
-  "count": 238,
+  "generated_at": "2026-09-13T20:00:47.178Z",
+  "count": 241,
   "entries": [
+    {
+      "id": "rl-20260913194136-a035cf",
+      "date": "2026-09-13T19:41:36.985Z",
+      "publication": "The Economist",
+      "title": "The new age of the orator",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/10/the-new-age-of-the-orator",
+      "summary": "The article examines how declining reading habits are giving rise to a new oral culture, where ideas spread through podcasts, TikToks, and public debate rather than text. Drawing on James Marriott's polemic \"The New Dark Ages,\" it explores how oral communication favors concrete, emotionally resonant messaging over abstract reasoning, with political implications visible in figures like Trump and Kirk. It warns that while oral culture is not new, the retreat from deep reading risks losing the kind of complex, nuanced ideas that only written argument can sustain.",
+      "tags": [
+        "technology",
+        "science",
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260913193935-76a4c8",
+      "date": "2026-09-13T19:39:35.922Z",
+      "publication": "The Economist",
+      "title": "Urban life rests on invisible, extraordinary technology",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/10/urban-life-rests-on-invisible-extraordinary-technology",
+      "summary": "A review of Jonn Elledge's \"31 Inventions that Built Our World,\" which explores the overlooked technological innovations underpinning modern urban life, from sewers and elevators to house numbering and windows. The book blends obscure trivia with broader arguments about how incremental progress has made once-remarkable inventions invisible through their ubiquity. The reviewer finds the book informative and often funny, praising its digressive, chapter-by-chapter tour of city-shaping technologies.",
+      "tags": [
+        "technology",
+        "design",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260913193922-fd6c08",
+      "date": "2026-09-13T19:39:22.660Z",
+      "publication": "The Economist",
+      "title": "The forgotten contraption that gave birth to mass media",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/10/the-forgotten-contraption-that-gave-birth-to-mass-media",
+      "summary": "A review of Jeff Jarvis's \"Hot Type,\" a history of the Linotype machine invented by Ottmar Mergenthaler in the 1880s, which mechanised typesetting and enabled the mass-media revolution of the 20th century. The machine spread rapidly through American and global newspapers, transforming media scale, advertising, and editorial culture. The piece draws parallels to present-day anxieties about technology, noting that early mechanised typesetters were compared to artificial intelligence.",
+      "tags": [
+        "technology",
+        "science",
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260912203346-52de84",
       "date": "2026-09-12T20:33:46.088Z",
@@ -3883,7 +3931,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 107
+        "count": 110
       },
       {
         "tag": "investing",
@@ -3903,7 +3951,7 @@
       },
       {
         "tag": "science",
-        "count": 30
+        "count": 33
       },
       {
         "tag": "cloud",
@@ -3927,7 +3975,7 @@
       },
       {
         "tag": "design",
-        "count": 8
+        "count": 11
       },
       {
         "tag": "etfs",
@@ -3957,7 +4005,7 @@
       },
       {
         "publication": "The Economist",
-        "count": 21
+        "count": 24
       },
       {
         "publication": "Unknown",
@@ -4291,7 +4339,7 @@
       },
       {
         "month": "2026-09",
-        "count": 48
+        "count": 51
       }
     ]
   }
