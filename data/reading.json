@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-09-13T20:00:47.178Z",
-  "count": 241,
+  "generated_at": "2026-09-14T18:00:31.081Z",
+  "count": 243,
   "entries": [
+    {
+      "id": "rl-20260914172951-1867c9",
+      "date": "2026-09-14T17:29:51.113Z",
+      "publication": "Ghosts of Electricity (Substack)",
+      "title": "Will AI soon lead to double-digit growth?",
+      "author": "Ben Moll and Alex Imas",
+      "url": "https://aleximas.substack.com/p/will-ai-soon-lead-to-double-digit?r=2gv2&triedRedirect=true",
+      "summary": "Ben Moll and Alex Imas argue that despite being bullish on AI capabilities, predictions of double-digit GDP growth (10-30%+ per year) within the next 10-15 years are extremely unlikely. They show that while standard growth models can theoretically produce explosive AI-driven growth, five key assumptions must all hold simultaneously: fast economy-wide automation, continued spending on automated goods, sufficient demand and investment, no AI-driven cyber destruction of value, and AI-accelerated R&D. They contend each assumption is unlikely to hold in practice due to slow diffusion, Baumol cost disease, relational and physical labor, demand-side constraints, and long lags between scientific discovery and GDP impact, making 4-5% annual growth a far more realistic—and still historically remarkable—baseline.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "investing",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260914172936-0ace90",
+      "date": "2026-09-14T17:29:36.320Z",
+      "publication": "Interconnects AI",
+      "title": "Open-Source AI & Open Models Reading List",
+      "author": "Nathan Lambert",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "summary": "Nathan Lambert compiles a comprehensive reading list on open-source AI models, covering foundational concepts, US-China competition, and technical details like distillation. The list includes articles, papers, and reports from a range of authors to help readers understand the open vs. closed model landscape, associated risks, and policy implications. It is intended for public-audience and policy-facing contexts and is periodically updated.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science",
+        "security"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260913194136-a035cf",
       "date": "2026-09-13T19:41:36.985Z",
@@ -3931,15 +3965,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 110
+        "count": 112
       },
       {
         "tag": "investing",
-        "count": 79
+        "count": 80
       },
       {
         "tag": "ai agents",
-        "count": 70
+        "count": 72
       },
       {
         "tag": "tweet",
@@ -3951,7 +3985,7 @@
       },
       {
         "tag": "science",
-        "count": 33
+        "count": 35
       },
       {
         "tag": "cloud",
@@ -3959,7 +3993,7 @@
       },
       {
         "tag": "security",
-        "count": 23
+        "count": 24
       },
       {
         "tag": "asset management",
@@ -4140,6 +4174,10 @@
         "count": 1
       },
       {
+        "publication": "Ghosts of Electricity (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Groundbreaker",
         "count": 1
       },
@@ -4149,6 +4187,10 @@
       },
       {
         "publication": "Imperfect Notes (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "Interconnects AI",
         "count": 1
       },
       {
@@ -4339,7 +4381,7 @@
       },
       {
         "month": "2026-09",
-        "count": 51
+        "count": 53
       }
     ]
   }
