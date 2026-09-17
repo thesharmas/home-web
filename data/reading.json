@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-09-17T04:00:33.008Z",
-  "count": 246,
+  "generated_at": "2026-09-17T16:00:35.968Z",
+  "count": 248,
   "entries": [
+    {
+      "id": "rl-20260917154426-b009b2",
+      "date": "2026-09-17T15:44:26.639Z",
+      "publication": "Financial Times",
+      "title": "Chattering central bankers are good, actually",
+      "author": "Robin Wigglesworth",
+      "url": "https://www.ft.com/content/b4d3b969-76e8-49f2-8528-4d34a810e7a4",
+      "summary": "Robin Wigglesworth examines Goldman Sachs research finding that increased central bank transparency and communication has lowered interest rate volatility by around 10% and improved monetary policy transmission. The research also pushes back on common criticisms — that more chatter increases volatility or that forward guidance makes central banks slower to react to new data. The piece uses these findings to assess the potential costs of the Fed's new communications task force scaling back FOMC transparency.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260917154348-354e79",
+      "date": "2026-09-17T15:43:48.880Z",
+      "publication": "Financial Times",
+      "title": "Either Meta Glasses are selling extremely well or this Citi survey might have some issues",
+      "author": "Louis Ashworth",
+      "url": "https://www.ft.com/content/2739954a-816a-465a-ae21-7d846bb70365",
+      "summary": "FT Alphaville's Louis Ashworth dissects a Citi consumer electronics survey that claimed 35% of respondents globally own Meta Glasses, a figure that would imply hundreds of millions of owners — far exceeding EssilorLuxottica's reported sales of ~9 million units. After repeatedly pressing Citi for methodological clarification, the author finds the survey used a narrow opt-in cohort of device owners, reported figures as a subset of a subset without clearly labelling them, and ultimately justified the numbers as directional trend indicators rather than absolute penetration rates. The piece concludes with good-humoured exasperation at the survey's opacity.",
+      "tags": [
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260917031803-80922c",
       "date": "2026-09-17T03:18:03.155Z",
@@ -4011,11 +4041,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 113
+        "count": 114
       },
       {
         "tag": "investing",
-        "count": 81
+        "count": 83
       },
       {
         "tag": "ai agents",
@@ -4027,7 +4057,7 @@
       },
       {
         "tag": "fintech",
-        "count": 50
+        "count": 51
       },
       {
         "tag": "science",
@@ -4081,7 +4111,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 30
+        "count": 32
       },
       {
         "publication": "The Economist",
@@ -4431,7 +4461,7 @@
       },
       {
         "month": "2026-09",
-        "count": 56
+        "count": 58
       }
     ]
   }
