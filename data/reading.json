@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-09-17T16:00:35.968Z",
-  "count": 248,
+  "generated_at": "2026-09-17T19:00:33.396Z",
+  "count": 250,
   "entries": [
+    {
+      "id": "rl-20260917183907-b04c9b",
+      "date": "2026-09-17T18:39:07.905Z",
+      "publication": "Dwarkesh Podcast",
+      "title": "Noam Brown — Agent Swarms, Alignment, Recursive Self-Improvement",
+      "author": "Dwarkesh Patel",
+      "url": "https://podcasts.apple.com/us/podcast/noam-brown-agent-swarms-alignment-recursive-self-improvement/id1516093381?i=1000790373289",
+      "summary": "Dwarkesh Patel interviews Noam Brown in an 80-minute episode covering multi-agent AI systems, the Navier-Stokes problem, and what recent breakthroughs in mathematics reveal about recursive self-improvement. They also discuss how to determine whether AI models are genuinely aligned before triggering recursive self-improvement, and touch on topics like chain-of-thought degradation and the internal/external model gap.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260917180734-9961fa",
+      "date": "2026-09-17T18:07:34.345Z",
+      "publication": "Apple Podcasts",
+      "title": "Emily Oster Doesn't Mind the Haters",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/emily-oster-doesnt-mind-the-haters/id1896825645?i=1000790334707",
+      "summary": "This podcast episode features Emily Oster, an economics professor at Brown University, discussing how she applies economic analysis to health research. She addresses her controversial stances—such as her book challenging conventional pregnancy wisdom and her recommendation to reopen schools during the pandemic—and explores how gaps in scientific knowledge get filled by theories, political agendas, and misinformation. The conversation covers why health and science become politicized, how individuals can learn to parse data, and how to live with uncertainty.",
+      "tags": [
+        "science",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260917154426-b009b2",
       "date": "2026-09-17T15:44:26.639Z",
@@ -4041,7 +4072,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 114
+        "count": 116
       },
       {
         "tag": "investing",
@@ -4049,7 +4080,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 73
+        "count": 74
       },
       {
         "tag": "tweet",
@@ -4061,7 +4092,7 @@
       },
       {
         "tag": "science",
-        "count": 36
+        "count": 38
       },
       {
         "tag": "cloud",
@@ -4131,7 +4162,7 @@
       },
       {
         "publication": "Apple Podcasts",
-        "count": 6
+        "count": 7
       },
       {
         "publication": "Twitter/X",
@@ -4147,6 +4178,10 @@
       },
       {
         "publication": "Deep (Learning) Focus (Substack)",
+        "count": 2
+      },
+      {
+        "publication": "Dwarkesh Podcast",
         "count": 2
       },
       {
@@ -4243,10 +4278,6 @@
       },
       {
         "publication": "Doubleword Blog",
-        "count": 1
-      },
-      {
-        "publication": "Dwarkesh Podcast",
         "count": 1
       },
       {
@@ -4461,7 +4492,7 @@
       },
       {
         "month": "2026-09",
-        "count": 58
+        "count": 60
       }
     ]
   }
