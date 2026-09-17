@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek-V4.1 Flash Architecture Deep Dive — Rohit's Web</title>
+    <meta name="description" content="This technical deep-dive analyzes the DeepSeek-V4.1 Flash model architecture, a 552B parameter multimodal mixture-of-experts model designed to aggressively compress KV cache for long-horizon agent…">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://thesharmas.org/reading.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://thesharmas.org/r/rl-20260917031803-80922c.html">
+    <meta property="og:site_name" content="Rohit&#x27;s Web">
+    <meta property="og:title" content="DeepSeek-V4.1 Flash Architecture Deep Dive">
+    <meta property="og:description" content="This technical deep-dive analyzes the DeepSeek-V4.1 Flash model architecture, a 552B parameter multimodal mixture-of-experts model designed to aggressively compress KV cache for long-horizon agent…">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="DeepSeek-V4.1 Flash Architecture Deep Dive">
+    <meta name="twitter:description" content="This technical deep-dive analyzes the DeepSeek-V4.1 Flash model architecture, a 552B parameter multimodal mixture-of-experts model designed to aggressively compress KV cache for long-horizon agent…">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script>
+        location.replace("../reading.html#rl-20260917031803-80922c");
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=../reading.html#rl-20260917031803-80922c"></noscript>
+    <style>
+        body { font-family: "IBM Plex Mono", ui-monospace, monospace;
+               background: #050806; color: #c8f5c8;
+               margin: 0; padding: 3rem 1.5rem; line-height: 1.6; }
+        main { max-width: 42rem; margin: 0 auto; }
+        h1 { font-size: 1.25rem; line-height: 1.4; margin: 0 0 0.75rem; }
+        p { color: #a7d7bb; font-size: 0.875rem; }
+        a { color: #6ee7b7; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>DeepSeek-V4.1 Flash Architecture Deep Dive</h1>
+        <p>This technical deep-dive analyzes the DeepSeek-V4.1 Flash model architecture, a 552B parameter multimodal mixture-of-experts model designed to aggressively compress KV cache for long-horizon agent workflows. The article explains the Causal Encoder-Decoder (CED) architecture that halves prefill computation, the CSA2 cross-layer KV cache sharing mechanism that compresses cache by 4x, and supporting innovations like Hierarchical Sparse Indexer (HSI), FP4 KV quantization, mHC residual streams, Engram conditional memory, and DSpark speculative decoding. The author frames the architecture through a…</p>
+        <p>
+            <a href="https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html" rel="noopener noreferrer">Read it at zartbot.github.io</a><br>
+            <a href="../reading.html#rl-20260917031803-80922c">See it in the reading log</a>
+        </p>
+    </main>
+</body>
+</html>
