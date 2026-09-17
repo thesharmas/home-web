@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-09-16T22:00:29.129Z",
-  "count": 245,
+  "generated_at": "2026-09-17T04:00:33.008Z",
+  "count": 246,
   "entries": [
+    {
+      "id": "rl-20260917031803-80922c",
+      "date": "2026-09-17T03:18:03.155Z",
+      "publication": "zartbot.github.io",
+      "title": "DeepSeek-V4.1 Flash Architecture Deep Dive",
+      "author": null,
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "summary": "This technical deep-dive analyzes the DeepSeek-V4.1 Flash model architecture, a 552B parameter multimodal mixture-of-experts model designed to aggressively compress KV cache for long-horizon agent workflows. The article explains the Causal Encoder-Decoder (CED) architecture that halves prefill computation, the CSA2 cross-layer KV cache sharing mechanism that compresses cache by 4x, and supporting innovations like Hierarchical Sparse Indexer (HSI), FP4 KV quantization, mHC residual streams, Engram conditional memory, and DSpark speculative decoding. The author frames the architecture through a computer architecture lens, mapping Full/Reindex/Reuse attention modes to cache miss, partial hit, and full hit states respectively.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260916214524-6358f6",
       "date": "2026-09-16T21:45:24.868Z",
@@ -3994,7 +4011,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 112
+        "count": 113
       },
       {
         "tag": "investing",
@@ -4002,7 +4019,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 72
+        "count": 73
       },
       {
         "tag": "tweet",
@@ -4014,11 +4031,11 @@
       },
       {
         "tag": "science",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "cloud",
-        "count": 28
+        "count": 29
       },
       {
         "tag": "security",
@@ -4116,6 +4133,10 @@
       },
       {
         "publication": "The Two Cents (Substack)",
+        "count": 2
+      },
+      {
+        "publication": "zartbot.github.io",
         "count": 2
       },
       {
@@ -4397,10 +4418,6 @@
       {
         "publication": "vectoral.com",
         "count": 1
-      },
-      {
-        "publication": "zartbot.github.io",
-        "count": 1
       }
     ],
     "by_month": [
@@ -4414,7 +4431,7 @@
       },
       {
         "month": "2026-09",
-        "count": 55
+        "count": 56
       }
     ]
   }
