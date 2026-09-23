@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-09-17T19:00:33.396Z",
-  "count": 250,
+  "generated_at": "2026-09-23T17:00:42.556Z",
+  "count": 254,
   "entries": [
+    {
+      "id": "rl-20260923160707-69747b",
+      "date": "2026-09-23T16:07:07.315Z",
+      "publication": "Morgan Stanley Investment Management",
+      "title": "To Free or Not to Free",
+      "author": null,
+      "url": "https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_tofreeornottofree_ltr.pdf",
+      "summary": "This is a Morgan Stanley Investment Management Consilient Observer thought leadership piece titled 'To Free or Not to Free.' The page text is almost entirely binary PDF and image data with no extractable readable content, suggesting the document is a scanned or image-based PDF rather than text-selectable. The subject matter, based on the title and publication series, likely concerns a debate around free markets, free cash flow, or a related investment or economic topic.",
+      "tags": [
+        "investing",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260923160430-715635",
+      "date": "2026-09-23T16:04:30.728Z",
+      "publication": "Oaktree Capital Management",
+      "title": "Shall We Repeal the Laws of Economics – Part III",
+      "author": "Howard Marks",
+      "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
+      "summary": "Howard Marks argues that the U.S. Treasury's attempts to suppress rising long-term interest rates through bond buybacks are cosmetic fixes that fail to address root causes: persistent inflation, chronic fiscal deficits, and surging capital demand from AI investment and federal debt refinancing. He contends that the only genuine solution is fiscal discipline—flattening deficit growth through higher revenues and spending restraint—rather than market interventions that distort fundamentals. For investors, he cautions against a wholesale flight from dollar assets, noting the risks of alternatives, while acknowledging the long-term threat posed by U.S. fiscal mismanagement.",
+      "tags": [
+        "investing",
+        "asset management",
+        "capital expenditure",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260923160216-87f260",
+      "date": "2026-09-23T16:02:16.129Z",
+      "publication": "Financial Times",
+      "title": "Slopfiling",
+      "author": "Louis Ashworth",
+      "url": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b",
+      "summary": "FT Alphaville's Louis Ashworth documents a phenomenon dubbed 'slopfiling': companies inadvertently revealing their use of ChatGPT in SEC and other regulatory filings by leaving 'utm_source=chatgpt.com' tracking slugs in their citations. The offenders tend to be smaller, non-household-name firms using AI to populate boilerplate narrative sections such as market-size estimates, sometimes with hallucinated or mismatched figures. The author concludes that while mildly amusing, filing boilerplate was low-quality before LLMs and investors shouldn't pay it much heed.",
+      "tags": [
+        "ai agents",
+        "fintech",
+        "technology",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260923160128-caecad",
+      "date": "2026-09-23T16:01:28.166Z",
+      "publication": "Financial Times",
+      "title": "The argument for Kalshi taking bets on its own legality",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2",
+      "summary": "Stanford Law professor Joseph Grundfest has proposed that prediction market platform Kalshi list a contract allowing bets on the outcome of US Supreme Court litigation over whether Kalshi's sports-indexed contracts are legal. Grundfest argues such a contract would offer substantial hedging value for Kalshi's investors and customers, given that sports betting accounts for roughly 90-95% of Kalshi's revenue and the company is seeking a $40bn valuation. Kalshi declined, saying it does not list markets on itself, citing concerns that its own legal team could influence the outcome.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260917183907-b04c9b",
       "date": "2026-09-17T18:39:07.905Z",
@@ -4072,15 +4136,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 116
+        "count": 117
       },
       {
         "tag": "investing",
-        "count": 83
+        "count": 87
       },
       {
         "tag": "ai agents",
-        "count": 74
+        "count": 75
       },
       {
         "tag": "tweet",
@@ -4088,7 +4152,7 @@
       },
       {
         "tag": "fintech",
-        "count": 51
+        "count": 54
       },
       {
         "tag": "science",
@@ -4099,16 +4163,16 @@
         "count": 29
       },
       {
+        "tag": "asset management",
+        "count": 25
+      },
+      {
         "tag": "security",
         "count": 24
       },
       {
-        "tag": "asset management",
-        "count": 23
-      },
-      {
         "tag": "capital expenditure",
-        "count": 19
+        "count": 20
       },
       {
         "tag": "sustainability",
@@ -4142,7 +4206,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 32
+        "count": 34
       },
       {
         "publication": "The Economist",
@@ -4325,11 +4389,19 @@
         "count": 1
       },
       {
+        "publication": "Morgan Stanley Investment Management",
+        "count": 1
+      },
+      {
         "publication": "Musings on Markets (Substack)",
         "count": 1
       },
       {
         "publication": "Naval News",
+        "count": 1
+      },
+      {
+        "publication": "Oaktree Capital Management",
         "count": 1
       },
       {
@@ -4492,7 +4564,7 @@
       },
       {
         "month": "2026-09",
-        "count": 60
+        "count": 64
       }
     ]
   }
