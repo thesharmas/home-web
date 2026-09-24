@@ -1,7 +1,69 @@
 {
-  "generated_at": "2026-09-23T17:00:42.556Z",
-  "count": 254,
+  "generated_at": "2026-09-24T17:00:30.667Z",
+  "count": 258,
   "entries": [
+    {
+      "id": "rl-20260924164238-2dda03",
+      "date": "2026-09-24T16:42:38.164Z",
+      "publication": "Programmable Mutter",
+      "title": "Machine god metaphors eat your brain",
+      "author": "Henry Farrell",
+      "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain",
+      "summary": "Henry Farrell argues that the \"machine god\" metaphor dominating AI policy debate—rooted in rationalist/singularitarian thought from figures like Yudkowsky and Land—dangerously narrows the conversation to a single question of alignment with a coming superintelligence. He contends that alternative frameworks, particularly viewing AI as a social and cultural technology (akin to Herbert Simon's bounded rationality), reveal richer and more actionable questions about institutions, incentives, and organizational design. Farrell calls for greater pluralism in how we think about AI rather than letting machine-god framing crowd out other perspectives.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260924163907-7e6267",
+      "date": "2026-09-24T16:39:07.759Z",
+      "publication": "jyn.dev",
+      "title": "Tokens Too Cheap to Meter",
+      "author": null,
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "summary": "The article argues that the cost of AI inference is falling by orders of magnitude per year due to compounding improvements in GPU hardware efficiency, model architectures (MoE, Mamba), and inference engines, with task-level costs dropping ~100x in 2025 alone. The author predicts LLMs will soon be embedded as infrastructure across all computing, not just as standalone products, and that specialized classifiers like Jev make certain AI calls so cheap they are effectively free. The piece explores downstream consequences via Jevons Paradox: cheaper tokens will drive massive demand expansion, reshape software economics, and shift competitive moats toward operations, security, and product quality rather than raw capability.",
+      "tags": [
+        "ai agents",
+        "cloud",
+        "technology",
+        "capital expenditure"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260924163702-9c92e2",
+      "date": "2026-09-24T16:37:02.646Z",
+      "publication": null,
+      "title": "Attention Required! | Cloudflare",
+      "author": null,
+      "url": "https://cepr.org/voxeu/columns/anatomy-rise-monetary-policy-and-post-covid-surge-long-term-interest-rates",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260924163333-7438ba",
+      "date": "2026-09-24T16:33:33.811Z",
+      "publication": "Financial Times",
+      "title": "Are Big Tech bonds crowding out the US Treasury?",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac",
+      "summary": "The article investigates whether massive bond issuance by hyperscalers (Amazon, Alphabet, Meta, Oracle, SpaceX, Nvidia) — exceeding $200bn in 2026 — is crowding out US Treasury demand and pushing yields higher. While hyperscaler issuance does account for roughly an eighth of US Treasury duration supply, a broader look at the investment-grade corporate bond market shows no dramatic displacement of Treasuries. The author concludes that rising Treasury yields are better explained by fiscal deficits, economic strength, and geopolitics than by Big Tech bond issuance alone.",
+      "tags": [
+        "capital expenditure",
+        "investing",
+        "technology",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260923160707-69747b",
       "date": "2026-09-23T16:07:07.315Z",
@@ -4136,15 +4198,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 117
+        "count": 120
       },
       {
         "tag": "investing",
-        "count": 87
+        "count": 88
       },
       {
         "tag": "ai agents",
-        "count": 75
+        "count": 77
       },
       {
         "tag": "tweet",
@@ -4152,15 +4214,15 @@
       },
       {
         "tag": "fintech",
-        "count": 54
+        "count": 55
       },
       {
         "tag": "science",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "cloud",
-        "count": 29
+        "count": 30
       },
       {
         "tag": "asset management",
@@ -4172,7 +4234,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 20
+        "count": 22
       },
       {
         "tag": "sustainability",
@@ -4206,7 +4268,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 34
+        "count": 35
       },
       {
         "publication": "The Economist",
@@ -4214,7 +4276,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 12
+        "count": 13
       },
       {
         "publication": "Bloomberg",
@@ -4425,6 +4487,10 @@
         "count": 1
       },
       {
+        "publication": "Programmable Mutter",
+        "count": 1
+      },
+      {
         "publication": "Prospect Magazine",
         "count": 1
       },
@@ -4533,6 +4599,10 @@
         "count": 1
       },
       {
+        "publication": "jyn.dev",
+        "count": 1
+      },
+      {
         "publication": "sascha-steffen.de",
         "count": 1
       },
@@ -4564,7 +4634,7 @@
       },
       {
         "month": "2026-09",
-        "count": 64
+        "count": 68
       }
     ]
   }
