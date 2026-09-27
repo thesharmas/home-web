@@ -4353,7 +4353,262 @@
     }
    ],
    "generated_at": "2026-09-20T15:01:42Z"
+  },
+  {
+   "week_start": "2026-09-20",
+   "week_end": "2026-09-27",
+   "title": "Week ending Sep 27, 2026",
+   "overview": "Your reading this week clustered around a single macro-tension: who or what is actually responsible for rising long-term interest rates, and what's cosmetic versus real in the response to it. Howard Marks's Oaktree memo and the FT's dig into hyperscaler bond issuance independently arrive at the same conclusion — it's the fiscal deficit, not AI capex or Treasury buybacks, doing the real damage — which makes the convergence more interesting than either piece alone. Underneath that debate sits the actual engine of the AI capex story: jyn.dev's argument that inference costs are collapsing ~100x per year, which explains why hyperscalers keep borrowing even as unit economics improve (Jevons Paradox, not restraint, is the expected outcome).\n\nA second thread ran through how AI shows up in institutions versus how it's talked about. 'Slopfiling' caught AI quietly and badly doing boilerplate work inside SEC filings — mundane, already-happening, and unglamorous. Henry Farrell's essay on 'machine god' metaphors argued that the dominant AI-policy discourse, rooted in singularitarian thinking, systematically misses exactly this kind of institutional-level AI presence in favor of speculative alignment debates. Read together, they make a coherent case: the AI risk that's actually manifesting looks like low-quality automation seeping into trust-dependent processes, not a coming superintelligence.\n\nRounding out the week, Kalshi's near-miss with listing a contract on its own Supreme Court legality case is a sharp case study in how far prediction-market platforms will go — and where they draw the line — when hedging existential regulatory risk. The Morgan Stanley 'To Free or Not to Free' piece didn't yield extractable content (image-based PDF), so it's counted in the stats but couldn't contribute a theme or lesson.",
+   "themes": [
+    {
+     "name": "Who's Really Driving Treasury Yields Higher",
+     "description": "Two pieces wrestled with the same macro puzzle from different angles: is hyperscaler debt or plain fiscal profligacy pushing long rates up? The FT's bond-supply arithmetic and Howard Marks's diagnosis land in the same place — blame the deficit, not the AI bond binge, and don't mistake cosmetic Treasury interventions for real fixes.",
+     "items": [
+      {
+       "title": "Are Big Tech bonds crowding out the US Treasury?",
+       "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+      },
+      {
+       "title": "Shall We Repeal the Laws of Economics – Part III",
+       "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii"
+      }
+     ]
+    },
+    {
+     "name": "The AI Compute Economy's Falling Cost Curve",
+     "description": "jyn.dev's inference-cost analysis explains the demand side of the capex boom driving the bond issuance above — tokens keep getting radically cheaper, which by Jevons Paradox logic means more compute gets burned overall, not less, and LLMs get embedded as ambient infrastructure rather than standalone products.",
+     "items": [
+      {
+       "title": "Tokens Too Cheap to Meter",
+       "url": "https://jyn.dev/tokens-too-cheap-to-meter/"
+      }
+     ]
+    },
+    {
+     "name": "AI's Quiet Infiltration vs. Its Loud Mythology",
+     "description": "Slopfiling caught AI quietly doing boilerplate corporate work badly and invisibly inside SEC filings; Farrell's essay argued the loud 'machine god' framing of AI policy debates misses exactly this kind of mundane, already-happening infiltration in favor of speculative superintelligence talk.",
+     "items": [
+      {
+       "title": "Slopfiling",
+       "url": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b"
+      },
+      {
+       "title": "Machine god metaphors eat your brain",
+       "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain"
+      }
+     ]
+    },
+    {
+     "name": "Prediction Markets Testing Their Own Legal Ground",
+     "description": "Kalshi's near-miss with letting people bet on the outcome of its own Supreme Court legality case shows how far prediction-market platforms will flirt with self-referential risk to hedge existential regulatory exposure — and where even Kalshi drew the line.",
+     "items": [
+      {
+       "title": "The argument for Kalshi taking bets on its own legality",
+       "url": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Rising Treasury yields this year are better explained by fiscal deficits and structural demand than by the flashier 'hyperscaler bonds are crowding out Treasuries' narrative — hyperscaler issuance is only about an eighth of Treasury duration supply.",
+     "sources": [
+      {
+       "title": "Are Big Tech bonds crowding out the US Treasury?",
+       "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+      }
+     ]
+    },
+    {
+     "lesson": "Cosmetic interventions — like Treasury bond buybacks aimed at suppressing yields — don't fix root causes (persistent inflation, chronic deficits, surging AI-driven capital demand); watch for policy theater being read by markets as genuine repair.",
+     "sources": [
+      {
+       "title": "Shall We Repeal the Laws of Economics – Part III",
+       "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii"
+      }
+     ]
+    },
+    {
+     "lesson": "AI's real footprint right now shows up in unglamorous, trust-dependent places like SEC filing boilerplate, not in dramatic superintelligence scenarios — the 'slopfiling' tracking-slug tells is a low-grade automation problem, not an alignment one.",
+     "sources": [
+      {
+       "title": "Slopfiling",
+       "url": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b"
+      }
+     ]
+    },
+    {
+     "lesson": "Inference costs falling ~100x per year is a deflationary compute story, not a scarcity one — expect the savings to show up as more AI consumption (Jevons Paradox), not as slower capex growth.",
+     "sources": [
+      {
+       "title": "Tokens Too Cheap to Meter",
+       "url": "https://jyn.dev/tokens-too-cheap-to-meter/"
+      }
+     ]
+    },
+    {
+     "lesson": "The 'machine god' framing (Yudkowsky/Land lineage) narrows AI policy debate to a single alignment question; treating AI as a social and organizational technology (Simon's bounded rationality) opens more tractable, actionable governance questions.",
+     "sources": [
+      {
+       "title": "Machine god metaphors eat your brain",
+       "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain"
+      }
+     ]
+    },
+    {
+     "lesson": "Kalshi's refusal to list a contract on the outcome of its own legal fate is a useful limit case: even a platform built to monetize any hedgeable uncertainty draws a line at markets that could compromise its own neutrality.",
+     "sources": [
+      {
+       "title": "The argument for Kalshi taking bets on its own legality",
+       "url": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2"
+      }
+     ]
+    },
+    {
+     "lesson": "When two independent macro authors (FT's Nangle, Oaktree's Marks) converge on 'it's the deficit, not the trendy culprit,' that convergence is a stronger signal than either piece taken alone.",
+     "sources": [
+      {
+       "title": "Are Big Tech bonds crowding out the US Treasury?",
+       "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+      },
+      {
+       "title": "Shall We Repeal the Laws of Economics – Part III",
+       "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The popular 'AI capex is crowding out Treasuries' headline narrative is mostly wrong once you run the numbers — hyperscaler debt accounts for roughly an eighth of Treasury duration supply, not enough to explain the yield move.",
+     "source": {
+      "title": "Are Big Tech bonds crowding out the US Treasury?",
+      "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+     }
+    },
+    {
+     "insight": "Cheaper AI tokens won't shrink AI infrastructure spending — by Jevons Paradox logic, falling inference costs should drive more compute consumption and more capex, undercutting the consensus bet that AI spending cools once unit costs fall.",
+     "source": {
+      "title": "Tokens Too Cheap to Meter",
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/"
+     }
+    },
+    {
+     "insight": "The 'slopfiling' panic overstates the novelty of the problem: SEC filing boilerplate was already low-quality garbage before LLMs existed, so AI didn't degrade the bar so much as leave fingerprints on an already-degraded one.",
+     "source": {
+      "title": "Slopfiling",
+      "url": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b"
+     }
+    },
+    {
+     "insight": "The dominant AI-safety discourse (superintelligence/alignment framing) may actively harm good policy by foreclosing more useful institutional-design questions — the loudest AI-risk narrative could be the least useful one.",
+     "source": {
+      "title": "Machine god metaphors eat your brain",
+      "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain"
+     }
+    },
+    {
+     "insight": "Treasury bond buybacks meant to calm markets by suppressing yields may be counterproductive theater rather than genuine relief, contrary to how markets seem to read such interventions in the moment.",
+     "source": {
+      "title": "Shall We Repeal the Laws of Economics – Part III",
+      "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 7,
+    "top_publications": [
+     {
+      "name": "Financial Times",
+      "count": 3
+     },
+     {
+      "name": "Oaktree Capital Management",
+      "count": 1
+     },
+     {
+      "name": "Morgan Stanley Investment Management",
+      "count": 1
+     },
+     {
+      "name": "jyn.dev",
+      "count": 1
+     },
+     {
+      "name": "Programmable Mutter",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "investing",
+      "count": 5
+     },
+     {
+      "name": "fintech",
+      "count": 4
+     },
+     {
+      "name": "technology",
+      "count": 4
+     },
+     {
+      "name": "ai agents",
+      "count": 3
+     },
+     {
+      "name": "capital expenditure",
+      "count": 3
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "The argument for Kalshi taking bets on its own legality",
+     "publication": "Financial Times",
+     "date": "2026-09-23",
+     "url": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2"
+    },
+    {
+     "title": "Slopfiling",
+     "publication": "Financial Times",
+     "date": "2026-09-23",
+     "url": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b"
+    },
+    {
+     "title": "Shall We Repeal the Laws of Economics – Part III",
+     "publication": "Oaktree Capital Management",
+     "date": "2026-09-23",
+     "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii"
+    },
+    {
+     "title": "To Free or Not to Free",
+     "publication": "Morgan Stanley Investment Management",
+     "date": "2026-09-23",
+     "url": "https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_tofreeornottofree_ltr.pdf"
+    },
+    {
+     "title": "Are Big Tech bonds crowding out the US Treasury?",
+     "publication": "Financial Times",
+     "date": "2026-09-24",
+     "url": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+    },
+    {
+     "title": "Tokens Too Cheap to Meter",
+     "publication": "jyn.dev",
+     "date": "2026-09-24",
+     "url": "https://jyn.dev/tokens-too-cheap-to-meter/"
+    },
+    {
+     "title": "Machine god metaphors eat your brain",
+     "publication": "Programmable Mutter",
+     "date": "2026-09-24",
+     "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain"
+    }
+   ],
+   "generated_at": "2026-09-27T15:02:12Z"
   }
  ],
- "updated_at": "2026-09-20T15:01:42Z"
+ "updated_at": "2026-09-27T15:02:12Z"
 }
