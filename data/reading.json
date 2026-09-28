@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-09-24T17:00:30.667Z",
-  "count": 258,
+  "generated_at": "2026-09-28T17:00:36.735Z",
+  "count": 261,
   "entries": [
+    {
+      "id": "rl-20260928163558-3756be",
+      "date": "2026-09-28T16:35:58.159Z",
+      "publication": "FT (Alphaville)",
+      "title": "OK, so where are all these data centres?",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/4c3f75a2-c2f9-4ef7-9895-21daf5e92dfe?syn-25a6b1a6=1",
+      "summary": "Jefferies and Morgan Stanley research, using satellite imagery from SynMax Intelligence, finds a significant gap between GPU chip sales forecasts and actual US data centre capacity that can be energised. Between 16–18 GW of gross capacity may come online in 2026, well short of what chip sales imply, with land clearing having plateaued as a warning sign for outer years. Beyond power, chip packaging capacity at overseas facilities is identified as the most immediate bottleneck translating semiconductor demand into operational data centres.",
+      "tags": [
+        "capital expenditure",
+        "technology",
+        "cloud",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260928163459-4a5a0b",
+      "date": "2026-09-28T16:34:59.728Z",
+      "publication": "Financial Times",
+      "title": "AI hyperscalers are transforming debt",
+      "author": "Euan Healy, Emily Herbert, Michelle Chan",
+      "url": "https://www.ft.com/content/00f94018-e658-4545-b16e-1bc00e19b754?syn-25a6b1a6=1",
+      "summary": "AI hyperscalers—Amazon, Alphabet, Meta, Microsoft and Oracle—are raising an unprecedented volume of debt globally, with Goldman Sachs estimating ~$500bn in AI-linked financing so far this year and over $1tn more expected in coming years. Their borrowing is distorting credit markets worldwide, forcing other corporate and sovereign borrowers to time their debt issuances around the tech giants, pushing up yields, and creating complex interconnections across the financial system. Analysts warn that if the AI investment thesis falters—operating cash flows failing to triple as projected—credit spreads could widen sharply, capex plans get cut, and broader economic consequences follow.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "investing",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260928163333-4860b8",
+      "date": "2026-09-28T16:33:33.623Z",
+      "publication": "Financial Times",
+      "title": "What is the AI capex breakeven rate?",
+      "author": "Robin Wigglesworth",
+      "url": "https://www.ft.com/content/f83b44e9-406b-4004-9fdb-83357c3ac977",
+      "summary": "Robin Wigglesworth examines how much AI revenue the major hyperscalers (Amazon, Alphabet, Microsoft) need to generate to justify their massive data centre capital expenditure, drawing on estimates from Goldman Sachs, Columbia Business School, and other economists. Goldman Sachs estimates hyperscalers need ~$300bn in annual AI revenues just to break even, and ~$636bn for a 30% return on invested capital—roughly 10x current run rates. Multiple analyses converge on the view that AI revenues must grow 13–45x over six years for the investment plans to make economic sense.",
+      "tags": [
+        "capital expenditure",
+        "ai agents",
+        "cloud",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20260924164238-2dda03",
       "date": "2026-09-24T16:42:38.164Z",
@@ -4198,15 +4249,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 120
+        "count": 122
       },
       {
         "tag": "investing",
-        "count": 88
+        "count": 90
       },
       {
         "tag": "ai agents",
-        "count": 77
+        "count": 80
       },
       {
         "tag": "tweet",
@@ -4222,19 +4273,19 @@
       },
       {
         "tag": "cloud",
-        "count": 30
+        "count": 32
       },
       {
         "tag": "asset management",
         "count": 25
       },
       {
-        "tag": "security",
-        "count": 24
+        "tag": "capital expenditure",
+        "count": 25
       },
       {
-        "tag": "capital expenditure",
-        "count": 22
+        "tag": "security",
+        "count": 24
       },
       {
         "tag": "sustainability",
@@ -4268,7 +4319,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 35
+        "count": 37
       },
       {
         "publication": "The Economist",
@@ -4404,6 +4455,10 @@
       },
       {
         "publication": "Doubleword Blog",
+        "count": 1
+      },
+      {
+        "publication": "FT (Alphaville)",
         "count": 1
       },
       {
@@ -4634,7 +4689,7 @@
       },
       {
         "month": "2026-09",
-        "count": 68
+        "count": 71
       }
     ]
   }
