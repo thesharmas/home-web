@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-09-29T16:00:40.909Z",
-  "count": 262,
+  "generated_at": "2026-09-29T17:00:41.208Z",
+  "count": 263,
   "entries": [
+    {
+      "id": "rl-20260929162124-9812a2",
+      "date": "2026-09-29T16:21:24.498Z",
+      "publication": "derekthompson.org (Substack)",
+      "title": "You Are No Longer Invited to Dinner",
+      "author": "Derek Thompson",
+      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+      "summary": "Derek Thompson examines the dramatic decline of social hosting in America, citing data showing that the share of Americans who host friends or family monthly has collapsed from 42% in 1975 to just 12% in 2026. He explores four key explanations: the time pressures of dual-earner households, the rise of intensive parenting, shrinking friendship networks especially among poorer and less-educated Americans, and the growing comfort and convenience of solitary home entertainment. Thompson frames this as a 'coordination failure' driven by technology that makes being alone easier and more enjoyable than organizing social gatherings.",
+      "tags": [
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260929155302-a2c937",
       "date": "2026-09-29T15:53:02.678Z",
@@ -4264,7 +4279,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 122
+        "count": 123
       },
       {
         "tag": "investing",
@@ -4284,7 +4299,7 @@
       },
       {
         "tag": "science",
-        "count": 39
+        "count": 40
       },
       {
         "tag": "cloud",
@@ -4657,6 +4672,10 @@
         "count": 1
       },
       {
+        "publication": "derekthompson.org (Substack)",
+        "count": 1
+      },
+      {
         "publication": "eugenewei.com",
         "count": 1
       },
@@ -4704,7 +4723,7 @@
       },
       {
         "month": "2026-09",
-        "count": 72
+        "count": 73
       }
     ]
   }
