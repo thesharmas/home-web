@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-09-30T04:00:54.266Z",
-  "count": 264,
+  "generated_at": "2026-09-30T18:00:51.482Z",
+  "count": 267,
   "entries": [
+    {
+      "id": "rl-20260930171234-20a43e",
+      "date": "2026-09-30T17:12:34.605Z",
+      "publication": "Ares Management",
+      "title": "In the Gaps Newsletter — Fall 2026",
+      "author": null,
+      "url": "https://www.ares.com/content/dam/aresmgmt/Documents/In-the-Gaps/Ares_InTheGaps_Newsletter_Fall-2026.pdf",
+      "summary": "This is the Fall 2026 edition of Ares Management's 'In the Gaps' newsletter, a periodic publication from the alternative asset management firm. The page content captured is raw PDF binary data with no readable article text extracted, indicating the PDF renderer did not successfully decode the document's text layer. Metadata embedded in the file references Ares branding assets and internal document preparation dated early 2025.",
+      "tags": [
+        "asset management",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20260930171021-a14627",
+      "date": "2026-09-30T17:10:21.211Z",
+      "publication": "Parabolic (Substack)",
+      "title": "What would Buffett think of Micron?",
+      "author": "Jesse Clain",
+      "url": "https://jesseclain.substack.com/p/what-would-buffett-think-of-micron",
+      "summary": "The piece uses curated quotes from Warren Buffett, Peter Lynch, Aswath Damodaran, Peter Thiel, Elon Musk, and others to examine whether Micron and the memory-chip industry should be treated as a commodity business and how that affects valuation. Key themes include the cyclicality of DRAM pricing, the persistent supply-demand imbalance in HBM memory driven by AI, and the challenge China's CXMT poses to the market. The author frames the analysis around how a value investor would assess earnings and long-term profitability through the cycle.",
+      "tags": [
+        "investing",
+        "technology",
+        "capital expenditure",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930170616-b9dad2",
+      "date": "2026-09-30T17:06:16.919Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/df11786e-4b07-45d6-b8ef-8e74f0d189ad",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20260930034530-2ab95d",
       "date": "2026-09-30T03:45:30.622Z",
@@ -4296,15 +4340,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 123
+        "count": 124
       },
       {
         "tag": "investing",
-        "count": 92
+        "count": 94
       },
       {
         "tag": "ai agents",
-        "count": 80
+        "count": 81
       },
       {
         "tag": "tweet",
@@ -4324,11 +4368,11 @@
       },
       {
         "tag": "asset management",
-        "count": 26
+        "count": 27
       },
       {
         "tag": "capital expenditure",
-        "count": 26
+        "count": 27
       },
       {
         "tag": "security",
@@ -4374,7 +4418,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 13
+        "count": 14
       },
       {
         "publication": "Bloomberg",
@@ -4450,6 +4494,10 @@
       },
       {
         "publication": "Apple Shortcuts",
+        "count": 1
+      },
+      {
+        "publication": "Ares Management",
         "count": 1
       },
       {
@@ -4578,6 +4626,10 @@
       },
       {
         "publication": "OpenAI Developer Documentation",
+        "count": 1
+      },
+      {
+        "publication": "Parabolic (Substack)",
         "count": 1
       },
       {
@@ -4740,7 +4792,7 @@
       },
       {
         "month": "2026-09",
-        "count": 74
+        "count": 77
       }
     ]
   }
