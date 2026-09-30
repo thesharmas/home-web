@@ -1,7 +1,178 @@
 {
-  "generated_at": "2026-09-30T20:00:58.212Z",
-  "count": 267,
+  "generated_at": "2026-09-30T22:00:47.919Z",
+  "count": 278,
   "entries": [
+    {
+      "id": "rl-20260930215743-52a9b2",
+      "date": "2026-09-30T21:57:43.402Z",
+      "publication": "The Economist",
+      "title": "Eight of the best new novels to read now",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/24/eight-of-the-best-new-novels-to-read-now",
+      "summary": "The Economist recommends eight standout novels published between July and September 2026, spanning genres from crime fiction to speculative fiction to historical narrative. The list includes new works by authors such as Colson Whitehead, Marlon James, Emily St John Mandel, and Emma Cline, among others. Each brief review highlights themes ranging from art and identity to trauma, surveillance, and end-of-life choices.",
+      "tags": [
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930215701-48a213",
+      "date": "2026-09-30T21:57:01.919Z",
+      "publication": "The Economist",
+      "title": "Uncle Sam thinks your time is worth nothing",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/24/uncle-sam-thinks-your-time-is-worth-nothing",
+      "summary": "A review of Annie Lowrey's \"The Time Tax\" examines how American bureaucracy wastes citizens' time through needlessly complex government forms and processes, far more so than peer nations. The book argues the problem is bipartisan, rooted in historical racism and 250 years of accumulated rules, and contrasts the US with Estonia's streamlined digital government. Efforts to reduce the burden—from Biden-era reforms to Trump's DOGE—have largely failed, with total red tape reaching record highs.",
+      "tags": [
+        "technology",
+        "fintech",
+        "science",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930215513-374e5d",
+      "date": "2026-09-30T21:55:13.817Z",
+      "publication": "The Economist",
+      "title": "Making sense of George Lucas's new billion-dollar galaxy",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/09/21/making-sense-of-george-lucass-new-billion-dollar-galaxy",
+      "summary": "The Lucas Museum of Narrative Art, a $1bn, 300,000-square-foot institution in Los Angeles founded by George Lucas, opened on September 22nd 2026. The museum focuses on \"narrative art\" and displays Lucas's personal collection—including Star Wars props, illustrations, and old masters—alongside digital reproductions of works held elsewhere, but has attracted criticism for its near-total absence of wall text and curatorial explanation. While the museum aims to democratize art by making it accessible without specialist knowledge, critics and departing staff suggest a tension between professional curatorial judgment and Lucas's desire for personal control over the vision.",
+      "tags": [
+        "design",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930214729-e7b1dc",
+      "date": "2026-09-30T21:47:29.180Z",
+      "publication": "The Economist",
+      "title": "Donald Trump's least favourite thing",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/09/24/donald-trumps-least-favourite-thing",
+      "summary": "The article examines how the Trump administration's hostility toward wind and solar energy is slowing renewable development in the US through a combination of ended tax credits, halted federal permits, paid buyouts of offshore wind projects, and bureaucratic bottlenecks at the renamed Department of War. Offshore wind has been hit hardest given its high costs and dependence on federal permitting, while onshore wind faces delays from stalled national-security reviews affecting over 150 projects. Two countervailing forces—court rulings pushing back on the administration and surging electricity demand—may ultimately limit how much Trump can restrain the sector.",
+      "tags": [
+        "clean energy",
+        "sustainability",
+        "capital expenditure"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930214300-c60dcc",
+      "date": "2026-09-30T21:43:00.709Z",
+      "publication": "The Economist",
+      "title": "A contentious battle in Alaska may determine control of the Senate",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/09/20/a-contentious-battle-in-alaska-may-determine-control-of-the-senate",
+      "summary": "The 2026 Alaska Senate race between Republican incumbent Dan Sullivan and Democrat Mary Peltola is rated a toss-up and could determine Senate control. Peltola, a native Alaskan and former congresswoman, benefits from Alaska's fluid political culture and voter anger over DOGE federal workforce cuts and high fuel costs, but faces scrutiny over a New York Times report alleging staff mistreatment. The Economist's model gives her a 56% chance of winning, contingent on her ability to attract Trump voters in a state the president carried by 13 points.",
+      "tags": [
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930214101-53dc50",
+      "date": "2026-09-30T21:41:01.887Z",
+      "publication": "The Economist",
+      "title": "Turkey's investment-fund fiasco",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/09/24/turkeys-investment-fund-fiasco",
+      "summary": "A wave of investment fund collapses in Turkey has exposed alleged Ponzi-like schemes, wiping $30bn from the stock market in two days and leaving at least 450,000 investors facing losses. Regulators were slow to act despite early warnings, and the scandal has damaged Turkey's ambitions as a global financial hub and raised the prospect of an MSCI downgrade from emerging to frontier market status. The crisis reflects broader vulnerabilities, including sky-high inflation driving inexperienced retail investors into volatile equities.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930214017-73a84b",
+      "date": "2026-09-30T21:40:17.082Z",
+      "publication": "The Economist",
+      "title": "You can't trade your way through the AI apocalypse",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/09/22/you-cant-trade-your-way-through-the-ai-apocalypse",
+      "summary": "The article explores whether investors can financially hedge against the existential and catastrophic risks posed by advanced AI systems. While some milder AI risks are already being priced into markets—such as cybersecurity stocks rising on hacking fears—truly extreme scenarios like an AI takeover are inherently unhedgeable, since any counterparty to such insurance would not survive to pay out. The piece argues that AI danger, unlike conventional financial risks, resists quantification and market discipline.",
+      "tags": [
+        "ai agents",
+        "investing",
+        "technology",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930212956-cc3a51",
+      "date": "2026-09-30T21:29:56.088Z",
+      "publication": "The Economist",
+      "title": "Agent of whom?",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/09/23/agent-of-whom",
+      "summary": "Meta's new personal AI agent, Muse, is reshaping commerce and daily life by acting autonomously on behalf of consumers—booking tickets, filing claims, cancelling subscriptions, and switching services. The piece explores how widespread AI agents will strain governments (through exploding rights claims and court filings), disrupt companies that profit from consumer ignorance and inertia, and blur legal responsibility when agents cause harm. It poses fundamental questions about the relationship between users and their AI representatives, and who bears blame when autonomous agents act carelessly or deceptively.",
+      "tags": [
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930212732-d4bb94",
+      "date": "2026-09-30T21:27:32.676Z",
+      "publication": "The Economist",
+      "title": "The greatest advance in consulting since the quadrant",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/09/24/the-greatest-advance-in-consulting-since-the-quadrant",
+      "summary": "A satirical Bartleby column from The Economist, written as an excerpt from a mock business hagiography, recounts how a young consultant named Harbour Brandish supposedly revolutionized consulting by adding a fifth box to the classic 2x2 quadrant matrix, dubbing the new shape the 'quindrant.' The piece parodies the overwrought storytelling style of business books, complete with dramatic pauses, tearful salutes, and breathless comparisons to Fleming and the Wright brothers. It is published on April 1st (in-story) and is clearly a comedic send-up of consulting culture and the genre of management literature.",
+      "tags": [
+        "design",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930212552-b397d4",
+      "date": "2026-09-30T21:25:52.393Z",
+      "publication": "The Economist",
+      "title": "German unions are fighting to defend the 35-hour week",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/09/24/german-unions-are-fighting-to-defend-the-35-hour-week",
+      "summary": "German carmakers, led by Mercedes-Benz, are pushing to dismantle the 35-hour workweek and cut costs as the industry faces surging Chinese competition, high energy prices, and shrinking margins. IG Metall and its 2.2 million members are resisting, demanding a 5% pay rise and job security guarantees, with strikes possible from November 2026. Despite likely near-term compromise, the broader decline of Germany's car industry appears hard to reverse, with employment projected to fall from 830,000 in 2018 to around 500,000 by 2030.",
+      "tags": [
+        "technology",
+        "sustainability",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20260930212432-9a221f",
+      "date": "2026-09-30T21:24:32.895Z",
+      "publication": "The Economist",
+      "title": "Tata goes to war with itself",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/09/24/tata-goes-to-war-with-itself",
+      "summary": "A boardroom clash at Tata Sons has erupted between Noel Tata, chair of Tata Trusts (the conglomerate's largest shareholder), and Natarajan Chandrasekaran, chair of Tata Sons, after the board voted 4-1 to give Chandrasekaran a third five-year term and to cease resisting an RBI mandate to list the company. Noel Tata has declared the vote a \"legal nullity\" and both sides have lawyered up, with the dispute heading to court over what constitutes a majority under Tata's articles of association. The conflict threatens to destabilise one of India's most important industrial conglomerates, with implications for foreign investment and Modi's government ambitions.",
+      "tags": [
+        "investing",
+        "technology",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20260930171234-20a43e",
       "date": "2026-09-30T17:12:34.605Z",
@@ -4340,15 +4511,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 124
+        "count": 131
       },
       {
         "tag": "investing",
-        "count": 94
+        "count": 100
       },
       {
         "tag": "ai agents",
-        "count": 81
+        "count": 83
       },
       {
         "tag": "tweet",
@@ -4356,11 +4527,11 @@
       },
       {
         "tag": "fintech",
-        "count": 56
+        "count": 60
       },
       {
         "tag": "science",
-        "count": 40
+        "count": 41
       },
       {
         "tag": "cloud",
@@ -4368,11 +4539,11 @@
       },
       {
         "tag": "asset management",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "capital expenditure",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "security",
@@ -4380,11 +4551,11 @@
       },
       {
         "tag": "sustainability",
-        "count": 14
+        "count": 16
       },
       {
         "tag": "design",
-        "count": 11
+        "count": 14
       },
       {
         "tag": "etfs",
@@ -4393,6 +4564,10 @@
       {
         "tag": "particle physics",
         "count": 2
+      },
+      {
+        "tag": "clean energy",
+        "count": 1
       },
       {
         "tag": "iconography",
@@ -4414,7 +4589,7 @@
       },
       {
         "publication": "The Economist",
-        "count": 25
+        "count": 36
       },
       {
         "publication": "Unknown",
@@ -4792,7 +4967,7 @@
       },
       {
         "month": "2026-09",
-        "count": 77
+        "count": 88
       }
     ]
   }
