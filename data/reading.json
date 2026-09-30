@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:00:51.482Z",
+  "generated_at": "2026-09-30T20:00:58.212Z",
   "count": 267,
   "entries": [
     {
@@ -37,14 +37,14 @@
     {
       "id": "rl-20260930170616-b9dad2",
       "date": "2026-09-30T17:06:16.919Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Who is driving the massive surge in repo borrowing?",
+      "author": "Robin Wigglesworth",
       "url": "https://www.ft.com/content/df11786e-4b07-45d6-b8ef-8e74f0d189ad",
-      "summary": null,
+      "summary": "The FT's Alphaville column examines who is driving the surge in global repo market borrowing, now estimated at around $22tn. Hedge funds have emerged as the dominant borrowers, with their US repo borrowing nearly trebling since October 2022 to $3tn by January 2026, accounting for most of the market's recent growth. The article notes this concentration of short-term leverage has prompted the Federal Reserve to expand its balance sheet again, and questions whether Fed chair Kevin Warsh will attempt any structural intervention.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20260930034530-2ab95d",
@@ -4410,7 +4410,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 37
+        "count": 38
       },
       {
         "publication": "The Economist",
@@ -4418,7 +4418,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 14
+        "count": 13
       },
       {
         "publication": "Bloomberg",
