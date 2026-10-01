@@ -1,7 +1,38 @@
 {
-  "generated_at": "2026-09-30T22:00:47.919Z",
-  "count": 278,
+  "generated_at": "2026-10-01T19:00:33.598Z",
+  "count": 280,
   "entries": [
+    {
+      "id": "rl-20261001184451-f0326e",
+      "date": "2026-10-01T18:44:51.525Z",
+      "publication": "Bloomberg",
+      "title": "Everything in Markets Is Now Moving Incredibly Fast",
+      "author": "Luke Kawa",
+      "url": "https://podcasts.apple.com/us/podcast/everything-in-markets-is-now-moving-incredibly-fast/id1056200096?i=1000792530285",
+      "summary": "Bloomberg's Odd Lots podcast features Luke Kawa, head of markets at Sherwood News, discussing the contradictory signals in current markets: surging indices alongside falling individual stocks, rising rates despite a robust economy, AI-driven capex, the war in Iran, and persistent inflation. Kawa argues the single most defining characteristic of this moment is the sheer speed of market moves and the pace of news flow. The episode covers major market themes including the Federal Reserve's ongoing tightening cycle.",
+      "tags": [
+        "investing",
+        "capital expenditure",
+        "ai agents",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261001184437-3ab830",
+      "date": "2026-10-01T18:44:37.596Z",
+      "publication": "Apple Podcasts",
+      "title": "Min Jin Lee on Education, Grudges, and Her Current...",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/min-jin-lee-on-education-grudges-and-her-current/id1896825645?i=1000792547272",
+      "summary": "Novelist Min Jin Lee discusses her new book American Hagwon, which explores intense schooling and education systems. The episode covers themes such as how a focus on achievement obscures the true point of learning, the importance of community, and the nature of karma. The conversation also touches on unexpected connections to bond markets.",
+      "tags": [
+        "design"
+      ],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20260930215743-52a9b2",
       "date": "2026-09-30T21:57:43.402Z",
@@ -4511,15 +4542,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 131
+        "count": 132
       },
       {
         "tag": "investing",
-        "count": 100
+        "count": 101
       },
       {
         "tag": "ai agents",
-        "count": 83
+        "count": 84
       },
       {
         "tag": "tweet",
@@ -4538,11 +4569,11 @@
         "count": 32
       },
       {
-        "tag": "asset management",
-        "count": 28
+        "tag": "capital expenditure",
+        "count": 29
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 28
       },
       {
@@ -4555,7 +4586,7 @@
       },
       {
         "tag": "design",
-        "count": 14
+        "count": 15
       },
       {
         "tag": "etfs",
@@ -4597,7 +4628,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 11
+        "count": 12
       },
       {
         "publication": "The Information",
@@ -4605,7 +4636,7 @@
       },
       {
         "publication": "Apple Podcasts",
-        "count": 7
+        "count": 8
       },
       {
         "publication": "Slate Podcasts",
@@ -4968,6 +4999,10 @@
       {
         "month": "2026-09",
         "count": 88
+      },
+      {
+        "month": "2026-10",
+        "count": 2
       }
     ]
   }
