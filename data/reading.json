@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-10-02T02:00:33.477Z",
-  "count": 280,
+  "generated_at": "2026-10-02T20:00:34.816Z",
+  "count": 281,
   "entries": [
+    {
+      "id": "rl-20261002194829-7f2f40",
+      "date": "2026-10-02T19:48:29.191Z",
+      "publication": "Bloomberg",
+      "title": "How Airlines Actually Hedge Higher Fuel Prices",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/how-airlines-actually-hedge-higher-fuel-prices/id1056200096?i=1000792715668",
+      "summary": "This Bloomberg Odd Lots podcast episode explores how airlines manage fuel costs through hedging strategies like swaps and options. David Kang, former group treasurer at Qatar Airways, explains the mechanics of jet fuel hedging, why heating oil is used as a proxy, and how airlines use ticket price increases and fuel surcharges to offset costs. The episode also draws parallels between airlines and oil refineries in how they handle fuel price exposure.",
+      "tags": [
+        "investing",
+        "asset management"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261001184451-f0326e",
       "date": "2026-10-01T18:44:51.525Z",
@@ -4559,7 +4574,7 @@
       },
       {
         "tag": "investing",
-        "count": 101
+        "count": 102
       },
       {
         "tag": "ai agents",
@@ -4582,12 +4597,12 @@
         "count": 32
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 29
       },
       {
-        "tag": "asset management",
-        "count": 28
+        "tag": "capital expenditure",
+        "count": 29
       },
       {
         "tag": "security",
@@ -4636,12 +4651,12 @@
         "count": 36
       },
       {
-        "publication": "Unknown",
+        "publication": "Bloomberg",
         "count": 13
       },
       {
-        "publication": "Bloomberg",
-        "count": 12
+        "publication": "Unknown",
+        "count": 13
       },
       {
         "publication": "The Information",
@@ -5015,7 +5030,7 @@
       },
       {
         "month": "2026-10",
-        "count": 2
+        "count": 3
       }
     ]
   }
