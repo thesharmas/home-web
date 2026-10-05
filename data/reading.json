@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-10-02T20:00:34.816Z",
-  "count": 281,
+  "generated_at": "2026-10-05T16:00:59.671Z",
+  "count": 283,
   "entries": [
+    {
+      "id": "rl-20261005154605-38ad0e",
+      "date": "2026-10-05T15:46:05.125Z",
+      "publication": "Latent Space",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "author": "Richard MacManus",
+      "url": "https://www.latent.space/p/airbnb?r=1dhwj&triedRedirect=true",
+      "summary": "Airbnb CTO Ahmad Al-Dahle, formerly head of generative AI at Meta, is leading an \"inside-out AI\" strategy: first using AI internally to accelerate product development (60% of code is AI-authored, 80% more features shipped YoY), then deploying those capabilities externally. Key internal tools include the Everest context graph, which helped cut development time for new services like grocery delivery and airport pickups, and AirChat, an internal agent with organizational context. Al-Dahle also highlights async event-driven agents for on-call automation and stresses the importance of engineers maintaining craft and being able to explain AI-generated work.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "cloud",
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261005154126-174575",
+      "date": "2026-10-05T15:41:26.505Z",
+      "publication": "The Two Cents (Substack)",
+      "title": "Le Boomer Spread",
+      "author": "Hanno Lustig",
+      "url": "https://thetwocents.substack.com/p/le-boomer-spread?r=1dhwj",
+      "summary": "The piece explains why France now pays more than Italy to borrow, tracing the surge in the OAT-Bund spread to over 140 basis points. It argues that ECB quantitative easing masked France's true fiscal position for years, while successive governments prioritized pensioners over fiscal consolidation, signaling to bond markets that retirees are the senior claimants on French Treasury revenue. With the ECB now shrinking its balance sheet, private investors must absorb record net issuance, and political dysfunction around pension reform has left France with the lowest retirement age in the Eurozone outside Bulgaria.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261002194829-7f2f40",
       "date": "2026-10-02T19:48:29.191Z",
@@ -4570,15 +4603,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 132
+        "count": 133
       },
       {
         "tag": "investing",
-        "count": 102
+        "count": 103
       },
       {
         "tag": "ai agents",
-        "count": 84
+        "count": 85
       },
       {
         "tag": "tweet",
@@ -4586,7 +4619,7 @@
       },
       {
         "tag": "fintech",
-        "count": 60
+        "count": 61
       },
       {
         "tag": "science",
@@ -4594,11 +4627,11 @@
       },
       {
         "tag": "cloud",
-        "count": 32
+        "count": 33
       },
       {
         "tag": "asset management",
-        "count": 29
+        "count": 30
       },
       {
         "tag": "capital expenditure",
@@ -4609,12 +4642,12 @@
         "count": 24
       },
       {
-        "tag": "sustainability",
+        "tag": "design",
         "count": 16
       },
       {
-        "tag": "design",
-        "count": 15
+        "tag": "sustainability",
+        "count": 16
       },
       {
         "tag": "etfs",
@@ -4676,6 +4709,10 @@
       },
       {
         "publication": "Latent Space",
+        "count": 4
+      },
+      {
+        "publication": "The Two Cents (Substack)",
         "count": 3
       },
       {
@@ -4696,10 +4733,6 @@
       },
       {
         "publication": "The Housing Frame (Substack)",
-        "count": 2
-      },
-      {
-        "publication": "The Two Cents (Substack)",
         "count": 2
       },
       {
@@ -5030,7 +5063,7 @@
       },
       {
         "month": "2026-10",
-        "count": 3
+        "count": 5
       }
     ]
   }
