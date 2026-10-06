@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-05T16:00:59.671Z",
-  "count": 283,
+  "generated_at": "2026-10-06T17:00:29.385Z",
+  "count": 284,
   "entries": [
+    {
+      "id": "rl-20261006160701-b1cf49",
+      "date": "2026-10-06T16:07:01.286Z",
+      "publication": "Financial Times",
+      "title": "What's really going on with AI token price deflation?",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1",
+      "summary": "The article examines the Silicon Data Token Expenditure Index, which shows a 52% drop in blended token prices, and argues the index conflates three distinct forces: technical efficiency gains, enterprises shifting to cheaper open-weight models, and competitive price wars. Analyst Jay Goldberg's data reveals a two-tier market where frontier (mostly American) LLM providers enjoy ~70% gross margins while open-weight (mostly Chinese) shops operate at ~20%, with cost of production falling faster than market prices. The piece concludes that Anthropic and OpenAI may show attractive operating metrics at IPO, but sustaining their leads against open-model competition remains the critical unanswered question.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "investing",
+        "cloud"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261005154605-38ad0e",
       "date": "2026-10-05T15:46:05.125Z",
@@ -4603,15 +4620,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 133
+        "count": 134
       },
       {
         "tag": "investing",
-        "count": 103
+        "count": 104
       },
       {
         "tag": "ai agents",
-        "count": 85
+        "count": 86
       },
       {
         "tag": "tweet",
@@ -4627,7 +4644,7 @@
       },
       {
         "tag": "cloud",
-        "count": 33
+        "count": 34
       },
       {
         "tag": "asset management",
@@ -4677,7 +4694,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 38
+        "count": 39
       },
       {
         "publication": "The Economist",
@@ -5063,7 +5080,7 @@
       },
       {
         "month": "2026-10",
-        "count": 5
+        "count": 6
       }
     ]
   }
