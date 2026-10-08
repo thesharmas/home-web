@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-07T22:00:28.381Z",
-  "count": 285,
+  "generated_at": "2026-10-08T03:00:39.212Z",
+  "count": 286,
   "entries": [
+    {
+      "id": "rl-20261008022827-0610b4",
+      "date": "2026-10-08T02:28:27.511Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Cassandra Unchained (@michaeljburry) on X",
+      "author": "Cassandra Unchained (@michaeljburry)",
+      "url": "https://x.com/michaeljburry/status/2107994985043738805",
+      "summary": "A fun game in times like these is to go to the S&P 500 Index and see how many profitable companies one can buy with the bubble private company valuation. \n\nThe number that Anthropic’s valuation buys is 78, including Domino’s, Clorox, Smucker, Stanley Black & Decker, Deckers, lulu",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261007215613-0211c7",
       "date": "2026-10-07T21:56:13.332Z",
@@ -4647,7 +4661,7 @@
       },
       {
         "tag": "tweet",
-        "count": 64
+        "count": 65
       },
       {
         "tag": "fintech",
@@ -4705,7 +4719,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 59
+        "count": 60
       },
       {
         "publication": "Financial Times",
@@ -5095,7 +5109,7 @@
       },
       {
         "month": "2026-10",
-        "count": 7
+        "count": 8
       }
     ]
   }
