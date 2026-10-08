@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-10-08T03:00:39.212Z",
-  "count": 286,
+  "generated_at": "2026-10-08T18:00:27.418Z",
+  "count": 288,
   "entries": [
+    {
+      "id": "rl-20261008172343-970561",
+      "date": "2026-10-08T17:23:43.608Z",
+      "publication": "Substack (EconLab / Ramp Economics Lab)",
+      "title": "Top SaaS Vendors on Ramp (October 2026)",
+      "author": "Ara Kharazian (@arakharazian)",
+      "url": "https://econlab.substack.com/p/top-saas-vendors-on-ramp-oct-2026",
+      "summary": "Ara Kharazian's monthly Ramp Economics Lab newsletter analyzes October 2026 SaaS spending trends using Ramp's corporate card data. He identifies two opposing forces on AI spend: cheaper, token-efficient models (like Jev from TypeSafe AI and DeepSeek) are pushing costs down, while growing adoption of expensive image and video generation tools (Higgsfield AI, Runway) are pushing costs up. The piece also notes Ramp data is now available via FRED and teases a hiring search for an economist.",
+      "tags": [
+        "ai agents",
+        "cloud",
+        "technology",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20261008172211-75a5f7",
+      "date": "2026-10-08T17:22:11.015Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261008022827-0610b4",
       "date": "2026-10-08T02:28:27.511Z",
@@ -4649,7 +4678,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 134
+        "count": 135
       },
       {
         "tag": "investing",
@@ -4657,7 +4686,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 86
+        "count": 87
       },
       {
         "tag": "tweet",
@@ -4665,7 +4694,7 @@
       },
       {
         "tag": "fintech",
-        "count": 62
+        "count": 63
       },
       {
         "tag": "science",
@@ -4673,7 +4702,7 @@
       },
       {
         "tag": "cloud",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "asset management",
@@ -4730,11 +4759,11 @@
         "count": 36
       },
       {
-        "publication": "Bloomberg",
-        "count": 13
+        "publication": "Unknown",
+        "count": 14
       },
       {
-        "publication": "Unknown",
+        "publication": "Bloomberg",
         "count": 13
       },
       {
@@ -4994,6 +5023,10 @@
         "count": 1
       },
       {
+        "publication": "Substack (EconLab / Ramp Economics Lab)",
+        "count": 1
+      },
+      {
         "publication": "Substack (Jared Bernstein)",
         "count": 1
       },
@@ -5109,7 +5142,7 @@
       },
       {
         "month": "2026-10",
-        "count": 8
+        "count": 10
       }
     ]
   }
