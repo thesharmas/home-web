@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-10-09T14:00:40.283Z",
-  "count": 288,
+  "generated_at": "2026-10-09T17:00:41.025Z",
+  "count": 289,
   "entries": [
+    {
+      "id": "rl-20261009160931-51637e",
+      "date": "2026-10-09T16:09:31.151Z",
+      "publication": "Bloomberg",
+      "title": "Jeremy Maletz",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/jeremy-maletz/id1739582836?i=1000794066998",
+      "summary": "Bloomberg podcast episode featuring Matt in conversation with Jeremy Maletz, head of prediction markets at Susquehanna International Group. Topics include hedging goat herder risk, flow versus bespoke trading, election factor hedging, adverse selection, and correlation in prediction markets. The discussion also covers Maletz's transition from sports gambling to trillion-dollar data center credit derivatives.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261008172343-970561",
       "date": "2026-10-08T17:23:43.608Z",
@@ -4682,7 +4697,7 @@
       },
       {
         "tag": "investing",
-        "count": 105
+        "count": 106
       },
       {
         "tag": "ai agents",
@@ -4694,7 +4709,7 @@
       },
       {
         "tag": "fintech",
-        "count": 63
+        "count": 64
       },
       {
         "tag": "science",
@@ -4760,7 +4775,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 13
+        "count": 14
       },
       {
         "publication": "Unknown",
@@ -5142,7 +5157,7 @@
       },
       {
         "month": "2026-10",
-        "count": 10
+        "count": 11
       }
     ]
   }
