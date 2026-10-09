@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:00:27.418Z",
+  "generated_at": "2026-10-09T14:00:40.283Z",
   "count": 288,
   "entries": [
     {
@@ -22,14 +22,14 @@
     {
       "id": "rl-20261008172211-75a5f7",
       "date": "2026-10-08T17:22:11.015Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "On the LLMternet, nobody cares you're a plant",
+      "author": "Louis Ashworth",
       "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c",
-      "summary": null,
+      "summary": "The article explores how AI-driven content discovery is accelerating astroturf marketing on Reddit, where companies like Jerry are hiring copywriters to craft fake-organic posts optimised for both Google and LLM citation. A UBS study found that major LLMs disproportionately recommend large, established brick-and-mortar retailers like Walmart and Costco, suggesting generative AI amplifies existing competitive advantages rather than disrupting them. The piece argues this dynamic will intensify incentives to manipulate neutral-seeming information sources like Reddit.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261008022827-0610b4",
@@ -4752,18 +4752,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 39
+        "count": 40
       },
       {
         "publication": "The Economist",
         "count": 36
       },
       {
-        "publication": "Unknown",
-        "count": 14
+        "publication": "Bloomberg",
+        "count": 13
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 13
       },
       {
