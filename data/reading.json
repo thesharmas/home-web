@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-10-09T17:00:41.025Z",
-  "count": 289,
+  "generated_at": "2026-10-10T16:00:32.213Z",
+  "count": 295,
   "entries": [
+    {
+      "id": "rl-20261010154915-8cc079",
+      "date": "2026-10-10T15:49:15.491Z",
+      "publication": "The Economist",
+      "title": "China's oil tactics have been clever. Now the costs are mounting",
+      "author": null,
+      "url": "https://www.economist.com/china/2026/10/07/chinas-oil-tactics-have-been-clever-now-the-costs-are-mounting",
+      "summary": "China's response to the Hormuz crisis initially showed impressive agility—cutting crude imports and building fuel stocks—but a subsequent surge in refined-product exports has drained domestic inventories and distorted global oil markets. The scramble for crude has pushed Brent back to $100 a barrel and driven tanker rates to records, while retail price controls and teapot-refiner stress are squeezing domestic supply. Beijing now faces a painful trilemma: allow higher retail fuel prices, subsidise loss-making state refiners, or draw down strategic crude reserves further.",
+      "tags": [
+        "sustainability",
+        "investing",
+        "clean energy",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261010154730-bc1409",
+      "date": "2026-10-10T15:47:30.801Z",
+      "publication": "The Economist",
+      "title": "Is China building an air base in Laos?",
+      "author": null,
+      "url": "https://www.economist.com/asia/2026/10/08/is-china-building-an-air-base-in-laos",
+      "summary": "Western governments and analysts are concerned that China may be establishing its first air base in mainland South-East Asia at Ban Keun, Laos, following a joint military facility announcement in late September 2026. Laos and China insist the site is merely a pilot training school, but the country's deep financial dependence on China—around $5bn in debt, roughly 30% of GDP—limits its ability to resist Chinese requests. America has little leverage to counter Chinese influence in Laos, given lingering resentment over Vietnam-era bombing, Trump-era tariffs, and deportation disputes.",
+      "tags": [
+        "security",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261010154348-83ef3c",
+      "date": "2026-10-10T15:43:48.992Z",
+      "publication": "The Economist",
+      "title": "A controversial new power grab in Pakistan",
+      "author": null,
+      "url": "https://www.economist.com/asia/2026/10/05/a-controversial-new-power-grab-in-pakistan",
+      "summary": "Pakistan's de facto ruler, Field Marshal Asim Munir, is pursuing a plan to break the country's four provinces into smaller units, a move critics see as an attempt to weaken dynastic political parties like the Sharifs' PML-N and the Bhutto family's PPP rather than a genuine governance reform. The proposal has sparked fierce resistance, particularly from Sindh, whose assembly passed a resolution rejecting it, while a national referendum is rumoured as a way to bypass constitutional requirements for provincial assembly approval. Meanwhile, Imran Khan's PTI continues to command public attention with protests, leaving the field marshal navigating competing political pressures as he consolidates military control over civilian institutions.",
+      "tags": [
+        "security"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261010154214-d5cdf3",
+      "date": "2026-10-10T15:42:14.718Z",
+      "publication": "The Economist",
+      "title": "Brazil falls into MAGA's orbit",
+      "author": null,
+      "url": "https://www.economist.com/the-americas/2026/10/08/brazil-falls-into-magas-orbit",
+      "summary": "Brazil's 2026 general election saw the left-wing Workers' Party and Lula suffer a sweeping defeat, with Flávio Bolsonaro—son of former president Jair Bolsonaro—poised to win the October 25th run-off and establish a right-wing dynasty. The result reflects voter exhaustion with Lula's government, corruption scandals, and economic frustration, rather than enthusiasm for the Bolsonaros. A Flávio presidency would likely align Brazil with the MAGA movement, reshape the country's institutions, and carry significant implications for regional geopolitics and the economy.",
+      "tags": [
+        "investing",
+        "technology",
+        "security"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261010154104-80eec2",
+      "date": "2026-10-10T15:41:04.369Z",
+      "publication": "The Economist",
+      "title": "Big Tobacco's lessons for Big Oil",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/10/08/big-tobaccos-lessons-for-big-oil",
+      "summary": "The US Supreme Court is considering whether oil companies like Exxon Mobil and Suncor Energy can be held liable under state law for climate-related damages, in a case brought by Boulder, Colorado. The suit draws parallels to the 1990s tobacco litigation, alleging that oil companies concealed knowledge of fossil fuels' harms for decades. Key legal obstacles include whether federal law preempts state claims over interstate pollution, and the difficulty of establishing a direct causal link between corporate deception and climate inaction.",
+      "tags": [
+        "sustainability",
+        "investing",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261010153803-78de17",
+      "date": "2026-10-10T15:38:03.382Z",
+      "publication": null,
+      "title": "economist.com",
+      "author": null,
+      "url": "https://www.economist.com/united-states/2026/10/04/when-gerrymandering-meets-a-blue-wave",
+      "summary": null,
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20261009160931-51637e",
       "date": "2026-10-09T16:09:31.151Z",
@@ -4693,11 +4783,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 135
+        "count": 137
       },
       {
         "tag": "investing",
-        "count": 106
+        "count": 109
       },
       {
         "tag": "ai agents",
@@ -4713,7 +4803,7 @@
       },
       {
         "tag": "science",
-        "count": 41
+        "count": 43
       },
       {
         "tag": "cloud",
@@ -4729,14 +4819,14 @@
       },
       {
         "tag": "security",
-        "count": 24
-      },
-      {
-        "tag": "design",
-        "count": 16
+        "count": 27
       },
       {
         "tag": "sustainability",
+        "count": 18
+      },
+      {
+        "tag": "design",
         "count": 16
       },
       {
@@ -4744,12 +4834,12 @@
         "count": 5
       },
       {
-        "tag": "particle physics",
+        "tag": "clean energy",
         "count": 2
       },
       {
-        "tag": "clean energy",
-        "count": 1
+        "tag": "particle physics",
+        "count": 2
       },
       {
         "tag": "iconography",
@@ -4766,12 +4856,12 @@
         "count": 60
       },
       {
-        "publication": "Financial Times",
-        "count": 40
+        "publication": "The Economist",
+        "count": 41
       },
       {
-        "publication": "The Economist",
-        "count": 36
+        "publication": "Financial Times",
+        "count": 40
       },
       {
         "publication": "Bloomberg",
@@ -4779,7 +4869,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 13
+        "count": 14
       },
       {
         "publication": "The Information",
@@ -5157,7 +5247,7 @@
       },
       {
         "month": "2026-10",
-        "count": 11
+        "count": 17
       }
     ]
   }
