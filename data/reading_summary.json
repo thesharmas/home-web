@@ -5047,7 +5047,338 @@
     }
    ],
    "generated_at": "2026-10-04T15:02:53Z"
+  },
+  {
+   "week_start": "2026-10-04",
+   "week_end": "2026-10-11",
+   "title": "Week ending Oct 11, 2026",
+   "overview": "Your reading this week split cleanly between two financial-market plumbing stories and a broader reckoning with AI's economics. On the fixed-income side, \"Le Boomer Spread\" traced how France's OAT-Bund spread blew past 140bp -- not because France is insolvent, but because decades of ECB-masked deficits and political favoritism toward pensioners finally caught up with it just as the ECB shrinks its balance sheet. The FT's mortgage-bonds piece picked up a related thread: the $7tn agency MBS market's negative convexity can turn rising yields into a self-reinforcing selling spiral, though at today's ~7.28% mortgage rates that mechanism may be running out of fuel. The Maletz podcast rounded out this cluster with a look at how prediction markets price flow versus bespoke risk and adverse selection -- a different lens on the same underlying question of how markets absorb shocks.\n\nThe AI thread this week was less about new capability and more about economics and trust. The FT's token-price-deflation piece complicated the \"AI is getting cheap\" narrative by revealing a two-tier market: ~70% gross margins for frontier US labs versus ~20% for Chinese open-weight shops, with real production costs falling faster than sticker prices in both tiers. Ramp's SaaS spending data echoed this -- cheaper models pulling AI spend down even as expensive image/video tools pull it back up. Airbnb's \"inside-out AI\" strategy (60% of code AI-authored, an internal context graph called Everest) offered a concrete adoption model, in contrast to the cynicism of the LLMternet piece, which found LLMs amplifying existing retail incumbents rather than leveling the playing field -- and the Burry-adjacent tweet comparing Anthropic's valuation to 78 profitable S&P 500 companies put a hard number on just how far the AI narrative has run ahead of fundamentals.\n\nThe Economist cluster closed the week with a tour of great-power friction: Brazil's leftward collapse and likely Bolsonaro-family restoration, Pakistan's provincial power grab, China's quiet air-base build-out in Laos, and Beijing's post-Hormuz oil-market scramble. The Big Tobacco/Big Oil litigation piece bridges this geopolitical set and the market-structure set -- it's fundamentally a story about how legal systems assign liability for slow-motion externalities, the same question implicit in the MBS and sovereign-debt pieces.",
+   "themes": [
+    {
+     "name": "AI's Hype-to-Reality Gap",
+     "description": "AI coverage this week was less about new capability and more about who actually captures the economics, and whether the hype matches adoption on the ground.",
+     "items": [
+      {
+       "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+       "url": "https://www.latent.space/p/airbnb?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "What's really going on with AI token price deflation?",
+       "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1"
+      },
+      {
+       "title": "Top SaaS Vendors on Ramp (October 2026)",
+       "url": "https://econlab.substack.com/p/top-saas-vendors-on-ramp-oct-2026"
+      },
+      {
+       "title": "On the LLMternet, nobody cares you're a plant",
+       "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c"
+      },
+      {
+       "title": "Cassandra Unchained (@michaeljburry) on X",
+       "url": "https://x.com/michaeljburry/status/2107994985043738805"
+      }
+     ]
+    },
+    {
+     "name": "Fixed-Income Plumbing Under Stress",
+     "description": "Three pieces examined how sovereign and mortgage debt markets transmit stress -- through spreads, convexity, and derivative pricing -- rather than through simple default risk.",
+     "items": [
+      {
+       "title": "Le Boomer Spread",
+       "url": "https://thetwocents.substack.com/p/le-boomer-spread?r=1dhwj"
+      },
+      {
+       "title": "How US mortgage bonds can trigger a 'vicious loop' for Treasury yields",
+       "url": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c"
+      },
+      {
+       "title": "Jeremy Maletz",
+       "url": "https://podcasts.apple.com/us/podcast/jeremy-maletz/id1739582836?i=1000794066998"
+      }
+     ]
+    },
+    {
+     "name": "Great-Power Repositioning",
+     "description": "The Economist's cluster this week tracked how debt dependency, exhaustion with incumbents, and post-crisis scrambles are quietly reshaping alignments in Latin America, South Asia, and East Asia.",
+     "items": [
+      {
+       "title": "Brazil falls into MAGA's orbit",
+       "url": "https://www.economist.com/the-americas/2026/10/08/brazil-falls-into-magas-orbit"
+      },
+      {
+       "title": "A controversial new power grab in Pakistan",
+       "url": "https://www.economist.com/asia/2026/10/05/a-controversial-new-power-grab-in-pakistan"
+      },
+      {
+       "title": "Is China building an air base in Laos?",
+       "url": "https://www.economist.com/asia/2026/10/08/is-china-building-an-air-base-in-laos"
+      },
+      {
+       "title": "China's oil tactics have been clever. Now the costs are mounting",
+       "url": "https://www.economist.com/china/2026/10/07/chinas-oil-tactics-have-been-clever-now-the-costs-are-mounting"
+      }
+     ]
+    },
+    {
+     "name": "Climate Liability's Tobacco Playbook",
+     "description": "A single sharp piece on whether oil majors face Big Tobacco-style litigation exposure for climate damages, and why the concealment narrative matters more than the still-unsettled legal causation question.",
+     "items": [
+      {
+       "title": "Big Tobacco's lessons for Big Oil",
+       "url": "https://www.economist.com/united-states/2026/10/08/big-tobaccos-lessons-for-big-oil"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Sovereign bond spreads are becoming political scorecards, not just solvency measures: France's OAT-Bund spread blew past 140bp because ECB QE masked the fiscal picture for years while governments signaled pensioners, not bondholders, as the senior claimant on Treasury revenue.",
+     "sources": [
+      {
+       "title": "Le Boomer Spread",
+       "url": "https://thetwocents.substack.com/p/le-boomer-spread?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "\"AI token deflation\" headlines hide a two-tier reality: frontier US labs still run ~70% gross margins while Chinese open-weight providers operate near ~20%, so falling average prices can coexist with a widening, not narrowing, profitability gap.",
+     "sources": [
+      {
+       "title": "What's really going on with AI token price deflation?",
+       "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1"
+      }
+     ]
+    },
+    {
+     "lesson": "The $7tn agency MBS market's negative convexity forces mechanical Treasury selling exactly when yields are already rising -- but with 30-year mortgage rates near 7.28%, prepayment optionality is nearly worthless, which is quietly defusing the loop that amplified past sell-offs.",
+     "sources": [
+      {
+       "title": "How US mortgage bonds can trigger a 'vicious loop' for Treasury yields",
+       "url": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c"
+      }
+     ]
+    },
+    {
+     "lesson": "\"Inside-out AI\" -- proving AI value on your own engineering org first (Airbnb: 60% AI-authored code, an internal context graph called Everest) before shipping it to customers -- is a more credible adoption signal than marketing claims about AI products.",
+     "sources": [
+      {
+       "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+       "url": "https://www.latent.space/p/airbnb?r=1dhwj&triedRedirect=true"
+      }
+     ]
+    },
+    {
+     "lesson": "LLM-driven discovery doesn't level the competitive field the way search once promised to: UBS found major LLMs disproportionately recommend large incumbents like Walmart and Costco, meaning generative AI mostly amplifies existing brand advantage.",
+     "sources": [
+      {
+       "title": "On the LLMternet, nobody cares you're a plant",
+       "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c"
+      }
+     ]
+    },
+    {
+     "lesson": "Comparing Big Oil's climate-liability exposure to 1990s Big Tobacco litigation is less about matching legal facts (causation is still genuinely hard to prove) and more about a durable playbook: a concealment narrative creates reputational and legal risk long before any verdict lands.",
+     "sources": [
+      {
+       "title": "Big Tobacco's lessons for Big Oil",
+       "url": "https://www.economist.com/united-states/2026/10/08/big-tobaccos-lessons-for-big-oil"
+      }
+     ]
+    },
+    {
+     "lesson": "China's early, agile response to the Hormuz crisis (cutting crude imports, building stockpiles) created a second-order problem: a refined-product export surge that drained domestic inventories and now forces Beijing into a genuine trilemma of higher prices, refiner subsidies, or reserve drawdowns.",
+     "sources": [
+      {
+       "title": "China's oil tactics have been clever. Now the costs are mounting",
+       "url": "https://www.economist.com/china/2026/10/07/chinas-oil-tactics-have-been-clever-now-the-costs-are-mounting"
+      }
+     ]
+    },
+    {
+     "lesson": "Debt dependency is proving a more durable lever for great-power basing rights than direct coercion: Laos' roughly $5bn debt to China (~30% of GDP) limits its ability to resist a reported air-base request, and the US has little countervailing leverage given historical baggage in the region.",
+     "sources": [
+      {
+       "title": "Is China building an air base in Laos?",
+       "url": "https://www.economist.com/asia/2026/10/08/is-china-building-an-air-base-in-laos"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "AI token price deflation is usually read as margin compression across the whole industry, but the data says the opposite at the top: frontier US labs' ~70% gross margins are intact, and the real deflation is concentrated in cheaper open-weight tiers.",
+     "source": {
+      "title": "What's really going on with AI token price deflation?",
+      "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1"
+     }
+    },
+    {
+     "insight": "The MBS 'vicious loop' mechanism widely feared as an amplifier of bond-market stress may already be nearly spent -- at today's mortgage rates, negative convexity has little juice left, so the next yield spike may not replay 2022-23's dynamics.",
+     "source": {
+      "title": "How US mortgage bonds can trigger a 'vicious loop' for Treasury yields",
+      "url": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c"
+     }
+    },
+    {
+     "insight": "Generative AI search was pitched as a leveler that would let scrappy, substantive brands compete on merit, but UBS's data shows LLMs default to the same large incumbents -- AI is turning out to be a moat extender for Walmart and Costco, not a disruptor.",
+     "source": {
+      "title": "On the LLMternet, nobody cares you're a plant",
+      "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c"
+     }
+    },
+    {
+     "insight": "Brazil's election swing toward the Bolsonaro family reads in headlines as an ideological realignment toward MAGA-style politics, but the more accurate frame is a protest vote born of exhaustion with Lula -- enthusiasm for Bolsonarismo is secondary to fatigue with the incumbent.",
+     "source": {
+      "title": "Brazil falls into MAGA's orbit",
+      "url": "https://www.economist.com/the-americas/2026/10/08/brazil-falls-into-magas-orbit"
+     }
+    },
+    {
+     "insight": "China's celebrated 'agile' early handling of the Hormuz shock (import cuts, stockpiling) is itself the root cause of today's refined-product supply crunch -- the tactical win that looked clever a few months ago is the thing now squeezing Beijing into a trilemma.",
+     "source": {
+      "title": "China's oil tactics have been clever. Now the costs are mounting",
+      "url": "https://www.economist.com/china/2026/10/07/chinas-oil-tactics-have-been-clever-now-the-costs-are-mounting"
+     }
+    },
+    {
+     "insight": "By market-cap arithmetic, Anthropic's private valuation could buy roughly 78 profitable S&P 500 companies (Domino's, Clorox, Smucker, and more) -- a stark reminder that AI valuations are being priced almost entirely on narrative and optionality, at a scale that dwarfs real, cash-generating businesses.",
+     "source": {
+      "title": "Cassandra Unchained (@michaeljburry) on X",
+      "url": "https://x.com/michaeljburry/status/2107994985043738805"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 13,
+    "top_publications": [
+     {
+      "name": "The Economist",
+      "count": 5
+     },
+     {
+      "name": "Financial Times",
+      "count": 3
+     },
+     {
+      "name": "Twitter/X",
+      "count": 1
+     },
+     {
+      "name": "Latent Space",
+      "count": 1
+     },
+     {
+      "name": "Bloomberg",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "investing",
+      "count": 7
+     },
+     {
+      "name": "technology",
+      "count": 5
+     },
+     {
+      "name": "fintech",
+      "count": 4
+     },
+     {
+      "name": "ai agents",
+      "count": 3
+     },
+     {
+      "name": "security",
+      "count": 3
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Le Boomer Spread",
+     "publication": "The Two Cents (Substack)",
+     "date": "2026-10-05",
+     "url": "https://thetwocents.substack.com/p/le-boomer-spread?r=1dhwj"
+    },
+    {
+     "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+     "publication": "Latent Space",
+     "date": "2026-10-05",
+     "url": "https://www.latent.space/p/airbnb?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "What's really going on with AI token price deflation?",
+     "publication": "Financial Times",
+     "date": "2026-10-06",
+     "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1"
+    },
+    {
+     "title": "How US mortgage bonds can trigger a 'vicious loop' for Treasury yields",
+     "publication": "FT",
+     "date": "2026-10-07",
+     "url": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c"
+    },
+    {
+     "title": "Cassandra Unchained (@michaeljburry) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-10-08",
+     "url": "https://x.com/michaeljburry/status/2107994985043738805"
+    },
+    {
+     "title": "On the LLMternet, nobody cares you're a plant",
+     "publication": "Financial Times",
+     "date": "2026-10-08",
+     "url": "https://www.ft.com/content/795ffd25-1b11-4531-b4bc-2974d798389c"
+    },
+    {
+     "title": "Top SaaS Vendors on Ramp (October 2026)",
+     "publication": "Substack (EconLab / Ramp Economics Lab)",
+     "date": "2026-10-08",
+     "url": "https://econlab.substack.com/p/top-saas-vendors-on-ramp-oct-2026"
+    },
+    {
+     "title": "Jeremy Maletz",
+     "publication": "Bloomberg",
+     "date": "2026-10-09",
+     "url": "https://podcasts.apple.com/us/podcast/jeremy-maletz/id1739582836?i=1000794066998"
+    },
+    {
+     "title": "Big Tobacco's lessons for Big Oil",
+     "publication": "The Economist",
+     "date": "2026-10-10",
+     "url": "https://www.economist.com/united-states/2026/10/08/big-tobaccos-lessons-for-big-oil"
+    },
+    {
+     "title": "Brazil falls into MAGA's orbit",
+     "publication": "The Economist",
+     "date": "2026-10-10",
+     "url": "https://www.economist.com/the-americas/2026/10/08/brazil-falls-into-magas-orbit"
+    },
+    {
+     "title": "A controversial new power grab in Pakistan",
+     "publication": "The Economist",
+     "date": "2026-10-10",
+     "url": "https://www.economist.com/asia/2026/10/05/a-controversial-new-power-grab-in-pakistan"
+    },
+    {
+     "title": "Is China building an air base in Laos?",
+     "publication": "The Economist",
+     "date": "2026-10-10",
+     "url": "https://www.economist.com/asia/2026/10/08/is-china-building-an-air-base-in-laos"
+    },
+    {
+     "title": "China's oil tactics have been clever. Now the costs are mounting",
+     "publication": "The Economist",
+     "date": "2026-10-10",
+     "url": "https://www.economist.com/china/2026/10/07/chinas-oil-tactics-have-been-clever-now-the-costs-are-mounting"
+    }
+   ],
+   "generated_at": "2026-10-11T15:02:34Z"
   }
  ],
- "updated_at": "2026-10-04T15:02:53Z"
+ "updated_at": "2026-10-11T15:02:34Z"
 }
