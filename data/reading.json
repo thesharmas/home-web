@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:00:38.000Z",
+  "generated_at": "2026-10-12T23:00:30.431Z",
   "count": 299,
   "entries": [
     {
@@ -52,14 +52,14 @@
     {
       "id": "rl-20261012151829-06f058",
       "date": "2026-10-12T15:18:29.050Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "What a $30bn Aussie data centre IPO debacle actually means",
+      "author": "Craig Coben",
       "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
-      "summary": null,
+      "summary": "The article examines the collapse of the $5.5bn Australian IPO of Firmus Grid, an Nvidia-backed data centre business that sought a ~$30bn valuation, exploring why the deal fell apart when investors balked at the price after a late-stage Meta deal revised the numbers upward. Author Craig Coben, drawing on investment banking experience, explains the mechanics of failed IPOs — including mispriced ranges, client-bank trust breakdowns, and the cascade of order withdrawals once momentum falters. He concludes that public markets are unforgiving: if investor feedback in pre-marketing is ignored, a failed book-build is the likely result.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261010154915-8cc079",
@@ -4916,18 +4916,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 41
+        "count": 42
       },
       {
         "publication": "The Economist",
         "count": 41
       },
       {
-        "publication": "Unknown",
-        "count": 15
+        "publication": "Bloomberg",
+        "count": 14
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 14
       },
       {
