@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-10T16:00:32.213Z",
-  "count": 295,
+  "generated_at": "2026-10-12T16:00:33.277Z",
+  "count": 297,
   "entries": [
+    {
+      "id": "rl-20261012151903-065449",
+      "date": "2026-10-12T15:19:03.952Z",
+      "publication": "Financial Times",
+      "title": "Death-spiral finance: altcoin edition",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/c84a0307-714c-4279-9073-caad985cce63",
+      "summary": "The piece examines CHAD, a perpetual preferred stock issued by DeFi Development Corp on Nasdaq, which mimics Strategy's bitcoin-treasury model but for Solana (SOL). The author explains how the death-spiral risk inherent in using perpetual preferred stock to buy volatile digital assets is amplified by Solana's historic volatility, and notes that CHAD's prospectus gives management near-total discretion over how proceeds are spent. The piece raises questions about Nasdaq's vetting standards for allowing such instruments to trade on its Capital Market tier.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261012151829-06f058",
+      "date": "2026-10-12T15:18:29.050Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261010154915-8cc079",
       "date": "2026-10-10T15:49:15.491Z",
@@ -4787,19 +4814,19 @@
       },
       {
         "tag": "investing",
-        "count": 109
+        "count": 110
       },
       {
         "tag": "ai agents",
         "count": 87
       },
       {
-        "tag": "tweet",
+        "tag": "fintech",
         "count": 65
       },
       {
-        "tag": "fintech",
-        "count": 64
+        "tag": "tweet",
+        "count": 65
       },
       {
         "tag": "science",
@@ -4856,19 +4883,19 @@
         "count": 60
       },
       {
+        "publication": "Financial Times",
+        "count": 41
+      },
+      {
         "publication": "The Economist",
         "count": 41
       },
       {
-        "publication": "Financial Times",
-        "count": 40
+        "publication": "Unknown",
+        "count": 15
       },
       {
         "publication": "Bloomberg",
-        "count": 14
-      },
-      {
-        "publication": "Unknown",
         "count": 14
       },
       {
@@ -5247,7 +5274,7 @@
       },
       {
         "month": "2026-10",
-        "count": 17
+        "count": 19
       }
     ]
   }
