@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-10-12T16:00:33.277Z",
-  "count": 297,
+  "generated_at": "2026-10-12T18:00:38.000Z",
+  "count": 299,
   "entries": [
+    {
+      "id": "rl-20261012174537-58449c",
+      "date": "2026-10-12T17:45:37.539Z",
+      "publication": "Latent Space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "author": "Richard MacManus",
+      "url": "https://www.latent.space/p/stacklok?r=1dhwj&triedRedirect=true",
+      "summary": "Stacklok, founded by Kubernetes co-creators Craig McLuckie and Joe Beda, is building cloud-native infrastructure for AI coding agents, addressing the limitations of desktop-first harnesses. Their key products include Mecatl, an open-source cloud-native agent harness that decouples the agent loop from tool execution and session state, and ToolHive, a platform for managing MCP servers at scale. The company targets large enterprises in regulated industries, offering a commercial \"enterprise spine\" control plane that ties together the open-source components with identity, authorization, policy, and auditing.",
+      "tags": [
+        "ai agents",
+        "cloud",
+        "security",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261012173647-2331f3",
+      "date": "2026-10-12T17:36:47.221Z",
+      "publication": "Bob's Payment Stock Substack",
+      "title": "Klarna: Buy Now, Pay Later, Profit When?",
+      "author": "Bob Hammel",
+      "url": "https://bobhammel.substack.com/p/klarna-buy-now-pay-later-profit-when?r=1dhwj",
+      "summary": "The piece analyzes Klarna (KLAR) following its September 2025 IPO, arguing the stock has fallen nearly two-thirds due to missed financial expectations, uncertain Q4 GMV guidance, and doubts about long-term profitability under its current low-monetization business model. The author examines Klarna's structurally low take rate versus BNPL peers, its funding cost advantage via retail deposits, and competitive pressures in key markets like Germany. Despite identifying meaningful upside potential—estimating fair value around $20/share—the author declines to invest due to insufficient confidence in management's ability to forecast and deliver results.",
+      "tags": [
+        "fintech",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261012151903-065449",
       "date": "2026-10-12T15:19:03.952Z",
@@ -4810,19 +4842,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 137
+        "count": 138
       },
       {
         "tag": "investing",
-        "count": 110
+        "count": 111
       },
       {
         "tag": "ai agents",
-        "count": 87
+        "count": 88
       },
       {
         "tag": "fintech",
-        "count": 65
+        "count": 66
       },
       {
         "tag": "tweet",
@@ -4834,7 +4866,7 @@
       },
       {
         "tag": "cloud",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "asset management",
@@ -4846,7 +4878,7 @@
       },
       {
         "tag": "security",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "sustainability",
@@ -4907,6 +4939,10 @@
         "count": 8
       },
       {
+        "publication": "Latent Space",
+        "count": 5
+      },
+      {
         "publication": "Slate Podcasts",
         "count": 5
       },
@@ -4915,16 +4951,16 @@
         "count": 5
       },
       {
-        "publication": "Latent Space",
-        "count": 4
-      },
-      {
         "publication": "FT",
         "count": 3
       },
       {
         "publication": "The Two Cents (Substack)",
         "count": 3
+      },
+      {
+        "publication": "Bob's Payment Stock Substack",
+        "count": 2
       },
       {
         "publication": "Deep (Learning) Focus (Substack)",
@@ -4988,10 +5024,6 @@
       },
       {
         "publication": "Bloomberg (Odd Lots)",
-        "count": 1
-      },
-      {
-        "publication": "Bob's Payment Stock Substack",
         "count": 1
       },
       {
@@ -5274,7 +5306,7 @@
       },
       {
         "month": "2026-10",
-        "count": 19
+        "count": 21
       }
     ]
   }
