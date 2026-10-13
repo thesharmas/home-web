@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-12T23:00:30.431Z",
-  "count": 299,
+  "generated_at": "2026-10-13T15:00:27.232Z",
+  "count": 300,
   "entries": [
+    {
+      "id": "rl-20261013145336-0e05e3",
+      "date": "2026-10-13T14:53:36.108Z",
+      "publication": "Photon-Lines Substack",
+      "title": "A Visual Intro to Complex Numbers",
+      "author": "Nick M",
+      "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers",
+      "summary": "The article provides a visual and historical introduction to complex numbers, tracing their origins from Cardano's 16th-century algebraic puzzles through Euler's notation and Argand/Wessel's geometric plane. It explains how complex numbers extend the real number line into a 2D plane where multiplication corresponds to rotation and scaling, and connects this to trigonometric functions via De Moivre's formula. The piece concludes by highlighting the practical importance of complex numbers in signal processing, control systems, quantum mechanics, and engineering.",
+      "tags": [
+        "science",
+        "technology",
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261012174537-58449c",
       "date": "2026-10-12T17:45:37.539Z",
@@ -4842,7 +4858,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 138
+        "count": 139
       },
       {
         "tag": "investing",
@@ -4862,7 +4878,7 @@
       },
       {
         "tag": "science",
-        "count": 43
+        "count": 44
       },
       {
         "tag": "cloud",
@@ -4886,7 +4902,7 @@
       },
       {
         "tag": "design",
-        "count": 16
+        "count": 17
       },
       {
         "tag": "etfs",
@@ -5143,6 +5159,10 @@
         "count": 1
       },
       {
+        "publication": "Photon-Lines Substack",
+        "count": 1
+      },
+      {
         "publication": "Princeton University Press",
         "count": 1
       },
@@ -5306,7 +5326,7 @@
       },
       {
         "month": "2026-10",
-        "count": 21
+        "count": 22
       }
     ]
   }
