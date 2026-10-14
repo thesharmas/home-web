@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-13T17:00:24.859Z",
-  "count": 301,
+  "generated_at": "2026-10-14T17:01:05.533Z",
+  "count": 302,
   "entries": [
+    {
+      "id": "rl-20261014162359-d9b0cc",
+      "date": "2026-10-14T16:23:59.780Z",
+      "publication": "Convexity Maven",
+      "title": "Fat Cat",
+      "author": "Harley Bassman",
+      "url": "https://www.convexitymaven.com/wp-content/uploads/2026/10/Convexity-Maven-Fat-Cat.pdf",
+      "summary": "This is a PDF document from Convexity Maven, a publication associated with fixed-income strategist Harley Bassman. The page text is entirely binary PDF stream data with no readable prose extractable from the captured content. The title 'Fat Cat' suggests it is likely a market commentary or investment analysis piece in Bassman's typical style covering interest rates, volatility, or related financial topics.",
+      "tags": [
+        "investing",
+        "asset management",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261013164315-e62b99",
       "date": "2026-10-13T16:43:15.569Z",
@@ -4874,7 +4890,7 @@
       },
       {
         "tag": "investing",
-        "count": 111
+        "count": 112
       },
       {
         "tag": "ai agents",
@@ -4882,7 +4898,7 @@
       },
       {
         "tag": "fintech",
-        "count": 66
+        "count": 67
       },
       {
         "tag": "tweet",
@@ -4898,7 +4914,7 @@
       },
       {
         "tag": "asset management",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "capital expenditure",
@@ -4991,6 +5007,10 @@
         "count": 2
       },
       {
+        "publication": "Convexity Maven",
+        "count": 2
+      },
+      {
         "publication": "Deep (Learning) Focus (Substack)",
         "count": 2
       },
@@ -5060,10 +5080,6 @@
       },
       {
         "publication": "Colossus",
-        "count": 1
-      },
-      {
-        "publication": "Convexity Maven",
         "count": 1
       },
       {
@@ -5338,7 +5354,7 @@
       },
       {
         "month": "2026-10",
-        "count": 23
+        "count": 24
       }
     ]
   }
