@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-10-15T15:00:59.656Z",
-  "count": 303,
+  "generated_at": "2026-10-15T16:00:34.623Z",
+  "count": 304,
   "entries": [
+    {
+      "id": "rl-20261015151144-29eede",
+      "date": "2026-10-15T15:11:44.869Z",
+      "publication": "Map Writing (Substack)",
+      "title": "Do dentists actually know what they're doing?",
+      "author": "Parker Tatum",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "summary": "A first-person narrative spanning ages 17 to 33 in which the author visits a succession of dentists across multiple states, each offering contradictory diagnoses and treatments for the same jaw and dental problems. The piece traces a darkly comic pattern: every dentist confidently overrides the last, recommends something new ranging from tooth reshaping to $150,000 jaw surgery, and invokes a personal relationship ('if you were my son/grandson/kid') to close the sale. The story ends in familiar circular frustration when the periodontist recommends yet another oral surgeon, echoing the very specialist the narrator fled in California.",
+      "tags": [
+        "science",
+        "design"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261015144323-a122cc",
       "date": "2026-10-15T14:43:23.028Z",
@@ -4918,7 +4933,7 @@
       },
       {
         "tag": "science",
-        "count": 44
+        "count": 45
       },
       {
         "tag": "cloud",
@@ -4937,12 +4952,12 @@
         "count": 28
       },
       {
-        "tag": "sustainability",
+        "tag": "design",
         "count": 18
       },
       {
-        "tag": "design",
-        "count": 17
+        "tag": "sustainability",
+        "count": 18
       },
       {
         "tag": "etfs",
@@ -5152,6 +5167,10 @@
       },
       {
         "publication": "LinkedIn",
+        "count": 1
+      },
+      {
+        "publication": "Map Writing (Substack)",
         "count": 1
       },
       {
@@ -5366,7 +5385,7 @@
       },
       {
         "month": "2026-10",
-        "count": 25
+        "count": 26
       }
     ]
   }
