@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-14T17:01:05.533Z",
-  "count": 302,
+  "generated_at": "2026-10-15T15:00:59.656Z",
+  "count": 303,
   "entries": [
+    {
+      "id": "rl-20261015144323-a122cc",
+      "date": "2026-10-15T14:43:23.028Z",
+      "publication": "Financial Times",
+      "title": "CoreWeave's bonds scream financial distress",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b",
+      "summary": "CoreWeave's bonds are now trading at distressed levels, with credit spreads exceeding 1000 basis points over government bonds. The cost of insuring $10mn of CoreWeave debt against default has reached $1.1mn per annum, and CDS contracts have moved to upfront pricing, signalling serious market concern. The piece contextualises these developments against CoreWeave co-founder Brannin McBee's stated strategy of tapping insurance capital by securing investment-grade ratings on various forms of debt.",
+      "tags": [],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261014162359-d9b0cc",
       "date": "2026-10-14T16:23:59.780Z",
@@ -21,14 +33,14 @@
     {
       "id": "rl-20261013164315-e62b99",
       "date": "2026-10-13T16:43:15.569Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "How governments spend money",
+      "author": "Toby Nangle",
       "url": "https://www.ft.com/content/c6a28cf5-cd3c-447b-ad79-dcc247fc6fdf",
-      "summary": null,
+      "summary": "The article uses OECD COFOG data to compare government spending as a share of GDP across countries, highlighting that France spends 57% of GDP versus the US at 39%, with France and Italy leading on social protection and pensions. Surprisingly, the US government outspends European universal-healthcare nations on health and education combined. The piece notes that debt service and defence costs are likely to grow across most economies, amid IMF warnings to rebuild public finances.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261013145336-0e05e3",
@@ -4960,18 +4972,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 42
+        "count": 44
       },
       {
         "publication": "The Economist",
         "count": 41
       },
       {
-        "publication": "Unknown",
-        "count": 15
+        "publication": "Bloomberg",
+        "count": 14
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 14
       },
       {
@@ -5354,7 +5366,7 @@
       },
       {
         "month": "2026-10",
-        "count": 24
+        "count": 25
       }
     ]
   }
