@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-10-15T16:00:34.623Z",
-  "count": 304,
+  "generated_at": "2026-10-16T01:00:31.485Z",
+  "count": 306,
   "entries": [
+    {
+      "id": "rl-20261016004216-0db5f1",
+      "date": "2026-10-16T00:42:16.885Z",
+      "publication": "Les Barclays (Substack)",
+      "title": "Large Lending Models (LLMs)",
+      "author": "Les Barclays",
+      "url": "https://lesbarclays.substack.com/p/large-lending-models?r=1dhwj",
+      "summary": "The piece examines how hyperscalers and AI companies are using 144A private placement bonds to rapidly finance massive data centre and chip buildouts, bypassing slower public debt markets. It details deal structures involving firms like Broadcom, Meta, and SpaceX, with private credit providers such as Apollo, Blackstone, and KKR backstopping or syndicating the debt. The author warns of growing concentration risk, potential credit downgrades, and the limits of leverage as AI capital needs balloon into the trillions.",
+      "tags": [
+        "fintech",
+        "ai agents",
+        "investing",
+        "capital expenditure"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261016000503-8f698f",
+      "date": "2026-10-16T00:05:03.948Z",
+      "publication": "Goodfire",
+      "title": "Already Clean: Neural Networks Are More Interpretable Than We Thought",
+      "author": null,
+      "url": "https://already-clean.goodfire.com/",
+      "summary": "The author argues that neural networks are far more interpretable than previously believed, challenging the dominant \"superposition\" hypothesis that networks arbitrarily pack unrelated concepts into neurons when space runs out. Instead, they propose that most apparent polysemanticity is explained by \"recursive generalization\" — neurons branching into related adjacent concepts during training, much like a tree growing sub-branches. With improved architectures and tools, the author finds that roughly 90%+ of neurons in modern large language models have one coherent main job, and that canonical examples of polysemanticity (like the famous cat-and-car neuron) turn out to be single coherent detectors (a V-shape) misread due to poor tooling.",
+      "tags": [
+        "ai agents",
+        "science",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261015151144-29eede",
       "date": "2026-10-15T15:11:44.869Z",
@@ -4913,19 +4946,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 139
+        "count": 140
       },
       {
         "tag": "investing",
-        "count": 112
+        "count": 113
       },
       {
         "tag": "ai agents",
-        "count": 88
+        "count": 90
       },
       {
         "tag": "fintech",
-        "count": 67
+        "count": 68
       },
       {
         "tag": "tweet",
@@ -4933,7 +4966,7 @@
       },
       {
         "tag": "science",
-        "count": 45
+        "count": 46
       },
       {
         "tag": "cloud",
@@ -4945,7 +4978,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 29
+        "count": 30
       },
       {
         "tag": "security",
@@ -5142,6 +5175,10 @@
         "count": 1
       },
       {
+        "publication": "Goodfire",
+        "count": 1
+      },
+      {
         "publication": "Groundbreaker",
         "count": 1
       },
@@ -5155,6 +5192,10 @@
       },
       {
         "publication": "Interconnects AI",
+        "count": 1
+      },
+      {
+        "publication": "Les Barclays (Substack)",
         "count": 1
       },
       {
@@ -5385,7 +5426,7 @@
       },
       {
         "month": "2026-10",
-        "count": 26
+        "count": 28
       }
     ]
   }
