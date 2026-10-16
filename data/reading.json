@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-16T18:00:32.483Z",
+  "generated_at": "2026-10-16T20:00:50.361Z",
   "count": 307,
   "entries": [
     {
       "id": "rl-20261016171927-2f4f7d",
       "date": "2026-10-16T17:19:27.583Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+      "author": "Toby Nangle",
       "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7",
-      "summary": null,
+      "summary": "FT Alphaville's Toby Nangle examines CoreWeave co-founder Brannin McBee's claim that insurance capital is effectively \"unlimited,\" stress-testing it against FSB and Fed data. Insurance companies hold roughly $39tn globally—less than 8% of total financial assets—with US life and annuity insurers' general account corporate debt holdings amounting to around $3.4tn. CoreWeave's current single-B senior unsecured rating leaves it at least two notches short of the double-B floor needed to access that insurance capital pool via structured rated debt, making chip-backed loans tied to investment-grade offtake contracts its most viable near-term route.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261016004216-0db5f1",
@@ -5032,18 +5032,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 44
+        "count": 45
       },
       {
         "publication": "The Economist",
         "count": 41
       },
       {
-        "publication": "Unknown",
-        "count": 15
+        "publication": "Bloomberg",
+        "count": 14
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 14
       },
       {
