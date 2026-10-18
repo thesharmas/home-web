@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-16T20:00:50.361Z",
-  "count": 307,
+  "generated_at": "2026-10-18T01:00:31.312Z",
+  "count": 308,
   "entries": [
+    {
+      "id": "rl-20261018005524-28986e",
+      "date": "2026-10-18T00:55:24.886Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Alex Wang (@heyyalexwang) on X",
+      "author": "Alex Wang (@heyyalexwang)",
+      "url": "https://x.com/heyyalexwang/status/2111158818730397932",
+      "summary": "[1/12] how much can models remember?\n\nthere’s a neat perspective on neural networks that deserves to be more widely known\n\nhere’s how you could have invented every layer of the transformer from memory \n\n(1/n) from my new blog post! https://t.co/eibS2qwstF\n\n[2/12] models can store",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261016171927-2f4f7d",
       "date": "2026-10-16T17:19:27.583Z",
@@ -4974,7 +4988,7 @@
       },
       {
         "tag": "tweet",
-        "count": 65
+        "count": 66
       },
       {
         "tag": "science",
@@ -5028,7 +5042,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 60
+        "count": 61
       },
       {
         "publication": "Financial Times",
@@ -5438,7 +5452,7 @@
       },
       {
         "month": "2026-10",
-        "count": 29
+        "count": 30
       }
     ]
   }
