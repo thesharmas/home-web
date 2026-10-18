@@ -5378,7 +5378,348 @@
     }
    ],
    "generated_at": "2026-10-11T15:02:34Z"
+  },
+  {
+   "week_start": "2026-10-11",
+   "week_end": "2026-10-18",
+   "title": "Week ending Oct 18, 2026",
+   "overview": "Your reading this week clustered hard around one anxiety: the AI buildout is being financed with debt, and debt markets are starting to notice. Five Financial Times pieces — tracking Firmus Grid's failed $30bn Nvidia-backed data-centre IPO, CoreWeave's bonds trading at distressed spreads, and a stress-test of CoreWeave's claim to \"unlimited\" insurance capital — form a connected narrative about capital markets losing patience with AI infrastructure's balance sheets. Les Barclays' \"Large Lending Models\" piece is the connective tissue: it explains the private-credit mechanics (144A placements, with Apollo, Blackstone, and KKR backstopping or syndicating the debt) that let hyperscalers bypass public bond-market scrutiny in the first place — exactly the scrutiny CoreWeave is now failing in the open market.\n\nA second thread ran through speculative financial engineering more broadly: Klarna's post-IPO BNPL profitability questions and the CHAD perpetual-preferred \"death spiral\" instrument wrapped around Solana both show investors reaching for yield and leverage structures around assets whose fundamentals are shaky, with Convexity Maven's \"Fat Cat\" presumably continuing Harley Bassman's usual rates-and-volatility beat. Meanwhile a third thread, on AI cognition itself, pulled in the opposite direction from the finance pessimism: Goodfire's interpretability piece argues neural networks are more legible than the dominant \"superposition\" narrative suggests, Latent Space profiled Stacklok's bet on cloud-native agent infrastructure, and a tweet thread from Alex Wang touched on how much transformer models can \"remember\" — together a more optimistic, mechanism-first view of AI that sits in tension with the skepticism about how the buildout is being financed.\n\nThe odd pair of the week was the complex-numbers primer and the dentists essay — on the surface unrelated, but both really about the gap between confident explanation and actual understanding. One shows how a clean geometric model (rotation and scaling in the complex plane) turns something previously confusing into something fully legible; the other shows a parade of equally confident professionals contradicting each other with no such convergence, each one \"your dentist\" for exactly one visit. Read together with the government-spending piece on OECD COFOG data, the week adds up to a study in how much confidence — in markets, in experts, in models — is actually earned versus merely performed.",
+   "themes": [
+    {
+     "name": "The AI Infrastructure Credit Bubble",
+     "description": "Debt and equity markets are starting to price in real doubt about AI infrastructure's financial engineering — from a blown Nvidia-backed IPO to distressed CoreWeave bonds to the private-credit plumbing financing the buildout in the first place.",
+     "items": [
+      {
+       "title": "What a $30bn Aussie data centre IPO debacle actually means",
+       "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546"
+      },
+      {
+       "title": "CoreWeave's bonds scream financial distress",
+       "url": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b"
+      },
+      {
+       "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+       "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7"
+      },
+      {
+       "title": "Large Lending Models (LLMs)",
+       "url": "https://lesbarclays.substack.com/p/large-lending-models?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "name": "Speculative Financial Engineering",
+     "description": "Leverage and novel instruments wrapped around shaky fundamentals — BNPL unit economics, a Solana-backed perpetual preferred stock, and rates/volatility commentary from a veteran fixed-income strategist.",
+     "items": [
+      {
+       "title": "Klarna: Buy Now, Pay Later, Profit When?",
+       "url": "https://bobhammel.substack.com/p/klarna-buy-now-pay-later-profit-when?r=1dhwj"
+      },
+      {
+       "title": "Death-spiral finance: altcoin edition",
+       "url": "https://www.ft.com/content/c84a0307-714c-4279-9073-caad985cce63"
+      },
+      {
+       "title": "Fat Cat",
+       "url": "https://www.convexitymaven.com/wp-content/uploads/2026/10/Convexity-Maven-Fat-Cat.pdf"
+      }
+     ]
+    },
+    {
+     "name": "AI Cognition and Interpretability",
+     "description": "A more optimistic, mechanism-first look at how AI models actually work and how to build reliable infrastructure around them, cutting against this week's financing-side pessimism.",
+     "items": [
+      {
+       "title": "Already Clean: Neural Networks Are More Interpretable Than We Thought",
+       "url": "https://already-clean.goodfire.com/"
+      },
+      {
+       "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+       "url": "https://www.latent.space/p/stacklok?r=1dhwj&triedRedirect=true"
+      },
+      {
+       "title": "Alex Wang (@heyyalexwang) on X",
+       "url": "https://x.com/heyyalexwang/status/2111158818730397932"
+      }
+     ]
+    },
+    {
+     "name": "Confidence vs. Understanding",
+     "description": "Two pieces on the gap between confident explanation and real convergence — one where a clean model produces genuine clarity, one where credentialed confidence produces contradictory chaos.",
+     "items": [
+      {
+       "title": "A Visual Intro to Complex Numbers",
+       "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers"
+      },
+      {
+       "title": "Do dentists actually know what they're doing?",
+       "url": "https://mapwriting.substack.com/p/dentists"
+      }
+     ]
+    },
+    {
+     "name": "Public Finance Baselines",
+     "description": "A data-driven corrective on assumptions about who spends what on safety nets, health, and education across rich countries.",
+     "items": [
+      {
+       "title": "How governments spend money",
+       "url": "https://www.ft.com/content/c6a28cf5-cd3c-447b-ad79-dcc247fc6fdf"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Price discipline in pre-marketing isn't optional: Firmus Grid's ~$30bn IPO valuation unraveled once a late-stage Meta deal revised the numbers and investors signaled skepticism that the bankers ignored — public markets punish a mispriced range far harder than private negotiations would.",
+     "sources": [
+      {
+       "title": "What a $30bn Aussie data centre IPO debacle actually means",
+       "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546"
+      }
+     ]
+    },
+    {
+     "lesson": "CoreWeave's single-B rating, not its revenue growth, is the binding constraint: credit spreads over 1000bps and CDS moving to upfront pricing show the market no longer trusts the \"AI infrastructure is as reliable as utility debt\" story, and the company is two full notches short of the double-B floor it needs to tap structured insurance capital.",
+     "sources": [
+      {
+       "title": "CoreWeave's bonds scream financial distress",
+       "url": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b"
+      },
+      {
+       "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+       "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7"
+      }
+     ]
+    },
+    {
+     "lesson": "\"Unlimited\" capital claims should be stress-tested against the actual accessible pool, not the gross headline number: US life and annuity insurers hold roughly $3.4tn in general-account corporate debt against a $39tn global insurance asset base, and that access is gated by credit rating, not by total AUM.",
+     "sources": [
+      {
+       "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+       "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7"
+      }
+     ]
+    },
+    {
+     "lesson": "144A private placements let hyperscalers (Broadcom, Meta, SpaceX) finance trillion-dollar data-centre buildouts without public bond-market scrutiny, which concentrates the risk among a handful of private-credit shops (Apollo, Blackstone, KKR) rather than dispersing it — a systemic fragility that's easy to miss because it's happening off the public tape.",
+     "sources": [
+      {
+       "title": "Large Lending Models (LLMs)",
+       "url": "https://lesbarclays.substack.com/p/large-lending-models?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "\"Cheap on paper\" is not the same as investable: the Klarna writeup pencils out a ~$20/share fair value against a stock down nearly two-thirds, driven by real structural advantages (deposit-funded cost of capital, low take rate), yet the author still passes because execution confidence is too low — valuation gaps don't close themselves.",
+     "sources": [
+      {
+       "title": "Klarna: Buy Now, Pay Later, Profit When?",
+       "url": "https://bobhammel.substack.com/p/klarna-buy-now-pay-later-profit-when?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "Wrapping a volatile asset in a seemingly stable instrument doesn't remove the volatility, it just relocates who bears it: CHAD's perpetual preferred structure layers death-spiral mechanics on top of Solana's historic volatility, with near-total management discretion over proceeds, and Nasdaq listed it anyway.",
+     "sources": [
+      {
+       "title": "Death-spiral finance: altcoin edition",
+       "url": "https://www.ft.com/content/c84a0307-714c-4279-9073-caad985cce63"
+      }
+     ]
+    },
+    {
+     "lesson": "Credentialed confidence is not a reliable signal of correctness: the dentists essay shows a 16-year string of specialists each confidently overriding the last diagnosis with a different (and more expensive) fix — a reminder to weight track record and convergence across independent experts over any single confident pitch.",
+     "sources": [
+      {
+       "title": "Do dentists actually know what they're doing?",
+       "url": "https://mapwriting.substack.com/p/dentists"
+      }
+     ]
+    },
+    {
+     "lesson": "The dominant \"superposition\" theory of neural-network interpretability may be overstated: Goodfire's analysis finds ~90%+ of neurons in modern LLMs have one coherent main job, with apparent polysemanticity better explained by neurons branching into adjacent related concepts (\"recursive generalization\") than by arbitrary feature-packing — which changes what interpretability work is actually tractable.",
+     "sources": [
+      {
+       "title": "Already Clean: Neural Networks Are More Interpretable Than We Thought",
+       "url": "https://already-clean.goodfire.com/"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The \"AI infra companies have essentially unlimited access to capital\" narrative is wrong on the numbers: insurance capital access is gated by credit rating, not size, and CoreWeave's actual rating leaves it well outside the pool it's counting on.",
+     "source": {
+      "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+      "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7"
+     }
+    },
+    {
+     "insight": "Against the pessimistic consensus that large neural networks are inscrutable black boxes doomed to permanent interpretability debt, the evidence instead points to networks being mostly clean already — most neurons have one coherent job, and the opacity people cite is often an artifact of weak tooling, not an intrinsic property of scale.",
+     "source": {
+      "title": "Already Clean: Neural Networks Are More Interpretable Than We Thought",
+      "url": "https://already-clean.goodfire.com/"
+     }
+    },
+    {
+     "insight": "Licensing and credentials are assumed to produce convergent professional judgment, but the dentists essay suggests the opposite in practice: fields without hard, falsifiable feedback loops can sustain decades of confidently contradictory expert opinion with no correction mechanism at all.",
+     "source": {
+      "title": "Do dentists actually know what they're doing?",
+      "url": "https://mapwriting.substack.com/p/dentists"
+     }
+    },
+    {
+     "insight": "The common claim that the US underspends on safety nets relative to Europe doesn't hold once you isolate health and education: the US government alone — ignoring private spend entirely — outspends universal-healthcare European nations on health and education combined.",
+     "source": {
+      "title": "How governments spend money",
+      "url": "https://www.ft.com/content/c6a28cf5-cd3c-447b-ad79-dcc247fc6fdf"
+     }
+    },
+    {
+     "insight": "Big-name backers and a hot sector don't guarantee IPO demand: Nvidia's involvement and the AI data-centre story weren't enough to save Firmus Grid once a late-stage comparable deal reset pricing expectations and pre-marketing feedback was ignored — brand and sector narrative are not a substitute for price discovery.",
+     "source": {
+      "title": "What a $30bn Aussie data centre IPO debacle actually means",
+      "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546"
+     }
+    },
+    {
+     "insight": "Finding genuine theoretical undervaluation (Klarna's ~$20 fair-value estimate vs. a stock down two-thirds) isn't itself an investment thesis — the more contrarian position is refusing to buy a statistically cheap stock when execution risk is unresolved, resisting the simple \"cheap = buy\" heuristic.",
+     "source": {
+      "title": "Klarna: Buy Now, Pay Later, Profit When?",
+      "url": "https://bobhammel.substack.com/p/klarna-buy-now-pay-later-profit-when?r=1dhwj"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 13,
+    "top_publications": [
+     {
+      "name": "Financial Times",
+      "count": 5
+     },
+     {
+      "name": "Bob's Payment Stock Substack",
+      "count": 1
+     },
+     {
+      "name": "Latent Space",
+      "count": 1
+     },
+     {
+      "name": "Photon-Lines Substack",
+      "count": 1
+     },
+     {
+      "name": "Convexity Maven",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "fintech",
+      "count": 4
+     },
+     {
+      "name": "investing",
+      "count": 4
+     },
+     {
+      "name": "ai agents",
+      "count": 3
+     },
+     {
+      "name": "technology",
+      "count": 3
+     },
+     {
+      "name": "science",
+      "count": 3
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "What a $30bn Aussie data centre IPO debacle actually means",
+     "publication": "Financial Times",
+     "date": "2026-10-12",
+     "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546"
+    },
+    {
+     "title": "Death-spiral finance: altcoin edition",
+     "publication": "Financial Times",
+     "date": "2026-10-12",
+     "url": "https://www.ft.com/content/c84a0307-714c-4279-9073-caad985cce63"
+    },
+    {
+     "title": "Klarna: Buy Now, Pay Later, Profit When?",
+     "publication": "Bob's Payment Stock Substack",
+     "date": "2026-10-12",
+     "url": "https://bobhammel.substack.com/p/klarna-buy-now-pay-later-profit-when?r=1dhwj"
+    },
+    {
+     "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+     "publication": "Latent Space",
+     "date": "2026-10-12",
+     "url": "https://www.latent.space/p/stacklok?r=1dhwj&triedRedirect=true"
+    },
+    {
+     "title": "A Visual Intro to Complex Numbers",
+     "publication": "Photon-Lines Substack",
+     "date": "2026-10-13",
+     "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers"
+    },
+    {
+     "title": "How governments spend money",
+     "publication": "Financial Times",
+     "date": "2026-10-13",
+     "url": "https://www.ft.com/content/c6a28cf5-cd3c-447b-ad79-dcc247fc6fdf"
+    },
+    {
+     "title": "Fat Cat",
+     "publication": "Convexity Maven",
+     "date": "2026-10-14",
+     "url": "https://www.convexitymaven.com/wp-content/uploads/2026/10/Convexity-Maven-Fat-Cat.pdf"
+    },
+    {
+     "title": "CoreWeave's bonds scream financial distress",
+     "publication": "Financial Times",
+     "date": "2026-10-15",
+     "url": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b"
+    },
+    {
+     "title": "Do dentists actually know what they're doing?",
+     "publication": "Map Writing (Substack)",
+     "date": "2026-10-15",
+     "url": "https://mapwriting.substack.com/p/dentists"
+    },
+    {
+     "title": "Already Clean: Neural Networks Are More Interpretable Than We Thought",
+     "publication": "Goodfire",
+     "date": "2026-10-16",
+     "url": "https://already-clean.goodfire.com/"
+    },
+    {
+     "title": "Large Lending Models (LLMs)",
+     "publication": "Les Barclays (Substack)",
+     "date": "2026-10-16",
+     "url": "https://lesbarclays.substack.com/p/large-lending-models?r=1dhwj"
+    },
+    {
+     "title": "Sizing CoreWeave's 'unlimited' insurance capital",
+     "publication": "Financial Times",
+     "date": "2026-10-16",
+     "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7"
+    },
+    {
+     "title": "Alex Wang (@heyyalexwang) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-10-18",
+     "url": "https://x.com/heyyalexwang/status/2111158818730397932"
+    }
+   ],
+   "generated_at": "2026-10-18T15:02:53Z"
   }
  ],
- "updated_at": "2026-10-11T15:02:34Z"
+ "updated_at": "2026-10-18T15:02:53Z"
 }
