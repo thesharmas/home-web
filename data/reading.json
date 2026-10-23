@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-18T01:00:31.312Z",
-  "count": 308,
+  "generated_at": "2026-10-23T17:00:25.753Z",
+  "count": 310,
   "entries": [
+    {
+      "id": "rl-20261023161445-85d9f4",
+      "date": "2026-10-23T16:14:45.588Z",
+      "publication": "The Fence",
+      "title": "Death Becomes Him",
+      "author": "Alex Bilmes",
+      "url": "https://the-fence.com/article/death-becomes-him",
+      "summary": "Oliver Peyton, once famous for running trendy London restaurants and club nights in the 1990s, has reinvented himself as the founder of Exit Here, an upscale funeral parlour with branches in Chiswick, Crouch End, and Chelsea. Inspired by the impersonal nature of his father's 2010 funeral, Peyton aims to disrupt the staid British funeral industry by offering personalised, character-driven send-offs that can include music, dancing, and multi-day celebrations. Now in his mid-60s, he describes running Exit Here as the most fulfilling work of his life, having turned down private equity offers to expand and instead choosing to work less and live more deliberately.",
+      "tags": [
+        "design",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261023161111-f70ed2",
+      "date": "2026-10-23T16:11:11.405Z",
+      "publication": "Financial Times",
+      "title": "How nervous are bond markets about France?",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9",
+      "summary": "The article examines rising French government bond spreads, using cross-currency asset swaps to compare yields on an apples-to-apples basis across major economies. While France's spreads have widened and look worse than peers on a swap-adjusted basis, they remain far below the levels seen during the Eurozone Crisis. The author argues that bond vigilantes have limited near-term power over France given ECB rate dynamics and the country's economic weight in the Eurozone.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261018005524-28986e",
       "date": "2026-10-18T00:55:24.886Z",
@@ -4972,11 +5002,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 140
+        "count": 141
       },
       {
         "tag": "investing",
-        "count": 113
+        "count": 114
       },
       {
         "tag": "ai agents",
@@ -4984,7 +5014,7 @@
       },
       {
         "tag": "fintech",
-        "count": 68
+        "count": 69
       },
       {
         "tag": "tweet",
@@ -5012,7 +5042,7 @@
       },
       {
         "tag": "design",
-        "count": 18
+        "count": 19
       },
       {
         "tag": "sustainability",
@@ -5046,7 +5076,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 45
+        "count": 46
       },
       {
         "publication": "The Economist",
@@ -5353,6 +5383,10 @@
         "count": 1
       },
       {
+        "publication": "The Fence",
+        "count": 1
+      },
+      {
         "publication": "The Finance Quotient",
         "count": 1
       },
@@ -5452,7 +5486,7 @@
       },
       {
         "month": "2026-10",
-        "count": 30
+        "count": 32
       }
     ]
   }
