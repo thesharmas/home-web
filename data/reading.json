@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-23T17:00:25.753Z",
-  "count": 310,
+  "generated_at": "2026-10-25T20:00:47.684Z",
+  "count": 311,
   "entries": [
+    {
+      "id": "rl-20261025192947-7a32d0",
+      "date": "2026-10-25T19:29:47.995Z",
+      "publication": "Bloomberg (Odd Lots)",
+      "title": "Bhaskar Sunkara Thinks the Market Has a Place",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/bhaskar-sunkara-thinks-the-market-has-a-place/id1056200096?i=1000797581839",
+      "summary": "Bhaskar Sunkara, DSA member and leftist media veteran, joins Odd Lots to discuss his vision of 'market socialism' as laid out in his co-authored book The Blueprint. He argues that markets and entrepreneurs can be an objective good in society, and outlines how capitalist features like small businesses and monetary policy might be reimagined under socialist principles. The episode is framed against a backdrop of growing American openness to socialism and recent left-wing electoral gains.",
+      "tags": [
+        "investing",
+        "fintech",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261023161445-85d9f4",
       "date": "2026-10-23T16:14:45.588Z",
@@ -5002,11 +5018,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 141
+        "count": 142
       },
       {
         "tag": "investing",
-        "count": 114
+        "count": 115
       },
       {
         "tag": "ai agents",
@@ -5014,7 +5030,7 @@
       },
       {
         "tag": "fintech",
-        "count": 69
+        "count": 70
       },
       {
         "tag": "tweet",
@@ -5119,6 +5135,10 @@
         "count": 3
       },
       {
+        "publication": "Bloomberg (Odd Lots)",
+        "count": 2
+      },
+      {
         "publication": "Bob's Payment Stock Substack",
         "count": 2
       },
@@ -5184,10 +5204,6 @@
       },
       {
         "publication": "Bloomberg (Odd Lots podcast)",
-        "count": 1
-      },
-      {
-        "publication": "Bloomberg (Odd Lots)",
         "count": 1
       },
       {
@@ -5486,7 +5502,7 @@
       },
       {
         "month": "2026-10",
-        "count": 32
+        "count": 33
       }
     ]
   }
