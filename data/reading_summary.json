@@ -5719,7 +5719,189 @@
     }
    ],
    "generated_at": "2026-10-18T15:02:53Z"
+  },
+  {
+   "week_start": "2026-10-18",
+   "week_end": "2026-10-25",
+   "title": "Week ending Oct 25, 2026",
+   "overview": "Your reading this week was light but pointed — just two pieces, one on sovereign bond risk and one on a London funeral-parlour entrepreneur — yet both circle a similar question: how much should you trust the surface-level narrative versus digging into the mechanics underneath. The Financial Times piece on French bond spreads shows that the 'bond vigilantes are coming for France' headline only tells part of the story; once you adjust for cross-currency swaps, the real picture is both worse (France looks shakier than nominal spreads suggest) and more reassuring (still nowhere near Eurozone Crisis territory, and structurally insulated by the ECB and France's sheer economic weight). The Fence profile of Oliver Peyton's funeral business, Exit Here, makes an almost parallel point from a completely different angle: a staid, tradition-bound industry (funerals) looks impossible to disrupt until someone with the right personal motivation and willingness to walk away from private equity money actually does it. Taken together, the two pieces reward skepticism of consensus framing — whether that consensus is 'markets are panicking about France' or 'funerals have to be somber' — and suggest that the biggest opportunities (financial or entrepreneurial) show up precisely where the conventional read is incomplete. It's a thin week by volume, but each article carries more analytical weight than its brevity suggests.",
+   "themes": [
+    {
+     "name": "Sovereign bond risk and the limits of market panic",
+     "description": "France's widening bond spreads look more alarming once properly adjusted for cross-currency swaps, but structural factors (ECB policy, France's economic size) cap how much bond vigilantes can actually do near-term.",
+     "items": [
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+      }
+     ]
+    },
+    {
+     "name": "Entrepreneurial reinvention in unglamorous industries",
+     "description": "A former nightlife and restaurant impresario found his most fulfilling work by disrupting the British funeral industry, proving that even heavily regulated, tradition-locked sectors have room for a differentiated, personal-first operator.",
+     "items": [
+      {
+       "title": "Death Becomes Him",
+       "url": "https://the-fence.com/article/death-becomes-him"
+      }
+     ]
+    },
+    {
+     "name": "Consensus narratives vs. underlying mechanics",
+     "description": "Both pieces reward looking past the obvious framing: raw bond spreads undersell France's real risk while overselling vigilante power, and 'funerals must be somber' undersells how much room there is to rebuild an industry around personalization.",
+     "items": [
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+      },
+      {
+       "title": "Death Becomes Him",
+       "url": "https://the-fence.com/article/death-becomes-him"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Raw bond spreads can understate real sovereign risk — swap-adjusted comparisons show France's position is actually worse relative to peers than the headline numbers imply.",
+     "sources": [
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+      }
+     ]
+    },
+    {
+     "lesson": "Context matters more than direction: French spreads are widening, but they remain far below Eurozone Crisis levels, so the right reaction is calibrated concern, not panic.",
+     "sources": [
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+      }
+     ]
+    },
+    {
+     "lesson": "Size and systemic weight function as a kind of informal backstop — ECB rate dynamics and France's economic heft limit how much near-term damage bond vigilantes can inflict, regardless of fundamentals.",
+     "sources": [
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+      }
+     ]
+    },
+    {
+     "lesson": "Personal pain points can seed durable businesses — Oliver Peyton's dissatisfaction with his father's impersonal 2010 funeral directly produced the founding insight behind Exit Here.",
+     "sources": [
+      {
+       "title": "Death Becomes Him",
+       "url": "https://the-fence.com/article/death-becomes-him"
+      }
+     ]
+    },
+    {
+     "lesson": "Even heavily regulated, tradition-bound industries (funerals) have exploitable white space for operators willing to offer a genuinely differentiated, high-touch experience.",
+     "sources": [
+      {
+       "title": "Death Becomes Him",
+       "url": "https://the-fence.com/article/death-becomes-him"
+      }
+     ]
+    },
+    {
+     "lesson": "Turning down private equity money, as Peyton did, can be the right call when the goal is preserving brand integrity and creative control rather than maximizing near-term scale.",
+     "sources": [
+      {
+       "title": "Death Becomes Him",
+       "url": "https://the-fence.com/article/death-becomes-him"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The 'bond vigilantes are punishing France' narrative is overstated in the near term — the FT piece argues ECB dynamics and France's economic weight blunt vigilante power regardless of how loud the headlines get.",
+     "source": {
+      "title": "How nervous are bond markets about France?",
+      "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+     }
+    },
+    {
+     "insight": "Nominal spread comparisons, the most common way markets are discussed in the press, actually flatter France — a swap-adjusted view shows the risk is worse than consensus coverage suggests.",
+     "source": {
+      "title": "How nervous are bond markets about France?",
+      "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+     }
+    },
+    {
+     "insight": "Funerals don't have to be somber occasions — Exit Here's model of music, dancing, and multi-day celebrations treats death as a category for joyful, personalized consumer experience rather than ritual obligation.",
+     "source": {
+      "title": "Death Becomes Him",
+      "url": "https://the-fence.com/article/death-becomes-him"
+     }
+    },
+    {
+     "insight": "A person's mid-60s, often framed as a wind-down phase, can instead be the start of their most fulfilling and ambitious work — Peyton describes Exit Here as more satisfying than his famous restaurant and nightlife career.",
+     "source": {
+      "title": "Death Becomes Him",
+      "url": "https://the-fence.com/article/death-becomes-him"
+     }
+    },
+    {
+     "insight": "Rejecting private equity capital, usually framed as leaving growth on the table, can be the better strategic move for a niche disruptor whose value proposition depends on maintaining a distinct, founder-driven identity.",
+     "source": {
+      "title": "Death Becomes Him",
+      "url": "https://the-fence.com/article/death-becomes-him"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 2,
+    "top_publications": [
+     {
+      "name": "Financial Times",
+      "count": 1
+     },
+     {
+      "name": "The Fence",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "investing",
+      "count": 1
+     },
+     {
+      "name": "fintech",
+      "count": 1
+     },
+     {
+      "name": "design",
+      "count": 1
+     },
+     {
+      "name": "technology",
+      "count": 1
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "How nervous are bond markets about France?",
+     "publication": "Financial Times",
+     "date": "2026-10-23",
+     "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9"
+    },
+    {
+     "title": "Death Becomes Him",
+     "publication": "The Fence",
+     "date": "2026-10-23",
+     "url": "https://the-fence.com/article/death-becomes-him"
+    }
+   ],
+   "generated_at": "2026-10-25T15:01:19Z"
   }
  ],
- "updated_at": "2026-10-18T15:02:53Z"
+ "updated_at": "2026-10-25T15:01:19Z"
 }
