@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:00:26.418Z",
+  "generated_at": "2026-10-26T18:00:27.010Z",
   "count": 320,
   "entries": [
     {
@@ -133,14 +133,14 @@
     {
       "id": "rl-20261026153143-b52b30",
       "date": "2026-10-26T15:31:43.366Z",
-      "publication": null,
-      "title": "Just a moment...",
+      "publication": "The Economist",
+      "title": "Leadership lessons from Napoleon",
       "author": null,
       "url": "https://www.economist.com/culture/2026/10/22/leadership-lessons-from-napoleon",
-      "summary": null,
+      "summary": "A review of Andrew Roberts's new book on Napoleon's marshal system examines how the French emperor built an elite leadership team through talent recruitment, lavish rewards, and a demand for total loyalty. The book details how Napoleon's chief of staff Berthier created a remarkably modern management infrastructure, while Napoleon himself used performance reviews and personalised motivation to drive his marshals. Ultimately, Napoleon's insistence on total control, capricious incentives, and deliberate fostering of rivalry among his marshals undermined the system and left him nearly abandoned by the time of Waterloo.",
       "tags": [],
       "source": "shared",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261025192947-7a32d0",
@@ -5232,18 +5232,18 @@
       },
       {
         "publication": "The Economist",
-        "count": 49
+        "count": 50
       },
       {
         "publication": "Financial Times",
         "count": 46
       },
       {
-        "publication": "Unknown",
-        "count": 15
+        "publication": "Bloomberg",
+        "count": 14
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 14
       },
       {
