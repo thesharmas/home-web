@@ -1,7 +1,147 @@
 {
-  "generated_at": "2026-10-25T20:00:47.684Z",
-  "count": 311,
+  "generated_at": "2026-10-26T16:00:26.418Z",
+  "count": 320,
   "entries": [
+    {
+      "id": "rl-20261026155326-9263d0",
+      "date": "2026-10-26T15:53:26.744Z",
+      "publication": "The Economist",
+      "title": "Jaguar's new car is its last shot at survival",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/10/08/jaguars-new-car-is-its-last-shot-at-survival",
+      "summary": "Jaguar has unveiled the Type 01, a 1,000-horsepower electric saloon priced from £130,000, representing a radical reinvention of the brand as an all-electric luxury marque after halting production of its existing lineup in 2024. JLR has spent at least £2.25bn on the relaunch, but faces headwinds including uncertain demand for high-end EVs, stiff competition, brand overlap with Range Rover, and a sharp drop in company profits. If the Type 01 fails to attract enough buyers, it may mark the end of the Jaguar brand entirely.",
+      "tags": [
+        "design",
+        "technology",
+        "sustainability",
+        "capital expenditure"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026155223-d8a933",
+      "date": "2026-10-26T15:52:23.336Z",
+      "publication": "The Economist",
+      "title": "Why your snacks are chunkier and chewier than before",
+      "author": null,
+      "url": "https://www.economist.com/business/2026/10/08/why-your-snacks-are-chunkier-and-chewier-than-before",
+      "summary": "Big food companies like Mondelez and Mars are increasingly competing on texture—crunch, chewiness, and mouthfeel—rather than novel flavours alone. Demand for texture-indulgent snacks in America jumped 28% in two years, driven by GLP-1 drug users seeking more satisfying experiences and social-media trends like \"crunchtok.\" Manufacturers view texture as the last major frontier for differentiation now that flavour innovation has largely plateaued.",
+      "tags": [
+        "design",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026155047-3783b0",
+      "date": "2026-10-26T15:50:47.455Z",
+      "publication": "The Economist",
+      "title": "Fancy a tour through the Middle East?",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/08/fancy-a-tour-through-the-middle-east",
+      "summary": "A review of Simon Sebag Montefiore's \"The Cauldron\", a sweeping history of the Middle East since 1900 covering Turkey, Iran, Israel, and the Arab world. The reviewer praises its broad scope and human-centered storytelling, noting its rare inclusion of the entire region rather than isolated states, while acknowledging that such breadth sacrifices depth on individual events. A key highlight is the book's treatment of the Iranian revolution as a world-historical turning point comparable to the French and Russian revolutions.",
+      "tags": [
+        "science",
+        "design",
+        "technology",
+        "investing"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026154749-d7ee86",
+      "date": "2026-10-26T15:47:49.437Z",
+      "publication": "The Economist",
+      "title": "How Donald Trump remade America's government",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/09/how-donald-trump-remade-americas-government",
+      "summary": "A review of Michael Lewis's book \"Blockers,\" which chronicles federal workers who resisted the Trump administration's DOGE-led assault on the federal bureaucracy. Lewis argues that while government waste is a real problem, DOGE's slash-and-burn approach—driven by ideologically motivated young techies who misunderstood the machinery of government—made the state smaller in neither size nor cost, but dumber, crueller, and less accountable. The review highlights specific cases of DOGE's disregard for law, including illegal access to IRS taxpayer data used to target undocumented immigrants.",
+      "tags": [
+        "technology",
+        "security"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026154611-847eb5",
+      "date": "2026-10-26T15:46:11.587Z",
+      "publication": "The Economist",
+      "title": "How erectile dysfunction led a KGB spy into the arms of MI6",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/15/how-erectile-dysfunction-led-a-kgb-spy-into-the-arms-of-mi6",
+      "summary": "A review of Ben Macintyre's \"Redwood\", the true story of Vladimir Kuzichkin, a KGB officer in revolutionary Tehran who was recruited by MI6 in the early 1980s. His path to defection was shaped by personal struggles including erectile dysfunction and a failing marriage, and his intelligence on Soviet-backed communist activities in Iran may have contributed to mass executions that consolidated Islamist rule. Macintyre blends spy psychology with espionage tradecraft to produce another critically acclaimed true-life thriller.",
+      "tags": [
+        "security",
+        "science",
+        "design"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026154509-0f486b",
+      "date": "2026-10-26T15:45:09.516Z",
+      "publication": "The Economist",
+      "title": "Squeeze into those skinny jeans: millennial culture is back",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/15/squeeze-into-those-skinny-jeans-millennial-culture-is-back",
+      "summary": "Millennial culture is experiencing a major revival as the generation approaches peak spending power and takes on creative decision-making roles in entertainment and media. Hollywood, the music industry, gaming, and fashion are all mining late-1990s and 2000s nostalgia through reboots, reunion tours, and retro product launches. Technology—particularly streaming platforms and social media—is amplifying and accelerating this nostalgia cycle, potentially making the millennial revival the most powerful yet, though also potentially the most short-lived.",
+      "tags": [
+        "design",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026153827-3702fd",
+      "date": "2026-10-26T15:38:27.504Z",
+      "publication": "The Economist",
+      "title": "Don't feel sorry for millennials. They are living it up now",
+      "author": null,
+      "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now",
+      "summary": "The Economist argues that the long-held narrative of millennial economic struggle is outdated: in 29 of 32 rich countries surveyed, millennials now have higher real incomes than previous generations at the same age, with rising home-ownership, growing representation in top business and political roles, and a strong labour market working in their favour. Two structural forces—a robust post-pandemic job market and accelerated baby-boomer retirements—have reduced competition for senior positions and raised wages for younger workers. Looking ahead, millennials are set to benefit further from a historic inheritance transfer, while Gen Z may bear the next wave of disruption from AI-driven labour displacement.",
+      "tags": [
+        "investing",
+        "technology",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026153241-802b5a",
+      "date": "2026-10-26T15:32:41.015Z",
+      "publication": "The Economist",
+      "title": "How personal rivalries and clashes are shaping the AI race",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/22/how-personal-rivalries-and-clashes-are-shaping-the-ai-race",
+      "summary": "A review of Kevin Roose's \"The AGI Chronicles\" (Farrar, Straus and Giroux), which chronicles the nine years of AI development since Google researchers created the transformer model. The book focuses on the personality clashes, ideological divides, and rivalries among a small group of researchers—such as Dario Amodei and Greg Brockman—that have shaped the AI race. Roose provocatively argues that AGI has quietly arrived, even as the term itself has lost meaning and the goalposts keep shifting.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261026153143-b52b30",
+      "date": "2026-10-26T15:31:43.366Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.economist.com/culture/2026/10/22/leadership-lessons-from-napoleon",
+      "summary": null,
+      "tags": [],
+      "source": "shared",
+      "partial": true
+    },
     {
       "id": "rl-20261025192947-7a32d0",
       "date": "2026-10-25T19:29:47.995Z",
@@ -5018,19 +5158,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 142
+        "count": 149
       },
       {
         "tag": "investing",
-        "count": 115
+        "count": 117
       },
       {
         "tag": "ai agents",
-        "count": 90
+        "count": 91
       },
       {
         "tag": "fintech",
-        "count": 70
+        "count": 71
       },
       {
         "tag": "tweet",
@@ -5038,7 +5178,7 @@
       },
       {
         "tag": "science",
-        "count": 46
+        "count": 50
       },
       {
         "tag": "cloud",
@@ -5050,19 +5190,19 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "security",
-        "count": 28
+        "count": 30
       },
       {
         "tag": "design",
-        "count": 19
+        "count": 24
       },
       {
         "tag": "sustainability",
-        "count": 18
+        "count": 19
       },
       {
         "tag": "etfs",
@@ -5091,19 +5231,19 @@
         "count": 61
       },
       {
+        "publication": "The Economist",
+        "count": 49
+      },
+      {
         "publication": "Financial Times",
         "count": 46
       },
       {
-        "publication": "The Economist",
-        "count": 41
+        "publication": "Unknown",
+        "count": 15
       },
       {
         "publication": "Bloomberg",
-        "count": 14
-      },
-      {
-        "publication": "Unknown",
         "count": 14
       },
       {
@@ -5502,7 +5642,7 @@
       },
       {
         "month": "2026-10",
-        "count": 33
+        "count": 42
       }
     ]
   }
