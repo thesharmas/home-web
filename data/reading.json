@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-26T18:00:27.010Z",
-  "count": 320,
+  "generated_at": "2026-10-26T20:00:40.553Z",
+  "count": 321,
   "entries": [
+    {
+      "id": "rl-20261026193547-27a39c",
+      "date": "2026-10-26T19:35:47.258Z",
+      "publication": "Bloomberg",
+      "title": "AI Agents Are Already Changing the Price of Goods",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/ai-agents-are-already-changing-the-price-of-goods/id1056200096?i=1000798142312",
+      "summary": "Bloomberg's Odd Lots podcast features Lindsay Owens, author of \"Gouged: The End of a Fair Price,\" discussing how AI agents like Meta's Muse may not deliver the consumer savings tech companies promise. Research from her think tank Groundwork Collaborative suggests consumer-facing AI agents often steer users toward more expensive options after learning about their financial situation. The episode covers the history of corporate price gouging enabled by data collection and surveillance, and what AI means for the future of fair pricing.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261026155326-9263d0",
       "date": "2026-10-26T15:53:26.744Z",
@@ -5158,7 +5174,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 149
+        "count": 150
       },
       {
         "tag": "investing",
@@ -5166,11 +5182,11 @@
       },
       {
         "tag": "ai agents",
-        "count": 91
+        "count": 92
       },
       {
         "tag": "fintech",
-        "count": 71
+        "count": 72
       },
       {
         "tag": "tweet",
@@ -5240,7 +5256,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 14
+        "count": 15
       },
       {
         "publication": "Unknown",
@@ -5642,7 +5658,7 @@
       },
       {
         "month": "2026-10",
-        "count": 42
+        "count": 43
       }
     ]
   }
