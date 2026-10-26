@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-10-26T20:00:40.553Z",
-  "count": 321,
+  "generated_at": "2026-10-26T22:00:38.859Z",
+  "count": 322,
   "entries": [
+    {
+      "id": "rl-20261026215226-265d9f",
+      "date": "2026-10-26T21:52:26.139Z",
+      "publication": "Ahead of AI (Substack)",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "author": "Sebastian Raschka, PhD",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "summary": "Sebastian Raschka presents an 11-hour, eight-video course on building reasoning models from scratch in Python and PyTorch, covering evaluation, inference-time scaling, reinforcement learning (GRPO/RLVR), and distillation. The course uses a pre-trained Qwen3 0.6B model as a starting point and accompanies his book 'Build a Reasoning Model (From Scratch).' It also contextualizes reasoning models within the broader LLM-agent landscape, explaining how they serve as the 'engine' inside agent harnesses.",
+      "tags": [
+        "ai agents",
+        "technology",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261026193547-27a39c",
       "date": "2026-10-26T19:35:47.258Z",
@@ -5174,7 +5190,7 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 150
+        "count": 151
       },
       {
         "tag": "investing",
@@ -5182,7 +5198,7 @@
       },
       {
         "tag": "ai agents",
-        "count": 92
+        "count": 93
       },
       {
         "tag": "fintech",
@@ -5194,7 +5210,7 @@
       },
       {
         "tag": "science",
-        "count": 50
+        "count": 51
       },
       {
         "tag": "cloud",
@@ -5324,6 +5340,10 @@
       },
       {
         "publication": "1688 / Alibaba",
+        "count": 1
+      },
+      {
+        "publication": "Ahead of AI (Substack)",
         "count": 1
       },
       {
@@ -5658,7 +5678,7 @@
       },
       {
         "month": "2026-10",
-        "count": 43
+        "count": 44
       }
     ]
   }
