@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-27T05:00:49.512Z",
-  "count": 323,
+  "generated_at": "2026-10-27T17:00:35.161Z",
+  "count": 324,
   "entries": [
+    {
+      "id": "rl-20261027160443-2ab76b",
+      "date": "2026-10-27T16:04:43.539Z",
+      "publication": "Substack (Lauren Leek)",
+      "title": "There's No Such Thing as Society in the Objective Function",
+      "author": "Lauren Leek",
+      "url": "https://laurenleek.substack.com/p/theres-no-such-thing-as-society-in?r=9j4g",
+      "summary": "Lauren Leek argues that governments, like individuals, optimise narrow metrics that leave out broader societal values—tracing this through forty years of British regulatory law covering water, rail, and special educational needs. She shows how misaligned objective functions (e.g. sewage spills per storm overflow, rail fare complexity) produce gaming and perverse outcomes rather than genuine improvement. She proposes three software-engineering-inspired fixes: formula cards, bug bounties for the state, and mandatory sell-by dates for regulatory rules.",
+      "tags": [
+        "technology",
+        "investing",
+        "sustainability",
+        "science"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261027040352-d2edcc",
       "date": "2026-10-27T04:03:52.460Z",
@@ -5204,11 +5221,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 151
+        "count": 152
       },
       {
         "tag": "investing",
-        "count": 117
+        "count": 118
       },
       {
         "tag": "ai agents",
@@ -5224,7 +5241,7 @@
       },
       {
         "tag": "science",
-        "count": 51
+        "count": 52
       },
       {
         "tag": "cloud",
@@ -5248,7 +5265,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 19
+        "count": 20
       },
       {
         "tag": "etfs",
@@ -5342,6 +5359,10 @@
       },
       {
         "publication": "Hugging Face",
+        "count": 2
+      },
+      {
+        "publication": "Substack (Lauren Leek)",
         "count": 2
       },
       {
@@ -5577,10 +5598,6 @@
         "count": 1
       },
       {
-        "publication": "Substack (Lauren Leek)",
-        "count": 1
-      },
-      {
         "publication": "Substack (Magnetic North)",
         "count": 1
       },
@@ -5692,7 +5709,7 @@
       },
       {
         "month": "2026-10",
-        "count": 45
+        "count": 46
       }
     ]
   }
