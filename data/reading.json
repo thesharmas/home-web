@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-26T22:00:38.859Z",
-  "count": 322,
+  "generated_at": "2026-10-27T05:00:49.512Z",
+  "count": 323,
   "entries": [
+    {
+      "id": "rl-20261027040352-d2edcc",
+      "date": "2026-10-27T04:03:52.460Z",
+      "publication": "X (formerly Twitter)",
+      "title": "Andrew Benson (@AndrewBenson) on X",
+      "author": "Andrew Benson (@AndrewBenson)",
+      "url": "https://x.com/AndrewBenson/status/2114833359256027551",
+      "summary": "[1/2] Anthropic just reported an $80.7B loss for the first half of 2026.\nRevenue was $16.3B. The operating loss was only $693M.\nSo where did the other $80B come from?\nA few pieces of paper Amazon bought in 2023 and 2024.\n\nRewind to September 2023.\nAnthropic was valued around $4B,",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261026215226-265d9f",
       "date": "2026-10-26T21:52:26.139Z",
@@ -5206,7 +5220,7 @@
       },
       {
         "tag": "tweet",
-        "count": 66
+        "count": 67
       },
       {
         "tag": "science",
@@ -5260,7 +5274,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 61
+        "count": 62
       },
       {
         "publication": "The Economist",
@@ -5678,7 +5692,7 @@
       },
       {
         "month": "2026-10",
-        "count": 44
+        "count": 45
       }
     ]
   }
