@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-10-28T16:00:31.411Z",
-  "count": 325,
+  "generated_at": "2026-10-28T21:00:58.300Z",
+  "count": 328,
   "entries": [
+    {
+      "id": "rl-20261028205755-ee7215",
+      "date": "2026-10-28T20:57:55.654Z",
+      "publication": "FT",
+      "title": "We don't understand the gold price",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/f0d7a819-7bdf-486d-9fd1-b8cf2eeee15a",
+      "summary": "The article explores the historically inverse relationship between gold prices and real US Treasury yields (TIPS), noting how that relationship broke down after Russia's invasion of Ukraine in 2022. Various explanations for gold's subsequent rally — central bank buying, sovereign wealth funds, China, Tether, preppers — are canvassed without firm conclusion. The author observes that while the relationship partially reasserted itself in early 2026, gold has again decoupled from TIPS yields in a confounding way, moving lower even as bond yields rally.",
+      "tags": [
+        "investing",
+        "asset management"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261028205749-d23a1d",
+      "date": "2026-10-28T20:57:49.670Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20261028203538-c0b288",
+      "date": "2026-10-28T20:35:38.097Z",
+      "publication": "vertex.degree",
+      "title": "Start Doing Graph Theory",
+      "author": "Mikhail Lavrov",
+      "url": "https://vertex.degree/",
+      "summary": "\"Start Doing Graph Theory\" is a free introductory textbook by Mikhail Lavrov covering graph theory through puzzles, theorems, and related topics. It is available to read online or download as a PDF under a Creative Commons CC BY-SA 4.0 license. The book is organized into chapters accessible via a table of contents on the site.",
+      "tags": [
+        "science",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261028153259-4b6d21",
       "date": "2026-10-28T15:32:59.583Z",
@@ -5238,11 +5280,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 153
+        "count": 154
       },
       {
         "tag": "investing",
-        "count": 119
+        "count": 120
       },
       {
         "tag": "ai agents",
@@ -5258,19 +5300,19 @@
       },
       {
         "tag": "science",
-        "count": 52
+        "count": 53
       },
       {
         "tag": "cloud",
         "count": 37
       },
       {
-        "tag": "capital expenditure",
+        "tag": "asset management",
         "count": 32
       },
       {
-        "tag": "asset management",
-        "count": 31
+        "tag": "capital expenditure",
+        "count": 32
       },
       {
         "tag": "security",
@@ -5324,7 +5366,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 14
+        "count": 15
       },
       {
         "publication": "The Information",
@@ -5348,7 +5390,7 @@
       },
       {
         "publication": "FT",
-        "count": 3
+        "count": 4
       },
       {
         "publication": "The Two Cents (Substack)",
@@ -5713,6 +5755,10 @@
       {
         "publication": "vectoral.com",
         "count": 1
+      },
+      {
+        "publication": "vertex.degree",
+        "count": 1
       }
     ],
     "by_month": [
@@ -5730,7 +5776,7 @@
       },
       {
         "month": "2026-10",
-        "count": 47
+        "count": 50
       }
     ]
   }
