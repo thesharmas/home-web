@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-27T17:00:35.161Z",
-  "count": 324,
+  "generated_at": "2026-10-28T16:00:31.411Z",
+  "count": 325,
   "entries": [
+    {
+      "id": "rl-20261028153259-4b6d21",
+      "date": "2026-10-28T15:32:59.583Z",
+      "publication": "Preferred Equity & Hybrids (Substack)",
+      "title": "Coreweave Debt - A Not So Basic Overview",
+      "author": null,
+      "url": "https://preferredincome.substack.com/p/coreweave-debt-a-not-so-basic-overview?r=1dhwj",
+      "summary": "The piece provides a detailed breakdown of CoreWeave's debt stack, including SPV-level secured DDTLs, parent-level unsecured senior notes, and convertible notes, arguing that consensus and sell-side projections significantly underestimate the company's leverage trajectory. The author highlights that CDS markets imply a ~63% five-year cumulative default probability and that free cash flow is projected to remain deeply negative through at least 2028. The piece concludes with a warning to avoid neoclouds and a provocative prediction of an eventual government-sponsored AI bailout.",
+      "tags": [
+        "cloud",
+        "investing",
+        "capital expenditure",
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261027160443-2ab76b",
       "date": "2026-10-27T16:04:43.539Z",
@@ -5221,11 +5238,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 152
+        "count": 153
       },
       {
         "tag": "investing",
-        "count": 118
+        "count": 119
       },
       {
         "tag": "ai agents",
@@ -5245,14 +5262,14 @@
       },
       {
         "tag": "cloud",
-        "count": 36
-      },
-      {
-        "tag": "asset management",
-        "count": 31
+        "count": 37
       },
       {
         "tag": "capital expenditure",
+        "count": 32
+      },
+      {
+        "tag": "asset management",
         "count": 31
       },
       {
@@ -5546,6 +5563,10 @@
         "count": 1
       },
       {
+        "publication": "Preferred Equity & Hybrids (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Princeton University Press",
         "count": 1
       },
@@ -5709,7 +5730,7 @@
       },
       {
         "month": "2026-10",
-        "count": 46
+        "count": 47
       }
     ]
   }
