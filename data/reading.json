@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-29T18:00:31.380Z",
-  "count": 332,
+  "generated_at": "2026-10-29T21:00:44.504Z",
+  "count": 333,
   "entries": [
+    {
+      "id": "rl-20261029202624-1b5971",
+      "date": "2026-10-29T20:26:24.586Z",
+      "publication": "Bloomberg",
+      "title": "What Wall Street Really Thinks About the AI Trade Now",
+      "author": null,
+      "url": "https://podcasts.apple.com/us/podcast/what-wall-street-really-thinks-about-the-ai-trade-now/id1056200096?i=1000798666995",
+      "summary": "This Bloomberg Odd Lots podcast episode examines Wall Street's current sentiment on the AI trade following market volatility tied to the Anthropic S-1 and hyperscaler earnings. Alexander 'Alty' Altmann, global head of equities tactical strategies at Barclays, discusses how investors are processing AI's apparent immunity to normal economic laws. Topics include the KOSPI-fication of the S&P 500, historical precedents for AI-related capex, and whether AI is truly insulated from interest rate pressures.",
+      "tags": [
+        "ai agents",
+        "capital expenditure",
+        "investing",
+        "cloud"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261029171830-cb74cc",
       "date": "2026-10-29T17:18:30.249Z",
@@ -5336,11 +5353,11 @@
       },
       {
         "tag": "investing",
-        "count": 120
+        "count": 121
       },
       {
         "tag": "ai agents",
-        "count": 93
+        "count": 94
       },
       {
         "tag": "fintech",
@@ -5356,14 +5373,14 @@
       },
       {
         "tag": "cloud",
-        "count": 37
-      },
-      {
-        "tag": "asset management",
-        "count": 32
+        "count": 38
       },
       {
         "tag": "capital expenditure",
+        "count": 33
+      },
+      {
+        "tag": "asset management",
         "count": 32
       },
       {
@@ -5413,12 +5430,12 @@
         "count": 47
       },
       {
-        "publication": "Unknown",
+        "publication": "Bloomberg",
         "count": 16
       },
       {
-        "publication": "Bloomberg",
-        "count": 15
+        "publication": "Unknown",
+        "count": 16
       },
       {
         "publication": "The Information",
@@ -5832,7 +5849,7 @@
       },
       {
         "month": "2026-10",
-        "count": 54
+        "count": 55
       }
     ]
   }
