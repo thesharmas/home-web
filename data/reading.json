@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-29T01:00:33.584Z",
-  "count": 329,
+  "generated_at": "2026-10-29T02:00:44.675Z",
+  "count": 330,
   "entries": [
+    {
+      "id": "rl-20261029012250-b96805",
+      "date": "2026-10-29T01:22:50.812Z",
+      "publication": "WhatsApp",
+      "title": "DJ Set Tracklist with Timestamps",
+      "author": null,
+      "url": null,
+      "summary": "A WhatsApp group thread sharing a timestamped tracklist for a DJ set, with many tracks listed as unknown IDs. Users speculate that several unidentified tracks may be unreleased music by Ryan Elliott, who reportedly has a new EP coming out on Faithbeat. Other users add corrections and additional track identifications in the replies.",
+      "tags": [
+        "design"
+      ],
+      "source": "whatsapp",
+      "partial": true
+    },
     {
       "id": "rl-20261029003535-4e3582",
       "date": "2026-10-29T00:35:35.499Z",
@@ -5334,7 +5348,7 @@
       },
       {
         "tag": "design",
-        "count": 24
+        "count": 25
       },
       {
         "tag": "sustainability",
@@ -5715,6 +5729,10 @@
         "count": 1
       },
       {
+        "publication": "WhatsApp",
+        "count": 1
+      },
+      {
         "publication": "blog.jim-nielsen.com",
         "count": 1
       },
@@ -5790,7 +5808,7 @@
       },
       {
         "month": "2026-10",
-        "count": 51
+        "count": 52
       }
     ]
   }
