@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-29T02:00:44.675Z",
-  "count": 330,
+  "generated_at": "2026-10-29T16:01:04.139Z",
+  "count": 331,
   "entries": [
+    {
+      "id": "rl-20261029150052-059269",
+      "date": "2026-10-29T15:00:52.289Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/a3d8efb2-6553-46d6-af48-7886b1a14fa3",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261029012250-b96805",
       "date": "2026-10-29T01:22:50.812Z",
@@ -48,14 +60,14 @@
     {
       "id": "rl-20261028205749-d23a1d",
       "date": "2026-10-28T20:57:49.670Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "This is a very interesting time for trashy credit (and all those who love it)",
+      "author": "Robin Wigglesworth",
       "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61",
-      "summary": null,
+      "summary": "FT Alphaville's Robin Wigglesworth uses the struggles of London credit hedge fund Arini Capital Management — down over 21% for the year — as a jumping-off point to explore the risks of chasing returns via low-rated CCC junk bonds and leverage. He explains how a systematic tilt toward riskier credit is a well-known but rarely acknowledged driver of supposed alpha in the bond world. The piece also examines whether the unusually sharp selloff in CCC-rated bonds signals broader economic trouble or is merely a cluster of idiosyncratic defaults in sectors like telecoms, cable, and media.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261028203538-c0b288",
@@ -5386,7 +5398,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 46
+        "count": 47
       },
       {
         "publication": "Bloomberg",
@@ -5808,7 +5820,7 @@
       },
       {
         "month": "2026-10",
-        "count": 52
+        "count": 53
       }
     ]
   }
