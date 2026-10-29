@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-29T16:01:04.139Z",
-  "count": 331,
+  "generated_at": "2026-10-29T18:00:31.380Z",
+  "count": 332,
   "entries": [
+    {
+      "id": "rl-20261029171830-cb74cc",
+      "date": "2026-10-29T17:18:30.249Z",
+      "publication": null,
+      "title": "- YouTube",
+      "author": null,
+      "url": "https://www.youtube.com/watch?v=hVM8qGRTaOA",
+      "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261029150052-059269",
       "date": "2026-10-29T15:00:52.289Z",
@@ -5401,11 +5413,11 @@
         "count": 47
       },
       {
-        "publication": "Bloomberg",
-        "count": 15
+        "publication": "Unknown",
+        "count": 16
       },
       {
-        "publication": "Unknown",
+        "publication": "Bloomberg",
         "count": 15
       },
       {
@@ -5820,7 +5832,7 @@
       },
       {
         "month": "2026-10",
-        "count": 53
+        "count": 54
       }
     ]
   }
