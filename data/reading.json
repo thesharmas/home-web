@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-28T21:00:58.300Z",
-  "count": 328,
+  "generated_at": "2026-10-29T01:00:33.584Z",
+  "count": 329,
   "entries": [
+    {
+      "id": "rl-20261029003535-4e3582",
+      "date": "2026-10-29T00:35:35.499Z",
+      "publication": "X (formerly Twitter)",
+      "title": "SasoEquity (@saso_capital) on X",
+      "author": "SasoEquity (@saso_capital)",
+      "url": "https://x.com/saso_capital/status/2115574525718860249",
+      "summary": "[1/2] My key takeaways from the $GOOGL (Alphabet) Q3 2026 earnings call.\n\n1. Search slowed while query growth hit a five-year high. Search and other ads grew 12% to $63.3B, down from Q2. The deceleration has four parts. FX was the biggest drag. The EU ended its de minimis exempti",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261028205755-ee7215",
       "date": "2026-10-28T20:57:55.654Z",
@@ -5296,7 +5310,7 @@
       },
       {
         "tag": "tweet",
-        "count": 67
+        "count": 68
       },
       {
         "tag": "science",
@@ -5350,7 +5364,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 62
+        "count": 63
       },
       {
         "publication": "The Economist",
@@ -5776,7 +5790,7 @@
       },
       {
         "month": "2026-10",
-        "count": 50
+        "count": 51
       }
     ]
   }
