@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-29T21:00:44.504Z",
-  "count": 333,
+  "generated_at": "2026-10-30T18:00:34.056Z",
+  "count": 338,
   "entries": [
+    {
+      "id": "rl-20261030172726-d0f0ac",
+      "date": "2026-10-30T17:27:26.204Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20261030172448-75ded2",
+      "date": "2026-10-30T17:24:48.579Z",
+      "publication": "Financial Times",
+      "title": "Palantir shareholders want to know when they'll get their money back",
+      "author": "Bryce Elder",
+      "url": "https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311",
+      "summary": "Retail investors dominate Palantir's shareholder base and are increasingly vocal about wanting capital returns — dividends, buybacks, or stock splits — ahead of Q3 2026 earnings. RBC Capital Markets analysis finds that 46% of upvoted questions on Palantir's public message board focus on cash returns, up 30 percentage points from the prior quarter, suggesting growing frustration with management's inaction despite a ~$9B cash balance. RBC, which has held an underperform rating on Palantir since May 2022, warns that this fixation on near-term returns may crowd out harder strategic questions about whether the company's lofty valuation is sustainable.",
+      "tags": [
+        "investing",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261030172421-245cdf",
+      "date": "2026-10-30T17:24:21.911Z",
+      "publication": "Financial Times",
+      "title": "A half-dozen Halloween charts to haunt and horrify investors",
+      "author": "Joe Sullivan-Bissett",
+      "url": "https://www.ft.com/content/8d03cff5-3ed0-44c7-840b-b8414b1248bc",
+      "summary": "M&G fixed income director Joe Sullivan-Bissett presents six Halloween-themed charts highlighting risks for investors: a widening gap between US consumer spending and income growth, a quadrupling of diesel refining premiums, a near-frozen US housing market, historically tight credit spreads, a debt-fuelled hyperscaler capex boom, and France's government bond yields rising above former periphery countries like Greece and Portugal.",
+      "tags": [
+        "investing",
+        "capital expenditure",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261030172317-f33d77",
+      "date": "2026-10-30T17:23:17.091Z",
+      "publication": "Financial Times",
+      "title": "If you think Triple-C bonds are having a rough time . . .",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d",
+      "summary": "Triple-C rated bonds are experiencing significant distress, with US yields hitting 18% and European yields exceeding 21%. European Triple-C loans are faring even worse, with yields nearing 36%, and distressed loans (trading below 80 cents) are appearing broadly across loan markets. The author argues that the Triple-C loan market may serve as a useful proxy for stress in private credit, given that many loans refinanced into private credit in 2023-24 were rated just one notch above CCC.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261030172248-3c85c3",
+      "date": "2026-10-30T17:22:48.105Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261029202624-1b5971",
       "date": "2026-10-29T20:26:24.586Z",
@@ -5349,11 +5419,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 154
+        "count": 155
       },
       {
         "tag": "investing",
-        "count": 121
+        "count": 124
       },
       {
         "tag": "ai agents",
@@ -5361,7 +5431,7 @@
       },
       {
         "tag": "fintech",
-        "count": 72
+        "count": 74
       },
       {
         "tag": "tweet",
@@ -5377,7 +5447,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 33
+        "count": 34
       },
       {
         "tag": "asset management",
@@ -5422,19 +5492,19 @@
         "count": 63
       },
       {
+        "publication": "Financial Times",
+        "count": 50
+      },
+      {
         "publication": "The Economist",
         "count": 50
       },
       {
-        "publication": "Financial Times",
-        "count": 47
+        "publication": "Unknown",
+        "count": 18
       },
       {
         "publication": "Bloomberg",
-        "count": 16
-      },
-      {
-        "publication": "Unknown",
         "count": 16
       },
       {
@@ -5849,7 +5919,7 @@
       },
       {
         "month": "2026-10",
-        "count": 55
+        "count": 60
       }
     ]
   }
