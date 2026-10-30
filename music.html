@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music — Rohit's Web</title>
-    <meta name="description" content="Rohit Sharma's music and studio — DJ booth and production gear inventory, recent vinyl adds from Discogs, and mixes on SoundCloud.">
+    <meta name="description" content="Rohit Sharma's music and studio — DJ booth and production gear inventory, recent vinyl adds from Discogs, daily vinyl mixes, and SoundCloud.">
     <link rel="canonical" href="https://thesharmas.org/music.html">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thesharmas.org/music.html">
@@ -166,8 +166,75 @@
                    :class="darkMode ? 'border-amber-400/45 text-amber-100 hover:bg-amber-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
                     <span class="text-[10px] opacity-70">[dc]</span> Discogs
                 </a>
+                <a href="https://x.com/vinylmixaday" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 border px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'border-rose-400/45 text-rose-100 hover:bg-rose-500/10' : 'border-gray-800 text-gray-900 hover:bg-black/5'">
+                    <span class="text-[10px] opacity-70">[x]</span> Mix a day
+                </a>
             </div>
         </header>
+
+        <!-- Daily mixes: embedded X video posts from @vinylmixaday, list fed by data/mixes.json -->
+        <section id="mixes" class="mb-16 scroll-mt-24" aria-labelledby="mixes-heading">
+            <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.3em]"
+                       :class="darkMode ? 'text-rose-400/85' : 'text-rose-800'">daily</p>
+                    <h2 id="mixes-heading" class="text-xl font-bold uppercase tracking-wide mt-1"
+                        :class="darkMode ? 'text-white' : 'text-gray-900'">Mix a day</h2>
+                </div>
+                <a href="https://x.com/vinylmixaday" target="_blank" rel="noopener noreferrer"
+                   class="text-[10px] font-mono uppercase tracking-widest transition-colors"
+                   :class="darkMode ? 'text-rose-400/50 hover:text-rose-300' : 'text-rose-800/80 hover:text-rose-950'">@vinylmixaday →</a>
+            </div>
+            <p class="mb-5 max-w-2xl text-sm leading-relaxed"
+               :class="darkMode ? 'text-emerald-200/75' : 'text-gray-700'">
+                <span class="font-mono" :class="darkMode ? 'text-emerald-400' : 'text-gray-900'">$ tail -f mixes.log</span>
+                — house music, all vinyl, one mix a day, recorded on my lunch break.
+            </p>
+
+            <div class="grid gap-4 lg:grid-cols-[minmax(0,1fr)_17rem]">
+                <div class="border overflow-hidden min-h-[320px]"
+                     :class="darkMode ? 'border-rose-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                    <div x-ref="mixPlayer" class="mx-auto w-full max-w-[550px] px-2 sm:px-4"></div>
+                    <p x-show="mixes.embedFailed && mixes.current" class="px-4 py-10 text-sm"
+                       :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'">
+                        Embed blocked or failed to load —
+                        <a :href="mixes.current && `https://x.com/vinylmixaday/status/${mixes.current.id}`" target="_blank" rel="noopener noreferrer"
+                           class="font-semibold underline underline-offset-2"
+                           :class="darkMode ? 'text-cyan-400 hover:text-cyan-300' : 'text-cyan-800 hover:text-cyan-950'">watch on X →</a>
+                    </p>
+                </div>
+
+                <div class="border overflow-hidden self-start"
+                     :class="darkMode ? 'border-rose-500/25 bg-black/30' : 'border-gray-800 bg-white'">
+                    <p class="border-b px-3 py-2 font-mono text-[10px] uppercase tracking-[0.15em]"
+                       :class="darkMode ? 'border-rose-500/25 bg-rose-950/30 text-rose-200/90' : 'border-gray-800 bg-gray-100 text-gray-800'">ls ~/mixes</p>
+                    <p x-show="mixes.error" class="px-3 py-4 text-sm" x-text="mixes.error"
+                       :class="darkMode ? 'text-red-400/90' : 'text-red-700'"></p>
+                    <ul class="divide-y max-h-[28rem] overflow-y-auto" role="list"
+                        :class="darkMode ? 'divide-rose-500/15' : 'divide-gray-200'">
+                        <template x-for="m in mixes.items" :key="m.id">
+                            <li>
+                                <button type="button" @click="showMix(m)"
+                                        class="w-full text-left px-3 py-2.5 transition-colors"
+                                        :aria-pressed="mixes.current && mixes.current.id === m.id"
+                                        :class="mixes.current && mixes.current.id === m.id
+                                            ? (darkMode ? 'bg-rose-500/15' : 'bg-rose-50')
+                                            : (darkMode ? 'hover:bg-rose-500/[0.06]' : 'hover:bg-gray-50')">
+                                    <span class="block font-mono text-xs tabular-nums font-semibold"
+                                          :class="darkMode ? 'text-emerald-100' : 'text-gray-900'">
+                                        <span class="inline-block w-3" aria-hidden="true" x-text="mixes.current && mixes.current.id === m.id ? '▶' : ''"></span><span x-text="`${m.date}.mix`"></span>
+                                    </span>
+                                    <span x-show="m.note" class="block pl-3 text-[11px] leading-snug"
+                                          :class="darkMode ? 'text-emerald-200/60' : 'text-gray-600'" x-text="m.note"></span>
+                                </button>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
         <!-- Zone A: full-bleed image + inventory -->
         <section id="dj" class="mb-16 scroll-mt-24">
@@ -406,6 +473,12 @@
         function musicPage() {
             return {
                 darkMode: false,
+                mixes: {
+                    items: [],
+                    current: null,
+                    error: null,
+                    embedFailed: false
+                },
                 discogs: {
                     releases: [],
                     loading: true,
@@ -427,8 +500,66 @@
                     }
                     return new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
                 },
+                loadTwitterWidgets() {
+                    if (!this._twttr) {
+                        this._twttr = new Promise(function (resolve, reject) {
+                            var s = document.createElement('script');
+                            s.src = 'https://platform.twitter.com/widgets.js';
+                            s.async = true;
+                            s.onload = function () { window.twttr ? window.twttr.ready(resolve) : reject(); };
+                            s.onerror = reject;
+                            document.head.appendChild(s);
+                        });
+                    }
+                    return this._twttr;
+                },
+                showMix(m) {
+                    var self = this;
+                    var el = this.$refs.mixPlayer;
+                    this.mixes.current = m;
+                    this.mixes.embedFailed = false;
+                    el.innerHTML = '';
+                    this.loadTwitterWidgets()
+                        .then(function (twttr) {
+                            return twttr.widgets.createTweet(m.id, el, {
+                                theme: self.darkMode ? 'dark' : 'light',
+                                conversation: 'none',
+                                align: 'center',
+                                dnt: true
+                            });
+                        })
+                        .then(function (node) {
+                            if (!node && self.mixes.current === m) {
+                                self.mixes.embedFailed = true;
+                            }
+                        })
+                        .catch(function () {
+                            self.mixes.embedFailed = true;
+                        });
+                },
                 init() {
                     var self = this;
+                    fetch('data/mixes.json')
+                        .then(function (res) {
+                            if (!res.ok) {
+                                throw new Error('Could not load mixes.');
+                            }
+                            return res.json();
+                        })
+                        .then(function (items) {
+                            self.mixes.items = items;
+                            if (items.length) {
+                                self.showMix(items[0]);
+                            }
+                        })
+                        .catch(function (e) {
+                            self.mixes.error = e.message || 'Failed to load mixes.';
+                        });
+                    this.$watch('darkMode', function () {
+                        if (self.mixes.current) {
+                            self.showMix(self.mixes.current);
+                        }
+                    });
                     var url = 'https://api.discogs.com/users/rnsharmadiscogs/collection/folders/0/releases?sort=added&sort_order=desc&per_page=5&page=1';
                     fetch(url)
                         .then(function (res) {
