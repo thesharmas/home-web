@@ -539,7 +539,7 @@
                 },
                 init() {
                     var self = this;
-                    fetch('data/mixes.json')
+                    fetch('data/mixes.json?ts=' + Date.now(), { cache: 'no-store' })
                         .then(function (res) {
                             if (!res.ok) {
                                 throw new Error('Could not load mixes.');
