@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-30T18:00:34.056Z",
-  "count": 338,
+  "generated_at": "2026-11-01T19:00:33.129Z",
+  "count": 339,
   "entries": [
+    {
+      "id": "rl-20261101181449-cbb0f7",
+      "date": "2026-11-01T18:14:49.011Z",
+      "publication": "X (formerly Twitter)",
+      "title": "DeepSeek Harness on X: \"Exploring Super-agent Design: Towards a More Autonomous Agent System\" / X",
+      "author": "DeepSeek Harness (@DeepSeekHarness)",
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "summary": "https://t.co/gwwIHtyCRQ",
+      "tags": [
+        "tweet"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261030172726-d0f0ac",
       "date": "2026-10-30T17:27:26.204Z",
@@ -5435,7 +5449,7 @@
       },
       {
         "tag": "tweet",
-        "count": 68
+        "count": 69
       },
       {
         "tag": "science",
@@ -5489,7 +5503,7 @@
     "by_publication": [
       {
         "publication": "X (formerly Twitter)",
-        "count": 63
+        "count": 64
       },
       {
         "publication": "Financial Times",
@@ -5920,6 +5934,10 @@
       {
         "month": "2026-10",
         "count": 60
+      },
+      {
+        "month": "2026-11",
+        "count": 1
       }
     ]
   }
