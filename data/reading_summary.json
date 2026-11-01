@@ -5901,7 +5901,466 @@
     }
    ],
    "generated_at": "2026-10-25T15:01:35Z"
+  },
+  {
+   "week_start": "2026-10-25",
+   "week_end": "2026-11-01",
+   "title": "Week ending Nov 1, 2026",
+   "overview": "Your reading this week orbited a single tension: is the AI boom's financial story to be believed? You started with Anthropic's eye-popping $80.7B \"loss,\" which a close read (via @AndrewBenson's thread) revealed to be almost entirely a warrant-accounting illusion — the actual operating loss was a comparatively modest $693M on $16.3B of revenue. From there you tracked the same skepticism into CoreWeave's debt stack (CDS pricing a ~63% five-year default probability), Bloomberg's Odd Lots coverage of whether AI capex is truly insulated from interest rates, and Lindsay Owens's warning that AI shopping agents might optimize for extracting more money from you rather than saving you any. Even Google's Q3 ad-growth slowdown (via @saso_capital) fit the same pattern of surface-level AI narratives needing a harder look underneath.\n\nThat same instinct — don't trust the headline number — carried into your macro and credit reading. A run of FT pieces from Wigglesworth and Nangle tracked Triple-C bonds blowing out to 18–36% yields, a half-dozen Halloween-themed charts of brewing stress, and gold's increasingly confusing decoupling from real yields, while Palantir's retail-dominated shareholder base grew louder about wanting cash back after years of patience. In parallel, four Economist book reviews — on Napoleon's fractious marshal system, Michael Lewis's DOGE reporting, Simon Sebag Montefiore's sweep through the modern Middle East, and a Cold War MI6 defection story — gave you historical texture on how leadership, loyalty, and institutions bend or break under pressure, echoing the credit and AI narratives in a different register.\n\nThe week closed on lighter but still pointed notes: Bhaskar Sunkara's market-socialism pitch and Lauren Leek's essay on gameable regulatory objective functions both pushed back on lazy framing of how economic and political systems should be designed, while Economist pieces on millennials' surprising economic strength, nostalgia-driven culture, snack-texture wars, and Jaguar's all-or-nothing EV relaunch rounded out the consumer-trend side. If you want to go beyond headlines, Sebastian Raschka's reasoning-model course and a free graph theory textbook are queued up as the technical follow-through.",
+   "themes": [
+    {
+     "name": "AI's Financial Narrative: Hype, Capex, and Who Pays",
+     "description": "An Anthropic 'loss' headline turned out to be mostly a warrant-accounting artifact, Wall Street debated whether AI capex is truly rate-insensitive, and reporting on CoreWeave's debt load and AI-agent pricing behavior raised real questions about who ends up paying for the AI boom.",
+     "items": [
+      {
+       "title": "Andrew Benson (@AndrewBenson) on X",
+       "url": "https://x.com/AndrewBenson/status/2114833359256027551"
+      },
+      {
+       "title": "How personal rivalries and clashes are shaping the AI race",
+       "url": "https://www.economist.com/culture/2026/10/22/how-personal-rivalries-and-clashes-are-shaping-the-ai-race"
+      },
+      {
+       "title": "AI Agents Are Already Changing the Price of Goods",
+       "url": "https://podcasts.apple.com/us/podcast/ai-agents-are-already-changing-the-price-of-goods/id1056200096?i=1000798142312"
+      },
+      {
+       "title": "What Wall Street Really Thinks About the AI Trade Now",
+       "url": "https://podcasts.apple.com/us/podcast/what-wall-street-really-thinks-about-the-ai-trade-now/id1056200096?i=1000798666995"
+      },
+      {
+       "title": "Coreweave Debt - A Not So Basic Overview",
+       "url": "https://preferredincome.substack.com/p/coreweave-debt-a-not-so-basic-overview?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "name": "Cracks Beneath Calm Markets",
+     "description": "A cluster of FT pieces and one earnings teardown traced stress forming beneath markets that look calm on the surface — CCC-rated credit blowing out to 18-36% yields, a half-dozen ominous macro charts, gold's breakdown from its usual relationship with real yields, Palantir investors agitating for cash back, and Google's ad-growth deceleration.",
+     "items": [
+      {
+       "title": "This is a very interesting time for trashy credit (and all those who love it)",
+       "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61"
+      },
+      {
+       "title": "If you think Triple-C bonds are having a rough time . . .",
+       "url": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d"
+      },
+      {
+       "title": "A half-dozen Halloween charts to haunt and horrify investors",
+       "url": "https://www.ft.com/content/8d03cff5-3ed0-44c7-840b-b8414b1248bc"
+      },
+      {
+       "title": "We don't understand the gold price",
+       "url": "https://www.ft.com/content/f0d7a819-7bdf-486d-9fd1-b8cf2eeee15a"
+      },
+      {
+       "title": "Palantir shareholders want to know when they'll get their money back",
+       "url": "https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311"
+      },
+      {
+       "title": "SasoEquity (@saso_capital) on X",
+       "url": "https://x.com/saso_capital/status/2115574525718860249"
+      }
+     ]
+    },
+    {
+     "name": "History's Leadership and Loyalty Lessons",
+     "description": "Four Economist book reviews turned history into a management and power seminar — Napoleon's marshal system, DOGE's assault on the federal bureaucracy, a sweeping history of the Middle East, and a Cold War defection story all probe how leadership, loyalty, and institutional design hold up (or don't) under stress.",
+     "items": [
+      {
+       "title": "Leadership lessons from Napoleon",
+       "url": "https://www.economist.com/culture/2026/10/22/leadership-lessons-from-napoleon"
+      },
+      {
+       "title": "How Donald Trump remade America's government",
+       "url": "https://www.economist.com/culture/2026/10/09/how-donald-trump-remade-americas-government"
+      },
+      {
+       "title": "Fancy a tour through the Middle East?",
+       "url": "https://www.economist.com/culture/2026/10/08/fancy-a-tour-through-the-middle-east"
+      },
+      {
+       "title": "How erectile dysfunction led a KGB spy into the arms of MI6",
+       "url": "https://www.economist.com/culture/2026/10/15/how-erectile-dysfunction-led-a-kgb-spy-into-the-arms-of-mi6"
+      }
+     ]
+    },
+    {
+     "name": "Rethinking the Objective Function of Systems",
+     "description": "Bhaskar Sunkara's case for market socialism and Lauren Leek's dissection of how narrow regulatory metrics get gamed both argue that the usual left/right or KPI-driven frames miss what actually needs fixing in economic and political design.",
+     "items": [
+      {
+       "title": "Bhaskar Sunkara Thinks the Market Has a Place",
+       "url": "https://podcasts.apple.com/us/podcast/bhaskar-sunkara-thinks-the-market-has-a-place/id1056200096?i=1000797581839"
+      },
+      {
+       "title": "There's No Such Thing as Society in the Objective Function",
+       "url": "https://laurenleek.substack.com/p/theres-no-such-thing-as-society-in?r=9j4g"
+      }
+     ]
+    },
+    {
+     "name": "Brands and Generations Repositioning",
+     "description": "Lighter consumer-culture reads showed brands and generations repositioning: millennials revealed as the new economic winners and cultural tastemakers, while Jaguar bets its existence on an all-electric relaunch and snack makers chase 'crunch' as the next product frontier.",
+     "items": [
+      {
+       "title": "Don't feel sorry for millennials. They are living it up now",
+       "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now"
+      },
+      {
+       "title": "Squeeze into those skinny jeans: millennial culture is back",
+       "url": "https://www.economist.com/culture/2026/10/15/squeeze-into-those-skinny-jeans-millennial-culture-is-back"
+      },
+      {
+       "title": "Why your snacks are chunkier and chewier than before",
+       "url": "https://www.economist.com/business/2026/10/08/why-your-snacks-are-chunkier-and-chewier-than-before"
+      },
+      {
+       "title": "Jaguar's new car is its last shot at survival",
+       "url": "https://www.economist.com/business/2026/10/08/jaguars-new-car-is-its-last-shot-at-survival"
+      }
+     ]
+    },
+    {
+     "name": "Tools for Going Deeper",
+     "description": "Two technical resources for leveling up beyond headlines: a from-scratch video course on building reasoning models (RL, distillation, inference-time scaling) and a free graph theory textbook.",
+     "items": [
+      {
+       "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      },
+      {
+       "title": "Start Doing Graph Theory",
+       "url": "https://vertex.degree/"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "Anthropic's reported $80.7B 'loss' for H1 2026 was almost entirely a non-cash accounting artifact from Amazon's warrants — the actual operating loss was only $693M on $16.3B revenue. Don't take eye-popping AI-company loss headlines at face value; check whether it's cash burn or paper accounting.",
+     "sources": [
+      {
+       "title": "Andrew Benson (@AndrewBenson) on X",
+       "url": "https://x.com/AndrewBenson/status/2114833359256027551"
+      }
+     ]
+    },
+    {
+     "lesson": "AI shopping/pricing agents marketed as saving consumers money may instead learn your financial situation and steer you toward pricier options, per Lindsay Owens's 'Gouged' research — treat agentic AI as a potential pricing adversary, not an automatic ally, until incentives are proven aligned.",
+     "sources": [
+      {
+       "title": "AI Agents Are Already Changing the Price of Goods",
+       "url": "https://podcasts.apple.com/us/podcast/ai-agents-are-already-changing-the-price-of-goods/id1056200096?i=1000798142312"
+      }
+     ]
+    },
+    {
+     "lesson": "CoreWeave's CDS market implies a ~63% five-year cumulative default probability, while sell-side projections still show deeply negative free cash flow through at least 2028 — 'neocloud' debt is riskier than consensus credit research suggests, and derivatives pricing can be a sharper early-warning signal than analyst notes.",
+     "sources": [
+      {
+       "title": "Coreweave Debt - A Not So Basic Overview",
+       "url": "https://preferredincome.substack.com/p/coreweave-debt-a-not-so-basic-overview?r=1dhwj"
+      }
+     ]
+    },
+    {
+     "lesson": "Triple-C rated bonds hitting 18% (US) to 36% (Europe) yields matters beyond junk debt itself: because many 2023-24 loans refinanced into private credit sat just one notch above CCC, public CCC stress is a useful, more visible proxy for distress building inside the opaque private credit market.",
+     "sources": [
+      {
+       "title": "If you think Triple-C bonds are having a rough time . . .",
+       "url": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d"
+      }
+     ]
+    },
+    {
+     "lesson": "Napoleon's marshal system shows that personalized rewards plus deliberately fostered rivalry among top lieutenants can produce short-term elite performance but corrodes loyalty over time — concentrating control while pitting your best people against each other is a fragile leadership strategy that eventually leaves you isolated.",
+     "sources": [
+      {
+       "title": "Leadership lessons from Napoleon",
+       "url": "https://www.economist.com/culture/2026/10/22/leadership-lessons-from-napoleon"
+      }
+     ]
+    },
+    {
+     "lesson": "Simplistic optimization targets — DOGE's blunt 'cut waste' mandate or UK regulators' sewage-overflow counts and rail-fare-complexity rules — get gamed into worse real-world outcomes without delivering the intended savings or fairness. Before trusting a KPI, interrogate what behavior it actually rewards.",
+     "sources": [
+      {
+       "title": "There's No Such Thing as Society in the Objective Function",
+       "url": "https://laurenleek.substack.com/p/theres-no-such-thing-as-society-in?r=9j4g"
+      },
+      {
+       "title": "How Donald Trump remade America's government",
+       "url": "https://www.economist.com/culture/2026/10/09/how-donald-trump-remade-americas-government"
+      }
+     ]
+    },
+    {
+     "lesson": "The 'struggling millennial' narrative is now outdated data, not reality: in 29 of 32 rich countries, millennials out-earn prior generations at the same age, mainly because post-pandemic labor markets and accelerated boomer retirement opened senior roles faster than expected. Update generational-economics priors accordingly.",
+     "sources": [
+      {
+       "title": "Don't feel sorry for millennials. They are living it up now",
+       "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now"
+      }
+     ]
+    },
+    {
+     "lesson": "Jaguar's all-electric Type 01 relaunch — a complete break from its legacy lineup after a £2.25bn bet — shows that total brand reinvention carries existential risk: if the new positioning doesn't land, there's no fallback product line to retreat to.",
+     "sources": [
+      {
+       "title": "Jaguar's new car is its last shot at survival",
+       "url": "https://www.economist.com/business/2026/10/08/jaguars-new-car-is-its-last-shot-at-survival"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "The AI-bubble-panic narrative built on Anthropic's '$80.7B loss' is largely wrong: the real operating loss was a comparatively mundane $693M, with the rest being a warrant-accounting artifact — the headline number says more about GAAP treatment of Amazon's equity stake than about Anthropic's actual financial health.",
+     "source": {
+      "title": "Andrew Benson (@AndrewBenson) on X",
+      "url": "https://x.com/AndrewBenson/status/2114833359256027551"
+     }
+    },
+    {
+     "insight": "Against the consensus hope that AI agents will democratize savings for consumers, early research suggests agentic shopping assistants may become a more sophisticated vehicle for price discrimination once they've learned your financial situation — the 'AI agent as consumer advocate' framing may be backwards.",
+     "source": {
+      "title": "AI Agents Are Already Changing the Price of Goods",
+      "url": "https://podcasts.apple.com/us/podcast/ai-agents-are-already-changing-the-price-of-goods/id1056200096?i=1000798142312"
+     }
+    },
+    {
+     "insight": "The widely repeated claim that millennials got a uniquely bad economic deal (2008, student debt, high rents) is contradicted by the data: in nearly every rich country surveyed, millennials now out-earn previous generations at the same age — the 'screwed generation' story is stale.",
+     "source": {
+      "title": "Don't feel sorry for millennials. They are living it up now",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now"
+     }
+    },
+    {
+     "insight": "Against the DOGE-era assumption that aggressive government 'waste-cutting' automatically shrinks and streamlines the state, Michael Lewis's reporting argues it instead made government dumber, crueller, and no smaller in size or cost — slash-and-burn rhetoric and actual efficiency gains are not the same thing.",
+     "source": {
+      "title": "How Donald Trump remade America's government",
+      "url": "https://www.economist.com/culture/2026/10/09/how-donald-trump-remade-americas-government"
+     }
+    },
+    {
+     "insight": "Contrary to the assumption that markets and socialism are inherently opposed, Bhaskar Sunkara argues entrepreneurs and market mechanisms can be reimagined as compatible with — even beneficial to — socialist goals, challenging both free-market purists and market-skeptical leftists simultaneously.",
+     "source": {
+      "title": "Bhaskar Sunkara Thinks the Market Has a Place",
+      "url": "https://podcasts.apple.com/us/podcast/bhaskar-sunkara-thinks-the-market-has-a-place/id1056200096?i=1000797581839"
+     }
+    },
+    {
+     "insight": "While sell-side research projects a path to CoreWeave profitability, CDS markets are pricing a ~63% five-year default probability — a reminder that credit derivatives can disagree sharply with equity-side consensus on the same company, and that disagreement is itself informative.",
+     "source": {
+      "title": "Coreweave Debt - A Not So Basic Overview",
+      "url": "https://preferredincome.substack.com/p/coreweave-debt-a-not-so-basic-overview?r=1dhwj"
+     }
+    }
+   ],
+   "book_progress": null,
+   "stats": {
+    "item_count": 25,
+    "top_publications": [
+     {
+      "name": "The Economist",
+      "count": 9
+     },
+     {
+      "name": "Financial Times",
+      "count": 5
+     },
+     {
+      "name": "Bloomberg",
+      "count": 3
+     },
+     {
+      "name": "Twitter/X",
+      "count": 2
+     },
+     {
+      "name": "Ahead of AI (Substack)",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "technology",
+      "count": 14
+     },
+     {
+      "name": "investing",
+      "count": 10
+     },
+     {
+      "name": "science",
+      "count": 7
+     },
+     {
+      "name": "design",
+      "count": 6
+     },
+     {
+      "name": "fintech",
+      "count": 5
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "Bhaskar Sunkara Thinks the Market Has a Place",
+     "publication": "Bloomberg (Odd Lots)",
+     "date": "2026-10-25",
+     "url": "https://podcasts.apple.com/us/podcast/bhaskar-sunkara-thinks-the-market-has-a-place/id1056200096?i=1000797581839"
+    },
+    {
+     "title": "Leadership lessons from Napoleon",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/22/leadership-lessons-from-napoleon"
+    },
+    {
+     "title": "How personal rivalries and clashes are shaping the AI race",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/22/how-personal-rivalries-and-clashes-are-shaping-the-ai-race"
+    },
+    {
+     "title": "Don't feel sorry for millennials. They are living it up now",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now"
+    },
+    {
+     "title": "Squeeze into those skinny jeans: millennial culture is back",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/15/squeeze-into-those-skinny-jeans-millennial-culture-is-back"
+    },
+    {
+     "title": "How erectile dysfunction led a KGB spy into the arms of MI6",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/15/how-erectile-dysfunction-led-a-kgb-spy-into-the-arms-of-mi6"
+    },
+    {
+     "title": "How Donald Trump remade America's government",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/09/how-donald-trump-remade-americas-government"
+    },
+    {
+     "title": "Fancy a tour through the Middle East?",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/culture/2026/10/08/fancy-a-tour-through-the-middle-east"
+    },
+    {
+     "title": "Why your snacks are chunkier and chewier than before",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/business/2026/10/08/why-your-snacks-are-chunkier-and-chewier-than-before"
+    },
+    {
+     "title": "Jaguar's new car is its last shot at survival",
+     "publication": "The Economist",
+     "date": "2026-10-26",
+     "url": "https://www.economist.com/business/2026/10/08/jaguars-new-car-is-its-last-shot-at-survival"
+    },
+    {
+     "title": "AI Agents Are Already Changing the Price of Goods",
+     "publication": "Bloomberg",
+     "date": "2026-10-26",
+     "url": "https://podcasts.apple.com/us/podcast/ai-agents-are-already-changing-the-price-of-goods/id1056200096?i=1000798142312"
+    },
+    {
+     "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+     "publication": "Ahead of AI (Substack)",
+     "date": "2026-10-26",
+     "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+    },
+    {
+     "title": "Andrew Benson (@AndrewBenson) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-10-27",
+     "url": "https://x.com/AndrewBenson/status/2114833359256027551"
+    },
+    {
+     "title": "There's No Such Thing as Society in the Objective Function",
+     "publication": "Substack (Lauren Leek)",
+     "date": "2026-10-27",
+     "url": "https://laurenleek.substack.com/p/theres-no-such-thing-as-society-in?r=9j4g"
+    },
+    {
+     "title": "Coreweave Debt - A Not So Basic Overview",
+     "publication": "Preferred Equity & Hybrids (Substack)",
+     "date": "2026-10-28",
+     "url": "https://preferredincome.substack.com/p/coreweave-debt-a-not-so-basic-overview?r=1dhwj"
+    },
+    {
+     "title": "Start Doing Graph Theory",
+     "publication": "vertex.degree",
+     "date": "2026-10-28",
+     "url": "https://vertex.degree/"
+    },
+    {
+     "title": "This is a very interesting time for trashy credit (and all those who love it)",
+     "publication": "Financial Times",
+     "date": "2026-10-28",
+     "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61"
+    },
+    {
+     "title": "We don't understand the gold price",
+     "publication": "FT",
+     "date": "2026-10-28",
+     "url": "https://www.ft.com/content/f0d7a819-7bdf-486d-9fd1-b8cf2eeee15a"
+    },
+    {
+     "title": "SasoEquity (@saso_capital) on X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-10-29",
+     "url": "https://x.com/saso_capital/status/2115574525718860249"
+    },
+    {
+     "title": "DJ Set Tracklist with Timestamps",
+     "publication": "WhatsApp",
+     "date": "2026-10-29",
+     "url": null
+    },
+    {
+     "title": "- YouTube",
+     "publication": null,
+     "date": "2026-10-29",
+     "url": "https://www.youtube.com/watch?v=hVM8qGRTaOA"
+    },
+    {
+     "title": "What Wall Street Really Thinks About the AI Trade Now",
+     "publication": "Bloomberg",
+     "date": "2026-10-29",
+     "url": "https://podcasts.apple.com/us/podcast/what-wall-street-really-thinks-about-the-ai-trade-now/id1056200096?i=1000798666995"
+    },
+    {
+     "title": "If you think Triple-C bonds are having a rough time . . .",
+     "publication": "Financial Times",
+     "date": "2026-10-30",
+     "url": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d"
+    },
+    {
+     "title": "A half-dozen Halloween charts to haunt and horrify investors",
+     "publication": "Financial Times",
+     "date": "2026-10-30",
+     "url": "https://www.ft.com/content/8d03cff5-3ed0-44c7-840b-b8414b1248bc"
+    },
+    {
+     "title": "Palantir shareholders want to know when they'll get their money back",
+     "publication": "Financial Times",
+     "date": "2026-10-30",
+     "url": "https://www.ft.com/content/fbca8eb0-76ef-4e0e-bcc9-c45c8f7d1311"
+    }
+   ],
+   "generated_at": "2026-11-01T16:04:16Z"
   }
  ],
- "updated_at": "2026-10-25T15:01:35Z"
+ "updated_at": "2026-11-01T16:04:16Z"
 }
