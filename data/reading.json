@@ -1,7 +1,50 @@
 {
-  "generated_at": "2026-11-01T19:00:33.129Z",
-  "count": 339,
+  "generated_at": "2026-11-02T18:00:38.594Z",
+  "count": 342,
   "entries": [
+    {
+      "id": "rl-20261102172612-886d3f",
+      "date": "2026-11-02T17:26:12.269Z",
+      "publication": "NBER",
+      "title": "NBER Working Paper w35953",
+      "author": null,
+      "url": "https://www.nber.org/system/files/working_papers/w35953/w35953.pdf",
+      "summary": "This is an NBER (National Bureau of Economic Research) working paper (w35953). The page content is a raw binary PDF stream and could not be decoded into readable text, so the specific topic, authors, and abstract of the paper are not determinable from the captured content.",
+      "tags": [
+        "investing"
+      ],
+      "source": "mac",
+      "partial": true
+    },
+    {
+      "id": "rl-20261102172420-f7c79c",
+      "date": "2026-11-02T17:24:20.034Z",
+      "publication": "Financial Times",
+      "title": "What the increasingly awkward data centre construction delays mean for investors",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
+      "summary": "Data centre construction delays are creating significant credit risks for bond investors, with S&P Global counting 146 delayed or cancelled projects, three-quarters tied to local community opposition. Key risks include tenant termination rights triggered by milestone delays, inconsistent force majeure clauses across deal documents, and the potential for a future compute oversupply that could leave creditors exposed. Investors are scrutinising complex, idiosyncratic deal structures to understand who bears the losses if construction timelines slip too far.",
+      "tags": [
+        "capital expenditure",
+        "investing",
+        "technology",
+        "ai agents"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261102172336-fd6460",
+      "date": "2026-11-02T17:23:36.972Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261101181449-cbb0f7",
       "date": "2026-11-01T18:14:49.011Z",
@@ -5433,15 +5476,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 155
+        "count": 156
       },
       {
         "tag": "investing",
-        "count": 124
+        "count": 126
       },
       {
         "tag": "ai agents",
-        "count": 94
+        "count": 95
       },
       {
         "tag": "fintech",
@@ -5461,7 +5504,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "asset management",
@@ -5507,7 +5550,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 50
+        "count": 51
       },
       {
         "publication": "The Economist",
@@ -5515,7 +5558,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 18
+        "count": 19
       },
       {
         "publication": "Bloomberg",
@@ -5723,6 +5766,10 @@
       },
       {
         "publication": "Musings on Markets (Substack)",
+        "count": 1
+      },
+      {
+        "publication": "NBER",
         "count": 1
       },
       {
@@ -5937,7 +5984,7 @@
       },
       {
         "month": "2026-11",
-        "count": 1
+        "count": 4
       }
     ]
   }
