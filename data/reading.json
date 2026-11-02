@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:00:38.594Z",
+  "generated_at": "2026-11-02T20:00:42.686Z",
   "count": 342,
   "entries": [
     {
@@ -36,11 +36,11 @@
     {
       "id": "rl-20261102172336-fd6460",
       "date": "2026-11-02T17:23:36.972Z",
-      "publication": null,
+      "publication": "FT",
       "title": "Just a moment...",
-      "author": null,
+      "author": "Bryce Elder",
       "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34",
-      "summary": null,
+      "summary": "SpaceX's maiden results as a public company dramatically revised AI infrastructure forecasts upward, with Elon Musk guiding to 2.5–3GW of compute by end-2026 and a possible 10–20GW in 2027. This single company accounted for 100% of current-year hyperscaler capex upgrades and 62% of 2027–2028 upgrades over the past quarter. The piece questions how much weight analysts should place on Musk's characteristically bullish and historically unreliable guidance.",
       "tags": [],
       "source": "mac",
       "partial": true
@@ -5558,7 +5558,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 19
+        "count": 18
       },
       {
         "publication": "Bloomberg",
@@ -5573,6 +5573,10 @@
         "count": 8
       },
       {
+        "publication": "FT",
+        "count": 5
+      },
+      {
         "publication": "Latent Space",
         "count": 5
       },
@@ -5583,10 +5587,6 @@
       {
         "publication": "Twitter/X",
         "count": 5
-      },
-      {
-        "publication": "FT",
-        "count": 4
       },
       {
         "publication": "The Two Cents (Substack)",
