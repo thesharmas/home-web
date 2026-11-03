@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:00:44.034Z",
+  "generated_at": "2026-11-03T14:00:56.645Z",
   "count": 343,
   "entries": [
     {
@@ -137,14 +137,14 @@
     {
       "id": "rl-20261030172248-3c85c3",
       "date": "2026-10-30T17:22:48.105Z",
-      "publication": null,
-      "title": "Just a moment...",
-      "author": null,
+      "publication": "Financial Times",
+      "title": "Did Anthropic value itself at $1.2tn in August?",
+      "author": "Toby Nangle and Tim Bradshaw",
       "url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
-      "summary": null,
+      "summary": "FT Alphaville reporters attempt to reverse-engineer Anthropic's implied self-valuation from its S-1 IPO filing, arriving at approximately $1.2 trillion by combining the company's disclosed fully-diluted share count (derived from a 5% charitable share donation) with a per-share fair value inferred from a $2bn employee donation-matching liability. Valuation experts caution that the inputs are rounded, the cap table is complex, and illiquidity discounts could make the figure very noisy. The authors conclude that the only valuation that truly matters will emerge when the IPO book actually builds, with investors currently pricing Anthropic in the $1.5–2tn range.",
       "tags": [],
       "source": "mac",
-      "partial": true
+      "partial": false
     },
     {
       "id": "rl-20261029202624-1b5971",
@@ -5567,18 +5567,18 @@
       },
       {
         "publication": "Financial Times",
-        "count": 51
+        "count": 52
       },
       {
         "publication": "The Economist",
         "count": 50
       },
       {
-        "publication": "Unknown",
-        "count": 18
+        "publication": "Bloomberg",
+        "count": 17
       },
       {
-        "publication": "Bloomberg",
+        "publication": "Unknown",
         "count": 17
       },
       {
