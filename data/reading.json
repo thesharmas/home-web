@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-11-03T14:00:56.645Z",
-  "count": 343,
+  "generated_at": "2026-11-05T21:00:01.093Z",
+  "count": 345,
   "entries": [
+    {
+      "id": "rl-20261105200218-69e610",
+      "date": "2026-11-05T20:02:18.160Z",
+      "publication": "Apple Podcasts",
+      "title": "Why We Can't Learn to Stop Worrying and Love This Economy",
+      "author": "Oyin Adedoyin",
+      "url": "https://podcasts.apple.com/us/podcast/why-we-cant-learn-to-stop-worrying-and-love-this-economy/id1896825645?i=1000800031100",
+      "summary": "This podcast episode explores the disconnect between strong economic data and persistently negative American consumer sentiment. Personal finance reporter Oyin Adedoyin from The Wall Street Journal joins to share insights from her reporting on real people's financial lives, hopes, and stresses. Together they test theories to explain why Americans feel so bad about an economy that looks good on paper, even as consumer spending remains resilient.",
+      "tags": [
+        "investing",
+        "fintech"
+      ],
+      "source": "shared",
+      "partial": false
+    },
+    {
+      "id": "rl-20261105200212-5e7ba5",
+      "date": "2026-11-05T20:02:12.079Z",
+      "publication": "Bloomberg",
+      "title": "James Bosworth on What Comes After Lula's Stunning Win",
+      "author": "James Bosworth",
+      "url": "https://podcasts.apple.com/us/podcast/james-bosworth-on-what-comes-after-lulas-stunning-win/id1056200096?i=1000800008634",
+      "summary": "James Bosworth, a non-resident fellow at the Stimson Center and author of the Latin America Risk Report newsletter, returns to Bloomberg's Odd Lots podcast to discuss Lula da Silva's surprise presidential victory in Brazil over Flavio Bolsonaro. The episode also covers opposition leader María Corina Machado's return to Venezuela and what these developments mean for the so-called 'orange wave' that had been realigning Latin America toward Trump-era politics. Bosworth looks ahead to 2027 and how it may further reshape the region's political landscape.",
+      "tags": [
+        "technology"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261102202606-ce2363",
       "date": "2026-11-02T20:26:06.792Z",
@@ -5493,11 +5522,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 156
+        "count": 157
       },
       {
         "tag": "investing",
-        "count": 127
+        "count": 128
       },
       {
         "tag": "ai agents",
@@ -5505,7 +5534,7 @@
       },
       {
         "tag": "fintech",
-        "count": 75
+        "count": 76
       },
       {
         "tag": "tweet",
@@ -5575,7 +5604,7 @@
       },
       {
         "publication": "Bloomberg",
-        "count": 17
+        "count": 18
       },
       {
         "publication": "Unknown",
@@ -5587,7 +5616,7 @@
       },
       {
         "publication": "Apple Podcasts",
-        "count": 8
+        "count": 9
       },
       {
         "publication": "FT",
@@ -6001,7 +6030,7 @@
       },
       {
         "month": "2026-11",
-        "count": 5
+        "count": 7
       }
     ]
   }
