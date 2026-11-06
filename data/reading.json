@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-11-05T21:00:01.093Z",
-  "count": 345,
+  "generated_at": "2026-11-06T18:00:01.063Z",
+  "count": 346,
   "entries": [
+    {
+      "id": "rl-20261106175032-7a406b",
+      "date": "2026-11-06T17:50:32.557Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261105200218-69e610",
       "date": "2026-11-05T20:02:18.160Z",
@@ -5608,7 +5620,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 17
+        "count": 18
       },
       {
         "publication": "The Information",
@@ -6030,7 +6042,7 @@
       },
       {
         "month": "2026-11",
-        "count": 7
+        "count": 8
       }
     ]
   }
