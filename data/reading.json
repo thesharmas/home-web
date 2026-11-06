@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:58:32.251Z",
+  "generated_at": "2026-11-06T23:00:00.792Z",
   "count": 346,
   "entries": [
     {
@@ -5540,7 +5540,15 @@
       "active": true,
       "created_at": "2026-11-06T21:57:31.642Z",
       "link": "https://books.google.com/books/about/The_AGI_Chronicles.html?hl=&id=_4Da0QEACAAJ",
-      "highlights": []
+      "highlights": [
+        {
+          "id": 30,
+          "captured_at": "2026-11-06T22:04:44.677Z",
+          "page_number": null,
+          "excerpt": "If Kolmogorov was right, then compressing humanity's knowledge into a neural network could, in theory, reveal the hidden structures underneath. It could distill the entire human experience—our stories, con—",
+          "note": "Passage connects Kolmogorov complexity theory to the theoretical foundation of large language models, a key theme in AGI origin narratives."
+        }
+      ]
     }
   ],
   "aggregates": {
