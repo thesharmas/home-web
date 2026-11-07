@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-06T23:00:00.792Z",
+  "generated_at": "2026-11-07T00:00:00.810Z",
   "count": 346,
   "entries": [
     {
       "id": "rl-20261106175032-7a406b",
       "date": "2026-11-06T17:50:32.557Z",
-      "publication": null,
+      "publication": "Financial Times",
       "title": "Just a moment...",
-      "author": null,
+      "author": "Bryce Elder",
       "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1",
-      "summary": null,
+      "summary": "A sardonic FT markets note observing that bullish sentiment around an Anthropic IPO and broader AI optimism, expressed just the day before, has been quickly undercut by a sharp market sell-off. The piece highlights how rapidly market narratives can reverse, noting that tech megacaps and AI-related names had outperformed on positive macro signals before the mood shifted. The author uses the juxtaposition to reflect on the inherent difficulty of market commentary.",
       "tags": [],
       "source": "mac",
       "partial": true
@@ -5629,7 +5629,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 52
+        "count": 53
       },
       {
         "publication": "The Economist",
@@ -5641,7 +5641,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 18
+        "count": 17
       },
       {
         "publication": "The Information",
