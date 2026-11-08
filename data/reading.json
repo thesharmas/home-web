@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-07T00:00:00.810Z",
-  "count": 346,
+  "generated_at": "2026-11-08T01:06:28.930Z",
+  "count": 347,
   "entries": [
+    {
+      "id": "rl-20261108002929-a0df42",
+      "date": "2026-11-08T00:29:29.126Z",
+      "publication": "Slate Podcasts",
+      "title": "Political Ad Splurge",
+      "author": "Felix Salmon, Elizabeth Spiers, Emily Peck",
+      "url": "https://podcasts.apple.com/us/podcast/political-ad-splurge/id876523888?i=1000800326970",
+      "summary": "This episode of Slate Money examines the $11.87 billion spent on political ads during the midterms, with Axios' Sarah Fischer explaining where the money went and its impact on the election. The hosts also discuss the stock market's response to the election results and backlash against A.I. data centers. As a lighter segment, they explore the marketing and design behind a $36,000 bottle of scotch.",
+      "tags": [
+        "technology",
+        "investing",
+        "ai agents"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261106175032-7a406b",
       "date": "2026-11-06T17:50:32.557Z",
@@ -5555,15 +5571,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 157
+        "count": 158
       },
       {
         "tag": "investing",
-        "count": 128
+        "count": 129
       },
       {
         "tag": "ai agents",
-        "count": 96
+        "count": 97
       },
       {
         "tag": "fintech",
@@ -5652,15 +5668,15 @@
         "count": 9
       },
       {
+        "publication": "Slate Podcasts",
+        "count": 6
+      },
+      {
         "publication": "FT",
         "count": 5
       },
       {
         "publication": "Latent Space",
-        "count": 5
-      },
-      {
-        "publication": "Slate Podcasts",
         "count": 5
       },
       {
@@ -6063,7 +6079,7 @@
       },
       {
         "month": "2026-11",
-        "count": 8
+        "count": 9
       }
     ]
   }
