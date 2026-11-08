@@ -6360,7 +6360,299 @@
     }
    ],
    "generated_at": "2026-11-01T16:04:16Z"
+  },
+  {
+   "week_start": "2026-11-01",
+   "week_end": "2026-11-08",
+   "title": "Week ending Nov 8, 2026",
+   "overview": "Your reading this week orbited a single, uncomfortable tension: the AI infrastructure boom is both accelerating and getting structurally shakier at the same time. The FT's coverage of SpaceX's first results as a public company showed one company's capex guidance now drives essentially all of this year's hyperscaler spending upgrades, while a companion piece on data-centre construction delays (146 projects, three-quarters blocked by community opposition) revealed the credit-side cracks underneath that boom — tenant termination rights, inconsistent force-majeure clauses, and a looming oversupply risk. Bloomberg's Odd Lots episode on the $300B structured notes market added the retail dimension: ordinary investors are now wrapped into the AI trade through opaque derivative products, often without realizing it. A second FT note captured how fast sentiment can flip — Anthropic IPO optimism gave way to a market selloff within a day, underscoring how narrative-driven (not fundamentals-driven) this whole trade remains.\n\nRunning alongside the infrastructure thread was a political and macro one. Bosworth's Odd Lots conversation on Lula's win and María Corina Machado's return to Venezuela, the WSJ's reporting on why Americans feel bad about a 'good' economy, and Slate Money's rundown of record midterm ad spending (plus explicit AI-data-center backlash) all point to the same underlying story: official numbers and lived experience are diverging, and that gap is now showing up at the ballot box, not just in consumer surveys. A thin DeepSeek Harness tweet about 'super-agent' design and an unreadable NBER working paper rounded out the AI-agents and academic-investing margins without adding much substance.\n\nThe one book highlight — from Kevin Roose's The AGI Chronicles, on Kolmogorov complexity as a lens for what neural networks are actually doing (compressing and revealing hidden structure in human knowledge) — is a useful theoretical anchor for the capex debate above: it's the implicit bet behind every dollar of that SpaceX-driven spending. If the compression thesis is right, more compute keeps paying off; if it's wrong, this week's infrastructure numbers are a bubble story, not a platform story.",
+   "themes": [
+    {
+     "name": "AI Infrastructure Capex Boom and Its Credit-Risk Underbelly",
+     "description": "The buildout is being driven by a single company's guidance while the financing and construction layer underneath it shows real structural cracks — delays, termination clauses, and retail money flowing in through opaque products.",
+     "items": [
+      {
+       "title": "Just a moment... (SpaceX capex guidance drives hyperscaler forecasts)",
+       "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34"
+      },
+      {
+       "title": "What the increasingly awkward data centre construction delays mean for investors",
+       "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8"
+      },
+      {
+       "title": "The $300 Billion Structured Notes Market Is Booming",
+       "url": "https://podcasts.apple.com/us/podcast/the-%24300-billion-structured-notes-market-is-booming/id1056200096?i=1000799371410"
+      },
+      {
+       "title": "Just a moment... (Anthropic IPO optimism undercut by selloff)",
+       "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1"
+      },
+      {
+       "title": "NBER Working Paper w35953",
+       "url": "https://www.nber.org/system/files/working_papers/w35953/w35953.pdf"
+      }
+     ]
+    },
+    {
+     "name": "The Sentiment–Reality Gap Going Political",
+     "description": "A recurring thread of economic data not matching how people feel, and that gap now surfacing directly in election results and campaign spending.",
+     "items": [
+      {
+       "title": "Why We Can't Learn to Stop Worrying and Love This Economy",
+       "url": "https://podcasts.apple.com/us/podcast/why-we-cant-learn-to-stop-worrying-and-love-this-economy/id1896825645?i=1000800031100"
+      },
+      {
+       "title": "James Bosworth on What Comes After Lula's Stunning Win",
+       "url": "https://podcasts.apple.com/us/podcast/james-bosworth-on-what-comes-after-lulas-stunning-win/id1056200096?i=1000800008634"
+      },
+      {
+       "title": "Political Ad Splurge",
+       "url": "https://podcasts.apple.com/us/podcast/political-ad-splurge/id876523888?i=1000800326970"
+      }
+     ]
+    },
+    {
+     "name": "Autonomous Agent System Design",
+     "description": "A thin but present thread on how agentic AI systems are being architected beyond single-model chat interfaces; only one real data point this week, so treat as a marker to revisit rather than a developed take.",
+     "items": [
+      {
+       "title": "DeepSeek Harness on X: \"Exploring Super-agent Design: Towards a More Autonomous Agent System\"",
+       "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+      }
+     ]
+    },
+    {
+     "name": "Theoretical Foundations: What Are LLMs Actually Doing?",
+     "description": "A single but load-bearing idea from the book highlight — that LLMs may be Kolmogorov-style compressors of human knowledge — which supplies the implicit justification for this week's infrastructure spending story.",
+     "items": [
+      {
+       "title": "The AGI Chronicles (Kolmogorov complexity highlight)",
+       "url": "https://books.google.com/books/about/The_AGI_Chronicles.html?hl=&id=_4Da0QEACAAJ"
+      }
+     ]
+    }
+   ],
+   "lessons_learned": [
+    {
+     "lesson": "The AI capex boom is dangerously concentrated in one company's guidance: SpaceX alone accounted for 100% of this year's hyperscaler capex upgrades and 62% of 2027–2028 upgrades, and Musk's forecasting track record is historically unreliable — meaning the 'AI infrastructure supercycle' narrative rests on thinner footing than the headline numbers suggest.",
+     "sources": [
+      {
+       "title": "Just a moment... (SpaceX)",
+       "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34"
+      }
+     ]
+    },
+    {
+     "lesson": "Data-centre delays are turning into genuine credit events, not just schedule slippage: S&P counts 146 delayed or cancelled projects (three-quarters tied to community opposition), and milestone-triggered tenant termination rights plus inconsistent force-majeure clauses mean bondholders may be exposed in ways the deal documents don't make obvious.",
+     "sources": [
+      {
+       "title": "What the increasingly awkward data centre construction delays mean for investors",
+       "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8"
+      }
+     ]
+    },
+    {
+     "lesson": "Retail capital is now directly underwriting the AI trade through structured products: the $300B structured notes market is booming specifically because investors want AI-linked exposure, which means household balance sheets carry derivative-wrapped AI risk most people wouldn't describe as 'an AI bet.'",
+     "sources": [
+      {
+       "title": "The $300 Billion Structured Notes Market Is Booming",
+       "url": "https://podcasts.apple.com/us/podcast/the-%24300-billion-structured-notes-market-is-booming/id1056200096?i=1000799371410"
+      }
+     ]
+    },
+    {
+     "lesson": "AI-market sentiment is still narrative-driven, not fundamentals-driven: bullish Anthropic-IPO optimism flipped to a sharp selloff within roughly a day, a reminder that short-term AI-stock moves say more about mood than about underlying business results.",
+     "sources": [
+      {
+       "title": "Just a moment... (Anthropic IPO sentiment reversal)",
+       "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1"
+      }
+     ]
+    },
+    {
+     "lesson": "The gap between 'the economy is fine on paper' and 'people feel terrible about it' is not just noise — it's granular and real at the household level, and it's now visible in election outcomes rather than only in consumer-sentiment surveys.",
+     "sources": [
+      {
+       "title": "Why We Can't Learn to Stop Worrying and Love This Economy",
+       "url": "https://podcasts.apple.com/us/podcast/why-we-cant-learn-to-stop-worrying-and-love-this-economy/id1896825645?i=1000800031100"
+      },
+      {
+       "title": "Political Ad Splurge",
+       "url": "https://podcasts.apple.com/us/podcast/political-ad-splurge/id876523888?i=1000800326970"
+      }
+     ]
+    },
+    {
+     "lesson": "Backlash against AI data centers has become a durable political constraint, not a fringe NIMBY footnote: it's three-quarters of the cause behind construction delays and it's now an explicit midterm campaign issue — expect it to keep showing up as a line item in both credit risk and election analysis going forward.",
+     "sources": [
+      {
+       "title": "What the increasingly awkward data centre construction delays mean for investors",
+       "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8"
+      },
+      {
+       "title": "Political Ad Splurge",
+       "url": "https://podcasts.apple.com/us/podcast/political-ad-splurge/id876523888?i=1000800326970"
+      }
+     ]
+    },
+    {
+     "lesson": "Latin America's political realignment is more contingent than decisive: Lula's win and Machado's return to Venezuela look less like a clean reversal of the 'orange wave' and more like a volatile region that could swing again by 2027 — treat any single election result there as a data point, not a trend line.",
+     "sources": [
+      {
+       "title": "James Bosworth on What Comes After Lula's Stunning Win",
+       "url": "https://podcasts.apple.com/us/podcast/james-bosworth-on-what-comes-after-lulas-stunning-win/id1056200096?i=1000800008634"
+      }
+     ]
+    }
+   ],
+   "contrarian_insights": [
+    {
+     "insight": "Against the consensus that trillion-dollar AI infrastructure forecasts are well-grounded: the actual basis for most 2026–2028 hyperscaler capex upgrades is a single executive's guidance, from an executive with a documented history of overpromising — the bull case may be more faith than forecast.",
+     "source": {
+      "title": "Just a moment... (SpaceX)",
+      "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34"
+     }
+    },
+    {
+     "insight": "Against the view that AI-infrastructure debt is low-risk because tenants are investment-grade: the real exposure is buried in contract structuring — inconsistent force-majeure language and termination triggers — which is a legal/documentation risk most bond investors aren't underwriting as carefully as credit quality.",
+     "source": {
+      "title": "What the increasingly awkward data centre construction delays mean for investors",
+      "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8"
+     }
+    },
+    {
+     "insight": "Against the idea that retail investors are safely on the sidelines of the AI bubble: the structured notes boom shows household money is deeply embedded in AI-linked derivatives, frequently without investors framing it to themselves as an 'AI bet' at all.",
+     "source": {
+      "title": "The $300 Billion Structured Notes Market Is Booming",
+      "url": "https://podcasts.apple.com/us/podcast/the-%24300-billion-structured-notes-market-is-booming/id1056200096?i=1000799371410"
+     }
+    },
+    {
+     "insight": "Against 'the economy is objectively fine, Americans are just irrationally gloomy': the reporting suggests the sentiment gap tracks real, uneven financial precarity that aggregate GDP/jobs data smooths over — the gloom may be the more accurate signal, not the irrational one.",
+     "source": {
+      "title": "Why We Can't Learn to Stop Worrying and Love This Economy",
+      "url": "https://podcasts.apple.com/us/podcast/why-we-cant-learn-to-stop-worrying-and-love-this-economy/id1896825645?i=1000800031100"
+     }
+    },
+    {
+     "insight": "Against treating Lula's win and Machado's return as proof of a decisive ideological swing against Trump-aligned politics in Latin America: the more careful read is that the region remains highly volatile and could re-align again well before 2027.",
+     "source": {
+      "title": "James Bosworth on What Comes After Lula's Stunning Win",
+      "url": "https://podcasts.apple.com/us/podcast/james-bosworth-on-what-comes-after-lulas-stunning-win/id1056200096?i=1000800008634"
+     }
+    }
+   ],
+   "book_progress": {
+    "book": "The AGI Chronicles",
+    "author": "Kevin Roose",
+    "link": "https://books.google.com/books/about/The_AGI_Chronicles.html?hl=&id=_4Da0QEACAAJ",
+    "note": "This week's single highlight pulls Kolmogorov complexity into the AGI origin story: the idea that compressing humanity's collective knowledge into a neural network could reveal the hidden structures underneath it. It's a direct theoretical complement to the capex thread running through the FT and Bloomberg pieces — the entire SpaceX-driven infrastructure build is effectively a bet that this compression thesis holds. If Roose's framing is right, more compute keeps buying more structure; if it's wrong, this week's spending numbers describe a bubble rather than a platform shift."
+   },
+   "stats": {
+    "item_count": 9,
+    "top_publications": [
+     {
+      "name": "Financial Times",
+      "count": 3
+     },
+     {
+      "name": "Bloomberg",
+      "count": 2
+     },
+     {
+      "name": "Twitter/X",
+      "count": 1
+     },
+     {
+      "name": "NBER",
+      "count": 1
+     },
+     {
+      "name": "Apple Podcasts",
+      "count": 1
+     }
+    ],
+    "top_tags": [
+     {
+      "name": "investing",
+      "count": 5
+     },
+     {
+      "name": "technology",
+      "count": 3
+     },
+     {
+      "name": "ai agents",
+      "count": 3
+     },
+     {
+      "name": "fintech",
+      "count": 2
+     },
+     {
+      "name": "capital expenditure",
+      "count": 1
+     }
+    ]
+   },
+   "sources": [
+    {
+     "title": "DeepSeek Harness on X: \"Exploring Super-agent Design: Towards a More Autonomous Agent System\" / X",
+     "publication": "X (formerly Twitter)",
+     "date": "2026-11-01",
+     "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+    },
+    {
+     "title": "Just a moment...",
+     "publication": "FT",
+     "date": "2026-11-02",
+     "url": "https://www.ft.com/content/9cd0e738-2f1b-42cc-b1ca-d2c8675d7d34"
+    },
+    {
+     "title": "What the increasingly awkward data centre construction delays mean for investors",
+     "publication": "Financial Times",
+     "date": "2026-11-02",
+     "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8"
+    },
+    {
+     "title": "NBER Working Paper w35953",
+     "publication": "NBER",
+     "date": "2026-11-02",
+     "url": "https://www.nber.org/system/files/working_papers/w35953/w35953.pdf"
+    },
+    {
+     "title": "The $300 Billion Structured Notes Market Is Booming",
+     "publication": "Bloomberg",
+     "date": "2026-11-02",
+     "url": "https://podcasts.apple.com/us/podcast/the-%24300-billion-structured-notes-market-is-booming/id1056200096?i=1000799371410"
+    },
+    {
+     "title": "James Bosworth on What Comes After Lula's Stunning Win",
+     "publication": "Bloomberg",
+     "date": "2026-11-05",
+     "url": "https://podcasts.apple.com/us/podcast/james-bosworth-on-what-comes-after-lulas-stunning-win/id1056200096?i=1000800008634"
+    },
+    {
+     "title": "Why We Can't Learn to Stop Worrying and Love This Economy",
+     "publication": "Apple Podcasts",
+     "date": "2026-11-05",
+     "url": "https://podcasts.apple.com/us/podcast/why-we-cant-learn-to-stop-worrying-and-love-this-economy/id1896825645?i=1000800031100"
+    },
+    {
+     "title": "Just a moment...",
+     "publication": "Financial Times",
+     "date": "2026-11-06",
+     "url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1"
+    },
+    {
+     "title": "Political Ad Splurge",
+     "publication": "Slate Podcasts",
+     "date": "2026-11-08",
+     "url": "https://podcasts.apple.com/us/podcast/political-ad-splurge/id876523888?i=1000800326970"
+    }
+   ],
+   "generated_at": "2026-11-08T16:02:45Z"
   }
  ],
- "updated_at": "2026-11-01T16:04:16Z"
+ "updated_at": "2026-11-08T16:02:45Z"
 }
