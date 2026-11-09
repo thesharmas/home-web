@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-11-09T18:00:10.480Z",
-  "count": 348,
+  "generated_at": "2026-11-09T19:00:10.263Z",
+  "count": 349,
   "entries": [
+    {
+      "id": "rl-20261109180001-81e8e8",
+      "date": "2026-11-09T18:00:01.611Z",
+      "publication": "Substack / The Housing Frame",
+      "title": "The Midterms Made Room for Housing in the AI Economy",
+      "author": "Conor Sen",
+      "url": "https://conorsen.substack.com/p/the-midterms-made-room-for-housing?r=1dhwj",
+      "summary": "Conor Sen argues that housing stocks in late 2026 are moving primarily on AI sentiment and political developments rather than housing-specific fundamentals, as midterm election results and new doubts about the AI buildout have caused AI-related stocks to fall while housing stocks rallied ~40%. He outlines three market scenarios for 2027—stagflationary crowding out, a Goldilocks slowdown in AI capex that relieves interest rate pressure, and an outright recession—each implying very different mortgage rate and housing market outcomes. Until real-time housing data shifts or financial markets stabilize, he sees scenario analysis around AI spending and the 2028 election outlook as the key framework for thinking about housing next year.",
+      "tags": [
+        "investing",
+        "capital expenditure",
+        "technology",
+        "clean energy"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261109175427-327377",
       "date": "2026-11-09T17:54:27.432Z",
@@ -5588,11 +5605,11 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 159
+        "count": 160
       },
       {
         "tag": "investing",
-        "count": 130
+        "count": 131
       },
       {
         "tag": "ai agents",
@@ -5616,7 +5633,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 36
+        "count": 37
       },
       {
         "tag": "asset management",
@@ -5640,7 +5657,7 @@
       },
       {
         "tag": "clean energy",
-        "count": 2
+        "count": 3
       },
       {
         "tag": "particle physics",
@@ -5981,6 +5998,10 @@
         "count": 1
       },
       {
+        "publication": "Substack / The Housing Frame",
+        "count": 1
+      },
+      {
         "publication": "The Fence",
         "count": 1
       },
@@ -6100,7 +6121,7 @@
       },
       {
         "month": "2026-11",
-        "count": 10
+        "count": 11
       }
     ]
   }
