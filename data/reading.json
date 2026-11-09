@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-11-08T01:06:28.930Z",
-  "count": 347,
+  "generated_at": "2026-11-09T18:00:10.480Z",
+  "count": 348,
   "entries": [
+    {
+      "id": "rl-20261109175427-327377",
+      "date": "2026-11-09T17:54:27.432Z",
+      "publication": "Unstable Equilibria",
+      "title": "This Isn't How Credit Cycles End",
+      "author": "Itai Lourie",
+      "url": "https://unstableequilibria.substack.com/p/this-isnt-how-credit-cycles-end?r=1dhwj",
+      "summary": "Itai Lourie argues that last week's sharp selloff in semiconductors and AI-related equities does not signal the end of the AI bubble or a credit cycle bust. He points to robust investment-grade bond markets—with megacap deals heavily oversubscribed and pricing tighter than talk even as chip stocks fell 13%—as evidence that credit channels remain open. True credit cycle endings, he contends, only come when the best names can no longer issue debt, which is far from the current reality.",
+      "tags": [
+        "investing",
+        "capital expenditure",
+        "technology",
+        "ai agents"
+      ],
+      "source": "shared",
+      "partial": false
+    },
     {
       "id": "rl-20261108002929-a0df42",
       "date": "2026-11-08T00:29:29.126Z",
@@ -5571,15 +5588,15 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 158
+        "count": 159
       },
       {
         "tag": "investing",
-        "count": 129
+        "count": 130
       },
       {
         "tag": "ai agents",
-        "count": 97
+        "count": 98
       },
       {
         "tag": "fintech",
@@ -5599,7 +5616,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 35
+        "count": 36
       },
       {
         "tag": "asset management",
@@ -5984,6 +6001,10 @@
         "count": 1
       },
       {
+        "publication": "Unstable Equilibria",
+        "count": 1
+      },
+      {
         "publication": "Unstable Equilibria (Substack)",
         "count": 1
       },
@@ -6079,7 +6100,7 @@
       },
       {
         "month": "2026-11",
-        "count": 9
+        "count": 10
       }
     ]
   }
