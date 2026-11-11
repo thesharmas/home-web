@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:00:08.038Z",
+  "generated_at": "2026-11-11T05:31:53.679Z",
   "count": 350,
   "entries": [
     {
@@ -5599,7 +5599,7 @@
       "publication_year": 2026,
       "total_pages": null,
       "summary": "THE AGI CHRONICLES is not a futurist manifesto, an academic chin-stroker, a corporate biography, or a self-help manual. It's the inside story of the birth of AGI, as told by the people who are bringing it into existence, or trying to stop it from coming into existence, and who are grappling with the consequences before anyone else. Building Artificial General Intelligence - a machine that is as smart or smarter than humans, at everything our brains can do - has been the goal for the world's biggest technology companies for about the last decade, and it is probably the most consequential technological project in history. Only a few hundred people are fully awake to what's actually happening on the AI frontier, or how short the timelines are. Powerful AI will reshape society - and most governments and big corporations already view this conclusion as obvious, as evidenced by the trillions of dollars they're spending to get there first. New York Times journalist Kevin Roose may be the only person who can tell this story. He has put his life on hold, gone to the heart of the action, interviewed those who have been involved in building this technology, digging up secrets and putting together the first major behind-the-scenes account of this race. And the people building powerful AI are much, much weirder than you'd think. If you dig beneath the corporate veneers, the AI scene here is full of messianic claims, cult-like dynamics, and a degree of belief in the inevitability and imminence of powerful AI that can strike the uninitiated as genuinely insane. This is gripping, characterful, first draft of history that reads like a non-fiction thriller, for readers of THE BIG SHORT, CARELESS PEOPLE and AMERICAN PROMETHEUS. It's the book that people will turn to one hundred years from now as a defining account of the moment our species was changed for ever.",
-      "active": true,
+      "active": false,
       "created_at": "2026-11-06T21:57:31.642Z",
       "link": "https://books.google.com/books/about/The_AGI_Chronicles.html?hl=&id=_4Da0QEACAAJ",
       "highlights": [
@@ -5611,6 +5611,19 @@
           "note": "Passage connects Kolmogorov complexity theory to the theoretical foundation of large language models, a key theme in AGI origin narratives."
         }
       ]
+    },
+    {
+      "id": 13,
+      "title": "Regime Change",
+      "author": "Maggie Haberman",
+      "isbn": "9781761828782",
+      "publication_year": 2026,
+      "total_pages": null,
+      "summary": "A riveting, intimate and revelatory account of the most radical and consequential presidency of our time. From the two reporters who have covered him more closely than perhaps anyone else over the past decade comes this definitive portrait of Donald Trump in the White House. Regime Change covers the first year of Trump’s second presidency – a term liberated from every constraint that defined his first. The generals who once told him ‘no’ are gone, and the lawyers who remain have learned to pick their battles. His administration has flouted court orders and he has claimed powers that Congress once checked. What remains is a President willing to take enormous risks that have upended global markets and toppled heads of state; an imperial President operating almost entirely on instinct alone. Based on hundreds of interviews and unprecedented reporting from deep within the administration’s most closely guarded rooms, Regime Change takes the reader inside the Situation Room and into the secret Oval Office deliberations that have launched a new war in the Middle East and seen Trump seal the border, surge National Guard troops into cities, and send immigration agents into deadly clashes with protestors. Maggie Haberman and Jonathan Swan bring us behind the scenes of a presidency that has transformed the culture, turned the Justice Department into an agent of retribution against the President’s enemies and the office itself into a brazen vehicle for profit. They reveal a second term propelled by a historical irony that Trump himself has come to understand: that the indictments, the convictions, the assassination attempts and four years of exile made him not weaker but far more powerful, more vengeful and more willing to gamble than any President in modern history. This is the story of how Trump has used that power, who has tried to stop him, and why nearly all of them have failed. It is also the story of something American journalists are more accustomed to chronicling in distant capitals than in their own: a President who has fundamentally altered the nature of the office he holds – and, with it, how the rest of the world understands American power. It is an account of Regime Change right here in America – a landmark real-time history of a modern presidency like no other.",
+      "active": true,
+      "created_at": "2026-11-11T05:30:39.884Z",
+      "link": "https://books.google.com/books/about/Regime_Change.html?hl=&id=2q3WEQAAQBAJ",
+      "highlights": []
     }
   ],
   "aggregates": {
