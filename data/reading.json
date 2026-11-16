@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-11-13T19:00:01.026Z",
-  "count": 355,
+  "generated_at": "2026-11-16T17:00:00.973Z",
+  "count": 356,
   "entries": [
+    {
+      "id": "rl-20261116163408-8d7255",
+      "date": "2026-11-16T16:34:08.272Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/9242798a-beb3-42d4-ae54-120acbac82a7",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261113183442-889bae",
       "date": "2026-11-13T18:34:42.695Z",
@@ -5781,7 +5793,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 21
+        "count": 22
       },
       {
         "publication": "Bloomberg",
@@ -6219,7 +6231,7 @@
       },
       {
         "month": "2026-11",
-        "count": 17
+        "count": 18
       }
     ]
   }
