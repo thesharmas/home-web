@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-11-17T22:00:03.633Z",
-  "count": 357,
+  "generated_at": "2026-11-18T19:00:00.788Z",
+  "count": 359,
   "entries": [
+    {
+      "id": "rl-20261118185000-388582",
+      "date": "2026-11-18T18:50:00.956Z",
+      "publication": "Power Signal (Substack)",
+      "title": "SoftBank Just Paid $3.7 Billion to Walk Away From an Estimated 4GW of Gas Turbines",
+      "author": "Peter Perri III",
+      "url": "https://powersignal.substack.com/p/softbank-just-paid-37-billion-to",
+      "summary": "SoftBank wrote off $3.7 billion in non-refundable deposits and contract settlements on gas turbine reservations it no longer needs for U.S. AI data center projects, with one analyst estimating roughly 4 GW of cancellations from an original 13+ GW position held mostly with GE Vernova. Despite the writedown, secondary turbine markets remain tight and prices elevated, suggesting SoftBank may be an isolated case rather than the start of a broad wave of cancellations—though GE Vernova's stock is down ~35% from its high as public markets price in project slippage. The author argues that traditional project-development discipline (permits and interconnection before equipment orders) remains the right approach, and that 2027 conversion dates on 58 GW of GE Vernova slot reservations will be the real stress test.",
+      "tags": [
+        "capital expenditure",
+        "technology",
+        "clean energy",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261118184828-f88b39",
+      "date": "2026-11-18T18:48:28.454Z",
+      "publication": "Financial Times",
+      "title": "When's the crash? Ask a journalist",
+      "author": "Toby Nangle",
+      "url": "https://www.ft.com/content/fe1766dc-b899-4e34-b68e-a99df8d660f1",
+      "summary": "A new academic paper by researchers from London Business School and the University of Cambridge analyzes 170 years of financial media coverage using LLMs to build indices estimating bubble probability. The study finds journalists systematically over-warn about market crashes, yet when filtered to only the most extreme anxiety signals, the model accurately identifies major historical bubbles like the 2007 financial crisis and the 2000 dotcom peak. Running the model on current data, the index shows elevated bubble warnings around the AI boom, though the authors acknowledge potential LLM look-ahead bias as a methodological concern.",
+      "tags": [
+        "investing",
+        "ai agents",
+        "fintech",
+        "technology"
+      ],
+      "source": "mac",
+      "partial": false
+    },
     {
       "id": "rl-20261117210427-556846",
       "date": "2026-11-17T21:04:27.315Z",
@@ -5723,19 +5757,19 @@
     "by_tag": [
       {
         "tag": "technology",
-        "count": 160
+        "count": 162
       },
       {
         "tag": "investing",
-        "count": 133
+        "count": 135
       },
       {
         "tag": "ai agents",
-        "count": 99
+        "count": 100
       },
       {
         "tag": "fintech",
-        "count": 78
+        "count": 79
       },
       {
         "tag": "tweet",
@@ -5747,7 +5781,7 @@
       },
       {
         "tag": "capital expenditure",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "cloud",
@@ -5775,7 +5809,7 @@
       },
       {
         "tag": "clean energy",
-        "count": 3
+        "count": 4
       },
       {
         "tag": "particle physics",
@@ -5797,7 +5831,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 54
+        "count": 55
       },
       {
         "publication": "The Economist",
@@ -6056,6 +6090,10 @@
         "count": 1
       },
       {
+        "publication": "Power Signal (Substack)",
+        "count": 1
+      },
+      {
         "publication": "Preferred Equity & Hybrids (Substack)",
         "count": 1
       },
@@ -6243,7 +6281,7 @@
       },
       {
         "month": "2026-11",
-        "count": 19
+        "count": 21
       }
     ]
   }
