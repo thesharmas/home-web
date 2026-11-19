@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-11-18T19:00:00.788Z",
-  "count": 359,
+  "generated_at": "2026-11-19T17:00:11.480Z",
+  "count": 361,
   "entries": [
+    {
+      "id": "rl-20261119164412-8751cc",
+      "date": "2026-11-19T16:44:12.307Z",
+      "publication": "Financial Times",
+      "title": "Whey too much cheese",
+      "author": "Ajay Makan",
+      "url": "https://www.ft.com/content/6b33cab8-69d4-48c3-9948-1d9777be9be8",
+      "summary": "The US dairy industry has surged in cheese and whey production, driven by soaring global protein demand and an $8bn investment in whey-processing plants. While European and New Zealand competitors face herd reductions due to environmental regulations, US dairy cow numbers have hit a 30-year high, enabling hyper-competitive cheese exports. The article draws a parallel between America's emerging cheese dominance and China's role in electric vehicles and solar panels.",
+      "tags": [
+        "sustainability",
+        "investing"
+      ],
+      "source": "mac",
+      "partial": false
+    },
+    {
+      "id": "rl-20261119164345-f2c7b9",
+      "date": "2026-11-19T16:43:45.277Z",
+      "publication": null,
+      "title": "Just a moment...",
+      "author": null,
+      "url": "https://www.ft.com/content/4224e2ed-116c-466b-97f4-54a5ef43a54e",
+      "summary": null,
+      "tags": [],
+      "source": "mac",
+      "partial": true
+    },
     {
       "id": "rl-20261118185000-388582",
       "date": "2026-11-18T18:50:00.956Z",
@@ -5761,7 +5788,7 @@
       },
       {
         "tag": "investing",
-        "count": 135
+        "count": 136
       },
       {
         "tag": "ai agents",
@@ -5801,7 +5828,7 @@
       },
       {
         "tag": "sustainability",
-        "count": 20
+        "count": 21
       },
       {
         "tag": "etfs",
@@ -5831,7 +5858,7 @@
       },
       {
         "publication": "Financial Times",
-        "count": 55
+        "count": 56
       },
       {
         "publication": "The Economist",
@@ -5839,7 +5866,7 @@
       },
       {
         "publication": "Unknown",
-        "count": 23
+        "count": 24
       },
       {
         "publication": "Bloomberg",
@@ -6281,7 +6308,7 @@
       },
       {
         "month": "2026-11",
-        "count": 21
+        "count": 23
       }
     ]
   }
